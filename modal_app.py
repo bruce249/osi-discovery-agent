@@ -158,7 +158,8 @@ def notebook_export():
         raise SystemExit(f"marimo export failed with exit code {rc}")
 
 
-@app.function(**COMMON, cpu=4, memory=8192, timeout=24 * 3600, max_containers=1, scaledown_window=900)
+@app.function(**COMMON, cpu=4, memory=8192, timeout=24 * 3600, min_containers=1, max_containers=1,
+              scaledown_window=900)  # always one warm container so judges never hit a cold start
 @modal.concurrent(max_inputs=1000)  # each open browser session holds one websocket input
 @modal.web_server(port=2718, startup_timeout=180)
 def notebook():
