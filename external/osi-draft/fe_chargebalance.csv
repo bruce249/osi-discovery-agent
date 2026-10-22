@@ -1,0 +1,6 @@
+element,task,subset,representation,metric,mean,std,median,n_sites,n_materials,n_chemsys,n_dropped_materials
+Fe,abs_magmom,chemsys_magmom_ge3,comp_fe_ox,r2,0.49172926787920124,0.19618799443658233,0.6292702243932571,643,421,166,51
+Fe,abs_magmom,chemsys_magmom_ge3,soap_geom+comp_fe_ox,r2,0.5746777259256566,0.0915419279491754,0.5466847805995285,643,421,166,51
+Fe,abs_magmom,chemsys_magmom_ge3,mace_trained_all,r2,0.7089366901174796,0.09714832879238518,0.6895274666610711,643,421,166,51
+Fe,abs_magmom,chemsys_magmom_ge3,soap_geom+comp_fe_ox+mace_trained_all,r2,0.7999726961592378,0.10958449215296748,0.8408589562962612,643,421,166,51
+Fe,abs_magmom,chemsys_magmom_ge3,delta_d_over_b,delta_r2,0.22529497023358122,0.11381652837849927,0.30368657928482645,643,421,166,51

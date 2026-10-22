@@ -88,6 +88,11 @@ Three additions that combine our team's other projects with this one:
   latent GP from 69.2 to 61.2 stable compositions (random erasure 64.4; seed spread ±5, so consistent, not conclusive).
   Textbook descriptors (metal radius, electronegativity, Br fraction, volume, stoichiometry) explain 42% of the probe's
   score.
+* **Same network, second property** ([osi-draft](https://github.com/lntick/osi-draft), results in
+  `external/osi-draft/`): trained only on energies, MACE-MP-0 features predict high-spin Fe magnetic moments (Fe²⁺ vs
+  Fe³⁺) on unseen chemical systems, R² 0.75 vs 0.19 for geometry and 0.06 for scrambled weights; charge balance alone
+  gives 0.49 and MACE adds 0.23 on top of geometry + charge balance. Ablating the Fe probe direction moves energies no
+  more than random directions: present is not the same as used, as in our erasure test.
 * **Dynamic stability** (`src/phonons.py`, tiers from our [Lattice](https://github.com/dbajaj123/lattice-materials-discovery)
   studio): CHGNet + phonopy finite displacements for the top 15: 2 free of imaginary modes (Li3YbBr6,
   Li3Yb0.5Dy0.5Cl6), 12 with soft framework modes (-0.2 to -0.75 THz; Li carries 0-24% of them while being 30% of the

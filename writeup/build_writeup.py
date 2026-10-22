@@ -112,7 +112,9 @@ than random; the scrambled control found {glr.get('hit', {}).get('at_budget_mean
 message-passing layer, training adds it mainly on Li and halide sites, textbook descriptors explain only
 {it.get('meaning_r2_descriptors_explain_score', 0):.0%} of it, and erasing 10 stability directions (INLP) drops the probe AUC to
 {it.get('ablation_probe', {}).get('inlp', {}).get('auc', 0):.2f} and the GP to {st.get('gp_latent_inlp', {}).get(tk, {}).get('hit', {}).get('at_budget_mean', 0):.1f}
-stable (random erasure: {st.get('gp_latent_ablrand', {}).get(tk, {}).get('hit', {}).get('at_budget_mean', 0):.1f}; within seed spread).</p>
+stable (random erasure: {st.get('gp_latent_ablrand', {}).get(tk, {}).get('hit', {}).get('at_budget_mean', 0):.1f}; within seed spread).
+The same network also learned iron's redox state from energies alone (companion probe, github.com/lntick/osi-draft: Fe
+moments on unseen chemical systems R² 0.75 vs 0.19 geometry, 0.06 scrambled).</p>
 <p><b>Dynamic stability.</b> Finite-displacement phonons (CHGNet + phonopy; tiers from our Lattice studio) for the top
 candidates: {ph.get('n_stable', '?')}/{len(ph_ok)} free of imaginary modes, {len(soft)} with soft modes between -1 and -0.1 THz
 (framework tilts: Li carries only {min(r['soft_mode_li_share'] for r in soft):.0%}-{max(r['soft_mode_li_share'] for r in soft):.0%} of them while being 30% of the atoms;

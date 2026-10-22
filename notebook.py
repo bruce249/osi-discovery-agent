@@ -266,6 +266,43 @@ textbook."""),
 
 
 @app.cell
+def _(mo, pd):
+    from pathlib import Path as _P
+
+    try:
+        _ext = _P(mo.notebook_dir()) / "external" / "osi-draft"
+    except Exception:
+        _ext = _P("external") / "osi-draft"
+    _fe = pd.DataFrame([
+        {"what the probe reads (high-spin Fe, unseen chemical systems)": "MACE-MP-0 internal features (trained)", "held-out R²": "0.75 (median 0.80)"},
+        {"what the probe reads (high-spin Fe, unseen chemical systems)": "pure geometry (SOAP, species-blind)", "held-out R²": "0.19"},
+        {"what the probe reads (high-spin Fe, unseen chemical systems)": "same network, scrambled weights", "held-out R²": "0.06"},
+        {"what the probe reads (high-spin Fe, unseen chemical systems)": "composition-implied Fe oxidation state (charge balance)", "held-out R²": "0.49"},
+        {"what the probe reads (high-spin Fe, unseen chemical systems)": "geometry + charge balance + MACE (gain from MACE)", "held-out R²": "0.80 (+0.23)"},
+    ])
+    mo.vstack([
+        mo.md("""### Same simulator, second property: it learned iron's redox state
+
+Our teammates ran the same kind of probe on the same network for a property it was never trained on
+([osi-draft](https://github.com/lntick/osi-draft): 2,235 Materials Project oxides, 4,953 metal sites). Trained only
+on energies, forces and stresses, MACE-MP-0's features predict the **magnetic moment of Fe sites**, which separates
+Fe²⁺ from Fe³⁺, on chemical systems the probe never saw, where geometry and the scrambled network fail. Much of it is
+charge balance from neighbouring atoms, which geometry cannot see, and MACE adds site-level information beyond that.
+The same test design applies (held-out chemistries, scrambled-weight copy, shuffled labels), and splitting by material
+instead of by chemistry made the baselines look 0.3–0.4 R² better than they are."""),
+        mo.ui.table(_fe, selection=None, show_column_summaries=False),
+        mo.image(src=str(_ext / "fig_main_wide.png"), width=760) if (_ext / "fig_main_wide.png").exists() else mo.md(""),
+        mo.callout(mo.md("""**One network, two hidden skills, one lesson.** MACE-MP-0 was only ever shown energies, yet
+it carries chemistry it was never told: iron's redox state, and whether a crystal will turn out stable before it is
+relaxed. In both studies, information that is *present* is not automatically *used*. Ablating the Fe probe direction
+inside the network moves energies no more than random directions do, and erasing our stability directions wipes out
+the linear readout while the search loses only part of its edge. Probes find knowledge; causal tests are needed to
+show it matters, and here they also turned that knowledge into a faster materials search."""), kind="success"),
+    ])
+    return
+
+
+@app.cell
 def _(mo):
     cp_model = mo.ui.dropdown(["gpt-4.1-mini", "gpt-5-mini"], value="gpt-4.1-mini", label="Model")
     cp_prompt = mo.ui.dropdown({"main (scoring rule + competing phases)": "main", "basic (brief's prompt)": "basic"},

@@ -42,11 +42,11 @@ def check(url: str = URL):
         body = page.inner_text("body")
         log.append(("new sections", {k: k in body for k in (
             "Same pattern in two domains", "Inside the simulator's mind", "Third check", "AUC 0.92",
-            "Opening the box further", "nullspace", "Li2ZrBr6", "framework")},
+            "Opening the box further", "nullspace", "redox state", "One network, two hidden skills", "Li2ZrBr6", "framework")},
             "pending placeholders:", [k for k in ("figure pending", "probe pending", "campaigns pending",
                                                    "phonons pending") if k in body]))
         for name, anchor in (("4_cross_domain", "Same pattern in two domains"),
-                             ("5_latent", "Inside the simulator's mind"), ("6_phonons", "Third check")):
+                             ("5_latent", "Inside the simulator's mind"), ("6_phonons", "Third check"), ("7_fe", "Same simulator, second property")):
             el = page.get_by_text(anchor).first
             el.scroll_into_view_if_needed()
             page.wait_for_timeout(800)
