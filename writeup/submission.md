@@ -1,46 +1,44 @@
-**The simulator already knew.** We built a budgeted discovery agent that decides which candidate Li-halide solid electrolytes are worth simulating, then looked inside both AIs in its loop. A Gaussian process searching in the **internal feature space of the ML simulator itself** found the most stable materials of any strategy (69 of 84 in 90 simulations, vs 43 for random), and a causal test, a layer-by-layer probe and a two-domain experiment show *what* each AI actually knows: the simulator encodes stability before it simulates (and, in our teammates' companion probe, iron's redox state), while the LLM agent's edge is memorised literature.
+Every candidate battery material costs a simulation, so we built an agent that decides which ones are worth running, and then looked inside the AIs it relies on. The surprise was the simulator. Before it relaxes a single crystal, its internal features already tell you which candidates will turn out stable, and when we let the agent search in that space it found more stable materials than any other strategy we tried.
 
-**Live app** (try the LLM copilot, re-run the race): https://vignesh-82505--osi-discovery-agent-notebook.us-east.modal.run/
+Live app (results, playground and a live LLM copilot): https://vignesh-82505--osi-discovery-agent-notebook.us-east.modal.run/
 
 ## Approach
 
-- **Search space.** 236 candidates (123 compositions) built by substituting 22 trivalent and 5 tetravalent metals, Cl/Br, mixed-halide and mixed-metal orderings into Li3YCl6-, Li3InCl6- and Li2ZrCl6-type parents from Materials Project.
-- **Simulator.** Each evaluation is a CHGNet relaxation scored by energy above a convex hull of 513 MP reference phases relaxed with the *same* potential (MAE 14 meV/atom vs DFT over 399 compounds). Stable = e_hull ≤ 0; novel = stable and absent from MP, GNoME, JARVIS, OQMD and a literature search. 886 relaxations fanned out over up to 80 Modal containers (3.4 min wall-clock).
-- **The race.** Every strategy gets the same budget (90 simulations, rounds of 10, labels hidden): random, ICSD substitution statistics, ionic-radius heuristic, GP-BO on composition features, LLM agents (gpt-4.1-mini, gpt-5-mini) that justify each pick, and an LLM + GP hybrid. 3-10 seeds per arm.
-- **Reading the simulator's mind** (probing protocol from our MACE-MP-0 interpretability study, [osi-draft](https://github.com/lntick/osi-draft)). One MACE-MP-0 forward pass on each *unrelaxed* candidate; ridge probes on Li-, metal- and halide-site features, tested on held-out chemistries, against a scrambled-weight copy of the network, composition features and shuffled labels. Then a GP searches in that latent space. Causal test: erase the 10 linear stability directions (iterative nullspace projection) and re-run the search.
-- **Two domains.** Our reaction-optimisation benchmark ([osihackiitd](https://github.com/bruce249/osihackiitd), real Buchwald-Hartwig yield screens) ran the same question with an LLM agent that sees chemical names, and one that does not.
-- **Checks.** MACE-MP-0 re-scoring of the top 15; phonons (CHGNet + phonopy, tiers from our [Lattice](https://github.com/dbajaj123/lattice-materials-discovery) studio).
+We worked on lithium halide solid electrolytes, the Li3YCl6 / Li3InCl6 / Li2ZrCl6 family. Starting from three parent structures on Materials Project, we swapped in 27 metals, Cl or Br, and mixed metals or halides, giving 236 candidates (123 compositions). Each "experiment" is a CHGNet relaxation scored by its energy above a convex hull built from 513 reference phases relaxed with the same model. Against DFT, that setup is off by 14 meV/atom on average across 399 known compounds. A candidate counts as stable if it sits on or below the hull, and as novel if it is stable and we could not find it in Materials Project, GNoME, JARVIS, OQMD or the literature.
+
+Every strategy got the same budget of 90 simulations, in rounds of 10, and never saw which materials were known or novel. We compared random picks, two chemistry heuristics, Bayesian optimisation (a Gaussian process on composition features), LLM agents (gpt-4.1-mini and gpt-5-mini) that explain each pick, and an LLM + GP hybrid. All relaxations ran on Modal, fanned out over up to 80 containers.
+
+Then we opened up the simulator. We ran MACE-MP-0 once on each unrelaxed candidate and trained simple linear probes on its internal features to predict the stability CHGNet would later find. To make sure the probe was not fooling us, we tested only on chemistries it had never seen and compared against the same network with its weights scrambled, against plain composition features, and against shuffled labels. This follows the protocol from our teammates' MACE study ([osi-draft](https://github.com/lntick/osi-draft)). We then gave the Bayesian optimiser those features instead of composition features, and finally erased the stability directions from the network's features to see whether the search actually depended on them.
 
 ## Results
 
-![Two domains](https://raw.githubusercontent.com/bruce249/osi-discovery-agent/main/results/fig5_cross_domain.png)
-
-| strategy (90 simulations) | stable found | novel found | known rediscovered |
-|---|---|---|---|
-| **GP on MACE latent** (5 seeds) | **69.2 ± 5.7** | 55.8 ± 6.0 | 9.0 |
-| GP-BO, composition features | 65.8 ± 4.6 | **56.6 ± 2.8** | 5.8 |
-| GP on scrambled-weight latent | 60.0 ± 6.4 | 48.6 ± 5.2 | 6.8 |
-| LLM + GP hybrid (gpt-5-mini) | 58.0 ± 16.5 | 42.0 ± 18.5 | 11.0 |
-| LLM agent (gpt-5-mini) | 54.3 ± 3.9 | 37.7 ± 4.7 | 11.0 |
-| LLM agent (gpt-4.1-mini) | 43.7 ± 1.7 | 29.0 ± 2.8 | 10.3 |
-| Random (10 seeds) | 43.2 ± 2.9 | 33.1 ± 2.8 | 6.2 |
-
-- **Statistical surrogates find the new; LLMs find the known.** GP-BO needs 1.7× fewer simulations than random for novel stable compositions. LLM agents rediscover 10-11 of the 13 known compounds (random: 6) but are only 0.8-1.1× random on novel ones. On real reaction screens the same pattern holds: after 10 experiments the LLM reaches 0.84 of the best yield with chemical names, **0.74 with names hidden, the same as random (0.74)**. In both domains the LLM's advantage is prior knowledge, not search.
-- **The simulator knows stability before it simulates.** Probes on unrelaxed-structure features predict post-relaxation stability on unseen chemistries: rank correlation 0.85, AUC 0.92, R² 0.67 (scrambled weights 0.80 / 0.90 / 0.41; composition features 0.72 / 0.84; shuffled labels AUC 0.49). Searching in this space found the most stable compositions of any arm and reached half of the novel ones fastest (1.85× random).
-
 ![Interpretability](https://raw.githubusercontent.com/bruce249/osi-discovery-agent/main/results/fig4_interp.png)
 
-- **Where, whether it matters, what it means.** The signal peaks after MACE's first message-passing layer (0.86 vs 0.76 after the second); training adds it mainly on Li and halide sites (0.78-0.80 trained vs 0.54-0.62 scrambled), while metal identity alone already carries signal. Erasing 10 stability directions drops the probe AUC from 0.92 to 0.40 (10 random directions: 0.92) and the latent search from 69.2 to 61.2 stable (random erasure: 64.4; within seed spread, so consistent rather than conclusive). Textbook descriptors (metal radius and electronegativity, Br fraction, volume) explain only 42% of the stability direction.
-- **Same network, second hidden skill.** Our teammates' probe of the same MACE-MP-0 ([osi-draft](https://github.com/lntick/osi-draft)) finds it learned iron's redox state from energies alone: high-spin Fe magnetic moments on unseen chemical systems at R² 0.75, vs 0.19 for geometry and 0.06 for scrambled weights; charge balance gives 0.49 and MACE adds 0.23 beyond geometry + charge balance. There too, ablating the probe direction moves energies no more than random directions do. Across both studies the lesson is the same: a probe shows the knowledge is present, a causal test shows whether it is used, and here it was usable enough to speed up discovery.
-- **New candidates.** All 15 top novel hits stay within 0.05 eV/atom of the hull with MACE-MP-0, led by Li3Ho0.5Yb0.5Cl6, Li3Yb0.5Dy0.5Cl6, Li3Dy0.5Lu0.5Cl6 and Li3LuCl4Br2. Phonons: 2/15 free of imaginary modes, 12 with soft framework modes (-0.2 to -0.75 THz), 1 unstable (Li2ZrBr6).
+The probe works well on chemistries it never trained on: rank correlation 0.85 and AUC 0.92 for telling stable from unstable. Plain composition features reach 0.84, and shuffled labels sit at chance. The scrambled network is the interesting control. It ranks almost as well (0.90), because knowing which elements sit where already says a lot, but it gets the actual energies much worse (R² 0.41 against 0.67). Looking layer by layer, the signal is strongest right after the first message-passing layer, and training adds it mostly on the lithium and halide sites rather than on the metal. Textbook descriptors such as ionic radius and electronegativity explain only 42% of the stability direction.
 
-**Limitations.** ML potentials approximate DFT and the stability margins (a few meV/atom) are comparable to their error; Yb energies are delicate in MP-trained models; ordered approximants of disordered phases; ionic conductivity not computed; the Alexandria database was unreachable, so "novel" means not found where we could search.
+Searching in that feature space paid off:
+
+| strategy | stable found (of 84) | novel found (of 65) |
+|---|---|---|
+| GP on MACE's internal features | **69.2** | 55.8 |
+| GP on composition features | 65.8 | **56.6** |
+| GP on the scrambled network's features | 60.0 | 48.6 |
+| LLM + GP hybrid (gpt-5-mini) | 58.0 | 42.0 |
+| LLM agent (gpt-5-mini) | 54.3 | 37.7 |
+| Random | 43.2 | 33.1 |
+
+When we erased ten stability directions from the features, the probe dropped from AUC 0.92 to 0.40 and the search fell from 69 to 61 stable materials, about where the scrambled network sits. Erasing ten random directions left the probe untouched and cost the search less (64). The gap between those two is within the spread between seeds, so we read it as supporting evidence rather than proof. Our teammates found the same pattern for a different property: the same network, trained only on energies, predicts the magnetic moment of iron sites (and so their redox state) on unseen chemical systems with R² 0.75, against 0.19 for geometry alone and 0.06 for scrambled weights.
+
+![Two domains](https://raw.githubusercontent.com/bruce249/osi-discovery-agent/main/results/fig5_cross_domain.png)
+
+The LLM tells a different story. Its agents rediscovered 10 or 11 of the 13 known compounds in the pool, against 6 for random, but were no better than 0.8 to 1.1 times random at finding new ones. We saw the same thing on real lab data in our reaction-optimisation benchmark ([osihackiitd](https://github.com/bruce249/osihackiitd), Buchwald-Hartwig yield screens). After 10 experiments the LLM reached 84% of the best possible yield when it could see the chemical names, and 74% when the names were hidden, which is exactly what random search gets. Its head start is memory.
+
+The best new candidates (Li3Ho0.5Yb0.5Cl6, Li3Yb0.5Dy0.5Cl6, Li3Dy0.5Lu0.5Cl6 and Li3LuCl4Br2) hold up with a second model: all 15 top picks stay within 0.05 eV/atom of the hull with MACE-MP-0. Phonon calculations (following our [Lattice](https://github.com/dbajaj123/lattice-materials-discovery) studio's checks) find 2 of the 15 completely free of soft modes, 12 with mild framework soft modes that need larger cells to settle, and one, Li2ZrBr6, that is clearly unstable.
+
+These are predictions, not discoveries. The stability margins are a few meV/atom, comparable to the error of ML potentials, ordered cells stand in for partly disordered materials, and we did not compute ionic conductivity.
 
 ## Next steps
 
-- DFT (r2SCAN) confirmation and larger-supercell phonons for the top candidates, then ionic-conductivity screening (NEB / MD) and synthesis of the best.
-- Use the simulator's latent space as a free pre-screen: rank millions of hypothetical structures with one forward pass before relaxing any.
-- Run the same probes on deeper universal potentials (MACE-MPA, Orb, UMA) to see whether stability is still encoded early, and steer along the stability direction to test causality inside the network.
-- Ship the copilot to experimental groups as a planning tool: LLM for rationale and known chemistry, surrogate for the unknown.
+The obvious next step is DFT and larger-cell phonons for the top candidates, then conductivity screening and synthesis of the best one or two. On the interpretability side, a single forward pass costs about 0.4 s against roughly 6 s for a relaxation, so the simulator's own features could pre-screen far larger spaces before anything is relaxed. We also want to repeat the probes on deeper potentials (MACE-MPA, Orb, UMA) and test inside the network whether steering along the stability direction changes the energies it predicts.
 
-Code, data and every number: https://github.com/bruce249/osi-discovery-agent
+Code and every number: https://github.com/bruce249/osi-discovery-agent
