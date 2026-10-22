@@ -16,16 +16,14 @@ Then we opened up the simulator. We ran MACE-MP-0 once on each unrelaxed candida
 
 The probe works well on chemistries it never trained on: rank correlation 0.85 and AUC 0.92 for telling stable from unstable. Plain composition features reach 0.84, and shuffled labels sit at chance. The scrambled network is the interesting control. It ranks almost as well (0.90), because knowing which elements sit where already says a lot, but it gets the actual energies much worse (R² 0.41 against 0.67). Looking layer by layer, the signal is strongest right after the first message-passing layer, and training adds it mostly on the lithium and halide sites rather than on the metal. Textbook descriptors such as ionic radius and electronegativity explain only 42% of the stability direction.
 
-Searching in that feature space paid off:
+Searching in that feature space paid off. Stable materials found in 90 simulations (out of 84 in the pool), and novel ones (out of 65):
 
-| strategy | stable found (of 84) | novel found (of 65) |
-|---|---|---|
-| GP on MACE's internal features | **69.2** | 55.8 |
-| GP on composition features | 65.8 | **56.6** |
-| GP on the scrambled network's features | 60.0 | 48.6 |
-| LLM + GP hybrid (gpt-5-mini) | 58.0 | 42.0 |
-| LLM agent (gpt-5-mini) | 54.3 | 37.7 |
-| Random | 43.2 | 33.1 |
+- GP on MACE's internal features: 69.2 stable, 55.8 novel
+- GP on composition features: 65.8 stable, 56.6 novel
+- GP on the scrambled network's features: 60.0 stable, 48.6 novel
+- LLM + GP hybrid (gpt-5-mini): 58.0 stable, 42.0 novel
+- LLM agent (gpt-5-mini): 54.3 stable, 37.7 novel
+- Random: 43.2 stable, 33.1 novel
 
 When we erased ten stability directions from the features, the probe dropped from AUC 0.92 to 0.40 and the search fell from 69 to 61 stable materials, about where the scrambled network sits. Erasing ten random directions left the probe untouched and cost the search less (64). The gap between those two is within the spread between seeds, so we read it as supporting evidence rather than proof. Our teammates found the same pattern for a different property: the same network, trained only on energies, predicts the magnetic moment of iron sites (and so their redox state) on unseen chemical systems with R² 0.75, against 0.19 for geometry alone and 0.06 for scrambled weights.
 
@@ -39,6 +37,8 @@ These are predictions, not discoveries. The stability margins are a few meV/atom
 
 ## Next steps
 
-The obvious next step is DFT and larger-cell phonons for the top candidates, then conductivity screening and synthesis of the best one or two. On the interpretability side, a single forward pass costs about 0.4 s against roughly 6 s for a relaxation, so the simulator's own features could pre-screen far larger spaces before anything is relaxed. We also want to repeat the probes on deeper potentials (MACE-MPA, Orb, UMA) and test inside the network whether steering along the stability direction changes the energies it predicts.
+Two groups could use this directly. Computational materials groups that already screen candidates with universal ML potentials could rank them from one forward pass of the network (about 0.4 s here, against roughly 6 s for a relaxation) and spend relaxations and DFT only on the candidates the model's own features favour. Anyone building an LLM agent for a lab can run our name-hiding test to check whether the agent is reasoning from results or recalling the literature. The probe, erasure and latent-search code works with any MACE-style potential and is in the repo (src/latent.py, src/interp.py).
+
+For the materials themselves, the next step is DFT and larger-cell phonons for the top candidates, then conductivity screening and synthesis of the best one or two. On the interpretability side, we want to repeat the probes on deeper potentials (MACE-MPA, Orb, UMA) and test inside the network whether steering along the stability direction changes the energies it predicts.
 
 Code and every number: https://github.com/bruce249/osi-discovery-agent
