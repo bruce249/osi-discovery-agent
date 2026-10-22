@@ -1,6 +1,6 @@
 # Budgeted Discovery Agent: which Li-halide solid electrolytes are worth simulating?
 
-Team: [add names] · OSI Hackathon 2026 · code: [repo link] · video: [video link]
+Team: [add names] · OSI Hackathon 2026 · code: github.com/bruce249/osi-discovery-agent · video: [video link]
 
 ## Problem
 

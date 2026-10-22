@@ -15,7 +15,7 @@ ROOT = HERE.parent
 RES = ROOT / "results"
 
 TEAM = "Team: [add names]"
-REPO = "[repo link]"
+REPO = "github.com/bruce249/osi-discovery-agent"
 VIDEO = "[video link]"
 NAMES = {"llm_gp": "LLM + GP hybrid", "llm_strong": "LLM agent (reasoning model)", "llm": "LLM agent", "llm_basic": "LLM, basic prompt", "gp_bo": "GP-BO", "substitution": "Data-mined substitution",
          "radius": "Ionic-radius heuristic", "random": "Random"}
