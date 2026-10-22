@@ -362,19 +362,31 @@ round. Calls are cached (identical prompts are free) and capped per server."""),
 
 
 @app.cell
+def _(mo):
+    # summaries of every copilot run in this browser session, so finished runs stay comparable after a reset
+    copilot_runs, set_copilot_runs = mo.state({})
+    return copilot_runs, set_copilot_runs
+
+
+@app.cell
 def _(cp_budget, cp_k, cp_model, cp_prompt, cp_reset, cp_seed, cp_thr):
+    import time as _time
+
     from src.playground import Campaign as _Campaign, make_strategy as _make_strategy, random_expectation as _rexp
 
     cp_reset  # a new run starts whenever this button or any setting changes
     copilot = _Campaign(_make_strategy("llm", int(cp_seed.value), cp_k.value, cp_budget.value, cp_thr.value,
                                        model=cp_model.value, prompt=cp_prompt.value),
                         cp_budget.value, cp_k.value, cp_thr.value, True)
+    copilot.run_id = _time.time_ns()
+    copilot.settings = {"model": cp_model.value, "prompt": cp_prompt.value, "seed": int(cp_seed.value),
+                        "picks/round": cp_k.value, "threshold": cp_thr.value}
     copilot_random = _rexp(cp_thr.value, cp_budget.value)
     return copilot, copilot_random
 
 
 @app.cell
-def _(copilot, copilot_random, cp_next, mo, pd):
+def _(copilot, copilot_random, cp_next, mo, pd, set_copilot_runs):
     from src.playground import LLM_CALL_CAP as _CAP, llm_calls_used as _used, reserve_llm_call as _reserve
 
     _msg = None
@@ -387,6 +399,11 @@ def _(copilot, copilot_random, cp_next, mo, pd):
             try:
                 with mo.status.spinner(title=f"{copilot.s.model} is choosing round {copilot.round + 1}..."):
                     copilot.step()
+                _k = len(copilot.history)
+                _rec = {**copilot.settings, "sims": f"{_k}/{copilot.budget}",
+                        **{f"{_lab}": f"{len(copilot.found[_m])} (random ≈ {float(copilot_random[_m][_k - 1]):.1f})"
+                           for _m, _lab in (("hit", "stable"), ("novel", "novel"), ("known", "known"))}}
+                set_copilot_runs(lambda _d: {**_d, copilot.run_id: _rec})
             except Exception as _e:  # noqa: BLE001 - e.g. no API key when run locally
                 _msg = mo.callout(mo.md(f"LLM call failed: `{str(_e)[:300]}`"), kind="danger")
     _n = len(copilot.history)
@@ -394,7 +411,7 @@ def _(copilot, copilot_random, cp_next, mo, pd):
         _body = mo.md("_Press **Suggest next batch** to let the copilot pick._")
     else:
         _hist = pd.DataFrame(copilot.picks)
-        _last = _hist[_hist["round"] == copilot.round]
+        _last = _hist[_hist["round"] == copilot.round].reset_index(drop=True)
         _r = {m: float(copilot_random[m][_n - 1]) for m in ("hit", "novel", "known")}
         _stats = mo.hstack([
             mo.stat(value=str(len(copilot.found["hit"])), label="stable compositions",
@@ -413,6 +430,20 @@ def _(copilot, copilot_random, cp_next, mo, pd):
             mo.accordion({"Full history": mo.ui.table(_hist, selection=None, page_size=15)}),
         ])
     mo.vstack([x for x in (_msg, _body, mo.md(f"<small>live LLM calls on this server: {_used()}/{_CAP}</small>")) if x is not None])
+    return
+
+
+@app.cell
+def _(copilot_runs, mo, pd):
+    _runs = list(copilot_runs().values())
+    _out = mo.md("")
+    if _runs:
+        _out = mo.vstack([
+            mo.md("### Runs this session\nEvery copilot run you started stays here for comparison. Re-selecting the "
+                  "same settings replays a run from the cache, instantly and free."),
+            mo.ui.table(pd.DataFrame(_runs[::-1]), selection=None),
+        ])
+    _out
     return
 
 
