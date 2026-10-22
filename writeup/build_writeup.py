@@ -164,7 +164,7 @@ table {{ border-collapse: collapse; width: 100%; font-size: 8.4pt; margin: 3px 0
 td, th {{ border-bottom: 1px solid #ddd; padding: 0.5px 4px; text-align: left; }} th {{ background: #f0f2f7; }}
 img {{ width: 50%; display: block; margin: 0 auto; }} .two {{ display: flex; gap: 10px; }} .two > div {{ flex: 1; }}
 </style></head><body>
-<h1>Which Li-halide solid electrolytes are worth simulating, and what do the AIs in the loop know?</h1>
+<h1>The simulator already knew: what the AIs inside a materials-discovery loop actually know</h1>
 <div class="sub">{html.escape(TEAM)} · OSI Hackathon 2026 · code: {html.escape(REPO)} · video: {html.escape(VIDEO)}</div>
 <h2>Problem</h2>
 <p>Li3MX6 / Li2MX6 halides (Li3YCl6, Li3InCl6, Li2ZrCl6) are leading solid electrolytes for all-solid-state
@@ -185,7 +185,7 @@ budget ({B} of {s['pool_size']}).</p>
 <img src="../results/fig1_discovery.png">
 <p>{result_txt}</p>
 <table><tr><th>strategy (@{B} sims)</th><th>seeds</th><th>stable found</th><th>novel found</th><th>known rediscovered</th><th>speed-up vs random (stable / novel)</th></tr>{strat_rows}</table>
-<h2>Opening up both AIs in the loop</h2>{opening}
+<h2>Looking inside both AIs: the simulator already knew, the LLM remembers</h2>{opening}
 <h2>New candidates (CHGNet + MACE-MP-0 cross-check; {n_agree}/{len(sec)} agreed within 0.05 eV/atom)</h2>
 <table><tr><th>formula</th><th>prototype</th><th>CHGNet e_hull</th><th>MACE e_hull</th><th>agreed</th><th>databases</th><th>literature</th></tr>{cand_rows}</table>
 <h2>Validation and limitations</h2><p>{lim}</p>

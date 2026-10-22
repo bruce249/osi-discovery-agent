@@ -41,11 +41,11 @@ def check(url: str = URL):
         log.append(("loaded", stats(page)))
         body = page.inner_text("body")
         log.append(("new sections", {k: k in body for k in (
-            "Same pattern in two domains", "Inside the simulator's mind", "Third check", "AUC 0.92",
+            "The other AI: what does the LLM really know", "Why this matters", "The simulator already knew", "Inside the simulator's mind", "Third check", "AUC 0.92",
             "Opening the box further", "nullspace", "redox state", "One network, two hidden skills", "Li2ZrBr6", "framework")},
             "pending placeholders:", [k for k in ("figure pending", "probe pending", "campaigns pending",
                                                    "phonons pending") if k in body]))
-        for name, anchor in (("4_cross_domain", "Same pattern in two domains"),
+        for name, anchor in (("4_cross_domain", "The other AI"),
                              ("5_latent", "Inside the simulator's mind"), ("6_phonons", "Third check"), ("7_fe", "Same simulator, second property")):
             el = page.get_by_text(anchor).first
             el.scroll_into_view_if_needed()

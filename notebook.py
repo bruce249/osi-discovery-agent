@@ -69,28 +69,30 @@ def _(REPO, RES, load, mo, second, summary):
     mo.Html(f"""
 <div class="hero">
   <div class="eyebrow">OSI Hackathon 2026 · AI-guided materials discovery</div>
-  <h1>Which battery materials are worth simulating?</h1>
-  <p class="lead">Every candidate material costs a computer simulation. We gave several decision-makers
-  (an <b>LLM agent</b>, a <b>Bayesian optimiser</b>, <b>chemistry rules of thumb</b> and <b>pure chance</b>)
-  the same budget of <b>{summary.get('budget', 90)} simulations</b> and asked each to find stable
-  <b>solid electrolytes for lithium batteries</b> among {summary.get('pool_size', 236)} candidates. Then we opened
-  up both AIs in the loop: we tested what the LLM's edge really is (on materials <i>and</i> on real reaction data),
-  and probed what the simulator itself knows before it simulates.</p>
+  <h1>Which battery materials are worth simulating?<br><span style="opacity:.85">The simulator already knew.</span></h1>
+  <p class="lead">We built an agent that decides which of {summary.get('pool_size', 236)} candidate
+  <b>lithium-battery solid electrolytes</b> deserve one of {summary.get('budget', 90)} simulations, and raced an
+  <b>LLM agent</b>, a <b>Bayesian optimiser</b> and <b>chemistry rules of thumb</b> against chance. Then we looked
+  inside the two AIs in the loop. The LLM's edge turned out to be memory. The simulator, an AI trained only on
+  energies, was carrying most of the answer in its internal features before it ran a single step.</p>
   <div class="cards">
-    <div class="card"><div class="num">{_gp:.1f}×</div>
-      <div class="cap">faster than random at finding <b>new</b> stable materials: the Bayesian optimiser won</div></div>
-    <div class="card"><div class="num">{_llm_known:.0f} vs {_rand_known:.0f}</div>
-      <div class="cap">known compounds rediscovered by the LLM vs random: it remembers the literature, which
-      also pulls it away from new chemistry</div></div>
-    <div class="card"><div class="num">{_agree} / {len(second)}</div>
-      <div class="cap">top new candidates confirmed by a second, independent AI model</div></div>
     <div class="card"><div class="num">AUC {_lp_auc:.2f}</div>
-      <div class="cap">we read the simulator's mind: its internal features predict stability <b>before</b> it
-      simulates, and searching in them found the most stable materials of all</div></div>
+      <div class="cap">from the simulator's internal features, <b>before</b> it simulates, on chemistries the
+      probe never saw. A scrambled copy of the same network ranks almost as well (0.90) but gets magnitudes far worse (R² 0.41 vs 0.67)</div></div>
+    <div class="card"><div class="num">69 vs 43</div>
+      <div class="cap">stable materials found in 90 runs when the agent searches <b>inside the simulator's mind</b>,
+      vs random. The most of any strategy</div></div>
+    <div class="card"><div class="num">0.92 → 0.40</div>
+      <div class="cap">erase 10 "stability directions" from the network: the readout collapses and the search
+      falls back to the scrambled network's level (69 → 61). Erasing random directions leaves the readout at 0.92</div></div>
+    <div class="card"><div class="num">0.84 → 0.74</div>
+      <div class="cap">hide chemical names from the LLM on real reaction data: its lead over random (0.74)
+      vanishes. Its edge is memory, not search</div></div>
   </div>
   <div class="links"><a href="{REPO}" target="_blank">Code on GitHub</a> ·
     <a href="{REPO}/blob/main/writeup/writeup.pdf" target="_blank">One-page write-up</a> ·
-    <a href="#try-it">Try the AI copilot ↓</a></div>
+    <a href="#try-it">Try the AI copilot ↓</a> · GP-BO {_gp:.1f}× random on new materials ·
+    {_agree}/{len(second)} top candidates confirmed by a second model · LLM rediscovers {_llm_known:.0f} known vs {_rand_known:.0f}</div>
 </div>
 """)
     return
@@ -159,37 +161,6 @@ surrogate gives the strongest LLM arm."""), kind="info"),
 
 
 @app.cell
-def _(RES, load, mo, summary):
-    _cd = load(RES / "cross_domain.json", {})
-    _rx = _cd.get("reactions_BH", {})
-
-    def _at(name, n=10):
-        try:
-            return _rx[name]["mean"][n - 1]
-        except (KeyError, IndexError):
-            return None
-
-    _l, _a, _r = _at("llm"), _at("llm_anon"), _at("random")
-    _line = (f"After 10 experiments the LLM with chemical names reached **{_l:.0%}** of the best possible yield, "
-             f"with names hidden **{_a:.0%}**, random **{_r:.0%}**.") if None not in (_l, _a, _r) else ""
-    mo.vstack([
-        mo.md(f"""## Same pattern in two domains
-
-Our team ran the same question, *which experiment next?*, on **real lab data**: high-throughput reaction screens
-(Buchwald–Hartwig couplings, Ahneman et al. 2018), where every condition was measured
-([osihackiitd](https://github.com/bruce249/osihackiitd)). There the LLM agent was also run with **chemical names
-hidden**, which removes what it remembers from the literature. {_line}"""),
-        mo.image(src=str(RES / "fig5_cross_domain.png")) if (RES / "fig5_cross_domain.png").exists()
-        else mo.md("_cross-domain figure pending_"),
-        mo.callout(mo.md("""**One finding, two worlds.** In reactions, the LLM's early lead comes from knowing the
-named chemicals and shrinks when names are hidden. In materials, LLMs are best at rediscovering *known* compounds
-but only 0.8–1.1× random at finding *new* ones. An LLM's advantage is what it already knows; statistical surrogates are
-what find the unknown."""), kind="warn"),
-    ])
-    return
-
-
-@app.cell
 def _(NAMES, RES, load, mo, pd, summary):
     _lp = load(RES / "latent_probe.json", {})
     _p = _lp.get("probe", {})
@@ -210,7 +181,7 @@ def _(NAMES, RES, load, mo, pd, summary):
     mo.vstack([
         mo.md(f"""## Inside the simulator's mind
 
-The simulator is itself an AI (a graph neural network trained on quantum-mechanical data). Before it relaxes a
+The race above treats the simulator as a black box that returns one number. But the simulator is itself an AI (a graph neural network trained on quantum-mechanical data). Before it relaxes a
 crystal, one forward pass already turns every atom into a 256-number internal representation. **Does that
 representation already "know" whether the material will be stable?** We borrowed the probing method of our
 teammates' interpretability study of MACE-MP-0 (*osi-draft*: linear probes, a scrambled-weight copy of the same
@@ -298,6 +269,47 @@ relaxed. In both studies, information that is *present* is not automatically *us
 inside the network moves energies no more than random directions do, and erasing our stability directions wipes out
 the linear readout while the search loses only part of its edge. Probes find knowledge; causal tests are needed to
 show it matters, and here they also turned that knowledge into a faster materials search."""), kind="success"),
+    ])
+    return
+
+
+@app.cell
+def _(mo):
+    mo.callout(mo.md("""**Why this matters.** Discovery agents today treat ML simulators as black boxes that return one
+number per expensive run. Inside, the simulator already holds a map of chemistry: in one forward pass
+(≈0.4 s per candidate here, vs ≈6.4 s for a relaxation) it encodes which crystals will survive, it encodes redox
+chemistry it was never shown, and erasing that map measurably slows the search. Reading it is cheap, testable and
+transferable to any universal potential, which makes interpretability a discovery tool rather than a diagnostic."""),
+               kind="info")
+    return
+
+@app.cell
+def _(RES, load, mo, summary):
+    _cd = load(RES / "cross_domain.json", {})
+    _rx = _cd.get("reactions_BH", {})
+
+    def _at(name, n=10):
+        try:
+            return _rx[name]["mean"][n - 1]
+        except (KeyError, IndexError):
+            return None
+
+    _l, _a, _r = _at("llm"), _at("llm_anon"), _at("random")
+    _line = (f"After 10 experiments the LLM with chemical names reached **{_l:.0%}** of the best possible yield, "
+             f"with names hidden **{_a:.0%}**, random **{_r:.0%}**.") if None not in (_l, _a, _r) else ""
+    mo.vstack([
+        mo.md(f"""## The other AI: what does the LLM really know?
+
+Our team ran the same question, *which experiment next?*, on **real lab data**: high-throughput reaction screens
+(Buchwald–Hartwig couplings, Ahneman et al. 2018), where every condition was measured
+([osihackiitd](https://github.com/bruce249/osihackiitd)). There the LLM agent was also run with **chemical names
+hidden**, which removes what it remembers from the literature. {_line}"""),
+        mo.image(src=str(RES / "fig5_cross_domain.png")) if (RES / "fig5_cross_domain.png").exists()
+        else mo.md("_cross-domain figure pending_"),
+        mo.callout(mo.md("""**One finding, two worlds.** In reactions, the LLM's early lead comes from knowing the
+named chemicals and shrinks when names are hidden. In materials, LLMs are best at rediscovering *known* compounds
+but only 0.8–1.1× random at finding *new* ones. An LLM's advantage is what it already knows; statistical surrogates are
+what find the unknown."""), kind="warn"),
     ])
     return
 
