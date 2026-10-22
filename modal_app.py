@@ -128,6 +128,17 @@ def notebook_export():
         raise SystemExit(f"marimo export failed with exit code {rc}")
 
 
+@app.function(**COMMON, cpu=4, memory=8192, timeout=24 * 3600, max_containers=1, scaledown_window=900)
+@modal.concurrent(max_inputs=100)
+@modal.web_server(port=2718, startup_timeout=180)
+def notebook():
+    """Public, interactive notebook (marimo app mode: visitors use the controls, they cannot edit code).
+    Deploy: modal deploy modal_app.py"""
+    _setup()
+    subprocess.Popen(["marimo", "run", "notebook.py", "--host", "0.0.0.0", "--port", "2718", "--headless"],
+                     cwd=APP_DIR)
+
+
 @app.function(**COMMON, cpu=1, memory=1024, timeout=300)
 def env_check():
     """Print which expected variables are present (names only, never values)."""

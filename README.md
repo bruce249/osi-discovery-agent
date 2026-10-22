@@ -10,6 +10,21 @@ a convex hull built from Materials Project reference phases **re-relaxed with th
 optimisation**, then cross-check the best new candidates with a second potential (**MACE-MP-0**) and against
 databases (Materials Project, GNoME, Alexandria, OQMD, JARVIS) and the literature.
 
+## Live demo
+
+**https://vignesh-82505--osi-discovery-agent-notebook.us-east.modal.run**
+
+The marimo notebook served from Modal in app mode (no install, no code editing). Besides the results, it has:
+
+* **8. Playground**: change the hit threshold, budget, batch size, strategies, seeds and the skip-found rule,
+  then re-run the race; campaigns replay over the cached CHGNet results in seconds.
+* **9. LLM copilot, live**: pick a model (gpt-4.1-mini or gpt-5-mini) and prompt, press *Suggest next batch*, and
+  the agent chooses candidates with a reason for each before the CHGNet result is revealed, round by round,
+  next to the random-search expectation. Live calls are cached and capped per server
+  (`PLAYGROUND_LLM_CALL_CAP`, default 300). The first visit after an idle period takes a few seconds to wake.
+
+Redeploy after changes with `modal deploy modal_app.py`.
+
 ## Results (budget 90 simulations, pool 236 candidates / 123 compositions)
 
 ![Figure 1](results/fig1_discovery.png)

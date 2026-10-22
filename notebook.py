@@ -17,6 +17,10 @@ def _():
         HERE = Path(mo.notebook_dir())
     except Exception:
         HERE = Path(__file__).resolve().parent
+    import sys
+
+    if str(HERE) not in sys.path:  # so the playground can import src.*
+        sys.path.insert(0, str(HERE))
     ROOT = Path(os.environ.get("OSI_DATA_ROOT", HERE))
     RES = ROOT / "results"
     CACHE = ROOT / "data" / "cache"
@@ -271,6 +275,144 @@ def _(mo):
           nobody has made it; solid-solution reports count as "possibly reported".
         """
     )
+    return
+
+
+@app.cell
+def _(mo):
+    pg_thr = mo.ui.slider(-0.03, 0.05, step=0.01, value=0.0, label="Hit threshold (eV/atom)", show_value=True)
+    pg_budget = mo.ui.slider(20, 200, step=10, value=90, label="Budget (simulations)", show_value=True)
+    pg_batch = mo.ui.dropdown(["5", "10", "20"], value="10", label="Batch size")
+    pg_strats = mo.ui.multiselect(["random", "substitution", "radius", "gp_bo"],
+                                  value=["random", "substitution", "radius", "gp_bo"], label="Strategies")
+    pg_seeds = mo.ui.slider(1, 10, value=3, label="Seeds per strategy (GP-BO max 5)", show_value=True)
+    pg_skip = mo.ui.checkbox(value=True, label="Drop compositions a strategy has already confirmed stable")
+    pg_run = mo.ui.run_button(label="Run campaigns")
+    mo.vstack([
+        mo.md("""## 8. Playground: re-run the race with your own settings
+
+Every evaluation is a lookup in the cached CHGNet results, so campaigns replay in seconds. Random always runs
+over the whole pool as the speed-up reference (speed-up = simulations random needs to match the strategy's
+count at the budget, divided by the budget). Novelty was checked for every composition with
+e_hull ≤ 0.05 eV/atom, which is why the threshold stops there."""),
+        mo.hstack([pg_thr, pg_budget, pg_batch], justify="start", gap=2),
+        mo.hstack([pg_strats, pg_seeds], justify="start", gap=2),
+        pg_skip,
+        pg_run,
+    ])
+    return pg_batch, pg_budget, pg_run, pg_seeds, pg_skip, pg_strats, pg_thr
+
+
+@app.cell
+def _(mo, pd, pg_batch, pg_budget, pg_run, pg_seeds, pg_skip, pg_strats, pg_thr):
+    mo.stop(not pg_run.value, mo.md("_Set the knobs above and press **Run campaigns**._"))
+    import matplotlib.pyplot as _plt
+    import numpy as _np
+
+    from src.playground import compare as _compare
+
+    with mo.status.spinner(title="Replaying campaigns..."):
+        _res = _compare(list(pg_strats.value), pg_seeds.value, pg_budget.value, int(pg_batch.value),
+                        pg_thr.value, pg_skip.value)
+    _colors = {"random": "#7f7f7f", "substitution": "#1f77b4", "radius": "#8c564b", "gp_bo": "#9467bd"}
+    _fig, _axes = _plt.subplots(1, 3, figsize=(13, 3.8))
+    _B = _res["budget"]
+    for _ax, (_m, _title) in zip(_axes, [("hit", "All stable compositions"), ("novel", "Novel stable compositions"),
+                                         ("known", "Known compounds rediscovered")]):
+        for _name, _rs in _res["runs"].items():
+            if _name == "random" and "random" not in pg_strats.value:
+                continue
+            _a = _np.array([_r.curves[_m][:_B] for _r in _rs], dtype=float)
+            _x = _np.arange(1, _a.shape[1] + 1)
+            _ax.plot(_x, _a.mean(0), color=_colors[_name], label=_name, lw=1.8)
+            _ax.fill_between(_x, _a.mean(0) - _a.std(0), _a.mean(0) + _a.std(0), color=_colors[_name], alpha=0.15, lw=0)
+        _ax.axhline(_res["totals"][_m], color="k", ls=":", lw=1)
+        _ax.set_title(f"{_title} (pool: {_res['totals'][_m]})", fontsize=10)
+        _ax.set_xlabel("Simulations used")
+        _ax.set_xlim(0, _B)
+        _ax.grid(alpha=0.3)
+    _axes[0].legend(fontsize=8, frameon=False)
+    _fig.tight_layout()
+    mo.vstack([mo.as_html(_fig), mo.ui.table(pd.DataFrame(_res["rows"]), selection=None)])
+    return
+
+
+@app.cell
+def _(mo):
+    cp_model = mo.ui.dropdown(["gpt-4.1-mini", "gpt-5-mini"], value="gpt-4.1-mini", label="Model")
+    cp_prompt = mo.ui.dropdown({"main (scoring rule + competing phases)": "main", "basic (brief's prompt)": "basic"},
+                               value="main (scoring rule + competing phases)", label="Prompt")
+    cp_seed = mo.ui.number(start=0, stop=999, value=0, label="Seed (shuffles the candidate list)")
+    cp_k = mo.ui.slider(5, 10, value=10, label="Picks per round", show_value=True)
+    cp_budget = mo.ui.slider(10, 150, step=10, value=60, label="Budget", show_value=True)
+    cp_thr = mo.ui.slider(-0.03, 0.05, step=0.01, value=0.0, label="Hit threshold (eV/atom)", show_value=True)
+    cp_reset = mo.ui.run_button(label="Start a new copilot run")
+    cp_next = mo.ui.run_button(label="Suggest next batch")
+    mo.vstack([
+        mo.md("""## 9. LLM copilot, live
+
+The LLM sees every unevaluated candidate and the results of its own earlier picks, chooses the next batch and
+explains each choice; the CHGNet result is then revealed. gpt-5-mini is a reasoning model and takes 30-90 s per
+round. Calls are cached (identical prompts are free) and capped per server."""),
+        mo.hstack([cp_model, cp_prompt, cp_seed], justify="start", gap=2),
+        mo.hstack([cp_k, cp_budget, cp_thr], justify="start", gap=2),
+        mo.hstack([cp_reset, cp_next], justify="start", gap=1),
+    ])
+    return cp_budget, cp_k, cp_model, cp_next, cp_prompt, cp_reset, cp_seed, cp_thr
+
+
+@app.cell
+def _(cp_budget, cp_k, cp_model, cp_prompt, cp_reset, cp_seed, cp_thr):
+    from src.playground import Campaign as _Campaign, make_strategy as _make_strategy, random_expectation as _rexp
+
+    cp_reset  # a new run starts whenever this button or any setting changes
+    copilot = _Campaign(_make_strategy("llm", int(cp_seed.value), cp_k.value, cp_budget.value, cp_thr.value,
+                                       model=cp_model.value, prompt=cp_prompt.value),
+                        cp_budget.value, cp_k.value, cp_thr.value, True)
+    copilot_random = _rexp(cp_thr.value, cp_budget.value)
+    return copilot, copilot_random
+
+
+@app.cell
+def _(copilot, copilot_random, cp_next, mo, pd):
+    from src.playground import LLM_CALL_CAP as _CAP, llm_calls_used as _used, reserve_llm_call as _reserve
+
+    _msg = None
+    if cp_next.value:
+        if copilot.finished:
+            _msg = mo.callout(mo.md("Budget spent. Change a setting or press **Start a new copilot run**."), kind="info")
+        elif not _reserve():
+            _msg = mo.callout(mo.md(f"The live-call cap for this server ({_CAP}) is reached."), kind="warn")
+        else:
+            try:
+                with mo.status.spinner(title=f"{copilot.s.model} is choosing round {copilot.round + 1}..."):
+                    copilot.step()
+            except Exception as _e:  # noqa: BLE001 - e.g. no API key when run locally
+                _msg = mo.callout(mo.md(f"LLM call failed: `{str(_e)[:300]}`"), kind="danger")
+    _n = len(copilot.history)
+    if _n == 0:
+        _body = mo.md("_Press **Suggest next batch** to let the copilot pick._")
+    else:
+        _hist = pd.DataFrame(copilot.picks)
+        _last = _hist[_hist["round"] == copilot.round]
+        _r = {m: float(copilot_random[m][_n - 1]) for m in ("hit", "novel", "known")}
+        _stats = mo.hstack([
+            mo.stat(value=str(len(copilot.found["hit"])), label="stable compositions",
+                    caption=f"random ≈ {_r['hit']:.1f} after {_n} sims"),
+            mo.stat(value=str(len(copilot.found["novel"])), label="novel stable",
+                    caption=f"random ≈ {_r['novel']:.1f}"),
+            mo.stat(value=str(len(copilot.found["known"])), label="known rediscovered",
+                    caption=f"random ≈ {_r['known']:.1f}"),
+            mo.stat(value=f"{_n}/{copilot.budget}", label="simulations used"),
+        ], justify="start", gap=2)
+        _body = mo.vstack([
+            _stats,
+            mo.md(f"**Round {copilot.round}: picks, reasons, and revealed e_hull**"),
+            mo.ui.table(_last[["id", "candidate", "reason", "e_hull", "stable", "novel"]], selection=None,
+                        page_size=10),
+            mo.accordion({"Full history": mo.ui.table(_hist, selection=None, page_size=15)}),
+        ])
+    mo.vstack([x for x in (_msg, _body, mo.md(f"<small>live LLM calls on this server: {_used()}/{_CAP}</small>")) if x is not None])
     return
 
 
