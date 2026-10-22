@@ -21,7 +21,8 @@ import pandas as pd
 
 from .evaluator import MLIPEvaluator
 from .labels import load_labels, thr_key
-from .strategies.gp_bo import GPBOStrategy, GPLatentRandomStrategy, GPLatentStrategy
+from .strategies.gp_bo import (GPBOStrategy, GPLatentAblRandStrategy, GPLatentINLPStrategy,
+                               GPLatentRandomStrategy, GPLatentStrategy)
 from .strategies.llm_agent import (LLMAgentStrategy, LLMBasicStrategy, LLMGPHybridStrategy,
                                        LLMStrongStrategy)
 from .strategies.random_strategy import RandomStrategy
@@ -31,7 +32,8 @@ from .utils import RESULTS, dump_json, get_logger, load_config, load_json, optio
 log = get_logger("campaign")
 STRATEGIES = {"random": RandomStrategy, "substitution": SubstitutionStrategy, "radius": RadiusStrategy,
               "gp_bo": GPBOStrategy, "gp_latent": GPLatentStrategy,
-              "gp_latent_rand": GPLatentRandomStrategy, "llm": LLMAgentStrategy, "llm_basic": LLMBasicStrategy,
+              "gp_latent_rand": GPLatentRandomStrategy,
+              "gp_latent_inlp": GPLatentINLPStrategy, "gp_latent_ablrand": GPLatentAblRandStrategy, "llm": LLMAgentStrategy, "llm_basic": LLMBasicStrategy,
               "llm_strong": LLMStrongStrategy, "llm_gp": LLMGPHybridStrategy}
 FULL_POOL = {"random", "substitution", "radius"}  # cheap: run to exhaustion for exact AF reference
 METRICS = ("hit", "known", "novel")

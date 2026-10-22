@@ -81,6 +81,13 @@ Three additions that combine our team's other projects with this one:
   A GP searching in that latent space (`gp_latent`, PCA-20, no labels) found **69.2 ± 5.7 stable compositions, the
   most of any arm** (GP-BO 65.8, scrambled-weight control 60.0), reached half of the novel ones fastest (AF50 1.85x)
   and ties GP-BO on novel at the budget (55.8 vs 56.6).
+* **Where, whether it matters, and what it means** (`src/interp.py`, `results/fig4_interp.png`):
+  stability is most decodable after MACE's first layer (rank corr. 0.86 vs 0.76 after layer 2); training matters most
+  on Li and halide sites (0.78-0.80 trained vs 0.54-0.62 scrambled), metal sites rank well even untrained. Causal test:
+  erasing 10 linear stability directions (INLP) drops the probe AUC 0.92 → 0.40 (10 random directions: 0.92) and the
+  latent GP from 69.2 to 61.2 stable compositions (random erasure 64.4; seed spread ±5, so consistent, not conclusive).
+  Textbook descriptors (metal radius, electronegativity, Br fraction, volume, stoichiometry) explain 42% of the probe's
+  score.
 * **Dynamic stability** (`src/phonons.py`, tiers from our [Lattice](https://github.com/dbajaj123/lattice-materials-discovery)
   studio): CHGNet + phonopy finite displacements for the top 15: 2 free of imaginary modes (Li3YbBr6,
   Li3Yb0.5Dy0.5Cl6), 12 with soft framework modes (-0.2 to -0.75 THz; Li carries 0-24% of them while being 30% of the

@@ -44,6 +44,8 @@ def _(RES, load):
     NAMES = {"llm_gp": "LLM + GP hybrid", "llm_strong": "LLM agent (gpt-5-mini)", "llm": "LLM agent (gpt-4.1-mini)",
              "llm_basic": "LLM, basic prompt", "gp_bo": "GP-BO (Bayesian optimisation)",
              "gp_latent": "GP on the simulator's internal features", "gp_latent_rand": "GP on scrambled-weight features",
+             "gp_latent_inlp": "GP on internal features, stability directions erased",
+             "gp_latent_ablrand": "GP on internal features, random directions erased",
              "substitution": "Data-mined substitution", "radius": "Ionic-radius heuristic", "random": "Random"}
     return NAMES, second, summary, validation
 
@@ -229,6 +231,36 @@ the magnitudes right (median R² 0.67 vs 0.41, and steadier across splits). Used
 features found **the most stable materials of any strategy** (69 vs 66 for GP-BO) and reached half of all new ones
 fastest (**1.85× random**); the scrambled control fell back to 60. On new materials at the full budget it ties
 GP-BO (55.8 vs 56.6). Interpretability here is not just a diagnosis: it is a better search space."""), kind="success"),
+    ])
+    return
+
+
+@app.cell
+def _(RES, load, mo):
+    _it = load(RES / "interp.json", {})
+    _ab = _it.get("ablation_probe", {})
+    mo.vstack([
+        mo.md(f"""### Opening the box further: where, does it matter, and what does it mean?
+
+**Left: where.** The same probe on each layer and each kind of atom (scrambled-weight network in brackets). The
+signal is strongest after the **first** message-passing layer (rank correlation 0.86 vs 0.76 after the second). Training
+matters most on the **lithium and halide** sites (0.78–0.80 trained vs 0.54–0.62 scrambled), while metal sites rank
+well even untrained, because the metal's identity alone says a lot. What the network *learned* is how the Li and
+halide environments respond to the metal.
+
+**Middle: does the search actually use it? (causal test).** We erased the 10 linear "stability directions" from
+the features (iterative nullspace projection) and re-ran the search. The probe's readout collapses (AUC
+{_ab.get('none', {}).get('auc', 0):.2f} → {_ab.get('inlp', {}).get('auc', 0):.2f}); erasing 10 random directions leaves it intact
+({_ab.get('random_dirs', {}).get('auc', 0):.2f}). The search drops from 69.2 to 61.2 stable materials, down to the scrambled-weights
+level, while random erasure costs less (64.4). The gap between the two erasures is within seed-to-seed spread (±5), so
+we read it as consistent with, not proof of, the search relying on this information; the GP's non-linear kernel can
+recover part of what linear erasure removes.
+
+**Right: what it means.** The probe's stability score tracks textbook chemistry the same way the simulation does
+(more electronegative metal or more bromide = less stable; larger metal ion = more stable), but those descriptors
+explain only **{_it.get('meaning_r2_descriptors_explain_score', 0):.0%}** of it. The rest is what the network knows beyond the
+textbook."""),
+        mo.image(src=str(RES / "fig4_interp.png")) if (RES / "fig4_interp.png").exists() else mo.md("_interpretability figure pending_"),
     ])
     return
 

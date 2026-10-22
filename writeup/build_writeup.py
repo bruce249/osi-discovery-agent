@@ -42,6 +42,7 @@ def main():
     lp = load(RES / "latent_probe.json", {}).get("probe", {})
     cd = load(RES / "cross_domain.json", {}).get("reactions_BH", {})
     ph = load(RES / "phonons.json", {})
+    it = load(RES / "interp.json", {})
     tk = f"{s['headline_threshold']:.2f}"
     st = s["strategies"]
     tot = s["totals_in_pool"][tk]
@@ -107,7 +108,11 @@ AUC {pr('mace_trained', 'auc_hit_mean'):.2f}, R² {pr('mace_trained', 'r2_median
 {pr('magpie', 'spearman_mean'):.2f} / {pr('magpie', 'auc_hit_mean'):.2f} for Magpie composition features (shuffled labels: AUC
 {pr('shuffled', 'auc_hit_mean'):.2f}). A GP searching in this latent space found {gl.get('hit', {}).get('at_budget_mean', 0):.1f}
 stable compositions, the most of any arm, and reached half of the novel ones {fmt(gl.get('novel', {}).get('AF50'), 2)}x faster
-than random; the scrambled control found {glr.get('hit', {}).get('at_budget_mean', 0):.1f}.</p>
+than random; the scrambled control found {glr.get('hit', {}).get('at_budget_mean', 0):.1f}. The signal peaks after the first
+message-passing layer, training adds it mainly on Li and halide sites, textbook descriptors explain only
+{it.get('meaning_r2_descriptors_explain_score', 0):.0%} of it, and erasing 10 stability directions (INLP) drops the probe AUC to
+{it.get('ablation_probe', {}).get('inlp', {}).get('auc', 0):.2f} and the GP to {st.get('gp_latent_inlp', {}).get(tk, {}).get('hit', {}).get('at_budget_mean', 0):.1f}
+stable (random erasure: {st.get('gp_latent_ablrand', {}).get(tk, {}).get('hit', {}).get('at_budget_mean', 0):.1f}; within seed spread).</p>
 <p><b>Dynamic stability.</b> Finite-displacement phonons (CHGNet + phonopy; tiers from our Lattice studio) for the top
 candidates: {ph.get('n_stable', '?')}/{len(ph_ok)} free of imaginary modes, {len(soft)} with soft modes between -1 and -0.1 THz
 (framework tilts: Li carries only {min(r['soft_mode_li_share'] for r in soft):.0%}-{max(r['soft_mode_li_share'] for r in soft):.0%} of them while being 30% of the atoms;

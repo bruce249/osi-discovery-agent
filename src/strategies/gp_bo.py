@@ -88,3 +88,15 @@ class GPLatentRandomStrategy(GPLatentStrategy):
     """Control: identical, but features from the same network with scrambled weights."""
     name = "gp_latent_rand"
     kind = "mace_random"
+
+
+class GPLatentINLPStrategy(GPLatentStrategy):
+    """Causal test: trained features with 10 linear stability directions removed (src/interp.py)."""
+    name = "gp_latent_inlp"
+    kind = "mace_trained_inlp"
+
+
+class GPLatentAblRandStrategy(GPLatentStrategy):
+    """Control for the causal test: trained features with 10 random directions removed."""
+    name = "gp_latent_ablrand"
+    kind = "mace_trained_ablrand"

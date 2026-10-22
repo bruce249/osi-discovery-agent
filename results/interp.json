@@ -1,0 +1,167 @@
+{
+ "n": 236,
+ "layer_role": {
+  "mace_trained|Li|L1": {
+   "spearman": 0.7828641731063088,
+   "auc": 0.8787378199142905,
+   "r2_median": 0.3001610821454682
+  },
+  "mace_trained|Li|L2": {
+   "spearman": 0.745938779598372,
+   "auc": 0.856927386339151,
+   "r2_median": 0.421946953811283
+  },
+  "mace_trained|Li|both": {
+   "spearman": 0.7924434364319728,
+   "auc": 0.8811798223562929,
+   "r2_median": 0.3669723642251568
+  },
+  "mace_trained|metal|L1": {
+   "spearman": 0.8542061380474699,
+   "auc": 0.9137877373171491,
+   "r2_median": 0.744726366378577
+  },
+  "mace_trained|metal|L2": {
+   "spearman": 0.7294403225437284,
+   "auc": 0.8646125116713352,
+   "r2_median": 0.3998294354097002
+  },
+  "mace_trained|metal|both": {
+   "spearman": 0.7871103635973894,
+   "auc": 0.8900859489094782,
+   "r2_median": 0.7230700166562181
+  },
+  "mace_trained|halide|L1": {
+   "spearman": 0.8012116843732228,
+   "auc": 0.8887691828868299,
+   "r2_median": 0.245677790157949
+  },
+  "mace_trained|halide|L2": {
+   "spearman": 0.7417925585458581,
+   "auc": 0.8541262658909718,
+   "r2_median": 0.199601692470461
+  },
+  "mace_trained|halide|both": {
+   "spearman": 0.7643991939450672,
+   "auc": 0.8713878713878714,
+   "r2_median": 0.15861772715523048
+  },
+  "mace_trained|all|L1": {
+   "spearman": 0.8615767919350906,
+   "auc": 0.9292058703823409,
+   "r2_median": 0.6524633778299869
+  },
+  "mace_trained|all|L2": {
+   "spearman": 0.7602231494375168,
+   "auc": 0.8719624601977544,
+   "r2_median": 0.06811462973086924
+  },
+  "mace_trained|all|both": {
+   "spearman": 0.8295614651137687,
+   "auc": 0.9104120280590869,
+   "r2_median": 0.6644016534184012
+  },
+  "mace_random|Li|L1": {
+   "spearman": 0.6193187364258743,
+   "auc": 0.7997318585553881,
+   "r2_median": 0.1517498820783707
+  },
+  "mace_random|Li|L2": {
+   "spearman": 0.5985292015371103,
+   "auc": 0.7994685053508584,
+   "r2_median": 0.22477276284651004
+  },
+  "mace_random|Li|both": {
+   "spearman": 0.6205812119689295,
+   "auc": 0.804376451435275,
+   "r2_median": 0.2436369829931836
+  },
+  "mace_random|metal|L1": {
+   "spearman": 0.7508716703577192,
+   "auc": 0.8455792573439632,
+   "r2_median": -0.26784543545511164
+  },
+  "mace_random|metal|L2": {
+   "spearman": 0.80139366831314,
+   "auc": 0.8771098182862889,
+   "r2_median": 0.27323157826710387
+  },
+  "mace_random|metal|both": {
+   "spearman": 0.8287189525089843,
+   "auc": 0.8945868945868946,
+   "r2_median": 0.32832765323237767
+  },
+  "mace_random|halide|L1": {
+   "spearman": 0.5390364300350634,
+   "auc": 0.7755751873398932,
+   "r2_median": -0.21499090049546266
+  },
+  "mace_random|halide|L2": {
+   "spearman": 0.5681336230773434,
+   "auc": 0.7936986760516173,
+   "r2_median": -0.23854601617006677
+  },
+  "mace_random|halide|both": {
+   "spearman": 0.5546059473295104,
+   "auc": 0.7874260815437286,
+   "r2_median": -0.1990465388876328
+  },
+  "mace_random|all|L1": {
+   "spearman": 0.7691348847160091,
+   "auc": 0.8827838827838828,
+   "r2_median": -0.12393861357519853
+  },
+  "mace_random|all|L2": {
+   "spearman": 0.7911231399046631,
+   "auc": 0.8925279513514809,
+   "r2_median": -0.004512668556895916
+  },
+  "mace_random|all|both": {
+   "spearman": 0.8044715706013066,
+   "auc": 0.8981780746486628,
+   "r2_median": 0.2476297363197526
+  }
+ },
+ "ablation_probe": {
+  "none": {
+   "spearman": 0.8462247728377321,
+   "auc": 0.9172879408173527,
+   "r2_median": 0.6699498710274121
+  },
+  "inlp": {
+   "spearman": -0.2410160911995231,
+   "auc": 0.3965811965811966,
+   "r2_median": -0.012115098672567548
+  },
+  "random_dirs": {
+   "spearman": 0.8503928137037781,
+   "auc": 0.9185664009193422,
+   "r2_median": 0.6970454992623417
+  },
+  "k": 10
+ },
+ "meaning": {
+  "metal ionic radius": {
+   "rho_with_probe_score": -0.2989834088814884,
+   "rho_with_e_hull": -0.29877888347259324
+  },
+  "metal electronegativity": {
+   "rho_with_probe_score": 0.4998844919461457,
+   "rho_with_e_hull": 0.4922692989618175
+  },
+  "Br fraction of halide": {
+   "rho_with_probe_score": 0.2458670877778748,
+   "rho_with_e_hull": 0.22926363590643659
+  },
+  "volume per atom (unrelaxed)": {
+   "rho_with_probe_score": 0.11970401749236534,
+   "rho_with_e_hull": 0.11847565321925864
+  },
+  "Li2MX6 type (vs Li3MX6)": {
+   "rho_with_probe_score": -0.03087651665254821,
+   "rho_with_e_hull": -0.029332697514836255
+  }
+ },
+ "meaning_r2_descriptors_explain_score": 0.4174365107230925,
+ "meaning_r2_descriptors_explain_e_hull": 0.3979088407798488
+}

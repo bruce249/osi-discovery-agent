@@ -42,7 +42,7 @@ def check(url: str = URL):
         body = page.inner_text("body")
         log.append(("new sections", {k: k in body for k in (
             "Same pattern in two domains", "Inside the simulator's mind", "Third check", "AUC 0.92",
-            "GP on the simulator's internal features", "Li2ZrBr6", "framework")},
+            "Opening the box further", "nullspace", "Li2ZrBr6", "framework")},
             "pending placeholders:", [k for k in ("figure pending", "probe pending", "campaigns pending",
                                                    "phonons pending") if k in body]))
         for name, anchor in (("4_cross_domain", "Same pattern in two domains"),
