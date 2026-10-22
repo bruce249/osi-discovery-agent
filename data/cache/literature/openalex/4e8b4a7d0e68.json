@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "query": "Li3CrCl6",
+ "papers": [
+  {
+   "title": "Kristallstruktur und Schwingungsspektren von Li5CrCl8 / Crystal Structure and Vibrational Spectra of Li5CrCl8",
+   "abstract": "The crystal structure of the novel pink Li5CrCl8 oC28 has been determined by both single crystal X-ray and neutron powder studies. The title compound crystallizes in a hitherto unknown structure type (space group C mmm, Z = 2). The final R values are R = 3.4% (715 independent reflections with I > 3aI) and Rwp = 11.5%, respectively (a = 1019.79(3), b = 723.94(2) and c = 726.16(3) pm). The structure consists of edge-connected Li(l)Cl6 and alternating edge-connected Li(2)Cl6 and CrCl6 octahedra, respectively. It is related to the NaCl super structure SnMn2S4 type. IR and Raman spectra as well as symmetry coordinates are given and discussed in terms of CrCl6 and LiCl6 breathing modes.",
+   "url": "https://doi.org/10.1515/znb-1992-1207",
+   "year": 1992
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "ok": true,
+ "hash": "5d64072b6e4a178128c8",
+ "model": "chgnet",
+ "e_per_atom": -2.045304536819458,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     2.463758,
+     -3.938873,
+     0.0
+    ],
+    [
+     2.463758,
+     3.938873,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     7.810701
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 4.645947050138755,
+   "b": 4.645947050138755,
+   "c": 7.810701,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 115.9481890462039,
+   "volume": 151.59680009781542
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Br",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.010038256645202637,
+     "magmom": 0.0
+    },
+    "label": "Br",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Br",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.010038435459136963,
+     "magmom": 0.0
+    },
+    "label": "Br",
+    "xyz": [
+     0.0,
+     0.0,
+     3.9053505
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Cl",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.713352,
+     0.713352,
+     0.25
+    ],
+    "properties": {
+     "final_magmom": 0.002813100814819336,
+     "magmom": -0.0
+    },
+    "label": "Cl",
+    "xyz": [
+     3.515053393632,
+     0.0,
+     1.95267525
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Cl",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.28664799999999996,
+     0.28664799999999996,
+     0.75
+    ],
+    "properties": {
+     "final_magmom": 0.002813175320625305,
+     "magmom": -0.0
+    },
+    "label": "Cl",
+    "xyz": [
+     1.4124626063679997,
+     0.0,
+     5.8580257499999995
+    ]
+   }
+  ]
+ },
+ "seconds": 0.03464317321777344,
+ "task_hash": "5d64072b6e4a178128c8",
+ "kind": "reference",
+ "label": "mp-1008492"
+}

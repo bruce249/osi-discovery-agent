@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "query": "Li2HfBr6",
+ "papers": [
+  {
+   "title": "Li2HfBr6 scintillator for neutron and gamma-ray dual detection",
+   "abstract": "Abstract Li2HfBr6 with host emission was grown as a gamma-ray- and neutron-sensitive scintillator. Decay time of Li2HfBr6 was estimated to be less than 5 \u03bcs, and single-photon counting is available to evaluate its light output. The emission wavelength under X-ray excitation was approximately 570 nm, which is a longer wavelength than that of commonly used neutron scintillators, e.g. Li-glass. The light output excited by thermal neutrons was estimated to be 52000 photons per thermal neutron, which is approximately eight to nine times higher than that of Li-glass. Additionally, neutrons and gamma rays were discriminated using the pulse-shaped discrimination technique for Li2HfBr6.",
+   "url": "https://doi.org/10.35848/1882-0786/ad03ab",
+   "year": 2023
+  }
+ ]
+}

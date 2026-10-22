@@ -1,0 +1,126 @@
+{
+ "ok": true,
+ "query": "Al lithium bromide solid electrolyte",
+ "papers": [
+  {
+   "title": "Analysis of the Electrochemical Impedance Spectra and the Structure of the Solid Electrolyte Interphase at the Electrodeposited Metallic Lithium Using the Distribution of Relaxation Times Method",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/320b40e389d33f283a3b3255ae2e98c21365e7cf",
+   "year": 2024
+  },
+  {
+   "title": "Functionality of 1\u2010Butyl\u20102,3\u2010Dimethylimidazolium Bromide (BMI\u2010Br) as a Solid Plasticizer in PEO\u2010Based Polymer Electrolyte for Highly Reliable Lithium Metal Batteries",
+   "abstract": "To address the challenges associated with solid polymer electrolytes, flame\u2010retardant organic ionic plastic crystals (OIPCs) have been utilized as a solid plasticizer in composite polymer electrolytes (CPEs). In this study, 1\u2010butyl\u20102,3\u2010dimethylimidazolium bromide (BMI\u2010Br) is used as an OIPC material. BMI\u2010Br and LiTFSI are initially mixed in an acetonitrile (ACN) organic solvent for a certain time. Anion exchange takes place in this mixing, replacing the Br\u2212 in BMI\u2010Br with TFSI\u2212. As a result, BMI\u2010TFSI and Li\u2010Br are formed. Here, BMI\u2010TFSI acts as an ionic liquid, while Li\u2010Br serves as a salt. The 10% BMI\u2010Br content (BMI\u2010Br\u201010 CPE) exhibits significant ionic conductivity (\u03c3 = 2.34 \u00d7 10\u22123 S cm\u22121 at 30 \u00b0C), wide window (up to 4.57 V), and flame retardancy. Furthermore, the BMI\u2010Br\u201010 CPE demonstrates galvanostatic lithium plating stripping cycling stability at 100 and 300 \u00b5A cm\u22122 for 800 and 500 h against Li\u2010metal, respectively, without a significant overpotential shooting. Furthermore, at 60 \u00b0C, the BMI\u2010Br\u201010 CPE in [LiFePO4/BMI\u2010Br\u201010/Li] batteries demonstrates an initial capacity of 146.9 mAh g\u22121, capacity retention of 99.7% and high coulombic efficiency (99.5%) after 300 cycles at 1C.",
+   "url": "https://www.semanticscholar.org/paper/6c0b936dc95d2207cadc7a8c2216bda542326bf2",
+   "year": 2023
+  },
+  {
+   "title": "Solid Acid-Dual Salt Hybrid Electrolyte Unlocks Broad Electrochemical Stability and High Capacitance in Solid-State Devices.",
+   "abstract": "Solid-state electrolytes have garnered significant attention as superior alternatives to liquid electrolytes in energy storage devices, offering enhanced stability and safety. However, the behavior of water molecules in polymer-based solid electrolytes remains a critical determinant of ionic conductivity and electrochemical performance. Conventional polymer electrolyte designs often rely on intricate synthesis routes and expensive materials, posing significant scalability challenges. In this study, we present an innovative and cost-effective strategy for fabricating a fully solid-state electrolyte by incorporating a dual-salt system, where one salt functions as a water retainer while the other acts as a water dehydrator. Lithium bromide (LiBr) was employed to stabilize nonfreezable bound water, thereby enhancing ionic conductivity, while cesium dihydrogen phosphate (CDP), a solid acid introduced here for the first time in energy storage applications, effectively minimized free water molecules, broadening the electrochemical stability window. The resultant CDP-LiBr@PVA(SS) electrolyte was successfully synthesized and integrated into fully solid-state supercapacitor devices, achieving an impressive stable potential window of 2.1 V, compared to 1.8 V for individual CDP@PVA and LiBr@PVA systems. Additionally, the capacitance was significantly enhanced, reaching 90 F/g, in contrast to 34 F/g for the separate systems. Structural and electrochemical enhancements were corroborated through differential scanning calorimetry (DSC), Fourier-transform infrared (FTIR) spectroscopy, and molecular dynamics (MD) simulations, all of which validated the effectiveness of the proposed electrolyte design. This work pioneers a simple yet powerful approach for engineering solid-state electrolytes by precisely modulating the state of water molecules while, for the first time, leveraging a solid acid material like CDP in energy storage applications. This strategy offers a scalable and efficient pathway toward next-generation energy storage devices.",
+   "url": "https://www.semanticscholar.org/paper/e2658612d1248c51450071df1f7b002c995d342a",
+   "year": 2025
+  },
+  {
+   "title": "Electrical Properties of Lithium-Ion Conducting Poly (Vinylidene Fluoride-Co-Hexafluoropropylene) (PVDF-HFP)/Polyvinylpyrrolidone (PVP) Solid Polymer Electrolyte",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/df7f171dfa857e83db2b133018b534055006af47",
+   "year": 2021
+  },
+  {
+   "title": "Toward in-situ protected sulfur cathodes by using lithium bromide and pre-charge",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/e22e7e19bb4a4ac30963943e5f9931be3c06a19a",
+   "year": 2017
+  },
+  {
+   "title": "Distinct Melt Infusion Architectures of Antiperovskite Solid Electrolytes",
+   "abstract": "Antiperovskite solid electrolytes are an emerging class of lithium\u2010ion conductors distinguished by their unusually low melting points, enabling scalable, low\u2010temperature processing routes not accessible to most solid electrolytes. In this work, we synthesize phase\u2010pure chloride (Cl), bromide (Br), and mixed halide (ClBr) variants of antiperovskites and investigate their ionic conductivities in both powder and hot\u2010pressed forms. Hot pressing significantly enhances conductivity across all compositions, while energy\u2010dispersive X\u2010ray spectroscopy (EDS) of the mixed halide system reveals halide surface migration during densification. We further investigate the melt\u2010infiltration behavior of these electrolytes into substrates relevant to solid\u2010state battery architectures, including Al and Cu current collectors, conventional NMC and LFP cathodes, and a foamed NMC cathode with a highly porous architecture. The foamed cathode enables deep and uniform electrolyte penetration, highlighting the role of electrode architecture in facilitating melt infiltration. Across all substrates, electrolyte halide chemistry strongly influences wetting behavior, penetration depth, and resulting microstructural morphology. Together, these results establish clear processing\u2013structure relationships for melt\u2010infiltrated antiperovskite solid electrolytes and demonstrate how electrolyte chemistry and electrode architecture govern interfacial morphology during integration, providing practical guidelines for processing and structural design in solid\u2010state battery systems.",
+   "url": "https://www.semanticscholar.org/paper/16ab6d74b015fd45dd0bcb9c643a21a26de12436",
+   "year": 2026
+  },
+  {
+   "title": "Comparative Study of Lithium Halide-Based Electrolytes for Application in Lithium-Sulfur Batteries",
+   "abstract": "Among the next-generation energy storage technologies, lithium-sulfur batteries are considered one of the most appealing solutions owing to their remarkable theoretical capacity. However, to become commercially competitive, there is a strong need to address some issues still characterizing this technology. One of the explored strategies is the optimization of the electrolyte formulation. To this aim, we compared 1,3-dioxolane/1,2-dimethoxyethane-based electrolytes containing two lithium halides, i.e., lithium bromide (LiBr) and lithium iodide (LiI), with lithium bis (trifluoromethane)sulfonylimide (LiTFSI) as a reference electrolyte. The obtained results show how the donicity of the lithium-salt anions might affect the solid electrolyte interphase stability and the lithium sulfide deposition morphology, therefore influencing the electrochemical performance of the cells. Among the tested electrolytes, the sulfur cell containing LiBr salt exhibited the best electrochemical performance maintaining a specific capacity of 900 mAh g\u22121 at C/4 and a stable trend along cycling at 1C with a specific capacity of about 770 mAh g\u22121 for 200 cycles.",
+   "url": "https://www.semanticscholar.org/paper/541d51f62f053778981de6cfbefb7f161a0b1645",
+   "year": 2023
+  },
+  {
+   "title": "Designer interphases for the lithium-oxygen electrochemical cell",
+   "abstract": "A demonstration of stable lithium-oxygen batteries based on high\u2013donor number liquid electrolytes and an ionomer-protected anode. An electrochemical cell based on the reversible oxygen reduction reaction: 2Li+ + 2e\u2212 + O2 \u2194 Li2O2, provides among the most energy dense platforms for portable electrical energy storage. Such Lithium-Oxygen (Li-O2) cells offer specific energies competitive with fossil fuels and are considered promising for electrified transportation. Multiple, fundamental challenges with the cathode, anode, and electrolyte have limited practical interest in Li-O2 cells because these problems lead to as many practical shortcomings, including poor rechargeability, high overpotentials, and specific energies well below theoretical expectations. We create and study in-situ formation of solid-electrolyte interphases (SEIs) based on bromide ionomers tethered to a Li anode that take advantage of three powerful processes for overcoming the most stubborn of these challenges. The ionomer SEIs are shown to protect the Li anode against parasitic reactions and also stabilize Li electrodeposition during cell recharge. Bromine species liberated during the anchoring reaction also function as redox mediators at the cathode, reducing the charge overpotential. Finally, the ionomer SEI forms a stable interphase with Li, which protects the metal in high Gutmann donor number liquid electrolytes. Such electrolytes have been reported to exhibit rare stability against nucleophilic attack by Li2O2 and other cathode reaction intermediates, but also react spontaneously with Li metal anodes. We conclude that rationally designed SEIs able to regulate transport of matter and ions at the electrolyte/anode interface provide a promising platform for addressing three major technical barriers to practical Li-O2 cells.",
+   "url": "https://www.semanticscholar.org/paper/ecba0b830fdba6b4af4ff268cbe064546ab9ed55",
+   "year": 2017
+  },
+  {
+   "title": "Electrodeposition of Lithium from Lithium-Containing Solvate Ionic Liquids",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/011f7c508e6ea78d088d5b281c646e47c01d518c",
+   "year": 2014
+  },
+  {
+   "title": "Comparison of the thermodynamic and transport properties of lithium bis(trifluoromethylsulfonyl)imide (LiTFSI) with LiClO4 and Bu4NBr in water at 25 \u00b0C",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/670df05b02a480f3607f11e60f0038984fd0bbbf",
+   "year": 1997
+  },
+  {
+   "title": "Fast lithium-ion transport in composites containing lithium-bromide dihydrate",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/2e94059ddfb4d99f8b236cb3ddc29ff549e090ae",
+   "year": 1982
+  },
+  {
+   "title": "High Formability Bromide Solid Electrolyte with Improved Ionic Conductivity for Bulk-Type All-Solid-State Lithium\u2013Metal Batteries",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/e15e7eddffa6c7a1f1d5ce3553c226c7916ababd",
+   "year": 2022
+  },
+  {
+   "title": "Effect of lithium bromide doping on structural, dielectric, and transport properties of methylcellulose-based solid polymer electrolyte films",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/b498bf6bcd03e9eff44d92df06d82f2dcbd010c0",
+   "year": 2023
+  },
+  {
+   "title": "Simultaneous Solid Electrolyte Deposition and Cathode Lithiation for Thin Film Batteries and Lithium Iontronic Devices",
+   "abstract": "We show that the deposition of the solid-state electrolyte LiPON onto films of V 2 O 5 leads their uniform lithiation of up to 2.2 Li per V 2 O 5 , and without affecting the Li concentration in the LiPON and its ionic conductivity. Our results indicate that Li incorporation occurs during LiPON deposition. in contrast to earlier mechanisms proposed to explain post-deposition Li transfer between LiPON and LiCoO 2 . We use our discovery to demonstrate symmetric thin film batteries with a capacity of >270 mAh/g, a rate of 20C, and 1600 cycles with only 8.4% loss in capacity. We also show how autolithiation can simplify fabrication of Li iontronic transistors attractive for emerging neuromorphic computing applications. Our discovery that LiPON deposition results in autolithiation of the underlying insertion oxide has the potential to substantially simplify and enhance the fabrication process for thin film solid state Li ion batteries and emerging lithium iontronic neuromorphic computing devices.",
+   "url": "https://www.semanticscholar.org/paper/2cd0224040e8339295609e7a731d34ce470f7606",
+   "year": 2024
+  },
+  {
+   "title": "Lithium Bromide-Induced Organic-Rich Cathode/Electrolyte Interphase for High-Voltage and Flame-Retardant All-Solid-State Lithium Batteries.",
+   "abstract": "Poly(ethylene oxide) (PEO)-based solid electrolyte suffers from limited anodic stability and an intrinsic flammable issue, hindering the achievement of high energy density and safe all-solid-state lithium batteries. Herein, we surprisingly found out that a bromine-rich additive, decabromodiphenyl ethane (DBDPE), could be preferably oxidized at an elevated voltage and decompose to lithium bromide at an elevated potential followed by inducing an organic-rich cathode/electrolyte interphase (CEI) on NCM811 surface, enabling both high-voltage resistance (up to 4.5 V) and flame-retardancy for the PEO-based electrolyte. On the basis of this novel solid electrolyte, all-solid-state Li/NCM811 batteries deliver an average reversible capacity of 151.4 mAh g-1 over the first 150 cycles with high capacity retention (83.0%) and high average Coulombic efficiency (99.7%) even at a 4.5 V cutoff voltage with a unprecedented flame-retardant properties. In view of these exploration, our studies revealed the critical role of LiBr in inducing an organic-rich thin and uniform CEI passivating layer with enhanced lithium ion surface diffusion and high-voltage resistant properties, which provides a new protocol for the further design of a high-voltage PEO-based all-solid-state electrolyte.",
+   "url": "https://www.semanticscholar.org/paper/5c486f622b0125e2cb066f6dcc2bc8683de2d237",
+   "year": 2022
+  },
+  {
+   "title": "Reducing the Grain Boundary Resistance by Al and Gd co-doping in LLZO-based Solid-State Electrolyte for Lithium Batteries",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/c54f80a33731301ca11d82fabc9a39cbd4fb17bc",
+   "year": 2025
+  },
+  {
+   "title": "The influence of pressure on lithium dealloying in solid-state and liquid electrolyte batteries",
+   "abstract": "",
+   "url": "https://www.semanticscholar.org/paper/3405104bc05594d466593c2655db27b7a237205d",
+   "year": 2025
+  },
+  {
+   "title": "Homogeneous Li Flux and Mechanical Stable Solid\u2010Electrolyte Interphase Enabled by Different Solvation Chemistry for Lithium Metal Batteries",
+   "abstract": "The solid\u2010electrolyte interphase (SEI) in lithium metal batteries (LMBs) is significantly heterogenous, comprising a diverse array of chemical species and suffering from poor mechanical stability. SEI undergoes continuous fracture, leading to exhausted active lithium and electrolyte, which hinders the application of LMBs. Here, the Sn@LixSn@Rich inorganic Li inner layer is formed through Li metal reaction with Sn2+ in FSI\u207b/NO3\u207b\u2010coordinated SnI2 aggregates, accompanied by LiNO3 and FSI\u207b deposition, enhancing Li\u2010ion conductivity homogeneity. Meanwhile, the mechanically stabilizing Sn@LixSn@Poly\u2010DME(1,2\u2010dimethoxyethane) outer layer resulted from Li metal reaction with Sn2+ in NO3\u207b\u2010coordinated SnI2 aggregates, followed by DME polymerization mediated by Sn@LixSn and DME(\u2010H) \u00b7 radicals. In ether\u2010based electrolytes, Li || LiFePO4 metal (with Sn@LixSn@Rich inorganic Li) coin cells maintained 80% capacity retention after 1200 cycles at 0.5C/1C due to the ring\u2010open polymerization of 1,3\u2010Dioxolane (DOL). Furthermore, the artificial inter/outer layers exhibited stable cycling performance over 350 cycles at 1C/1C in carbonate\u2010based electrolytes. The Li with the Bilayer SEI assembled with a mass\u2010loading lithium nickel cobalt manganese oxide (NCM622 cathode, 3.0\u2009mA h\u2009cm\u22122) coin cells maintain a capacity of 72 mAh g\u22121 while the cells with pure Li metal own 32 mAh g\u22121 at 0.5C/1C in carbonate electrolytes after 200 cycles.",
+   "url": "https://www.semanticscholar.org/paper/b74ba2ec69feba6071493171d49cbee79f215d56",
+   "year": 2025
+  },
+  {
+   "title": "A room temperature rechargeable Li2O-based lithium-air battery enabled by a solid electrolyte",
+   "abstract": "A lithium-air battery based on lithium oxide (Li2O) formation can theoretically deliver an energy density that is comparable to that of gasoline. Lithium oxide formation involves a four-electron reaction that is more difficult to achieve than the one- and two-electron reaction processes that result in lithium superoxide (LiO2) and lithium peroxide (Li2O2), respectively. By using a composite polymer electrolyte based on Li10GeP2S12 nanoparticles embedded in a modified polyethylene oxide polymer matrix, we found that Li2O is the main product in a room temperature solid-state lithium-air battery. The battery is rechargeable for 1000 cycles with a low polarization gap and can operate at high rates. The four-electron reaction is enabled by a mixed ion\u2013electron-conducting discharge product and its interface with air. Description An enabling composite electrolyte Lithium-air batteries have scope to compete with gasoline in terms of energy density. However, in most systems, the reaction pathways either involve one- or two-electron transfer, leading to lithium peroxide (Li2O2) or lithium superoxide (LiO2), respectively. Kondori et al. investigated a lithium-air battery that uses a ceramic-polyethylene oxide\u2013based composite solid electrolyte and found that it can undergo a four-electron redox reaction through lithium oxide (Li2O) formation and decomposition (see the Perspective by Dong and Lu). The composite electrolyte embedded with Li10GeP2S12 nanoparticles shows high ionic conductivity and stability and high cycle stability through a four-electron transfer process. \u2014MSL A composite polymer-ceramic solid-state electrolyte enables a four-electron redox process in a lithium-air battery.",
+   "url": "https://www.semanticscholar.org/paper/f3d063c3134b315f3431d7aebb67f8974bbaa027",
+   "year": 2023
+  },
+  {
+   "title": "Metal-Doped NASICON/Polymer Composite Solid Electrolyte for Lithium Titania Anode in Lithium-Ion Batteries",
+   "abstract": "This study reports five types of metal-doped (Co, Cu, Sn, V, and Zr) NASICON-type Li1.3Al0.3Ti1.7(PO4)3 (LATP)/polymer composite solid electrolytes (CSEs) enabling Li4Ti5O12 (LTO) anodes to have high rate capability and excellent cycling performance. The high Li+-conductivity LATP samples are successfully synthesized through a modified sol\u2013gel method followed by thermal calcination. We find that the cation dopants clearly influence the substitution of Al for Ti, with the type of dopant serving as a crucial factor in determining the ionic conductivity and interfacial resistance of the solid electrolyte. The CSE containing poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP), lithium bis(trifluoromethanesulfonyl)imide (LiTFSI), and Sn-LATP shows an ionic conductivity of 1.88 \u00d7 10\u22124 S cm\u22121 at ambient temperature. The optimum conductivity can be attributed to alterations in the lattice parameters and Li+ transport pathways owing to Sn doping. The solid-state cell equipped with the LTO-supported CSE containing Sn-LATP fillers demonstrates both excellent high rate capability at 5 C (with a capacity retention of 86% compared to the value measured at 0.2 C) and superior cycling stability, maintaining high Coulombic efficiency (>99.0%) over 510 cycles. These findings indicate that the proposed CSE is highly promising for use in solid-state lithium batteries with desirable charge\u2013discharge properties and high durability.",
+   "url": "https://www.semanticscholar.org/paper/a45c3b8c0e33f860a3735d1279565967079b03c6",
+   "year": 2024
+  }
+ ]
+}

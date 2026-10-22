@@ -1,0 +1,4256 @@
+{
+ "A001": {
+  "id": "A001",
+  "ok": true,
+  "e_hull": 0.015213139851888435,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.5925043741861975,
+  "best_ordering": "622ae48d15ea2f6794a3",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6"
+  ],
+  "ordering_energies": [
+   -4.5925043741861975
+  ]
+ },
+ "A002": {
+  "id": "A002",
+  "ok": true,
+  "e_hull": 0.010130659739176373,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.089667256673177,
+  "best_ordering": "a8dbb714f1716a249b6c",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "ScBr3"
+  ],
+  "ordering_energies": [
+   -4.089667256673177
+  ]
+ },
+ "A003": {
+  "id": "A003",
+  "ok": true,
+  "e_hull": 0.011964639027914004,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.666520182291666,
+  "best_ordering": "6914547686bb0a276ffb",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.666520182291666
+  ]
+ },
+ "A004": {
+  "id": "A004",
+  "ok": true,
+  "e_hull": 0.015981197357178623,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.179818725585937,
+  "best_ordering": "acbf559d7ffea4beadb5",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "YBr3"
+  ],
+  "ordering_energies": [
+   -4.179818725585937
+  ]
+ },
+ "A005": {
+  "id": "A005",
+  "ok": true,
+  "e_hull": 0.023428885142008582,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.547879536946614,
+  "best_ordering": "2fc525c5d30dc28a654c",
+  "converged": true,
+  "decomposition": [
+   "LaCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.547879536946614
+  ]
+ },
+ "A006": {
+  "id": "A006",
+  "ok": true,
+  "e_hull": 0.024593639373780007,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.068498229980468,
+  "best_ordering": "923eb3203ff667c11627",
+  "converged": true,
+  "decomposition": [
+   "LaBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.068498229980468
+  ]
+ },
+ "A007": {
+  "id": "A007",
+  "ok": true,
+  "e_hull": 0.015224297841389678,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.488965861002604,
+  "best_ordering": "1eac49669ea98c7fa11b",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "PrCl3"
+  ],
+  "ordering_energies": [
+   -4.488965861002604
+  ]
+ },
+ "A008": {
+  "id": "A008",
+  "ok": true,
+  "e_hull": 0.008312002817790543,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.019122060139974,
+  "best_ordering": "c0a4e38a82dab6c248e6",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "PrBr3"
+  ],
+  "ordering_energies": [
+   -4.019122060139974
+  ]
+ },
+ "A009": {
+  "id": "A009",
+  "ok": true,
+  "e_hull": 0.01229238510131836,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.486572265625,
+  "best_ordering": "1786fb14707c27ce0923",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "NdCl3"
+  ],
+  "ordering_energies": [
+   -4.486572265625
+  ]
+ },
+ "A010": {
+  "id": "A010",
+  "ok": true,
+  "e_hull": 0.007395648956300072,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.013917541503906,
+  "best_ordering": "9cd2602e203e8a7e625e",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "NdBr3"
+  ],
+  "ordering_energies": [
+   -4.013917541503906
+  ]
+ },
+ "A011": {
+  "id": "A011",
+  "ok": true,
+  "e_hull": 0.0001968065897619553,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.486371358235677,
+  "best_ordering": "63f896cfca908e4bd981",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "SmCl3"
+  ],
+  "ordering_energies": [
+   -4.486371358235677
+  ]
+ },
+ "A012": {
+  "id": "A012",
+  "ok": true,
+  "e_hull": -0.0015924771626787404,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.003999837239584,
+  "best_ordering": "b3071f79628796f97a42",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "SmBr3"
+  ],
+  "ordering_energies": [
+   -4.003999837239584
+  ]
+ },
+ "A013": {
+  "id": "A013",
+  "ok": true,
+  "e_hull": -0.0039316177368187155,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -5.438931274414062,
+  "best_ordering": "031ea6e04b7622cbbdb0",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -5.438931274414062
+  ]
+ },
+ "A014": {
+  "id": "A014",
+  "ok": true,
+  "e_hull": 0.012450631459555161,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.952640787760417,
+  "best_ordering": "73371d50666c48e7ea3a",
+  "converged": true,
+  "decomposition": [
+   "GdBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.952640787760417
+  ]
+ },
+ "A015": {
+  "id": "A015",
+  "ok": true,
+  "e_hull": 0.010541820526123402,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.488945007324219,
+  "best_ordering": "87926f352a5afbe2927b",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TbCl3"
+  ],
+  "ordering_energies": [
+   -4.488945007324219
+  ]
+ },
+ "A016": {
+  "id": "A016",
+  "ok": true,
+  "e_hull": 0.0035328865051278413,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.002037048339844,
+  "best_ordering": "97477c976be8cc719003",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "TbBr3"
+  ],
+  "ordering_energies": [
+   -4.002037048339844
+  ]
+ },
+ "A017": {
+  "id": "A017",
+  "ok": true,
+  "e_hull": -0.00747187932332416,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.481445821126302,
+  "best_ordering": "2653cda309f6e43b4e73",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.481445821126302
+  ]
+ },
+ "A018": {
+  "id": "A018",
+  "ok": true,
+  "e_hull": 0.006735897064209073,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9913902282714844,
+  "best_ordering": "066120ac99539d3a1fa4",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -3.9913902282714844
+  ]
+ },
+ "A019": {
+  "id": "A019",
+  "ok": true,
+  "e_hull": -0.003652795155843158,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.479291280110677,
+  "best_ordering": "1035ecf3667425c86ee2",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.479291280110677
+  ]
+ },
+ "A020": {
+  "id": "A020",
+  "ok": true,
+  "e_hull": 0.007248783111572177,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9879783630371093,
+  "best_ordering": "11b4921dfae1c9714c0d",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -3.9879783630371093
+  ]
+ },
+ "A021": {
+  "id": "A021",
+  "ok": true,
+  "e_hull": 0.0,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.476951090494792,
+  "best_ordering": "b08b488590f079a542bf",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.476951090494792
+  ]
+ },
+ "A022": {
+  "id": "A022",
+  "ok": true,
+  "e_hull": 0.006942876180011215,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9868151346842446,
+  "best_ordering": "0086da578b0c93b2aec4",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6"
+  ],
+  "ordering_energies": [
+   -3.9868151346842446
+  ]
+ },
+ "A023": {
+  "id": "A023",
+  "ok": true,
+  "e_hull": 0.0016090075174961527,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.465898640950521,
+  "best_ordering": "c5cfad721e9b53fe8a9e",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.465898640950521
+  ]
+ },
+ "A024": {
+  "id": "A024",
+  "ok": true,
+  "e_hull": 0.012514654795328983,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.968819173177083,
+  "best_ordering": "67bdc2f35d8e0fe66bd6",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "TmBr3"
+  ],
+  "ordering_energies": [
+   -3.968819173177083
+  ]
+ },
+ "A025": {
+  "id": "A025",
+  "ok": true,
+  "e_hull": -0.020174249013265033,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9474889119466146,
+  "best_ordering": "c972ee12193739f3e732",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -3.9474889119466146
+  ]
+ },
+ "A026": {
+  "id": "A026",
+  "ok": true,
+  "e_hull": -0.06213150024414027,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.540838623046875,
+  "best_ordering": "57b4c87ca2ab0b0eb203",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "YbBr3"
+  ],
+  "ordering_energies": [
+   -3.540838623046875
+  ]
+ },
+ "A027": {
+  "id": "A027",
+  "ok": true,
+  "e_hull": -0.008105373382568892,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.469488525390625,
+  "best_ordering": "8e9bf947dc899315d9a3",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.469488525390625
+  ]
+ },
+ "A028": {
+  "id": "A028",
+  "ok": true,
+  "e_hull": 0.008300749460856238,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.970781453450521,
+  "best_ordering": "c6da7e2b5635ffcea6c5",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LuBr3"
+  ],
+  "ordering_energies": [
+   -3.970781453450521
+  ]
+ },
+ "A029": {
+  "id": "A029",
+  "ok": true,
+  "e_hull": 0.01047083536783866,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.827227020263672,
+  "best_ordering": "ac247cdd6206b21a99ad",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6"
+  ],
+  "ordering_energies": [
+   -3.827227020263672
+  ]
+ },
+ "A030": {
+  "id": "A030",
+  "ok": true,
+  "e_hull": 0.015043767293294152,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.3843897501627604,
+  "best_ordering": "9a69274a0d83d1eed621",
+  "converged": true,
+  "decomposition": [
+   "Li3InBr6"
+  ],
+  "ordering_energies": [
+   -3.3843897501627604
+  ]
+ },
+ "A031": {
+  "id": "A031",
+  "ok": true,
+  "e_hull": 0.07287247975667333,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.8236681620279946,
+  "best_ordering": "bf7e2dbb4458d9529d31",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGaCl4"
+  ],
+  "ordering_energies": [
+   -3.8236681620279946
+  ]
+ },
+ "A032": {
+  "id": "A032",
+  "ok": true,
+  "e_hull": 0.08089027404785165,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.373918914794922,
+  "best_ordering": "fbbbcf3628cb825f07be",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiGaBr4"
+  ],
+  "ordering_energies": [
+   -3.373918914794922
+  ]
+ },
+ "A033": {
+  "id": "A033",
+  "ok": true,
+  "e_hull": 0.0409088134765625,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.086092376708985,
+  "best_ordering": "b0291794a77a7b77ed71",
+  "converged": true,
+  "decomposition": [
+   "LiAlCl4",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.086092376708985
+  ]
+ },
+ "A034": {
+  "id": "A034",
+  "ok": true,
+  "e_hull": 0.042722638448079664,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.5716822306315104,
+  "best_ordering": "34e06b620e7ea8740d48",
+  "converged": true,
+  "decomposition": [
+   "AlBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -3.5716822306315104
+  ]
+ },
+ "A035": {
+  "id": "A035",
+  "ok": true,
+  "e_hull": -0.012527656555175959,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9020614624023438,
+  "best_ordering": "1572935087f1d3592433",
+  "converged": true,
+  "decomposition": [
+   "BiCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.9020614624023438
+  ]
+ },
+ "A036": {
+  "id": "A036",
+  "ok": true,
+  "e_hull": 0.01711247762044321,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.463179270426432,
+  "best_ordering": "431848feca6dc7064211",
+  "converged": true,
+  "decomposition": [
+   "BiBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -3.463179270426432
+  ]
+ },
+ "A037": {
+  "id": "A037",
+  "ok": true,
+  "e_hull": 0.03232990900675414,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.490885925292969,
+  "best_ordering": "8b740fa526ce450e5425",
+  "converged": true,
+  "decomposition": [
+   "CrCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.490885925292969
+  ]
+ },
+ "A038": {
+  "id": "A038",
+  "ok": true,
+  "e_hull": 0.04448938369750888,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.031129964192709,
+  "best_ordering": "32b0408501da23651cd0",
+  "converged": true,
+  "decomposition": [
+   "CrBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.031129964192709
+  ]
+ },
+ "A039": {
+  "id": "A039",
+  "ok": true,
+  "e_hull": 0.028148555755617366,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.530918884277344,
+  "best_ordering": "e84c8622d9db758943dd",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TiCl3"
+  ],
+  "ordering_energies": [
+   -4.530918884277344
+  ]
+ },
+ "A040": {
+  "id": "A040",
+  "ok": true,
+  "e_hull": 0.03793261845906848,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.032773844401041,
+  "best_ordering": "91f265614a1cc9c1b0f5",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "TiBr3"
+  ],
+  "ordering_energies": [
+   -4.032773844401041
+  ]
+ },
+ "A041": {
+  "id": "A041",
+  "ok": true,
+  "e_hull": 0.024900023142499172,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.503528340657552,
+  "best_ordering": "1f448c18bb9881dd4ae7",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "VCl3"
+  ],
+  "ordering_energies": [
+   -4.503528340657552
+  ]
+ },
+ "A042": {
+  "id": "A042",
+  "ok": true,
+  "e_hull": 0.021037642161052084,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.018677266438802,
+  "best_ordering": "9dc3acd51a04d85ab9a7",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "VBr3"
+  ],
+  "ordering_energies": [
+   -4.018677266438802
+  ]
+ },
+ "A043": {
+  "id": "A043",
+  "ok": true,
+  "e_hull": 0.028122647603352924,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.220846048990885,
+  "best_ordering": "80cf6d4814f4880da831",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiFeCl4"
+  ],
+  "ordering_energies": [
+   -4.220846048990885
+  ]
+ },
+ "A044": {
+  "id": "A044",
+  "ok": true,
+  "e_hull": 0.056066449483235914,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.781097666422526,
+  "best_ordering": "4332ed77433ca1ccf2e7",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiFeBr4"
+  ],
+  "ordering_energies": [
+   -3.781097666422526
+  ]
+ },
+ "A045": {
+  "id": "A045",
+  "ok": true,
+  "e_hull": 0.0029216766357418322,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.604795837402344,
+  "best_ordering": "2891f56087556ae07cf4",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6"
+  ],
+  "ordering_energies": [
+   -4.604795837402344
+  ]
+ },
+ "A046": {
+  "id": "A046",
+  "ok": true,
+  "e_hull": -0.0059083620707189866,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.105706278483073,
+  "best_ordering": "5000edfd5b53309a8eef",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "ScBr3"
+  ],
+  "ordering_energies": [
+   -4.105706278483073
+  ]
+ },
+ "A047": {
+  "id": "A047",
+  "ok": true,
+  "e_hull": 0.002461465199789181,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.676023356119791,
+  "best_ordering": "46f9e97030ee46ed79e2",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.676023356119791
+  ]
+ },
+ "A048": {
+  "id": "A048",
+  "ok": true,
+  "e_hull": 0.008268896738688802,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.187531026204427,
+  "best_ordering": "6450fa5c7105bb4f7ec1",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "YBr3"
+  ],
+  "ordering_energies": [
+   -4.187531026204427
+  ]
+ },
+ "A049": {
+  "id": "A049",
+  "ok": true,
+  "e_hull": 0.016631094614664832,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.554677327473958,
+  "best_ordering": "f52781c68250e7e2a2d4",
+  "converged": true,
+  "decomposition": [
+   "LaCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.554677327473958
+  ]
+ },
+ "A050": {
+  "id": "A050",
+  "ok": true,
+  "e_hull": 0.022782166798910097,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.070309702555338,
+  "best_ordering": "fa991e9d67de65e8535e",
+  "converged": true,
+  "decomposition": [
+   "LaBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.070309702555338
+  ]
+ },
+ "A051": {
+  "id": "A051",
+  "ok": true,
+  "e_hull": 0.008229668935139323,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.495960489908854,
+  "best_ordering": "13c408cb3c33f6d2ccc7",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "PrCl3"
+  ],
+  "ordering_energies": [
+   -4.495960489908854
+  ]
+ },
+ "A052": {
+  "id": "A052",
+  "ok": true,
+  "e_hull": 0.003914165496826882,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.023519897460938,
+  "best_ordering": "fafc89cf356193815734",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "PrBr3"
+  ],
+  "ordering_energies": [
+   -4.023519897460938
+  ]
+ },
+ "A053": {
+  "id": "A053",
+  "ok": true,
+  "e_hull": 0.0031218528747558594,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.4957427978515625,
+  "best_ordering": "e6d3ce92f0e85918f65b",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "NdCl3"
+  ],
+  "ordering_energies": [
+   -4.4957427978515625
+  ]
+ },
+ "A054": {
+  "id": "A054",
+  "ok": true,
+  "e_hull": 0.0023678779602063216,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.0189453125,
+  "best_ordering": "6db739616f5b61726209",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "NdBr3"
+  ],
+  "ordering_energies": [
+   -4.0189453125
+  ]
+ },
+ "A055": {
+  "id": "A055",
+  "ok": true,
+  "e_hull": -0.008380158742269828,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.494948323567709,
+  "best_ordering": "00270de4462dec53a32d",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "SmCl3"
+  ],
+  "ordering_energies": [
+   -4.494948323567709
+  ]
+ },
+ "A056": {
+  "id": "A056",
+  "ok": true,
+  "e_hull": -0.007916227976480172,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.010323588053385,
+  "best_ordering": "d1fabf77b4a3dcadd0b1",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "SmBr3"
+  ],
+  "ordering_energies": [
+   -4.010323588053385
+  ]
+ },
+ "A057": {
+  "id": "A057",
+  "ok": true,
+  "e_hull": -0.007885678609214963,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -5.442885335286459,
+  "best_ordering": "0b745777b15f109c0b95",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -5.442885335286459
+  ]
+ },
+ "A058": {
+  "id": "A058",
+  "ok": true,
+  "e_hull": 0.009682687123617306,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.9554087320963545,
+  "best_ordering": "7ec20c6064eb57861302",
+  "converged": true,
+  "decomposition": [
+   "GdBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.9554087320963545
+  ]
+ },
+ "A059": {
+  "id": "A059",
+  "ok": true,
+  "e_hull": 0.0009364128112796521,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.4985504150390625,
+  "best_ordering": "597a7621482bfdfbb749",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TbCl3"
+  ],
+  "ordering_energies": [
+   -4.4985504150390625
+  ]
+ },
+ "A060": {
+  "id": "A060",
+  "ok": true,
+  "e_hull": -0.004308096567788411,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.00987803141276,
+  "best_ordering": "007f15eb1878af5ce238",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "TbBr3"
+  ],
+  "ordering_energies": [
+   -4.00987803141276
+  ]
+ },
+ "A061": {
+  "id": "A061",
+  "ok": true,
+  "e_hull": -0.016934363047282908,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.490908304850261,
+  "best_ordering": "fae75cd2fc431cf4fe0a",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.490908304850261
+  ]
+ },
+ "A062": {
+  "id": "A062",
+  "ok": true,
+  "e_hull": -0.0020918210347491417,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.000217946370443,
+  "best_ordering": "319a1f003282d942ae10",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.000217946370443
+  ]
+ },
+ "A063": {
+  "id": "A063",
+  "ok": true,
+  "e_hull": -0.013371117909749763,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.489009602864583,
+  "best_ordering": "15aa147004800200a185",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.489009602864583
+  ]
+ },
+ "A064": {
+  "id": "A064",
+  "ok": true,
+  "e_hull": -0.0020283063252768407,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9972554524739583,
+  "best_ordering": "624759313dae2f27c576",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -3.9972554524739583
+  ]
+ },
+ "A065": {
+  "id": "A065",
+  "ok": true,
+  "e_hull": -0.009913126627606239,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.486864217122396,
+  "best_ordering": "52aa75276fd9ef81891e",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.486864217122396
+  ]
+ },
+ "A066": {
+  "id": "A066",
+  "ok": true,
+  "e_hull": -0.0024926503499367314,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9962506612141926,
+  "best_ordering": "a2b710696ca437d67720",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6"
+  ],
+  "ordering_energies": [
+   -3.9962506612141926
+  ]
+ },
+ "A067": {
+  "id": "A067",
+  "ok": true,
+  "e_hull": -0.009786764780680635,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.477294413248698,
+  "best_ordering": "42ea14c5c68ba3805f2c",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.477294413248698
+  ]
+ },
+ "A068": {
+  "id": "A068",
+  "ok": true,
+  "e_hull": 0.0028461774190269296,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9784876505533853,
+  "best_ordering": "bada0d800107846f7b49",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "TmBr3"
+  ],
+  "ordering_energies": [
+   -3.9784876505533853
+  ]
+ },
+ "A069": {
+  "id": "A069",
+  "ok": true,
+  "e_hull": -0.020721276601155747,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9480359395345053,
+  "best_ordering": "42da31a6dfb3c2347f52",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -3.9480359395345053
+  ]
+ },
+ "A070": {
+  "id": "A070",
+  "ok": true,
+  "e_hull": -0.06984659830729134,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.548553721110026,
+  "best_ordering": "a884b917c6b325cd233f",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "YbBr3"
+  ],
+  "ordering_energies": [
+   -3.548553721110026
+  ]
+ },
+ "A071": {
+  "id": "A071",
+  "ok": true,
+  "e_hull": -0.017337958017985322,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.478721110026042,
+  "best_ordering": "3fb6e36d0cd71379a992",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.478721110026042
+  ]
+ },
+ "A072": {
+  "id": "A072",
+  "ok": true,
+  "e_hull": -0.0015106519063312618,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9805928548177083,
+  "best_ordering": "9b2c2267e3069a6a8ec6",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LuBr3"
+  ],
+  "ordering_energies": [
+   -3.9805928548177083
+  ]
+ },
+ "A073": {
+  "id": "A073",
+  "ok": true,
+  "e_hull": 0.0,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.8376978556315104,
+  "best_ordering": "e25bd230c1d898f7ca98",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6"
+  ],
+  "ordering_energies": [
+   -3.8376978556315104
+  ]
+ },
+ "A074": {
+  "id": "A074",
+  "ok": true,
+  "e_hull": 0.004595820109049242,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.3948376973470054,
+  "best_ordering": "eccfee3330dac95ff6c0",
+  "converged": true,
+  "decomposition": [
+   "Li3InBr6"
+  ],
+  "ordering_energies": [
+   -3.3948376973470054
+  ]
+ },
+ "A075": {
+  "id": "A075",
+  "ok": true,
+  "e_hull": 0.055393028259277166,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.841147613525391,
+  "best_ordering": "e28f0dc0b78177b4a93f",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGaCl4"
+  ],
+  "ordering_energies": [
+   -3.841147613525391
+  ]
+ },
+ "A076": {
+  "id": "A076",
+  "ok": true,
+  "e_hull": 0.06846071879069004,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.3863484700520834,
+  "best_ordering": "3b52f0e7b4a0e9088654",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiGaBr4"
+  ],
+  "ordering_energies": [
+   -3.3863484700520834
+  ]
+ },
+ "A077": {
+  "id": "A077",
+  "ok": true,
+  "e_hull": 0.0224761962890625,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.104524993896485,
+  "best_ordering": "fb88ee374bf5ce3e014d",
+  "converged": true,
+  "decomposition": [
+   "LiAlCl4",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.104524993896485
+  ]
+ },
+ "A078": {
+  "id": "A078",
+  "ok": true,
+  "e_hull": 0.02954794565836627,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.5848569234212238,
+  "best_ordering": "bfba7fd39761c62fb0b7",
+  "converged": true,
+  "decomposition": [
+   "AlBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -3.5848569234212238
+  ]
+ },
+ "A079": {
+  "id": "A079",
+  "ok": true,
+  "e_hull": -0.015996233622233458,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.9055300394694012,
+  "best_ordering": "49347367e57279c71076",
+  "converged": true,
+  "decomposition": [
+   "BiCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.9055300394694012
+  ]
+ },
+ "A080": {
+  "id": "A080",
+  "ok": true,
+  "e_hull": 0.01280441284179723,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.467487335205078,
+  "best_ordering": "0a8344a8c9302763fa7e",
+  "converged": true,
+  "decomposition": [
+   "BiBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -3.467487335205078
+  ]
+ },
+ "A081": {
+  "id": "A081",
+  "ok": true,
+  "e_hull": 0.016926670074462358,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.506289164225261,
+  "best_ordering": "76994e38c74a6179081d",
+  "converged": true,
+  "decomposition": [
+   "CrCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.506289164225261
+  ]
+ },
+ "A082": {
+  "id": "A082",
+  "ok": true,
+  "e_hull": 0.03230574925740548,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.043313598632812,
+  "best_ordering": "f42b566d008492fded87",
+  "converged": true,
+  "decomposition": [
+   "CrBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.043313598632812
+  ]
+ },
+ "A083": {
+  "id": "A083",
+  "ok": true,
+  "e_hull": 0.011263179779054333,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.547804260253907,
+  "best_ordering": "e76faf7ad3209ac0957e",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TiCl3"
+  ],
+  "ordering_energies": [
+   -4.547804260253907
+  ]
+ },
+ "A084": {
+  "id": "A084",
+  "ok": true,
+  "e_hull": 0.022311178843182233,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.0483952840169275,
+  "best_ordering": "500dea3b78df92540080",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "TiBr3"
+  ],
+  "ordering_energies": [
+   -4.0483952840169275
+  ]
+ },
+ "A085": {
+  "id": "A085",
+  "ok": true,
+  "e_hull": 0.017322508494062028,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.511105855305989,
+  "best_ordering": "d3e8a73ca51a2aa0e790",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "VCl3"
+  ],
+  "ordering_energies": [
+   -4.511105855305989
+  ]
+ },
+ "A086": {
+  "id": "A086",
+  "ok": true,
+  "e_hull": 0.011187076568604404,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.02852783203125,
+  "best_ordering": "9e40c5fb3044f6353479",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "VBr3"
+  ],
+  "ordering_energies": [
+   -4.02852783203125
+  ]
+ },
+ "A087": {
+  "id": "A087",
+  "ok": true,
+  "e_hull": 0.0185419082641598,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.230426788330078,
+  "best_ordering": "5a0d70772c3a046f306e",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiFeCl4"
+  ],
+  "ordering_energies": [
+   -4.230426788330078
+  ]
+ },
+ "A088": {
+  "id": "A088",
+  "ok": true,
+  "e_hull": 0.045775413513183594,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.7913887023925783,
+  "best_ordering": "9f4c1ee1db9cd1d85b84",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiFeBr4"
+  ],
+  "ordering_energies": [
+   -3.7913887023925783
+  ]
+ },
+ "B001": {
+  "id": "B001",
+  "ok": true,
+  "e_hull": -0.007899178398979245,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.791046142578125,
+  "best_ordering": "0fb3644bc9714c3cc9b9",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "ZrCl4"
+  ],
+  "ordering_energies": [
+   -4.791046142578125
+  ]
+ },
+ "B002": {
+  "id": "B002",
+  "ok": true,
+  "e_hull": -0.0324223836263009,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.254562801784939,
+  "best_ordering": "44d8e5191baa413eb435",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "ZrBr4"
+  ],
+  "ordering_energies": [
+   -4.254562801784939
+  ]
+ },
+ "B003": {
+  "id": "B003",
+  "ok": true,
+  "e_hull": -0.0100269317626962,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.9744618733723955,
+  "best_ordering": "6c0dc638b12bdcc3ac3c",
+  "converged": true,
+  "decomposition": [
+   "HfCl4",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.9744618733723955
+  ]
+ },
+ "B004": {
+  "id": "B004",
+  "ok": true,
+  "e_hull": -0.0296929677327471,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.419382731119792,
+  "best_ordering": "f30b6544275bb30fbe54",
+  "converged": true,
+  "decomposition": [
+   "HfBr4",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.419382731119792
+  ]
+ },
+ "B005": {
+  "id": "B005",
+  "ok": true,
+  "e_hull": 0.04214435153537366,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.570476955837673,
+  "best_ordering": "e0874766f1beaea694f8",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TiCl4"
+  ],
+  "ordering_energies": [
+   -4.570476955837673
+  ]
+ },
+ "B006": {
+  "id": "B006",
+  "ok": true,
+  "e_hull": 0.05040698581271741,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.056627061631945,
+  "best_ordering": "5d022fce7509fc8510da",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "TiBr4"
+  ],
+  "ordering_energies": [
+   -4.056627061631945
+  ]
+ },
+ "B007": {
+  "id": "B007",
+  "ok": true,
+  "e_hull": 0.02802318996853348,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.7823613484700522,
+  "best_ordering": "4ebb0568380c708a0052",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "SnCl4"
+  ],
+  "ordering_energies": [
+   -3.7823613484700522
+  ]
+ },
+ "B008": {
+  "id": "B008",
+  "ok": true,
+  "e_hull": 0.050358454386393525,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -3.330215242173937,
+  "best_ordering": "33a8ac06fc31f156e1a0",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "SnBr4"
+  ],
+  "ordering_energies": [
+   -3.330215242173937
+  ]
+ },
+ "B009": {
+  "id": "B009",
+  "ok": true,
+  "e_hull": -0.15421772003173828,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.588844299316406,
+  "best_ordering": "493446868d81ef62a5db",
+  "converged": true,
+  "decomposition": [
+   "CeCl3",
+   "Cl2",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.588844299316406
+  ]
+ },
+ "B010": {
+  "id": "B010",
+  "ok": true,
+  "e_hull": -0.132944477929009,
+  "n_orderings_ok": 1,
+  "n_orderings": 1,
+  "e_per_atom": -4.0952707926432295,
+  "best_ordering": "4850ff4cdbd6b7299761",
+  "converged": true,
+  "decomposition": [
+   "Br",
+   "CeBr3",
+   "LiBr"
+  ],
+  "ordering_energies": [
+   -4.0952707926432295
+  ]
+ },
+ "C001": {
+  "id": "C001",
+  "ok": true,
+  "e_hull": 0.0103829383850087,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.508366394042969,
+  "best_ordering": "7cdfcb1817a498c81d93",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YBr3",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.508366394042969,
+   -4.50809071858724
+  ]
+ },
+ "C002": {
+  "id": "C002",
+  "ok": true,
+  "e_hull": 0.012675635019938625,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.426205952962239,
+  "best_ordering": "e6d78a0ba59cd1e9844e",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YBr3"
+  ],
+  "ordering_energies": [
+   -4.426205952962239,
+   -4.425281778971354
+  ]
+ },
+ "C003": {
+  "id": "C003",
+  "ok": true,
+  "e_hull": 0.014036719004312914,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.343817647298177,
+  "best_ordering": "6cb39e617d9cd6fb344e",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiCl",
+   "YBr3"
+  ],
+  "ordering_energies": [
+   -4.343817647298177,
+   -4.342795817057292
+  ]
+ },
+ "C004": {
+  "id": "C004",
+  "ok": true,
+  "e_hull": 0.02641254001193527,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.679970296223958,
+  "best_ordering": "5a3a31e94678e5002b73",
+  "converged": true,
+  "decomposition": [
+   "InBr3",
+   "Li3InCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.679970296223958,
+   -3.6790555318196616
+  ]
+ },
+ "C005": {
+  "id": "C005",
+  "ok": true,
+  "e_hull": 0.03402671813964897,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.6066986083984376,
+  "best_ordering": "503a1dad94d77a371424",
+  "converged": true,
+  "decomposition": [
+   "InBr3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.6066986083984376,
+   -3.60655517578125
+  ]
+ },
+ "C006": {
+  "id": "C006",
+  "ok": true,
+  "e_hull": 0.026598993937174242,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.5336957295735676,
+  "best_ordering": "e9c1239f6732b0cee8af",
+  "converged": true,
+  "decomposition": [
+   "InBr3",
+   "Li3InBr6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.5336957295735676,
+   -3.5318265279134113
+  ]
+ },
+ "C007": {
+  "id": "C007",
+  "ok": true,
+  "e_hull": 0.0163555781046556,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.4291539510091145,
+  "best_ordering": "1e288fcc4db2bb84baa0",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiBr",
+   "ScCl3"
+  ],
+  "ordering_energies": [
+   -4.4291539510091145,
+   -4.426577758789063
+  ]
+ },
+ "C008": {
+  "id": "C008",
+  "ok": true,
+  "e_hull": 0.01746288935343454,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.346942647298177,
+  "best_ordering": "4f96ca7cfa3bb9754257",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "ScCl3"
+  ],
+  "ordering_energies": [
+   -4.346942647298177,
+   -4.3448740641276045
+  ]
+ },
+ "C009": {
+  "id": "C009",
+  "ok": true,
+  "e_hull": 0.013965956370036281,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.262237040201823,
+  "best_ordering": "2db2083db1e9aba8abcc",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "ScBr3",
+   "ScCl3"
+  ],
+  "ordering_energies": [
+   -4.262237040201823,
+   -4.260738881429036
+  ]
+ },
+ "C010": {
+  "id": "C010",
+  "ok": true,
+  "e_hull": -0.00045695834689674086,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.316343688964844,
+  "best_ordering": "04a7f097123b931323c1",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.316343688964844,
+   -4.316174825032552
+  ]
+ },
+ "C011": {
+  "id": "C011",
+  "ok": true,
+  "e_hull": 0.0014095942179377374,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.233944956461588,
+  "best_ordering": "c39e810523f32633a0ea",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.233944956461588,
+   -4.233166758219401
+  ]
+ },
+ "C012": {
+  "id": "C012",
+  "ok": true,
+  "e_hull": 0.002835167778862946,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.15198720296224,
+  "best_ordering": "5e064bf115ada74d3259",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.15198720296224,
+   -4.151436869303385
+  ]
+ },
+ "C013": {
+  "id": "C013",
+  "ok": true,
+  "e_hull": -0.0012824694315591856,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.318701171875,
+  "best_ordering": "c1dce5a6af00c2bbd0ba",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "HoCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.318701171875,
+   -4.318373616536459
+  ]
+ },
+ "C014": {
+  "id": "C014",
+  "ok": true,
+  "e_hull": 0.0008873939514160156,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.2374214172363285,
+  "best_ordering": "70e9a38de8ec0b5232b3",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.2374214172363285,
+   -4.2366887410481775
+  ]
+ },
+ "C015": {
+  "id": "C015",
+  "ok": true,
+  "e_hull": 0.0005079587300631516,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.1567736307779946,
+  "best_ordering": "2409d24f405fb1a6bb98",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "LiBr",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.1567736307779946,
+   -4.15522206624349
+  ]
+ },
+ "C016": {
+  "id": "C016",
+  "ok": true,
+  "e_hull": -0.02874199549357126,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.8190394083658856,
+  "best_ordering": "0c2cb4265b425efb7b8a",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YbBr3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -3.8190394083658856,
+   -3.818872578938802
+  ]
+ },
+ "C017": {
+  "id": "C017",
+  "ok": true,
+  "e_hull": -0.034130605061849284,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.7559193929036456,
+  "best_ordering": "0a93f5db164e4b1fd416",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YbBr3"
+  ],
+  "ordering_energies": [
+   -3.7559193929036456,
+   -3.7545814514160156
+  ]
+ },
+ "C018": {
+  "id": "C018",
+  "ok": true,
+  "e_hull": -0.04351018269856732,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.684271748860677,
+  "best_ordering": "e28ccf7baaffb8a563ff",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiCl",
+   "YbBr3"
+  ],
+  "ordering_energies": [
+   -3.684271748860677,
+   -3.68418706258138
+  ]
+ },
+ "C019": {
+  "id": "C019",
+  "ok": true,
+  "e_hull": -0.005325984954833274,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.307229614257812,
+  "best_ordering": "47dbe38d2260aaf3e6d9",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuBr3",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.307229614257812,
+   -4.305797831217448
+  ]
+ },
+ "C020": {
+  "id": "C020",
+  "ok": true,
+  "e_hull": -0.0016500155131016214,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.223813883463541,
+  "best_ordering": "dcc5d2c3429e04a056ab",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuBr3"
+  ],
+  "ordering_energies": [
+   -4.223813883463541,
+   -4.223036193847657
+  ]
+ },
+ "C021": {
+  "id": "C021",
+  "ok": true,
+  "e_hull": 4.828770955533912e-05,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.1410883585611975,
+  "best_ordering": "0f116de7e0aaf4bf449d",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiCl",
+   "LuBr3"
+  ],
+  "ordering_energies": [
+   -4.1410883585611975,
+   -4.139434814453125
+  ]
+ },
+ "C022": {
+  "id": "C022",
+  "ok": true,
+  "e_hull": -0.0041862805684402815,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.3229827880859375,
+  "best_ordering": "d827c81ba4e2552640e2",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "DyCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.3229827880859375,
+   -4.321659851074219
+  ]
+ },
+ "C023": {
+  "id": "C023",
+  "ok": true,
+  "e_hull": 0.0017678896586099668,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.239439900716146,
+  "best_ordering": "312fa492793de4a18717",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.239439900716146,
+   -4.237277984619141
+  ]
+ },
+ "C024": {
+  "id": "C024",
+  "ok": true,
+  "e_hull": 0.0021463076273606774,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.158034261067709,
+  "best_ordering": "b9608e6164121c5415f0",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "LiBr",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.158034261067709,
+   -4.156101735432943
+  ]
+ },
+ "C025": {
+  "id": "C025",
+  "ok": true,
+  "e_hull": 0.0010074297587063796,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.517741902669271,
+  "best_ordering": "9894ddef24c8ea6b7bfa",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YBr3",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.517741902669271,
+   -4.51729482014974
+  ]
+ },
+ "C026": {
+  "id": "C026",
+  "ok": true,
+  "e_hull": 0.002015336354573627,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.436866251627604,
+  "best_ordering": "9989f2e676a17dfb9b68",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YBr3"
+  ],
+  "ordering_energies": [
+   -4.436866251627604,
+   -4.43490244547526
+  ]
+ },
+ "C027": {
+  "id": "C027",
+  "ok": true,
+  "e_hull": 0.0034384727478027344,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.3544158935546875,
+  "best_ordering": "6eb67efd99180753d202",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiCl",
+   "YBr3"
+  ],
+  "ordering_energies": [
+   -4.3544158935546875,
+   -4.352695719401042
+  ]
+ },
+ "C028": {
+  "id": "C028",
+  "ok": true,
+  "e_hull": 0.014665561252169557,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.691717274983724,
+  "best_ordering": "c372cdf25e3221260932",
+  "converged": true,
+  "decomposition": [
+   "InBr3",
+   "Li3InCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.691717274983724,
+   -3.6914886474609374
+  ]
+ },
+ "C029": {
+  "id": "C029",
+  "ok": true,
+  "e_hull": 0.02277666727701888,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.6179486592610677,
+  "best_ordering": "dbe88862c65007a8c8eb",
+  "converged": true,
+  "decomposition": [
+   "InBr3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.6179486592610677,
+   -3.6179122924804688
+  ]
+ },
+ "C030": {
+  "id": "C030",
+  "ok": true,
+  "e_hull": 0.016463343302408617,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.543831380208333,
+  "best_ordering": "6b5ec993f1b1114b46f7",
+  "converged": true,
+  "decomposition": [
+   "InBr3",
+   "Li3InBr6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -3.543831380208333,
+   -3.543592325846354
+  ]
+ },
+ "C031": {
+  "id": "C031",
+  "ok": true,
+  "e_hull": 0.0018332799275722067,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.443676249186198,
+  "best_ordering": "919ee0afbbf8b5878f3c",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiBr",
+   "ScCl3"
+  ],
+  "ordering_energies": [
+   -4.443676249186198,
+   -4.442823791503907
+  ]
+ },
+ "C032": {
+  "id": "C032",
+  "ok": true,
+  "e_hull": 0.003339354197184896,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.361066182454427,
+  "best_ordering": "4bee70c0cff9f05a5d73",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "ScCl3"
+  ],
+  "ordering_energies": [
+   -4.361066182454427,
+   -4.359244283040365
+  ]
+ },
+ "C033": {
+  "id": "C033",
+  "ok": true,
+  "e_hull": -0.0017307599385576466,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.277933756510417,
+  "best_ordering": "760f05f5f2c12e911896",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "ScBr3",
+   "ScCl3"
+  ],
+  "ordering_energies": [
+   -4.277933756510417,
+   -4.276222737630208
+  ]
+ },
+ "C034": {
+  "id": "C034",
+  "ok": true,
+  "e_hull": -0.01319346957736478,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.329080200195312,
+  "best_ordering": "c36a6a1f5c743c76f632",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.329080200195312,
+   -4.327779642740885
+  ]
+ },
+ "C035": {
+  "id": "C035",
+  "ok": true,
+  "e_hull": -0.011828676859536813,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.247183227539063,
+  "best_ordering": "d9483dd4b2bdd0569cb7",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.247183227539063,
+   -4.245348358154297
+  ]
+ },
+ "C036": {
+  "id": "C036",
+  "ok": true,
+  "e_hull": -0.009420945909287326,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.16424331665039,
+  "best_ordering": "4cd425f90071f660fb68",
+  "converged": true,
+  "decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "ordering_energies": [
+   -4.16424331665039,
+   -4.164079793294271
+  ]
+ },
+ "C037": {
+  "id": "C037",
+  "ok": true,
+  "e_hull": -0.012806415557861328,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.3302251180013025,
+  "best_ordering": "7448b1723bcbe95e904e",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "HoCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.3302251180013025,
+   -4.329563903808594
+  ]
+ },
+ "C038": {
+  "id": "C038",
+  "ok": true,
+  "e_hull": -0.010438950856526574,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.248747762044271,
+  "best_ordering": "e53adfd7debac878f287",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.248747762044271,
+   -4.247952524820963
+  ]
+ },
+ "C039": {
+  "id": "C039",
+  "ok": true,
+  "e_hull": -0.008704535166421223,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.165986124674479,
+  "best_ordering": "60675aa93ae7009c57a6",
+  "converged": true,
+  "decomposition": [
+   "HoBr3",
+   "LiBr",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.165986124674479,
+   -4.165861002604166
+  ]
+ },
+ "C040": {
+  "id": "C040",
+  "ok": true,
+  "e_hull": -0.035719076792399385,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.8260164896647137,
+  "best_ordering": "05828d607572d2cfe062",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YbBr3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -3.8260164896647137,
+   -3.8232126871744794
+  ]
+ },
+ "C041": {
+  "id": "C041",
+  "ok": true,
+  "e_hull": -0.038984680175781605,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.760773468017578,
+  "best_ordering": "1360b94061b57b056eeb",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YbBr3"
+  ],
+  "ordering_energies": [
+   -3.760773468017578,
+   -3.7583025614420573
+  ]
+ },
+ "C042": {
+  "id": "C042",
+  "ok": true,
+  "e_hull": -0.05171025594075518,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.6924718221028647,
+  "best_ordering": "86c1028c3d4558a50423",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiCl",
+   "YbBr3"
+  ],
+  "ordering_energies": [
+   -3.6924718221028647,
+   -3.6908498128255207
+  ]
+ },
+ "C043": {
+  "id": "C043",
+  "ok": true,
+  "e_hull": -0.01658341089884363,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.3184870402018225,
+  "best_ordering": "775aed75d272ed587e19",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuBr3",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.3184870402018225,
+   -4.317612711588541
+  ]
+ },
+ "C044": {
+  "id": "C044",
+  "ok": true,
+  "e_hull": -0.013183879852294744,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.235347747802734,
+  "best_ordering": "f0d4d8bade5b0d7588d7",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuBr3"
+  ],
+  "ordering_energies": [
+   -4.235347747802734,
+   -4.235301462809245
+  ]
+ },
+ "C045": {
+  "id": "C045",
+  "ok": true,
+  "e_hull": -0.011000601450601444,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.152137247721354,
+  "best_ordering": "8691338213befa37c890",
+  "converged": true,
+  "decomposition": [
+   "LiBr",
+   "LiCl",
+   "LuBr3"
+  ],
+  "ordering_energies": [
+   -4.152137247721354,
+   -4.151978047688802
+  ]
+ },
+ "C046": {
+  "id": "C046",
+  "ok": true,
+  "e_hull": -0.013433615366617246,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.3322301228841145,
+  "best_ordering": "208df1cf0d7d86cfdc6f",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "DyCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.3322301228841145,
+   -4.331310017903646
+  ]
+ },
+ "C047": {
+  "id": "C047",
+  "ok": true,
+  "e_hull": -0.010721937815348248,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.251929728190104,
+  "best_ordering": "e840af355e0eddfdb5c9",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.251929728190104,
+   -4.249865468343099
+  ]
+ },
+ "C048": {
+  "id": "C048",
+  "ok": true,
+  "e_hull": -0.008413283030191288,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.1685938517252605,
+  "best_ordering": "a5e2c6248261407a7c6b",
+  "converged": true,
+  "decomposition": [
+   "DyBr3",
+   "LiBr",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.1685938517252605,
+   -4.1669158935546875
+  ]
+ },
+ "D001": {
+  "id": "D001",
+  "ok": true,
+  "e_hull": 0.015830850601195934,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.242260487874349,
+  "best_ordering": "1263533daa6a5bfe409f",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.242260487874349,
+   -4.211545817057291
+  ]
+ },
+ "D002": {
+  "id": "D002",
+  "ok": true,
+  "e_hull": 0.023346630732218543,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.619754536946615,
+  "best_ordering": "2ef57fd28297640cc4dc",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.619754536946615,
+   -4.5934702555338545
+  ]
+ },
+ "D003": {
+  "id": "D003",
+  "ok": true,
+  "e_hull": 0.016524108250935754,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.56119384765625,
+  "best_ordering": "48b52256eca5dd249e59",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.56119384765625,
+   -4.557621256510417
+  ]
+ },
+ "D004": {
+  "id": "D004",
+  "ok": true,
+  "e_hull": 0.004383023579915601,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.572678629557291,
+  "best_ordering": "cb1ccd827e78109557bd",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.572678629557291,
+   -4.572574361165365
+  ]
+ },
+ "D005": {
+  "id": "D005",
+  "ok": true,
+  "e_hull": -0.033613522847493194,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.336513264973958,
+  "best_ordering": "f27d55e35e5558482015",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YCl3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.336513264973958,
+   -4.319986470540365
+  ]
+ },
+ "D006": {
+  "id": "D006",
+  "ok": true,
+  "e_hull": 0.0021452903747567476,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.567788696289062,
+  "best_ordering": "42ae1a462821a45592b6",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.567788696289062,
+   -4.549216715494792
+  ]
+ },
+ "D007": {
+  "id": "D007",
+  "ok": true,
+  "e_hull": 0.002379894256592685,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.573849487304687,
+  "best_ordering": "ed3d84c5362b4d83f2f9",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.573849487304687,
+   -4.573629252115885
+  ]
+ },
+ "D008": {
+  "id": "D008",
+  "ok": true,
+  "e_hull": 0.014613739649455226,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -5.042128499348959,
+  "best_ordering": "18abd8a727f90b1f4708",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -5.042128499348959,
+   -5.041272989908854
+  ]
+ },
+ "D009": {
+  "id": "D009",
+  "ok": true,
+  "e_hull": 0.007638772328695254,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.565357462565104,
+  "best_ordering": "e9a3db0a936a1992c417",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TmCl3",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.565357462565104,
+   -4.564892069498698
+  ]
+ },
+ "D010": {
+  "id": "D010",
+  "ok": true,
+  "e_hull": 0.03928661346435547,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.183421071370443,
+  "best_ordering": "ab68fb6419c15641b662",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "Li3ScCl6"
+  ],
+  "ordering_energies": [
+   -4.183421071370443,
+   -4.1766003926595054
+  ]
+ },
+ "D011": {
+  "id": "D011",
+  "ok": true,
+  "e_hull": 0.006817881266276693,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.150506591796875,
+  "best_ordering": "9bc56ca220dad9748848",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "Li3InCl6"
+  ],
+  "ordering_energies": [
+   -4.150506591796875,
+   -4.116563924153646
+  ]
+ },
+ "D012": {
+  "id": "D012",
+  "ok": true,
+  "e_hull": 0.03561256726582851,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.121055603027344,
+  "best_ordering": "1dae6ea7a5191fff094c",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "Li3InCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.121055603027344,
+   -4.116656239827474
+  ]
+ },
+ "D013": {
+  "id": "D013",
+  "ok": true,
+  "e_hull": 0.010460869471232037,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.872045389811198,
+  "best_ordering": "445af4d56ea290b17bd6",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -3.872045389811198,
+   -3.866438802083333
+  ]
+ },
+ "D014": {
+  "id": "D014",
+  "ok": true,
+  "e_hull": 0.005902401606242336,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.143638102213542,
+  "best_ordering": "af23dd576865011db245",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.143638102213542,
+   -4.109648132324219
+  ]
+ },
+ "D015": {
+  "id": "D015",
+  "ok": true,
+  "e_hull": 0.000232871373494703,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.15560302734375,
+  "best_ordering": "96dccde8d56546bdf389",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "Li3InCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.15560302734375,
+   -4.118885040283203
+  ]
+ },
+ "D016": {
+  "id": "D016",
+  "ok": true,
+  "e_hull": 0.02083768844604439,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.615511067708334,
+  "best_ordering": "d01f6a9b7cff21974c1b",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.615511067708334,
+   -4.58626454671224
+  ]
+ },
+ "D017": {
+  "id": "D017",
+  "ok": true,
+  "e_hull": 0.006753142674763346,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.145849609375,
+  "best_ordering": "a867606c0d47a87bef5b",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.145849609375,
+   -4.118314615885416
+  ]
+ },
+ "D018": {
+  "id": "D018",
+  "ok": true,
+  "e_hull": 0.017234102884928326,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.5251001993815105,
+  "best_ordering": "2514f4907199ad66dd2c",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "Li3ScCl6"
+  ],
+  "ordering_energies": [
+   -4.5251001993815105,
+   -4.501780700683594
+  ]
+ },
+ "D019": {
+  "id": "D019",
+  "ok": true,
+  "e_hull": 0.01583825747172085,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.52583974202474,
+  "best_ordering": "e88d0997f493b4a468d7",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "Li3ScCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.52583974202474,
+   -4.518466186523438
+  ]
+ },
+ "D020": {
+  "id": "D020",
+  "ok": true,
+  "e_hull": -0.015826400121053297,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.283342488606771,
+  "best_ordering": "81b95f286bf3d57afdce",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.283342488606771,
+   -4.282453409830729
+  ]
+ },
+ "D021": {
+  "id": "D021",
+  "ok": true,
+  "e_hull": 0.017339436213175574,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.517210896809896,
+  "best_ordering": "db9ba74d1463d735d3cd",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.517210896809896,
+   -4.514094543457031
+  ]
+ },
+ "D022": {
+  "id": "D022",
+  "ok": true,
+  "e_hull": 0.02041624387105312,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.520429484049479,
+  "best_ordering": "89ec29077ddff09b0b97",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "Li3ScCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.520429484049479,
+   -4.519764200846354
+  ]
+ },
+ "D023": {
+  "id": "D023",
+  "ok": true,
+  "e_hull": 0.01916793187459298,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -5.002190653483073,
+  "best_ordering": "ae45e9544e82d5379ba8",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -5.002190653483073,
+   -4.997918192545573
+  ]
+ },
+ "D024": {
+  "id": "D024",
+  "ok": true,
+  "e_hull": 0.015423250198364435,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.522189331054688,
+  "best_ordering": "33ffdbdc872d6869f60b",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.522189331054688,
+   -4.513495890299479
+  ]
+ },
+ "D025": {
+  "id": "D025",
+  "ok": true,
+  "e_hull": -0.0007997353871660451,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.477094523111979,
+  "best_ordering": "f21334c03eb2ff56d9c2",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "Li3ErCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.477094523111979,
+   -4.475969441731771
+  ]
+ },
+ "D026": {
+  "id": "D026",
+  "ok": true,
+  "e_hull": -0.030149380366006895,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.232282257080078,
+  "best_ordering": "c458e0e63147ea49d6d2",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.232282257080078,
+   -4.2090812683105465
+  ]
+ },
+ "D027": {
+  "id": "D027",
+  "ok": true,
+  "e_hull": -0.0030888398488357893,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.47225596110026,
+  "best_ordering": "bc48e514e6ecb8482839",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.47225596110026,
+   -4.471819051106771
+  ]
+ },
+ "D028": {
+  "id": "D028",
+  "ok": true,
+  "e_hull": -0.003235197067260387,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.478697713216146,
+  "best_ordering": "6be2c8e33d8b6bb1a136",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "Li3ErCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.478697713216146,
+   -4.478116353352864
+  ]
+ },
+ "D029": {
+  "id": "D029",
+  "ok": true,
+  "e_hull": 0.0035329500834144767,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.952442423502604,
+  "best_ordering": "6ca175d6c0371b4ca032",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.952442423502604,
+   -4.94693349202474
+  ]
+ },
+ "D030": {
+  "id": "D030",
+  "ok": true,
+  "e_hull": 0.0021310011545825347,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.4700983683268225,
+  "best_ordering": "f506dfc5d1eebbec80b9",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.4700983683268225,
+   -4.470051066080729
+  ]
+ },
+ "D031": {
+  "id": "D031",
+  "ok": true,
+  "e_hull": -0.0325474739074707,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.2340240478515625,
+  "best_ordering": "b77f9f45c82c57995f62",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.2340240478515625,
+   -4.229106903076172
+  ]
+ },
+ "D032": {
+  "id": "D032",
+  "ok": true,
+  "e_hull": -0.006375249226888258,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.474886067708334,
+  "best_ordering": "11de420b1a10912f9132",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.474886067708334,
+   -4.463946533203125
+  ]
+ },
+ "D033": {
+  "id": "D033",
+  "ok": true,
+  "e_hull": -0.005062866210937322,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.479869079589844,
+  "best_ordering": "375ead026c4138802f15",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "HoCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.479869079589844,
+   -4.479372660319011
+  ]
+ },
+ "D034": {
+  "id": "D034",
+  "ok": true,
+  "e_hull": 0.00027400652567610706,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.955045064290364,
+  "best_ordering": "dcf3d7295ee83035627b",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.955045064290364,
+   -4.947101847330729
+  ]
+ },
+ "D035": {
+  "id": "D035",
+  "ok": true,
+  "e_hull": -0.0001803716023758284,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.471753438313802,
+  "best_ordering": "f293c92778823af1f64b",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.471753438313802,
+   -4.471470133463542
+  ]
+ },
+ "D036": {
+  "id": "D036",
+  "ok": true,
+  "e_hull": -0.03786315917968697,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.232212066650391,
+  "best_ordering": "2859a85fc6d48358e19f",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.232212066650391,
+   -4.218231201171875
+  ]
+ },
+ "D037": {
+  "id": "D037",
+  "ok": true,
+  "e_hull": -0.05374743143717353,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.254391733805338,
+  "best_ordering": "0e5c2b9d3ddb54e7ce16",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.254391733805338,
+   -4.233838907877604
+  ]
+ },
+ "D038": {
+  "id": "D038",
+  "ok": true,
+  "e_hull": -0.0264335791269934,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.707590738932292,
+  "best_ordering": "1ce43d8b4065981670ab",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.707590738932292,
+   -4.70130360921224
+  ]
+ },
+ "D039": {
+  "id": "D039",
+  "ok": true,
+  "e_hull": -0.04049142201741507,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.237902577718099,
+  "best_ordering": "0533a7c2fe1f1b9db16e",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TmCl3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.237902577718099,
+   -4.208830769856771
+  ]
+ },
+ "D040": {
+  "id": "D040",
+  "ok": true,
+  "e_hull": -0.007287375132242424,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.47496592203776,
+  "best_ordering": "d294d996082361c2dafd",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.47496592203776,
+   -4.474456787109375
+  ]
+ },
+ "D041": {
+  "id": "D041",
+  "ok": true,
+  "e_hull": 0.0009995301564531545,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.947191874186198,
+  "best_ordering": "91477f664aab89a15590",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.947191874186198,
+   -4.947013854980469
+  ]
+ },
+ "D042": {
+  "id": "D042",
+  "ok": true,
+  "e_hull": -0.003985182444254498,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.468430582682291,
+  "best_ordering": "00373374158243d67478",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.468430582682291,
+   -4.467886352539063
+  ]
+ },
+ "D043": {
+  "id": "D043",
+  "ok": true,
+  "e_hull": -0.002334896723429125,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.956821695963542,
+  "best_ordering": "04f166916d045ff212ee",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.956821695963542,
+   -4.94896240234375
+  ]
+ },
+ "D044": {
+  "id": "D044",
+  "ok": true,
+  "e_hull": -0.0023620287577310606,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.473102823893229,
+  "best_ordering": "3ffde02676145f5a7dea",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.473102823893229,
+   -4.471977233886719
+  ]
+ },
+ "D045": {
+  "id": "D045",
+  "ok": true,
+  "e_hull": 0.005681753158569336,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.9455718994140625,
+  "best_ordering": "d7fe1f6bd0474ed62710",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.9455718994140625,
+   -4.940752156575521
+  ]
+ },
+ "D046": {
+  "id": "D046",
+  "ok": true,
+  "e_hull": -0.001260010401407996,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.259351348876953,
+  "best_ordering": "c83b37ec17eec37d7ebf",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.259351348876953,
+   -4.259307352701823
+  ]
+ },
+ "D047": {
+  "id": "D047",
+  "ok": true,
+  "e_hull": 0.00394253730773908,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.639158630371094,
+  "best_ordering": "500162641f8dc92cca67",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.639158630371094,
+   -4.639129638671875
+  ]
+ },
+ "D048": {
+  "id": "D048",
+  "ok": true,
+  "e_hull": -0.0033097743988035333,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.58102773030599,
+  "best_ordering": "b433398977bf65a47125",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.58102773030599,
+   -4.58101806640625
+  ]
+ },
+ "D049": {
+  "id": "D049",
+  "ok": true,
+  "e_hull": -0.0050484339396161815,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.582110087076823,
+  "best_ordering": "9f27ba152e9dd7370aa4",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.582110087076823,
+   -4.582103474934896
+  ]
+ },
+ "D050": {
+  "id": "D050",
+  "ok": true,
+  "e_hull": -0.03453973134358712,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.337439473470052,
+  "best_ordering": "07cfcd066874e0b4ce4c",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "YCl3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.337439473470052,
+   -4.337278238932291
+  ]
+ },
+ "D051": {
+  "id": "D051",
+  "ok": true,
+  "e_hull": -0.007367547353108073,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.577301534016927,
+  "best_ordering": "5f3ae272cfb875945664",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.577301534016927,
+   -4.5772954305013025
+  ]
+ },
+ "D052": {
+  "id": "D052",
+  "ok": true,
+  "e_hull": -0.007232125600178385,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.583461507161458,
+  "best_ordering": "06ae26b376580767a675",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.583461507161458,
+   -4.583457438151042
+  ]
+ },
+ "D053": {
+  "id": "D053",
+  "ok": true,
+  "e_hull": -0.0028067111968983482,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -5.059548950195312,
+  "best_ordering": "5c007872f2cf8bdeff1a",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -5.059548950195312,
+   -5.059512837727865
+  ]
+ },
+ "D054": {
+  "id": "D054",
+  "ok": true,
+  "e_hull": -0.003296693166096709,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.576292928059896,
+  "best_ordering": "6b6a33695fd317042166",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TmCl3",
+   "YCl3"
+  ],
+  "ordering_energies": [
+   -4.576292928059896,
+   -4.576277669270834
+  ]
+ },
+ "D055": {
+  "id": "D055",
+  "ok": true,
+  "e_hull": -0.0016705195109043558,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.224378204345703,
+  "best_ordering": "abd4f0b0430db2551ade",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "Li3ScCl6"
+  ],
+  "ordering_energies": [
+   -4.224378204345703,
+   -4.224348449707032
+  ]
+ },
+ "D056": {
+  "id": "D056",
+  "ok": true,
+  "e_hull": -0.008713531494140447,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.166038004557292,
+  "best_ordering": "bb2c29b7471831c0c6ff",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "Li3InCl6"
+  ],
+  "ordering_energies": [
+   -4.166038004557292,
+   -4.164543151855469
+  ]
+ },
+ "D057": {
+  "id": "D057",
+  "ok": true,
+  "e_hull": -0.010515260696410955,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.167183430989583,
+  "best_ordering": "89ed3321ebb6f5070fb6",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "Li3InCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.167183430989583,
+   -4.1670890808105465
+  ]
+ },
+ "D058": {
+  "id": "D058",
+  "ok": true,
+  "e_hull": -0.030048163731892785,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -3.9125544230143228,
+  "best_ordering": "c8e744700c98fcbd6d87",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -3.9125544230143228,
+   -3.911859385172526
+  ]
+ },
+ "D059": {
+  "id": "D059",
+  "ok": true,
+  "e_hull": -0.012232669194538914,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.161773173014323,
+  "best_ordering": "9d81a1b1f1be86f97470",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.161773173014323,
+   -4.160638427734375
+  ]
+ },
+ "D060": {
+  "id": "D060",
+  "ok": true,
+  "e_hull": -0.011690855026245117,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.1675267537434895,
+  "best_ordering": "968ebf9fbfd9fdfdc48b",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "Li3InCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.1675267537434895,
+   -4.16750005086263
+  ]
+ },
+ "D061": {
+  "id": "D061",
+  "ok": true,
+  "e_hull": -0.0059684435526534685,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.642317199707032,
+  "best_ordering": "cfda4138fed1f50ae038",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.642317199707032,
+   -4.641014607747396
+  ]
+ },
+ "D062": {
+  "id": "D062",
+  "ok": true,
+  "e_hull": -0.009004100163777728,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.161606852213541,
+  "best_ordering": "4efcae4a47bba9e4eee5",
+  "converged": true,
+  "decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.161606852213541,
+   -4.1600794474283855
+  ]
+ },
+ "D063": {
+  "id": "D063",
+  "ok": true,
+  "e_hull": -0.002881558736165246,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.545215861002604,
+  "best_ordering": "e30a067c44905491485a",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "Li3ScCl6"
+  ],
+  "ordering_energies": [
+   -4.545215861002604,
+   -4.545014953613281
+  ]
+ },
+ "D064": {
+  "id": "D064",
+  "ok": true,
+  "e_hull": -0.004544941584268436,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.546222941080729,
+  "best_ordering": "3b7f4b4abf1919c879f5",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "Li3ScCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.546222941080729,
+   -4.546149190266927
+  ]
+ },
+ "D065": {
+  "id": "D065",
+  "ok": true,
+  "e_hull": -0.047400903701782404,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.3149169921875,
+  "best_ordering": "7134bd4f4e6baa38255e",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.3149169921875,
+   -4.314879862467448
+  ]
+ },
+ "D066": {
+  "id": "D066",
+  "ok": true,
+  "e_hull": -0.007263835271198893,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.5418141682942705,
+  "best_ordering": "fbc6c11aff627f467f76",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.5418141682942705,
+   -4.541807047526041
+  ]
+ },
+ "D067": {
+  "id": "D067",
+  "ok": true,
+  "e_hull": -0.006080643335978131,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.54692637125651,
+  "best_ordering": "9151c7dc1627e1b8df31",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "Li3ScCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.54692637125651,
+   -4.5467041015625
+  ]
+ },
+ "D068": {
+  "id": "D068",
+  "ok": true,
+  "e_hull": -0.0017391522725427322,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -5.023097737630208,
+  "best_ordering": "ac27ad5fb92a0491f17b",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -5.023097737630208,
+   -5.022572326660156
+  ]
+ },
+ "D069": {
+  "id": "D069",
+  "ok": true,
+  "e_hull": -0.002797778447468424,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.5404103597005205,
+  "best_ordering": "9542de3701252472161b",
+  "converged": true,
+  "decomposition": [
+   "Li3ScCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.5404103597005205,
+   -4.5403803507486975
+  ]
+ },
+ "D070": {
+  "id": "D070",
+  "ok": true,
+  "e_hull": -0.011640087763468365,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.487934875488281,
+  "best_ordering": "a04a4678e3272f4b0bd6",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "Li3ErCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.487934875488281,
+   -4.487933349609375
+  ]
+ },
+ "D071": {
+  "id": "D071",
+  "ok": true,
+  "e_hull": -0.051869249343871715,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.254002126057943,
+  "best_ordering": "0ced1576d936c90a91ed",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.254002126057943,
+   -4.244727579752604
+  ]
+ },
+ "D072": {
+  "id": "D072",
+  "ok": true,
+  "e_hull": -0.01407313346862793,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.4832402547200525,
+  "best_ordering": "ae95f224e6f8f5fa8f7c",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.4832402547200525,
+   -4.483236694335938
+  ]
+ },
+ "D073": {
+  "id": "D073",
+  "ok": true,
+  "e_hull": -0.013556750615436819,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.4890192667643225,
+  "best_ordering": "a7dbeb3a0f71a4ec6280",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "Li3ErCl6",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.4890192667643225,
+   -4.489005533854167
+  ]
+ },
+ "D074": {
+  "id": "D074",
+  "ok": true,
+  "e_hull": -0.009443124135335879,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.9654184977213545,
+  "best_ordering": "fdf7b6d9ffaa263edfa8",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.9654184977213545,
+   -4.965386454264323
+  ]
+ },
+ "D075": {
+  "id": "D075",
+  "ok": true,
+  "e_hull": -0.009858846664428711,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.482088216145834,
+  "best_ordering": "852f7aa04de50c34b5da",
+  "converged": true,
+  "decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.482088216145834,
+   -4.482084655761719
+  ]
+ },
+ "D076": {
+  "id": "D076",
+  "ok": true,
+  "e_hull": -0.0596470832824707,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.2611236572265625,
+  "best_ordering": "096aab5544d2efac9674",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.2611236572265625,
+   -4.245009358723959
+  ]
+ },
+ "D077": {
+  "id": "D077",
+  "ok": true,
+  "e_hull": -0.015807215372721117,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.484318033854167,
+  "best_ordering": "222138e020121e95a9ab",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.484318033854167,
+   -4.484303792317708
+  ]
+ },
+ "D078": {
+  "id": "D078",
+  "ok": true,
+  "e_hull": -0.015288289388020182,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.490094502766927,
+  "best_ordering": "ea130003ea6686746180",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "HoCl3",
+   "LiCl"
+  ],
+  "ordering_energies": [
+   -4.490094502766927,
+   -4.49009043375651
+  ]
+ },
+ "D079": {
+  "id": "D079",
+  "ok": true,
+  "e_hull": -0.011305379867553533,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.966624450683594,
+  "best_ordering": "9f4e2e44ad8df6185514",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.966624450683594,
+   -4.966594441731771
+  ]
+ },
+ "D080": {
+  "id": "D080",
+  "ok": true,
+  "e_hull": -0.011584790547688684,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.483157857259115,
+  "best_ordering": "9363b938c6266a29e380",
+  "converged": true,
+  "decomposition": [
+   "HoCl3",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.483157857259115,
+   -4.483157348632813
+  ]
+ },
+ "D081": {
+  "id": "D081",
+  "ok": true,
+  "e_hull": -0.05358250935872366,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.247931416829427,
+  "best_ordering": "19b293180f2cddd6a9a2",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.247931416829427,
+   -4.239159647623698
+  ]
+ },
+ "D082": {
+  "id": "D082",
+  "ok": true,
+  "e_hull": -0.05320625305175675,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.2538505554199215,
+  "best_ordering": "059aa37321d8796e9910",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.2538505554199215,
+   -4.244881184895833
+  ]
+ },
+ "D083": {
+  "id": "D083",
+  "ok": true,
+  "e_hull": -0.04582495689392019,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.726982116699219,
+  "best_ordering": "9c8277d93e52124b1923",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.726982116699219,
+   -4.726909891764323
+  ]
+ },
+ "D084": {
+  "id": "D084",
+  "ok": true,
+  "e_hull": -0.051869646708169626,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.249280802408854,
+  "best_ordering": "8f55ccd850a50294d0f5",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "TmCl3",
+   "YbCl3"
+  ],
+  "ordering_energies": [
+   -4.249280802408854,
+   -4.240034993489584
+  ]
+ },
+ "D085": {
+  "id": "D085",
+  "ok": true,
+  "e_hull": -0.01740802129109742,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.485086568196615,
+  "best_ordering": "16ef4257ef3044c2bfc6",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.485086568196615,
+   -4.485081481933594
+  ]
+ },
+ "D086": {
+  "id": "D086",
+  "ok": true,
+  "e_hull": -0.013065512975057203,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.961256917317709,
+  "best_ordering": "f309e78e38f76a1e194a",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "LuCl3"
+  ],
+  "ordering_energies": [
+   -4.961256917317709,
+   -4.961240132649739
+  ]
+ },
+ "D087": {
+  "id": "D087",
+  "ok": true,
+  "e_hull": -0.014031569163004853,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.478476969401042,
+  "best_ordering": "bed085500c8139ae7e46",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LuCl3",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.478476969401042,
+   -4.478462727864583
+  ]
+ },
+ "D088": {
+  "id": "D088",
+  "ok": true,
+  "e_hull": -0.012757666905720555,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.967244466145833,
+  "best_ordering": "d467077185e734b9c8b3",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "LiGdCl4"
+  ],
+  "ordering_energies": [
+   -4.967244466145833,
+   -4.967241923014323
+  ]
+ },
+ "D089": {
+  "id": "D089",
+  "ok": true,
+  "e_hull": -0.013429228464762133,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.48417002360026,
+  "best_ordering": "b946e2d7250fc5bdbd0d",
+  "converged": true,
+  "decomposition": [
+   "DyCl3",
+   "LiCl",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.48417002360026,
+   -4.484161885579427
+  ]
+ },
+ "D090": {
+  "id": "D090",
+  "ok": true,
+  "e_hull": -0.009343067804972627,
+  "n_orderings_ok": 2,
+  "n_orderings": 2,
+  "e_per_atom": -4.9605967203776045,
+  "best_ordering": "cc3e61dcaa37fd57bd2f",
+  "converged": true,
+  "decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "TmCl3"
+  ],
+  "ordering_energies": [
+   -4.9605967203776045,
+   -4.960562642415365
+  ]
+ }
+}

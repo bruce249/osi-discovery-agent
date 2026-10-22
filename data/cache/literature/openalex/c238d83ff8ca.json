@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "In lithium bromide solid electrolyte",
+ "papers": [
+  {
+   "title": "Lithium Bromide-Induced Organic-Rich Cathode/Electrolyte Interphase for High-Voltage and Flame-Retardant All-Solid-State Lithium Batteries",
+   "abstract": "Poly(ethylene oxide) (PEO)-based solid electrolyte suffers from limited anodic stability and an intrinsic flammable issue, hindering the achievement of high energy density and safe all-solid-state lithium batteries. Herein, we surprisingly found out that a bromine-rich additive, decabromodiphenyl ethane (DBDPE), could be preferably oxidized at an elevated voltage and decompose to lithium bromide at an elevated potential followed by inducing an organic-rich cathode/electrolyte interphase (CEI) on NCM811 surface, enabling both high-voltage resistance (up to 4.5 V) and flame-retardancy for the PEO-based electrolyte. On the basis of this novel solid electrolyte, all-solid-state Li/NCM811 batteries deliver an average reversible capacity of 151.4 mAh g \u20131 over the first 150 cycles with high capacity retention (83.0%) and high average Coulombic efficiency (99.7%) even at a 4.5 V cutoff voltage with a unprecedented flame-retardant properties. In view of these exploration, our studies revealed the critical role of LiBr in inducing an organic-rich thin and uniform CEI passivating layer with enhanced lithium ion surface diffusion and high-voltage resistant properties, which provides a new protocol for the further design of a high-voltage PEO-based all-solid-state electrolyte.",
+   "url": "https://doi.org/10.1021/acsami.2c05016",
+   "year": 2022
+  },
+  {
+   "title": "Phosphonium Bromides Regulating Solid Electrolyte Interphase Components and Optimizing Solvation Sheath Structure for Suppressing Lithium Dendrite Growth",
+   "abstract": "Abstract Electrolyte additives play important roles in suppressing lithium dendrite growth and improving the electrochemical performance of long\u2010life lithium metal batteries (LMBs), however, it is still challenging to design individual additive for adjusting the solid electrolyte interphase (SEI) components and changing lithium ion solvation sheath in the electrolyte at the same time for optimizing electrochemical performance. Herein, alkyl\u2010triphenyl\u2010phosphonium bromides (alkyl\u2010TPPB) are designed as the electrolyte additive to enhance the stability of metallic Li anode under the guidance of multi\u2010factor principle for electrolyte additive molecule design (EDMD). Both alkyl\u2010TPP cations and Br \u2212 anions produce positive influences on suppressing Li dendrite growth and stabilizing the unstable interphase between metallic Li anode/electrolyte. As expected, the optimized solvation sheath structure, and the stable SEI suppress Li dendrite growth. As a result, the Li||Li 4 Ti 5 O 12 cell reveals a long stable life over 1000 cycles with high Coulombic efficiency (99.9%). This work provides an insight on stabilizing SEI and optimizing solvation sheath structure with novel approach to develop long\u2010term stability and safety LMBs.",
+   "url": "https://doi.org/10.1002/adfm.202009013",
+   "year": 2020
+  },
+  {
+   "title": "High Formability Bromide Solid Electrolyte with Improved Ionic Conductivity for Bulk-Type All-Solid-State Lithium\u2013Metal Batteries",
+   "abstract": "Solid electrolytes with excellent formability and high room-temperature Li-ion conductivities used in bulk-type all-solid-state lithium-metal batteries (ASSLBs) are expected to suppress the formation of Li dendrites that affects the application of metal Li anodes with high energy density. However, voids and cracks within sintered electrolytes lead to short-circuiting of ASSLBs due to the formation of Li dendrites. This work aimed to develop solid electrolytes with high formability and high room-temperature Li-ion conductivities that can suppress Li dendrites\u2019 formation in ASSLBs. Three indicators of bulk moduli, lithium-ion migration energies, and energies above the hull were investigated: formability, ionic conductivity, and thermodynamic stability. The 109 inorganic materials containing elements of Li and Br listed in the open web-based database of the Materials Project were surveyed due to their weak Coulombic interaction with Li ions and high polarizability. LiGaBr 4 with monoclinic symmetry (LGB, S.G.: P 12 1/a 1) was focused on due to its lower values for all three analyzed indicators. A ball milling mechanochemical synthesis method was adopted to synthesize LGB. It indicated that the obtained LGB possessed a monoclinic structure with a lithium ionic conduction of 2.0 \u00d7 10 \u20135 S cm \u20131 (cold isostatic pressed powder) at 25 \u00b0C. The ionic conductivity was nearly three times higher than that of the conventional sintered LGB and comparable to that of a typical oxide-type electrolyte of LISICON-type Li 3.55 (Ge 0.45 Si 0.10 V 0.45 )O 4 (LGSV) at 25 \u00b0C, which is appealing for applying the sintered samples for Li-metal anodes. The SEM and the distribution of relaxation times (DRT) analysis demonstrated that LGB contributed minimal grain-boundary resistance due to tight connections between the particles, while the LGSV oxides contributed an extremely large grain-boundary resistance. An ASSLB using LGB powder as an electrolyte, bare LiCoO 2 as a cathode, and lithium metal as the anode exhibited the ability to function smoothly, while short-circuiting occurred at the second cycle with LGSV, demonstrating that LGB is a pure ionic conductor and may be suitable for use in ASSLB that can prevent Li dendrites with electrochemical stability.",
+   "url": "https://doi.org/10.1021/acsaem.2c01343",
+   "year": 2022
+  },
+  {
+   "title": "Effect of lithium bromide doping on structural, dielectric, and transport properties of methylcellulose-based solid polymer electrolyte films",
+   "abstract": "",
+   "url": "https://doi.org/10.1007/s12648-023-02793-x",
+   "year": 2023
+  },
+  {
+   "title": "Functionality of 1\u2010Butyl\u20102,3\u2010Dimethylimidazolium Bromide (BMI\u2010Br) as a Solid Plasticizer in PEO\u2010Based Polymer Electrolyte for Highly Reliable Lithium Metal Batteries",
+   "abstract": "Abstract To address the challenges associated with solid polymer electrolytes, flame\u2010retardant organic ionic plastic crystals (OIPCs) have been utilized as a solid plasticizer in composite polymer electrolytes (CPEs). In this study, 1\u2010butyl\u20102,3\u2010dimethylimidazolium bromide (BMI\u2010Br) is used as an OIPC material. BMI\u2010Br and LiTFSI are initially mixed in an acetonitrile (ACN) organic solvent for a certain time. Anion exchange takes place in this mixing, replacing the Br \u2212 in BMI\u2010Br with TFSI \u2212 . As a result, BMI\u2010TFSI and Li\u2010Br are formed. Here, BMI\u2010TFSI acts as an ionic liquid, while Li\u2010Br serves as a salt. The 10% BMI\u2010Br content (BMI\u2010Br\u201010 CPE) exhibits significant ionic conductivity (\u03c3 = 2.34 \u00d7 10 \u22123 S cm \u22121 at 30 \u00b0C), wide window (up to 4.57 V), and flame retardancy. Furthermore, the BMI\u2010Br\u201010 CPE demonstrates galvanostatic lithium plating stripping cycling stability at 100 and 300 \u00b5A cm \u22122 for 800 and 500 h against Li\u2010metal, respectively, without a significant overpotential shooting. Furthermore, at 60 \u00b0C, the BMI\u2010Br\u201010 CPE in [LiFePO 4 /BMI\u2010Br\u201010/Li] batteries demonstrates an initial capacity of 146.9 mAh g \u22121 , capacity retention of 99.7% and high coulombic efficiency (99.5%) after 300 cycles at 1C.",
+   "url": "https://doi.org/10.1002/aenm.202301674",
+   "year": 2023
+  },
+  {
+   "title": "Bromide-driven reorganization of lithium solvation shells enables dynamically decoupled ion transport and interfacial stability in semi-solid polymer electrolytes for lithium metal batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jechem.2025.09.053",
+   "year": 2025
+  },
+  {
+   "title": "Incorporating Ionic Liquid 1\u2010Ethyl\u20103\u2010Methylimidazolium Bromide Into PVA \u2010 LiAc \u2013Based Solid Polymer Electrolytes to Achieve Advanced Solid\u2010State Lithium\u2010Ion Batteries",
+   "abstract": "ABSTRACT Solid polymer electrolytes (SPEs) serve as both separators and electrolytes, enhancing the safety of energy storage devices by eliminating liquid components. In this study, we present SPEs prepared from a blend of polyvinyl alcohol (PVA), lithium acetate (LiAc), and the ionic liquid 1\u2010ethyl\u20103\u2010methylimidazolium bromide ([EMIm]Br). This combination prevents leakage issues common with liquid electrolytes and addresses the low conductivity of typical solid electrolytes. The prepared SPEs are easy to produce, highly transparent, thermally stable up to 271\u00b0C, and exhibit high ionic conductivity, with values of 2.21 \u00d7 10 \u22125 S cm \u22121 when 40% [EMIm]Br is added to the PVA/10% LiAc membrane. Additionally, this composition demonstrates a mechanical strength of 20.40 MPa and an elongation of 485.12%. These findings highlight the strong potential of [EMIm]Br\u2013based SPEs for lithium\u2010ion batteries.",
+   "url": "https://doi.org/10.1002/app.56718",
+   "year": 2025
+  },
+  {
+   "title": "Lithium Chlorides and Bromides as Promising Solid\u2010State Chemistries for Fast Ion Conductors with Good Electrochemical Stability",
+   "abstract": "Abstract Enabling all\u2010solid\u2010state Li\u2010ion batteries requires solid electrolytes with high Li ionic conductivity and good electrochemical stability. Following recent experimental reports of Li3YCl6 and Li3YBr6 as promising new solid electrolytes, we used first principles computation to investigate the Li\u2010ion diffusion, electrochemical stability, and interface stability of chloride and bromide materials and elucidated the origin of their high ionic conductivities and good electrochemical stabilities. Chloride and bromide chemistries intrinsically exhibit low migration energy barriers, wide electrochemical windows, and are not constrained to previous design principles for sulfide and oxide Li\u2010ion conductors, allowing for much greater freedom in structure, chemistry, composition, and Li sublattice for developing fast Li\u2010ion conductors. Our study highlights chloride and bromide chemistries as a promising new research direction for solid electrolytes with high ionic conductivity and good stability.",
+   "url": "https://doi.org/10.1002/anie.201901938",
+   "year": 2019
+  },
+  {
+   "title": "Development of rechargeable lithium\u2013bromine batteries with lithium ion conducting solid electrolyte",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2015.02.015",
+   "year": 2015
+  },
+  {
+   "title": "Materials perspective on new lithium chlorides and bromides: insights into thermo-physical properties",
+   "abstract": "Recently, a new class of lithium chlorides and bromides (e.g., Li3YCl6 and Li3YBr6) were reported to be promising solid-state electrolytes with high ionic conductivity in all-solid-state battery cells. However, their response under mechanical loading is not known which is critical as mechanical properties can play a pivotal role in reducing interfacing resistance between electrolytes and electrodes. To address this issue, herein, we report the thermo-physical properties of these lithium chlorides and bromides using density functional theory calculations. It was found that the new structures possess relatively larger shear moduli than those of thio-phosphate-type solid-state electrolytes and smaller Young's moduli than those of Garnet-type solid-state electrolytes. This suggests that the new halide materials can be more effective in suppressing the formation of lithium dendrites, accommodating volumetric changes of electrode materials and preventing their own degradation. Meanwhile, Poisson's ratio and Pugh's indicator calculations showed that Li3YCl6 and Li3ScCl6 possess improved ductility than other halide candidates, and thus hold promise as solid-state electrolytes. On the other hand, owing to their relatively high thermal conductivities, lithium bromides were found to be more advantageous in conducting heat which is important to ensure safety. These results provide fundamental insights into the mechanical properties of lithium chlorides and bromides and contribute to the rational mechanical design of solid-state electrolytes and the development advanced all-solid-state batteries.",
+   "url": "https://doi.org/10.1039/d0cp02946g",
+   "year": 2020
+  },
+  {
+   "title": "Designing lithium halide solid electrolytes",
+   "abstract": "All-solid-state lithium batteries have attracted widespread attention for next-generation energy storage, potentially providing enhanced safety and cycling stability. The performance of such batteries relies on solid electrolyte materials; hence many structures/phases are being investigated with increasing compositional complexity. Among the various solid electrolytes, lithium halides show promising ionic conductivity and cathode compatibility, however, there are no effective guidelines when moving toward complex compositions that go beyond ab-initio modeling. Here, we show that ionic potential, the ratio of charge number and ion radius, can effectively capture the key interactions within halide materials, making it possible to guide the design of the representative crystal structures. This is demonstrated by the preparation of a family of complex layered halides that combine an enhanced conductivity with a favorable isometric morphology, induced by the high configurational entropy. This work provides insights into the characteristics of complex halide phases and presents a methodology for designing solid materials.",
+   "url": "https://doi.org/10.1038/s41467-024-45258-3",
+   "year": 2024
+  },
+  {
+   "title": "Stability and ionic mobility in argyrodite-related lithium-ion solid electrolytes",
+   "abstract": "In the search for fast lithium-ion conducting solids for the development of safe rechargeable all-solid-state batteries with high energy density, thiophosphates and related compounds have been demonstrated to be particularly promising both because of their record ionic conductivities and their typically low charge transfer resistances. In this work we explore a wide range of known and predicted thiophosphates with a particular focus on the cubic argyrodite phase with a robust three-dimensional network of ion migration pathways. Structural and hydrolysis stability are calculated employing density functional method in combination with a generally applicable method of predicting the relevant critical reaction. The activation energy for ion migration in these argyrodites is then calculated using the empirical bond valence pathway method developed in our group, while bandgaps of selected argyrodites are calculated as a basis for assessing the electrochemical window. Findings for the lithium compounds are also compared to those of previously known copper argyrodites and hypothetical sodium argyrodites. Therefrom, guidelines for experimental work are derived to yield phases with the optimum balance between chemical stability and ionic conductivity in the search for practical lithium and sodium solid electrolyte materials.",
+   "url": "https://doi.org/10.1039/c5cp01841b",
+   "year": 2015
+  },
+  {
+   "title": "A reflection on polymer electrolytes for solid-state lithium metal batteries",
+   "abstract": "Before the debut of lithium-ion batteries (LIBs) in the commodity market, solid-state lithium metal batteries (SSLMBs) were considered promising high-energy electrochemical energy storage systems before being almost abandoned in the late 1980s because of safety concerns. However, after three decades of development, LIB technologies are now approaching their energy content and safety limits imposed by the rocking chair chemistry. These aspects are prompting the revival of research activities in SSLMB technologies at both academic and industrial levels. In this perspective article, we present a personal reflection on solid polymer electrolytes (SPEs), spanning from early development to their implementation in SSLMBs, highlighting key milestones. In particular, we discuss the SPEs' characteristics taking into account the concept of coupled and decoupled SPEs proposed by C. Austen Angell in the early 1990s. Possible remedies to improve the physicochemical and electrochemical properties of SPEs are also examined. With this article, we also aim to highlight the missing blocks in building ideal SSLMBs and stimulate research towards innovative electrolyte materials for future rechargeable high-energy batteries.",
+   "url": "https://doi.org/10.1038/s41467-023-40609-y",
+   "year": 2023
+  },
+  {
+   "title": "Functionality of 1\u2010Butyl\u20102,3\u2010Dimethylimidazolium Bromide (BMI\u2010Br) as a Solid Plasticizer in PEO\u2010Based Polymer Electrolyte for Highly Reliable Lithium Metal Batteries (Adv. Energy Mater. 47/2023)",
+   "abstract": "Lithium Metal Batteries In article number 2301674, Sang-Eun Chun, Jae Hyun Kim and co-workers develop a composite polymer electrolyte with high ionic conductivity by adding a solid plasticizer. BMI-Br promotes the formation of BMI-TFSI and Li-Br. This leads to a stable organic-inorganic solid electrolyte interface layer, ensuring a stable potential at 300 \u00b5A cm\u22122 for 500 hours and 99.7% capacity retention after 300 cycles at 1C with an LiFePO4 cathode.",
+   "url": "https://doi.org/10.1002/aenm.202370192",
+   "year": 2023
+  },
+  {
+   "title": "A cost-effective and humidity-tolerant chloride solid electrolyte for lithium batteries",
+   "abstract": "Abstract Li-ion-conducting chloride solid electrolytes receive considerable attention due to their physicochemical characteristics such as high ionic conductivity, deformability and oxidative stability. However, the raw materials are expensive, and large-scale use of this class of inorganic superionic conductors seems unlikely. Here, a cost-effective chloride solid electrolyte, Li 2 ZrCl 6 , is reported. Its raw materials are several orders of magnitude cheaper than those for the state-of-the-art chloride solid electrolytes, but high ionic conductivity (0.81 mS cm \u20131 at room temperature), deformability, and compatibility with 4V-class cathodes are still simultaneously achieved in Li 2 ZrCl 6 . Moreover, Li 2 ZrCl 6 demonstrates a humidity tolerance with no sign of moisture uptake or conductivity degradation after exposure to an atmosphere with 5% relative humidity. By combining Li 2 ZrCl 6 with the Li-In anode and the single-crystal LiNi 0.8 Mn 0.1 Co 0.1 O 2 cathode, we report a room-temperature all-solid-state cell with a stable specific capacity of about 150 mAh g \u20131 for 200 cycles at 200 mA g \u20131 .",
+   "url": "https://doi.org/10.1038/s41467-021-24697-2",
+   "year": 2021
+  },
+  {
+   "title": "Fast lithium-ion transport in composites containing lithium-bromide dihydrate",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/0167-2738(82)90005-4",
+   "year": 1982
+  },
+  {
+   "title": "Comparative Study of Lithium Halide-Based Electrolytes for Application in Lithium-Sulfur Batteries",
+   "abstract": "Among the next-generation energy storage technologies, lithium-sulfur batteries are considered one of the most appealing solutions owing to their remarkable theoretical capacity. However, to become commercially competitive, there is a strong need to address some issues still characterizing this technology. One of the explored strategies is the optimization of the electrolyte formulation. To this aim, we compared 1,3-dioxolane/1,2-dimethoxyethane-based electrolytes containing two lithium halides, i.e., lithium bromide (LiBr) and lithium iodide (LiI), with lithium bis (trifluoromethane)sulfonylimide (LiTFSI) as a reference electrolyte. The obtained results show how the donicity of the lithium-salt anions might affect the solid electrolyte interphase stability and the lithium sulfide deposition morphology, therefore influencing the electrochemical performance of the cells. Among the tested electrolytes, the sulfur cell containing LiBr salt exhibited the best electrochemical performance maintaining a specific capacity of 900 mAh g\u22121 at C/4 and a stable trend along cycling at 1C with a specific capacity of about 770 mAh g\u22121 for 200 cycles.",
+   "url": "https://doi.org/10.3390/inorganics11020086",
+   "year": 2023
+  },
+  {
+   "title": "Lithium Chlorides and Bromides as Promising Solid\u2010State Chemistries for Fast Ion Conductors with Good Electrochemical Stability",
+   "abstract": "Abstract Enabling all\u2010solid\u2010state Li\u2010ion batteries requires solid electrolytes with high Li ionic conductivity and good electrochemical stability. Following recent experimental reports of Li3YCl6 and Li3YBr6 as promising new solid electrolytes, we used first principles computation to investigate the Li\u2010ion diffusion, electrochemical stability, and interface stability of chloride and bromide materials and elucidated the origin of their high ionic conductivities and good electrochemical stabilities. Chloride and bromide chemistries intrinsically exhibit low migration energy barriers, wide electrochemical windows, and are not constrained to previous design principles for sulfide and oxide Li\u2010ion conductors, allowing for much greater freedom in structure, chemistry, composition, and Li sublattice for developing fast Li\u2010ion conductors. Our study highlights chloride and bromide chemistries as a promising new research direction for solid electrolytes with high ionic conductivity and good stability.",
+   "url": "https://doi.org/10.1002/ange.201901938",
+   "year": 2019
+  },
+  {
+   "title": "Electrical conductivity, self-diffusion and phase diagram of lithium sulphate - lithium chloride and lithium sulphate - lithium bromide",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/0167-2738(86)90169-4",
+   "year": 1986
+  },
+  {
+   "title": "Fluorine-Substituted Lithium Chloride Solid Electrolytes for High-Voltage All-Solid-State Lithium-Ion Batteries",
+   "abstract": "Lithium ternary halides are promising solid electrolytes, owing to their high ionic conductivity and reasonably high oxidative and chemical stability. Recently, fluorine substitution in Li 3 MCl 6 has been suggested as a promising approach for further enhancing oxidation stability. Accordingly, this study outlines a material design strategy for F-substituted Li 3 MCl 6 through systematic theoretical analyses. Calculations reveal that the mixing limit of F in Li 3 MCl 6\u2013 x F x is in the range of 0.5\u20131.5, and the resulting Li 3 MCl 6\u2013 x F x phases can retain ionic conductivity above 1 mS/cm up to x = 1.0. The calculations also predict that the formation of F-containing passivating phases could increase the oxidation potential for Li 3 MCl 5 F to \u223c6.3 V. The proposed material design strategy is validated through the synthesis of Li 3 YCl 5 F, which is confirmed to show both high ionic conductivity and enhanced oxidation stability. The design guidelines presented herein can accelerate the potential use of halide-based electrolyte chemistries in high-voltage all-solid-state batteries.",
+   "url": "https://doi.org/10.1021/acsenergylett.3c02307",
+   "year": 2023
+  },
+  {
+   "title": "Bromide substitution in lithium borohydride, LiBH4\u2013LiBr",
+   "abstract": "By means of in situ synchrotron radiation powder X-ray diffraction, powder neutron diffraction, attenuated total reflectance infrared spectroscopy, differential scanning calorimetry and the Sieverts techniques we have investigated how anion substitution in the LiBH4\u2013LiBr system leads to changes in the structural, physical, chemical and hydrogen storage properties of this material. Mechano-chemical treatment facilitates formation of a hexagonal solid solution h-Li(BH4)1\u2212xBrx whereas heating at elevated temperatures, i.e. T > 112 \u00b0C appears to allow full solubility in the system LiBH4\u2212LiBr. The first step in the anion substitution process may be dissolution of small amounts of LiBH4 in \u03b1-LiBr deduced from observation of a hexagonal solid solution with unit cell volume similar to \u03b2-LiBr for a hand-mixed sample. The solid solution, Li(BH4)1\u2212xBrx, is isostructural to the hexagonal high temperature polymorph of LiBH4. This solid solution melts at a significantly higher temperature depending on the composition as compared to h-LiBH4. Furthermore, a new hexalithium borate tribromide, Li6(BO3)Br3 was discovered and structurally characterized.",
+   "url": "https://doi.org/10.1016/j.ijhydene.2011.08.087",
+   "year": 2011
+  },
+  {
+   "title": "Progress and perspective of the cathode/electrolyte interface construction in all\u2010solid\u2010state lithium batteries",
+   "abstract": "Abstract Security risks of flammability and explosion represent major problems with the use of conventional lithium rechargeable batteries using a liquid electrolyte. The application of solid\u2010state electrolytes could effectively help to avoid these safety concerns. However, integrating the solid\u2010state electrolytes into the all\u2010solid\u2010state lithium batteries is still a huge challenge mainly due to the high interfacial resistance present in the entire battery, especially at the interface between the cathode and the solid\u2010state electrolyte pellet and the interfaces inside the cathode. Herein, recent progress made from investigations of cathode/solid\u2010state electrolyte interfacial behaviors including the contact problem, the interlayer diffusion issue, the space\u2010charge layer effect, and electrochemical compatibility is presented according to the classification of oxide\u2010, sulfide\u2010, and polymer\u2010based solid\u2010state electrolytes. We also propose strategies for the construction of ideal next\u2010generation cathode/solid\u2010state electrolyte interfaces with high room\u2010temperature ionic conductivity, stable interfacial contact during long cycling, free formation of the space\u2010charge region, and good compatibility with high\u2010voltage cathodes.",
+   "url": "https://doi.org/10.1002/cey2.129",
+   "year": 2021
+  },
+  {
+   "title": "Disconnected Lithium Metal Damages Solid-State Electrolytes",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Solid-state batteries with a lithium\u2013metal anode are energy-storage devices that promise increased energy density and improved safety compared with liquid systems. Despite significant developments, the chemomechanical degradation of solid-state batteries represents a significant challenge to their widespread adoption. Specifically, Li-filled cracks (called \u201cdendrites\u201d) and electronically isolated Li inclusions (\u201cdead\u201d Li) are key defects resulting from coupled electrochemical and mechanical degradation during cycling. In this study, we use a symmetrical Li|LLZO|Li cell with a single-crystal electrolyte and demonstrate that an electronically isolated Li-metal inclusion exhibits bipolarity under an external electrical field, which leads to further crack expansion. We suggest that this process of \u201cdead\u201d metal activation accelerates chemomechanical degradation in solid-state batteries with alkali anodes.",
+   "url": "https://doi.org/10.1021/acsenergylett.5c00101",
+   "year": 2025
+  },
+  {
+   "title": "Electrical properties of lithium bromide poly ethylene oxide / poly vinyl pyrrolidone polymer blend elctrolyte",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.physb.2018.10.040",
+   "year": 2018
+  },
+  {
+   "title": "Exploring the Potential of Halide Electrolytes for Next\u2010Generation All\u2010Solid\u2010State Lithium Batteries",
+   "abstract": "Abstract All\u2010solid\u2010state lithium batteries (ASSLBs) are expected to revolutionize large\u2010scale energy storage and electric vehicles due to their exceptional safety and high energy density. Central to this technology is the development of solid electrolytes, with halide electrolytes emerging as highly promising candidates, offering high ionic conductivity, robust electrochemical stability and excellent mechanical properties. Since the breakthrough discovery of Li3YCl6 in 2018, research on halide electrolytes has entered a new era. However, despite continuous research efforts, practical challenges persist in their application, including the need to further enhance ionic conductivity, improve moisture resistance, and achieve better compatibility with electrode materials. This review provides a comprehensive overview of recent progress and ongoing challenges in halide electrolytes, examining crystal structures, conduction mechanisms, and scalable synthesis techniques. Various modification strategies are also explored aimed at boosting ionic conductivity and electrochemical stability, with a particular focus on improving interface stability. Finally, future perspectives are outlined for designing high\u2010performance halide electrolyte materials, offering guidance for ongoing research efforts toward their commercial application in ASSLBs.",
+   "url": "https://doi.org/10.1002/adfm.202416671",
+   "year": 2024
+  }
+ ]
+}

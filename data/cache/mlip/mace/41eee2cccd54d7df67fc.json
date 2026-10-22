@@ -1,0 +1,133 @@
+{
+ "ok": true,
+ "hash": "41eee2cccd54d7df67fc",
+ "model": "mace",
+ "e_per_atom": -4.589760871963032,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     5.01315953,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     5.01315953,
+     -0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     5.01315953
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 5.01315953,
+   "b": 5.01315953,
+   "c": 5.01315953,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 125.98956462732563
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Dy",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.0,
+     0.5
+    ],
+    "properties": {},
+    "label": "Dy",
+    "xyz": [
+     2.506579765,
+     0.0,
+     2.506579765
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Dy",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.5,
+     0.5
+    ],
+    "properties": {},
+    "label": "Dy",
+    "xyz": [
+     0.0,
+     2.506579765,
+     2.506579765
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Dy",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.5,
+     0.0
+    ],
+    "properties": {},
+    "label": "Dy",
+    "xyz": [
+     2.506579765,
+     2.506579765,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Ho",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {},
+    "label": "Ho",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ "seconds": 8.579271078109741,
+ "task_hash": "41eee2cccd54d7df67fc",
+ "kind": "reference",
+ "label": "mp-1184065"
+}

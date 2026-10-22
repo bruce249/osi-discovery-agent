@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "Li3YCl6",
+ "papers": [
+  {
+   "title": "Optical and scintillation properties of pure and Ce3+-doped Cs2LiYCl6 and Li3YCl6:Ce3+ crystals",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/s0022-2313(99)00047-2",
+   "year": 1999
+  },
+  {
+   "title": "Stability and Metastability of Li3YCl6 and Li3HoCl6",
+   "abstract": "Abstract Metastable solid electrolytes exhibit superior conductivity compared to stable ones, making them a subject of considerable interest. However, synthesis of the metastable phase is affected by multiple thermodynamic and kinetic parameters, leading to ambiguity in the organization of stability and metastability. In this study, we organized remnant and intermediate metastability based on temperature. The intermediate metastable phase, which is less stable than the temperature-independent stable phase, typically transforms into the stable phase(s) at high temperatures. In contrast, the remnant metastable phase is formed by first obtaining most stable phase at specific temperatures and then \u201ctrapping\u201d it by rapidly changing the temperature. By investigating Li+ conducting chlorides, Li3MCl6 (M = Y and Ho), we demonstrated that heating starting materials to approximately 600 K produced low-temperature Li3MCl6 phase with one formula unit while further heating resulted in high-temperature Li3MCl6 phase with three formula units. Annealing quenched Li3MCl6 at 573 K resulted in a phase transition from the high-temperature to low-temperature phase, indicating that the high-temperature phase was remnant metastable at low temperatures.",
+   "url": "https://doi.org/10.1246/bcsj.20230132",
+   "year": 2023
+  },
+  {
+   "title": "Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes",
+   "abstract": "Solid-state batteries require electrolytes that sustain high ionic conductivity under the mechanical environment of a functioning cell. Lattice strain, arising from stack pressure, thermal cycling, or lattice mismatch at interfaces, can either enhance or suppress Li+ transport in solid electrolytes, yet how it couples to the underlying diffusion mechanism remains poorly understood. Using Li3YCl6 halide superionic conductor, we address this with large-scale molecular dynamics simulations driven by an Atomic Cluster Expansion (ACE) machine learning interatomic potential trained on first-principles data. The ACE model faithfully reproduces experimental and \\textit{ab initio} structural, mechanical, and transport properties of Li3YCl6. We find that Li+ diffusion in Li3YCl6 follows a two-regime Arrhenius behavior, crossing over at a critical temperature $T_c$ from one-dimensional hopping at low temperature to three-dimensional cooperative diffusion at high temperature. Strain substantially modulates diffusivity: tensile strain enhances it while compressive strain suppresses it, yet leaves $T_c$ invariant, indicating that strain tunes diffusion efficiency without reshaping the underlying transport framework. In each regime, the mechanistic origin differs: altered activation barriers dominate at low temperature, while modified pre-exponential factors become critical at high temperature. These results establish lattice strain as a design lever for ionic conductivity in Li3YCl6 solid-state electrolytes.",
+   "url": "https://doi.org/10.48550/arxiv.2605.05603",
+   "year": 2026
+  },
+  {
+   "title": "Insights into the Lithium Substructure of the Superionic Conductors Li3YCl6 and Li3YBr6",
+   "abstract": "The recent interest in the halide-based solid electrolytes Li3MX6 (M = Y, Er, In; X = Cl, Br, I) shows these materials to be promising candidates for solid-state battery application, due to high ionic conductivity and large electrochemical stability window. However, almost nothing is known about the underlying lithium sub-structure within those compounds. Here, we investigate the lithium sub-structure of Li3YCl6 and Li3YBr6 using temperature-dependent neutron diffraction. We compare compounds prepared by classic solid-state syntheses with a mechanochemical synthesis to shed light on the influence of the synthetic approach on the reported yttrium disorder and the resulting surrounding lithium sub-structure. This work provides a better understanding of the strong differences in ionic transport depending on the synthesis procedure of Li3MX6.",
+   "url": "https://doi.org/10.26434/chemrxiv.13224296",
+   "year": 2020
+  },
+  {
+   "title": "Revealing the Pnma crystal structure and ion-transport mechanism of the Li3YCl6 solid electrolyte",
+   "abstract": "Chloride solid electrolytes represented by Li3YCl6 excel simultaneously in ionic conductivity, deformability, and oxidative stability; their structure-property relationship would provide guiding principles for designing high-performance solid electrolytes. Here, we report that the prototype system Li3YCl6 does not exhibit the P3\u00afm1 symmetry as commonly believed. This structure occurs only when the material partially decomposes at an overly high annealing temperature of 550\u00b0C. With the decomposition being suppressed at 450\u00b0C, the material shows a Pnma symmetry instead. Based on this orthorhombic structure, the ion-transport mechanism is clarified through neutron diffraction and first-principles computation. Guided by the established structure-property relationship, the efficient ion transport previously achievable only in the low-crystallinity state is realized in highly crystalline materials. The all-solid-state cells formed by this high-crystallinity material and LiNi0.8Mn0.1Co0.1O2 deliver performance exceeding most reported Li3YCl6-based cells; under 3 C at 25\u00b0C, the capacity retention is above 80% for 780 cycles.",
+   "url": "https://doi.org/10.1016/j.xcrp.2023.101428",
+   "year": 2023
+  },
+  {
+   "title": "Li+ transportation mechanisms in the halide solid-state electrolytes Li3YCl6 and Li3InCl6",
+   "abstract": "Developing outstanding halide solid-state electrolytes (SSEs) has attracted a lot of attention in the area of all-solid-state batteries, owing to their excellent compatibility with high-voltage active materials. In halide compounds, lithium (Li+) ions are usually confined in the center of octahedral units, which seriously impedes the fast transportation of lithium ions. However, the representative SSEs, Li3YCl6 and Li3InCl6, present ultrafast ionic conductivities below 0.1 mS/cm at room temperature, which may be closely connected with their particular configurations. Through assessments of the transportation mechanisms in Li3YCl6 and Li3InCl6 by careful density functional theory simulations, two kinds of lithium-ion diffusion channels can be identified. Furthermore, the overall performances of Li3YCl6 and Li3InCl6, including energetic stability, electronic chemical window and electronic structures, are systematically studied. This will bring deep insights into and reliable criteria for exploring next-generation halide SSEs.",
+   "url": "https://doi.org/10.1680/jemmr.21.00062",
+   "year": 2022
+  },
+  {
+   "title": "Structure of Li3YCl6 and Its Effect on Lithium Ionic Conductivity",
+   "abstract": "Abstract Halide-based Li+ solid-state electrolytes have garnered renewed interest in recent years, mainly because of their significantly improved Li+ ionic conductivity and excellent stability against high-voltage cathodes. Numerous studies have reported that synthetic conditions and protocols can profoundly influence cation defect chemistry, thereby affecting Li+ mobility in these materials. Despite extensive investigations, the structures and fundamental mechanisms governing Li+ transport in these compounds remain highly debated, posing challenges for further performance optimization. In this report, we present a comprehensive structural analysis of Li3YCl6 synthesized under various conditions. Our findings reveal that the structural differences among the various forms of Li3YCl6 originate from variations in the type and length scales of Y-vacancy ordering within the hexagonal close-packed (hcp) anion framework. Our results show that samples treated at lower temperatures tend to exhibit a more uniform distribution of Y3+ and vacancies across the two different cation layers. In contrast, high-temperature treatment leads to the preferential occupation of one layer by Y3+, while vacancies dominate the other layer. This temperature-driven redistribution underlies the multiple-phase transitions observed upon heat treatment. Kinetic Monte Carlo simulations on the simulated and experimental structures suggest that the Y-vacancy uniformly distributed structure exhibits more balanced in-plane Li+ diffusion behavior; in contrast to the Y-vacancy segregated phases, where Li+ diffusion is facile in the Y-poor layer but is severely hindered in the adjacent Y-rich layer. This study resolves the longstanding controversies surrounding the structure of Li3YCl6 and highlights the importance of manipulating the cation-vacancy distribution for optimizing Li+ conductivity in hcp-based layered halide electrolytes.",
+   "url": "https://doi.org/10.1021/jacs.6c06971",
+   "year": 2026
+  },
+  {
+   "title": "Influence Mechanism of Interfacial Oxidation of Li3YCl6 Solid Electrolyte on Reduction Potential",
+   "abstract": "Abstract Halide\u2010based solid electrolytes are promising candidates for all solid\u2010state lithium\u2010ion batteries (ASSLBs) due to their high ionic conductivity, wide electrochemical window, and excellent chemical stability with cathode materials. However, when tested in practice, their intrinsic electrochemical stability windows do not well match the conditions for stable operation of ASSBs. Existing literature reports halide\u2010based ASSBs that still operate well outside the electrochemical stability window, while ASSBs that do not operate within the window are not well studied or the studies are based on the cathode material interface. In this study, we aim to elucidate the mechanism behind all\u2010solid\u2010state battery failure by investigating how the reduction potential of Li3YCl6 solid\u2010state electrolyte itself changes under overcharging conditions. Our findings demonstrate that in Li\u2010In|Li3YCl6|Li3YCl6\u2010C half\u2010cells during the first state of charge, Cl ions participate in charge compensation, resulting in a depletion of ligands. This phenomenon significantly affects the reduction potential of Y3+, causing it to be reduced to Y2Cl3 and ultimately to Y0 at conditions far exceeding its actual reduction potential. Furthermore, we analyze the interfacial impedance induced by this process and propose a novel perspective on battery failure.",
+   "url": "https://doi.org/10.1002/chem.202303884",
+   "year": 2024
+  },
+  {
+   "title": "Effect of Fluorine Substitution in Li3YCl6 Chloride Solid Electrolytes for All-solid-state Battery",
+   "abstract": "All-solid-state batteries experience irreversible capacity loss particularly in the initial potential cycle, owing to electrolyte decomposition at the electrode/electrolyte interface. A strategy for expanding the oxidation stability of electrolytes is replacing the anion with fluorine. However, fluorine substitution has a negative influence on ionic conductivity. In this study, we introduced trace amounts of fluorine into Li3YCl6 solid electrolytes which exhibit high ionic conductivities and wide potential windows. The effect of replacement on ionic conductivity, oxidation stability, and charge\u2013discharge characteristics were studied. The trace amounts of fluorine in Li3YCl6 did not reduce the conductivity, but improved the apparent oxidation stability. The decomposed product of LiF from the fluorine-substituted electrolyte disturbed the formation of a high-resistance layer at the electrode/electrolyte interface. The initial charge\u2013discharge efficiency of the uncoated LiCoO2 cathode was improved by the trace amount of fluorine replacement in the Li3YCl6 solid electrolyte.",
+   "url": "https://doi.org/10.5796/electrochemistry.23-00005",
+   "year": 2023
+  },
+  {
+   "title": "Optimizing solid electrolytes with 3d transition metal doped Li3YCl6 for Li-ion batteries",
+   "abstract": "Abstract Li3YCl6 is a promising candidate for solid electrolytes (SEs) in all-solid-state Li-ion batteries due to its high ionic conductivity, electrochemical stability, and compatibility with metal-oxide electrodes. The monoclinic and trigonal crystal structures of Li3YCl6 with space groups C2/c and P-3m1 have been studied extensively, while little attention has been given to the trigonal P-3c1 phase (space group no. 165). Additionally, Li-ion diffusion mechanism in 3d transition metal (TM) substituted compounds along with their structural stability are interesting to study. Therefore, we investigate the Li diffusion mechanism in Li3YCl6 and TM substituted Li3YCl6 in the P-3c1 phase using first-principles calculations. We have found that all the substituted compounds are thermodynamically stable at room temperature and show high oxidation stability. Li3Y0.875Co0.125Cl6 exhibits the lowest activation energy (0.11 eV) for Li-ion diffusion and the highest Li-ion mobility (\u03c3 = 0.39 mS cm\u22121 at room temperature), which is strongly anisotropic. We used the Crystal Orbital Hamilton Population method to analyze the bonding characteristics of Li3YCl6 and 3d TM substituted Li3YCl6 and found that the Co\u2013Cl bond is weaker than the Cr\u2013Cl bond. This may explain the lower activation energy observed for Li3Y0.875Co0.125Cl6. Our results provide insights into the substitution effect in Li3YCl6 superionic conductors, which could guide the design and development of high-performance SEs for Li-ion batteries.",
+   "url": "https://doi.org/10.1088/1361-6463/ad1b0a",
+   "year": 2024
+  },
+  {
+   "title": "Revealing the Reductive Decomposition at the Interface of Li3YCl6\u2013Lithium Metal",
+   "abstract": "was found to form progressively from the interface with lithium metal as nanoclusters, finally bridging the electrodes and leading to a high electronic conductivity. Understanding this mechanism provides valuable insights into the future design of halide solid electrolytes.",
+   "url": "https://doi.org/10.1021/acsami.5c08998",
+   "year": 2025
+  },
+  {
+   "title": "Elucidating Anisotropic Ionic Diffusion Mechanism in Li3YCl6 with Molecular Dynamics Simulations",
+   "abstract": "Halide-based solid electrolytes have emerged as promising materials for the development of solid-state batteries, due to their high ionic conductivity and excellent chemical properties. Li 3 YCl 6 is a prototype halide-based superionic material that features anisotropic ionic diffusion. Elucidating the ionic transport and optimizing the conductivity in such anisotropic materials are crucial for enhancing the performance of solid-state batteries. In this work, by using molecular dynamics simulations with a machine learning force field, we systematically study the anisotropic ion diffusion behavior, including directional conductivity contribution, concerted migration, and disorder\u2013order transition in Li 3 YCl 6 . Our results prove that the fast c -direction is the major contributor to total diffusivity, especially at room temperature. The hexagonal close-packed anion arrangement leads to anisotropic diffusion mechanism. Lithium diffusion along the c -direction exhibits a highly concerted feature, which is absent in the ab -plane diffusion. A disorder\u2013order transition of the lithium sublattice can occur below a critical temperature. Our results show that the ordering occurs with a regular pattern of lithium ions. The lithium sublattice ordering is strongly influenced by yttrium cation arrangement and can be suppressed if a small amount of Li/Y antisite defects are present. These understandings can help to provide guidance for the future development of anisotropic superionic materials.",
+   "url": "https://doi.org/10.1021/acsaem.4c01249",
+   "year": 2024
+  },
+  {
+   "title": "Revealing the Pnma crystal structure and ion-transport mechanism of the Li3YCl6 solid electrolyte",
+   "abstract": "Revealing the Pnma crystal structure and ion-transport mechanism of the Li3YCl6 solid electrolyte",
+   "url": "https://openalex.org/W7113612153",
+   "year": 2023
+  },
+  {
+   "title": "All-Solid-State Capacitors Using Li3YCl6 and Carbon Composites",
+   "abstract": "The development of all-solid-state capacitors (ASSCs) using lithiumion-conducting inorganic solid electrolytes (SEs) with good formability and a wide electrochemical potential window is highly desired.Herein, we present ASSCs employing Li 3 YCl 6 (LYC) as one of the chloride SEs.Exploiting the favorable processability and electrochemical stability of LYC, 2 V-class ASSCs were fabricated by room-temperature pressing.Furthermore, the effects of the mixing conditions of composite electrodes comprising LYC and single-walled carbon nanotubes on device performance was investigated.Under the most intense mixing condition, the device achieved a specific capacitance of 15.4 F g -1 at 0-2 V and 0.13 mA cm -2 .Further, the electrode produced under the most intense mixing conditions yielded a homogeneous LYC-defect-enriched-carbon composite.These features are expected to enhance the effective interfacial area and facilitate greater charge accumulation, thereby improving the capacitance and mitigating voltage drop.Overall, this study demonstrates the potential of LYC for high-performance ASSCs and highlights the advantage of integrating SEs with both mechanical formability and a wide electrochemical potential window as a promising strategy for next-generation solid-state energy storage devices.",
+   "url": "https://doi.org/10.5796/electrochemistry.25-00140",
+   "year": 2025
+  },
+  {
+   "title": "Non-blocking grain boundaries for Li-ion transport in Li3YCl6 halide electrolyte",
+   "abstract": "Halide solid electrolytes, exemplified by Li3YCl6 (LYC), offer moderate ionic conductivity (~1 mS/cm), high oxidative stability (> 4 V), and good mechanical deformability, making them promising candidates for solid-state lithium batteries. However, the room-temperature ionic conductivity of single-crystal LYC is nearly one order of magnitude higher than that of experimental polycrystalline samples. Grain boundaries (GBs) are considered the primary cause of this discrepancy. Although GBs critically influence Li-ion transport in most solid electrolytes, the impact in LYC remains poorly understood. Herein, we quantify the contribution of GBs to Li-ion transport in LYC utilizing machine learning driven deep potential molecular dynamics (DeePMD). For all GBs considered, the results reveal a strong inherent tendency toward polycrystallinity in LYC due to low GB formation energies. Although the ionic conductivity of all LYC GBs is lower than that of the bulk, among them, the highest activation energy and the lowest ionic conductivity are 0.246 eV and 8.6 mS/cm, respectively. Moreover, the {303 \u03052}<101 \u03053 \u0305> GB with the lowest GB energy (0.176 J/m2) exhibits the highest ionic conductivity of 13.9 mS/cm. The simulations demonstrate that GBs hinder overall Li-ion transport compared to the bulk, though GBs do not act as the dominant barrier to Li-ion transport in LYC. This work provides insights for the design of halide solid electrolytes.",
+   "url": "https://doi.org/10.60893/figshare.apl.c.8666808",
+   "year": 2026
+  },
+  {
+   "title": "Aliovalent Ti4+ Doping-Mediated Lithium Vacancy Engineering to Lower Migration Barriers of Li3YCl6",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.6148748",
+   "year": 2026
+  },
+  {
+   "title": "Non-blocking grain boundaries for Li-ion transport in Li3YCl6 halide electrolyte",
+   "abstract": "Halide solid electrolytes, exemplified by Li3YCl6 (LYC), offer moderate ionic conductivity (\u223c1 mS/cm), high oxidative stability (>4 V), and good mechanical deformability, making them promising candidates for solid-state lithium batteries. However, the room-temperature ionic conductivity of single-crystal LYC is nearly one order of magnitude higher than that of experimental polycrystalline samples. Grain boundaries (GBs) are considered the primary cause of this discrepancy. Although GBs critically influence Li-ion transport in most solid electrolytes, the impact in LYC remains poorly understood. Herein, we quantify the contribution of GBs to Li-ion transport in LYC utilizing machine learning driven deep potential molecular dynamics. For all GBs considered, the results reveal a strong inherent tendency toward polycrystallinity in LYC due to low GB formation energies. Although the ionic conductivity of all LYC GBs is lower than that of the bulk, among them, the highest activation energy and the lowest ionic conductivity are 0.246 eV and 8.6 mS/cm, respectively. Moreover, the {303\u00af2}\u27e8101\u00af3\u00af\u27e9 GB with the lowest GB energy (0.176 J/m2) exhibits the highest ionic conductivity of 13.9 mS/cm. The simulations demonstrate that GBs hinder overall Li-ion transport compared to the bulk, though GBs do not act as the dominant barrier to Li-ion transport in LYC. This work provides insights for the design of halide solid electrolytes.",
+   "url": "https://doi.org/10.1063/5.0345555",
+   "year": 2026
+  },
+  {
+   "title": "Temperature dependence of 7Li NMR relaxation rates in Li3InCl6, Li3YCl6, Li1.48Al0.48Ge1.52(PO4)3 and LiPS5Cl",
+   "abstract": "Inorganic solid-state battery electrolytes show high ionic conductivities and enable the fabrication of all solid-state batteries. In this work, we present the temperature dependence of spin-lattice relaxation time (T1), spin-spin relaxation time (T2), and resonance linewidth () of the 7Li nuclear magnetic resonance (NMR) for four solid-state battery electrolytes (Li3InCl6 (LIC), Li3YCl6 (LYC), Li1.48Al0.48Ge1.52(PO4)3 (LAGP) and LiPS5Cl (LPSC) from 173 K to 403 K at a 7Li resonance frequency of 233 MHz, and from 253 K to 353 K at a 7Li resonance frequency of 291 MHz. Additionally, we measured the spin-lattice relaxation rates at an effective 7Li resonance frequency of 133 kHz using a spin-locking pulse sequence in the temperature range of 253 K to 353 K. In LPSC, the 7Li NMR relaxation is consistent with the Bloembergen-Pound-Purcell (BPP) theory of NMR relaxation of dipolar nuclei. In LIC, LYC and LAGP, the BPP theory does not describe the NMR relaxation rates for the temperature range and frequencies of our measurements. The presented NMR relaxation data assists in providing a complete picture of Li diffusion in these four solid-state battery electrolytes.",
+   "url": "https://doi.org/10.26434/chemrxiv-2023-43zr4-v2",
+   "year": 2023
+  },
+  {
+   "title": "Temperature dependence of 7Li NMR relaxation rates in Li3InCl6, Li3YCl6, Li1.48Al0.48Ge1.52(PO4)3 and LiPS5Cl",
+   "abstract": "Inorganic solid-state battery electrolytes show high ionic conductivities and enable the fabrication of all solid-state batteries. In this work, we present the temperature dependence of spin-lattice relaxation time (T1), spin-spin relaxation time (T2), and resonance linewidth of the 7Li nuclear magnetic resonance (NMR) for four solid-state battery electrolytes (Li3InCl6 (LIC), Li3YCl6 (LYC), Li1.48Al0.48Ge1.52(PO4)3 (LAGP) and LiPS5Cl (LPSC)) from 173 K to 403 K at a 7Li resonance frequency of 233 MHz, and from 253 K to 353 K at a 7Li resonance frequency of 291 MHz. Additionally, we measured the spin-lattice relaxation rates at an effective 7Li resonance frequency of 133 kHz using a spin-locking pulse sequence in the temperature range of 253 K to 353 K. In LPSC, the 7Li NMR relaxation is consistent with the Bloembergen-Pound-Purcell (BPP) theory of NMR relaxation of dipolar nuclei. In LIC, LYC and LAGP, the BPP theory does not describe the NMR relaxation rates for the temperature range and frequencies of our measurements. The presented NMR relaxation data assists in providing a complete picture of Li diffusion in the four solid-state battery electrolytes.",
+   "url": "https://doi.org/10.48550/arxiv.2303.12953",
+   "year": 2023
+  },
+  {
+   "title": "Emergence of a frustrated configuration in Li3YCl6 solid electrolyte: An Active Learning approach",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.mtphys.2026.102154",
+   "year": 2026
+  },
+  {
+   "title": "Temperature dependence of 7Li NMR relaxation rates in Li3InCl6, Li3YCl6, Li1.48Al0.48Ge1.52(PO4)3 and LiPS5Cl",
+   "abstract": "Inorganic solid-state battery electrolytes show high ionic conductivities and enable the fabrication of all solid-state batteries. In this work, we present the temperature dependence of spin-lattice relaxation time (T1), spin-spin relaxation time (T2), and resonance linewidth () of the 7Li nuclear magnetic resonance (NMR) for four solid-state battery electrolytes (Li3InCl6 (LIC), Li3YCl6 (LYC), Li1.48Al0.48Ge1.52(PO4)3 (LAGP) and LiPS5Cl (LPSC) from 173 K to 403 K at a 7Li resonance frequency of 233 MHz, and from 253 K to 353 K at a 7Li resonance frequency of 291 MHz. Additionally, we measured the spin-lattice relaxation rates at an effective 7Li resonance frequency of 133 kHz using a spin-locking pulse sequence in the temperature range of 253 K to 353 K. In LPSC, the 7Li NMR relaxation is consistent with the Bloembergen-Pound-Purcell (BPP) theory of NMR relaxation of dipolar nuclei. In LIC, LYC and LAGP, the BPP theory does not describe the NMR relaxation rates for the temperature range and frequencies of our measurements. The presented NMR relaxation data assists in providing a complete picture of Li diffusion in these four solid-state battery electrolytes.",
+   "url": "https://doi.org/10.26434/chemrxiv-2023-43zr4",
+   "year": 2023
+  },
+  {
+   "title": "Temperature Dependence of 7li Nmr Relaxation Rates in Li3incl6, Li3ycl6, Li1.48al0.48ge1.52(Po4)3 and Li6ps5cl",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.4597603",
+   "year": 2023
+  },
+  {
+   "title": "A Critical Review of Theoretical Approaches to Compute Ionic Conductivity in Solid-State Electrolytes: The Case Study of Li3YCl6 and Li3YBr6",
+   "abstract": "The development of next-generation batteries strongly depends on the design of electrolytes that ensure efficient ionic transport. In this context, computational in silico approaches have become increasingly important. Among them, molecular dynamics simulations are particularly powerful for investigating constitutive elements of batteries and providing a deeper understanding of structure-property relationships in solid-state electrolytes. Yet, for these systems, obtaining accurate ionic conductivity and activation energy is not straightforward as finding a force field to accurately describe the system and a robust workflow is challenging. In this work, a classical force field (CFF), based on the SoftBV bond-valence approach, and a machine learning potential (MLP) trained on density functional theory (DFT) energies and forces using the MACE neural network architecture, were optimized and compared to investigate the two solid electrolytes, Li3YCl6 (LYC) and Li3YBr6 (LYB). Our study proposes an integrated workflow (structure generation, property analysis with relevant statistical sampling) using standard methodologies based on the Einstein equations and a new method called STACIE[Toraman et al., J. Chem. Inf. Model., 65, 19, 2025, DOI:10.1021/acs.jcim.5c01475] (STable AutoCorrelation Integral Estimator) deriving these properties through the analysis of power spectral densities for transport property evaluation. Based on the evaluation and analysis of the contribution of the crosscorrelations between mobile ions, we provide clear rules to validate the use of Nernst-Einstein\u2019s approximation to estimate the ionic conductivity. Results show trends in agreement with the literature. Notably the correct order of the conductivity activation energies Ea(LYC) > Ea(LYB), observed experimentally, is maintained. Overall, while CFF can provide an adequate representation when guided by experimental data, the strength of the MACE potential lies in its predictive capability. Using configurations generated by DFT calculations, the MLP generates trajectories with accurate crystallographic features from which realistic transport properties are extracted. Compared to their CFF counterparts, MLP results also show better mechanical stability at higher temperature for LYB, a softer system based on the analysis of solid-phase mechanical properties.",
+   "url": "https://doi.org/10.26434/chemrxiv.15009505/v1",
+   "year": 2026
+  },
+  {
+   "title": "Aliovalent Ti4+ doping-mediated lithium vacancy to lower migration barriers of Li3YCl6",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.mtener.2026.102281",
+   "year": 2026
+  },
+  {
+   "title": "Review for \"Mechanistic Insights into High Performance W6+-Doped Li3YCl6 Solid State Electrolyte: Synergy of Vacancy and Lattice Softening\"",
+   "abstract": "",
+   "url": "https://doi.org/10.1039/d6cp00694a/v1/review2",
+   "year": 2026
+  }
+ ]
+}

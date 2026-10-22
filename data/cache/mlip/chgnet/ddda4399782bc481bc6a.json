@@ -1,0 +1,141 @@
+{
+ "ok": true,
+ "hash": "ddda4399782bc481bc6a",
+ "model": "chgnet",
+ "e_per_atom": -3.6618595123291016,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     -0.0,
+     3.6636519,
+     3.6636519
+    ],
+    [
+     3.6636519,
+     0.0,
+     3.6636519
+    ],
+    [
+     3.6636519,
+     3.6636519,
+     -0.0
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 5.181186204793958,
+   "b": 5.181186204793958,
+   "c": 5.181186204793958,
+   "alpha": 59.99999999999999,
+   "beta": 59.99999999999999,
+   "gamma": 59.99999999999999,
+   "volume": 98.3496013140107
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Li",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.0010858476161956787
+    },
+    "label": "Li",
+    "xyz": [
+     3.6636519,
+     3.6636519,
+     3.6636519
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Tm",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.7500000000000001,
+     0.75,
+     0.75
+    ],
+    "properties": {
+     "final_magmom": 0.003590881824493408
+    },
+    "label": "Tm",
+    "xyz": [
+     5.49547785,
+     5.49547785,
+     5.49547785
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Tm",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "properties": {
+     "final_magmom": 0.0035910308361053467
+    },
+    "label": "Tm",
+    "xyz": [
+     1.83182595,
+     1.83182595,
+     1.83182595
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "In",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.004117637872695923
+    },
+    "label": "In",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ "seconds": 0.015733957290649414,
+ "task_hash": "ddda4399782bc481bc6a",
+ "kind": "reference",
+ "label": "mp-976339"
+}

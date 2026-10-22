@@ -1,0 +1,75 @@
+{
+ "ok": true,
+ "hash": "c0455331692acfd7c392",
+ "model": "chgnet",
+ "e_per_atom": -4.895497798919678,
+ "natoms": 1,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     3.25945373,
+     2e-08,
+     1.88184628
+    ],
+    [
+     1.08648528,
+     3.07304268,
+     1.88184628
+    ],
+    [
+     -2e-08,
+     -1e-08,
+     3.76369363
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 3.763692872639949,
+   "b": 3.7636932657043265,
+   "c": 3.76369363,
+   "alpha": 60.00000644756905,
+   "beta": 60.00000305231109,
+   "gamma": 59.99999429250756,
+   "volume": 37.69881310053244
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "La",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.004987381398677826
+    },
+    "label": "La",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ "seconds": 0.042025089263916016,
+ "task_hash": "c0455331692acfd7c392",
+ "kind": "reference",
+ "label": "mp-156"
+}

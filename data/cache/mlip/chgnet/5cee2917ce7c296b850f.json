@@ -1,0 +1,76 @@
+{
+ "ok": true,
+ "hash": "5cee2917ce7c296b850f",
+ "model": "chgnet",
+ "e_per_atom": -3.920332670211792,
+ "natoms": 1,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     -1.69122,
+     1.954661,
+     2.10787
+    ],
+    [
+     1.69122,
+     -1.954661,
+     2.10787
+    ],
+    [
+     1.69122,
+     1.954661,
+     -2.10787
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 3.3352722003190385,
+   "b": 3.3352722003190385,
+   "c": 3.3352722003190385,
+   "alpha": 119.06213899511896,
+   "beta": 108.24454675567787,
+   "gamma": 101.60530964009872,
+   "volume": 27.872464302649703
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Sn",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.031612008810043335,
+     "magmom": -0.0
+    },
+    "label": "Sn",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ "seconds": 0.01896953582763672,
+ "task_hash": "5cee2917ce7c296b850f",
+ "kind": "reference",
+ "label": "mp-1056308"
+}

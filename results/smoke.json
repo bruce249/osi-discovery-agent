@@ -1,0 +1,85 @@
+{
+ "versions": {
+  "ase": "3.29.0",
+  "chgnet": "0.4.2",
+  "torch": "2.5.1+cpu",
+  "pymatgen": "2026.10.16",
+  "mace": "0.3.16"
+ },
+ "subprob_sig": "(s1, s2)",
+ "subprob_Y_Er": 0.00022346216131497931,
+ "subprob_Cl_Br": 0.001442700666765329,
+ "subprob_Y_Y": 0.0007070646462418785,
+ "mp_summary_search_params": "no key",
+ "timings": {
+  "chgnet": [
+   {
+    "ok": true,
+    "seconds": 1.292616605758667,
+    "steps": 8,
+    "converged": true,
+    "e_per_atom": -3.979039192199707,
+    "error": null
+   },
+   {
+    "ok": true,
+    "seconds": 1.8226752281188965,
+    "steps": 15,
+    "converged": true,
+    "e_per_atom": -3.9803006649017334,
+    "error": null
+   },
+   {
+    "ok": true,
+    "seconds": 2.260931968688965,
+    "steps": 17,
+    "converged": true,
+    "e_per_atom": -3.9802935123443604,
+    "error": null
+   },
+   {
+    "ok": true,
+    "seconds": 2.279179096221924,
+    "steps": 18,
+    "converged": true,
+    "e_per_atom": -3.980797290802002,
+    "error": null
+   },
+   {
+    "ok": true,
+    "seconds": 1.8541321754455566,
+    "steps": 15,
+    "converged": true,
+    "e_per_atom": -3.978795289993286,
+    "error": null
+   }
+  ],
+  "mace": [
+   {
+    "ok": true,
+    "seconds": 12.23258924484253,
+    "steps": 22,
+    "converged": true,
+    "e_per_atom": -3.6825279204996493,
+    "error": null
+   },
+   {
+    "ok": true,
+    "seconds": 11.579833984375,
+    "steps": 27,
+    "converged": true,
+    "e_per_atom": -3.682339633565467,
+    "error": null
+   },
+   {
+    "ok": true,
+    "seconds": 10.259290218353271,
+    "steps": 23,
+    "converged": true,
+    "e_per_atom": -3.6825139397179436,
+    "error": null
+   }
+  ]
+ },
+ "cpu_count": 18
+}

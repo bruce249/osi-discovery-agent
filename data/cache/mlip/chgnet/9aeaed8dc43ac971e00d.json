@@ -1,0 +1,191 @@
+{
+ "ok": true,
+ "hash": "9aeaed8dc43ac971e00d",
+ "model": "chgnet",
+ "e_per_atom": -5.273935317993164,
+ "natoms": 6,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     6.741987,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     6.741987,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     3.748061
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 6.741987,
+   "b": 6.741987,
+   "c": 3.748061,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 170.3658215959286
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Cr",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 3.770235538482666,
+     "magmom": 3.675
+    },
+    "label": "Cr",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Cr",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.49999999999999994,
+     0.49999999999999994,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 3.770235538482666,
+     "magmom": 3.675
+    },
+    "label": "Cr",
+    "xyz": [
+     3.3709934999999995,
+     3.3709934999999995,
+     1.8740305
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Br",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.318019,
+     0.318019,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.002462342381477356,
+     "magmom": -0.028
+    },
+    "label": "Br",
+    "xyz": [
+     2.144079963753,
+     2.144079963753,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Br",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.6819809999999998,
+     0.6819809999999998,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.0024623870849609375,
+     "magmom": -0.028
+    },
+    "label": "Br",
+    "xyz": [
+     4.5979070362469985,
+     4.5979070362469985,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Br",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.181981,
+     0.818019,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.0024623647332191467,
+     "magmom": -0.028
+    },
+    "label": "Br",
+    "xyz": [
+     1.226913536247,
+     5.515073463753001,
+     1.8740305
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Br",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.818019,
+     0.181981,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.002462327480316162,
+     "magmom": -0.028
+    },
+    "label": "Br",
+    "xyz": [
+     5.515073463753001,
+     1.226913536247,
+     1.8740305
+    ]
+   }
+  ]
+ },
+ "seconds": 0.03973245620727539,
+ "task_hash": "9aeaed8dc43ac971e00d",
+ "kind": "reference",
+ "label": "mp-1183765"
+}

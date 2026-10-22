@@ -1,0 +1,36 @@
+{
+ "ok": true,
+ "query": "Li2HfCl6",
+ "papers": [
+  {
+   "title": "Synergistic Nitrogen and Iodine Incorporation Drives Amorphization and Fast Li+ Transport in Li2HfCl6",
+   "abstract": "Abstract Amorphization can improve Li+ transport in chloride-based solid electrolytes, but high-level single-anion substitution, such as S2\u2212 or I\u2212, may compromise structural stability and cause irreversible degradation under high-voltage operation. Here, a dual-anion strategy is applied to Li2HfCl6-derived electrolytes to balance conductivity and stability. N3\u2212 incorporation promotes framework reconstruction and amorphization, whereas I\u2212 softens the lattice and weakens Li+ anion interactions, facilitating Li+ migration. The optimized Li1.75HfCl4N0.5I0.25 delivers a room-temperature ionic conductivity of 5.88 mS cm\u22121 and an activation energy of 0.249 eV. Structural characterization confirms an amorphous structure and coordination reorganization after dual-anion incorporation. In all-solid-state batteries, this electrolyte enables stable cycling under both low and high cathode loadings, indicating improved interfacial compatibility and structural integrity. These results support dual-anion cooperative engineering as a design approach for amorphous chloride solid electrolytes.",
+   "url": "https://doi.org/10.1021/acsmaterialslett.6c00571",
+   "year": 2026
+  },
+  {
+   "title": "Reversible electrode potentials for formation of solid and liquid chlorozirconate and chlorohafnate compounds",
+   "abstract": "The standard electrode potentials for the formation of the pure solid and molten compounds Li2ZrCl6, Li2HfCl6, Na2ZrCl6, Na2HfCl6, K2ZrCl6, K2HfCl6, Cs2ZrCl6, and Cs2HfCl6 have been calculated from measured vapour pressures corresponding to their thermal decomposition at equilibrium and from available thermochemical data. Reversible potentials for the formation of Na2ZrCl6 and of K2ZrCl6 in solution according to the reaction[Formula: see text]where A is Na or K, have been calculated from available equilibrium vapour pressures as functions of the mole fractions of the alkali hexachlorocompounds. Standard potentials for the above reaction and \"formal\" potentials are also given. The latter are useful in predicting the electrochemical behaviour of dilute solutions of the hexachlorozirconates in alkali metal chlorides.",
+   "url": "https://doi.org/10.1139/v93-165",
+   "year": 1993
+  },
+  {
+   "title": "Crystalline\u2013amorphous heterophase oxychloride solid electrolyte for achieving fast Li-ion conduction and enhanced moisture tolerance",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2026.241596",
+   "year": 2026
+  },
+  {
+   "title": "Carbonate-Anion Engineering Enables Humidity-Resistant Halide Solid Electrolytes with Superionic Conductivity",
+   "abstract": "",
+   "url": "https://doi.org/10.21203/rs.3.rs-7842363/v1",
+   "year": 2026
+  },
+  {
+   "title": "Computational simulation-assisted research on chloride solid electrolytes for lithium-ion batteries",
+   "abstract": "Due to the phenomenon of easy deformation and short circuit of traditional organic liquid lithium-ion batteries, instantaneous thermal runaway occurs, resulting in combustion and even explosion. Solid-state batteries, with their excellent safety, can fundamentally solve this problem. In recent years, computational simulation has become more and more popular in the development and research of solid electrolyte, and this way of computation-assisted experiment has greatly promoted the development of electrolyte. This paper introduces the latest progress in the research of chloride electrolyte, which belongs to the category of halide electrolyte. The development process of chloride solid electrolyte is reviewed. The preparation method, modification of anion and cation regulation, optimization of structure regulation and stability of temperature, humidity and electrode material are also discussed. Finally, the problems facing the chloride solid electrolyte are summarized and analyzed, and the future development direction of the chloride solid electrolyte is further proposed.",
+   "url": "https://doi.org/10.1360/ssc-2023-0255",
+   "year": 2024
+  }
+ ]
+}

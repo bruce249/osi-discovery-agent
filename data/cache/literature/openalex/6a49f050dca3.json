@@ -1,0 +1,18 @@
+{
+ "ok": true,
+ "query": "Li3ScBr6",
+ "papers": [
+  {
+   "title": "Luminescence in Li3ScBr6: Ce",
+   "abstract": "Abstract Synthesis and photoluminescence properties of Li3ScBr6:Ce phosphor are described. The phosphor was synthesized by a simple wet-chemical method. Lithium carbonate and Scandium oxide in stoichiometric proportions were dissolved in HBr. Activator was added in form of oxalate salt. After evaporating the solution to dryness the phosphor powder was obtained. Strong ultraviolet emission was observed for this phosphor. The UV emission is typical of Ce3+. It consists of a 359 nm band having a component at about 340 nm. The excitation spectrum has the most intense band at 314 nm besides smaller bands/shoulders around 255, 280 and 335 nm.",
+   "url": "https://doi.org/10.1088/1742-6596/1913/1/012036",
+   "year": 2021
+  },
+  {
+   "title": "Beyond LLTO-based Perovskite Electrolytes for Stable Metal All-Solid-State Batteries",
+   "abstract": "Perovskite-type electrolytes (PTEs) have good room-temperature ionic conductivity but suffer from poor stability against metal anodes, limiting their use in metal all-solid-state batteries. Researchers often focused on doping/alloying PTEs, overlooking thorough investigation of the main framework, namely La, Ti, and O. Herein, we studied the composition-stability relationship of PTEs focusing on their computational thermodynamic, electrochemical, migration barriers, and mechanical properties. The studied PTEs are unsuitable for metal sodium batteries without modifications to reduce migration barriers. LLHfO and LLZrO show promising metastability against metallic Li anodes, though their migration barriers are higher than LLTO. Nonetheless, LLZrO demonstrated partial mechanical instabilities. Mechanical analysis of LLHfO exhibited balanced mechanical properties. Hence, LLHfO proved to be a promising Li-metal-metastable alternative to the archetypal LLTO with enhanced overall performance metrics.",
+   "url": "https://doi.org/10.26434/chemrxiv-2025-t9njm",
+   "year": 2025
+  }
+ ]
+}

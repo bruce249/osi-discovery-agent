@@ -1,0 +1,97 @@
+{
+ "ok": true,
+ "hash": "23d2b0802c861bb13c05",
+ "model": "chgnet",
+ "e_per_atom": -5.117439270019531,
+ "natoms": 2,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     3.7594189,
+     -0.0,
+     0.0
+    ],
+    [
+     0.0,
+     3.7594189,
+     -0.0
+    ],
+    [
+     -0.0,
+     -0.0,
+     3.7594189
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 3.7594189,
+   "b": 3.7594189,
+   "c": 3.7594189,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 53.132733730722705
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Y",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.013236500322818756
+    },
+    "label": "Y",
+    "xyz": [
+     1.87970945,
+     1.87970945,
+     1.87970945
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "In",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.0004890114068984985
+    },
+    "label": "In",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ "seconds": 0.022914648056030273,
+ "task_hash": "23d2b0802c861bb13c05",
+ "kind": "reference",
+ "label": "mp-22704"
+}

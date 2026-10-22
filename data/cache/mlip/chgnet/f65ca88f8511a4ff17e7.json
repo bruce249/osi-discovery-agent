@@ -1,0 +1,141 @@
+{
+ "ok": true,
+ "hash": "f65ca88f8511a4ff17e7",
+ "model": "chgnet",
+ "e_per_atom": -4.5763421058654785,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     5.00359664,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     5.00359664,
+     -0.0
+    ],
+    [
+     0.0,
+     0.0,
+     5.00359664
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 5.00359664,
+   "b": 5.00359664,
+   "c": 5.00359664,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 125.2699420838148
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Dy",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.5,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.016423195600509644
+    },
+    "label": "Dy",
+    "xyz": [
+     0.0,
+     2.50179832,
+     2.50179832
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Dy",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.0,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.016423135995864868
+    },
+    "label": "Dy",
+    "xyz": [
+     2.50179832,
+     0.0,
+     2.50179832
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Dy",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.5,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.01642318069934845
+    },
+    "label": "Dy",
+    "xyz": [
+     2.50179832,
+     2.50179832,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Er",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.017062470316886902
+    },
+    "label": "Er",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ "seconds": 0.023759841918945312,
+ "task_hash": "f65ca88f8511a4ff17e7",
+ "kind": "reference",
+ "label": "mp-1184100"
+}

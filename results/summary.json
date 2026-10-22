@@ -1,0 +1,1960 @@
+{
+ "pool_size": 236,
+ "unique_formulas_in_pool": 123,
+ "budget": 90,
+ "batch_size": 10,
+ "headline_threshold": 0.0,
+ "totals_in_pool": {
+  "0.00": {
+   "hit": 84,
+   "known": 13,
+   "novel": 65
+  },
+  "0.03": {
+   "hit": 116,
+   "known": 24,
+   "novel": 84
+  },
+  "0.05": {
+   "hit": 119,
+   "known": 25,
+   "novel": 86
+  }
+ },
+ "seeds": {
+  "random": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "substitution": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "radius": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "llm": [
+   0,
+   1,
+   2
+  ],
+  "llm_basic": [
+   0,
+   1,
+   2
+  ],
+  "gp_bo": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "llm_strong": [
+   0,
+   1,
+   2
+  ],
+  "llm_gp": [
+   0,
+   1,
+   2
+  ]
+ },
+ "strategies": {
+  "random": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 43.2,
+     "at_budget_std": 2.8565713714171403,
+     "at_budget_per_seed": [
+      48,
+      44,
+      47,
+      38,
+      45,
+      41,
+      41,
+      42,
+      44,
+      42
+     ],
+     "target_50pct": 42,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      77.0,
+      88.0,
+      79.0,
+      NaN,
+      83.0,
+      NaN,
+      NaN,
+      87.0,
+      87.0,
+      86.0
+     ],
+     "n50_random": 86.4,
+     "AF50": null,
+     "AF_at_budget": 1.0022222222222223
+    },
+    "known": {
+     "at_budget_mean": 6.2,
+     "at_budget_std": 2.039607805437114,
+     "at_budget_per_seed": [
+      6,
+      6,
+      8,
+      4,
+      6,
+      4,
+      7,
+      3,
+      8,
+      10
+     ],
+     "target_50pct": 7,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      72.0,
+      NaN,
+      NaN,
+      NaN,
+      88.0,
+      NaN,
+      46.0,
+      71.0
+     ],
+     "n50_random": 97.8,
+     "AF50": null,
+     "AF_at_budget": 1.0866666666666667
+    },
+    "novel": {
+     "at_budget_mean": 33.1,
+     "at_budget_std": 2.8442925306655784,
+     "at_budget_per_seed": [
+      37,
+      34,
+      36,
+      31,
+      34,
+      34,
+      30,
+      35,
+      33,
+      27
+     ],
+     "target_50pct": 33,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      81.0,
+      89.0,
+      80.0,
+      NaN,
+      86.0,
+      88.0,
+      NaN,
+      84.0,
+      90.0,
+      NaN
+     ],
+     "n50_random": 88.6,
+     "AF50": null,
+     "AF_at_budget": 1.0122222222222221
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 75.4,
+     "at_budget_std": 1.9595917942265422,
+     "at_budget_per_seed": [
+      76,
+      77,
+      73,
+      75,
+      77,
+      71,
+      78,
+      75,
+      76,
+      76
+     ],
+     "target_50pct": 58,
+     "n50_mean": 67.7,
+     "n50_per_seed": [
+      70.0,
+      66.0,
+      72.0,
+      68.0,
+      66.0,
+      70.0,
+      66.0,
+      66.0,
+      67.0,
+      66.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 1.0,
+     "AF_at_budget": 1.008888888888889
+    },
+    "known": {
+     "at_budget_mean": 15.5,
+     "at_budget_std": 2.3345235059857505,
+     "at_budget_per_seed": [
+      14,
+      13,
+      16,
+      17,
+      13,
+      12,
+      19,
+      18,
+      15,
+      18
+     ],
+     "target_50pct": 12,
+     "n50_mean": 70.2,
+     "n50_per_seed": [
+      76.0,
+      84.0,
+      72.0,
+      67.0,
+      84.0,
+      86.0,
+      59.0,
+      64.0,
+      46.0,
+      64.0
+     ],
+     "n50_random": 70.2,
+     "AF50": 1.0,
+     "AF_at_budget": 1.0455555555555556
+    },
+    "novel": {
+     "at_budget_mean": 54.6,
+     "at_budget_std": 2.4576411454889016,
+     "at_budget_per_seed": [
+      55,
+      59,
+      52,
+      54,
+      58,
+      55,
+      54,
+      52,
+      56,
+      51
+     ],
+     "target_50pct": 42,
+     "n50_mean": 66.6,
+     "n50_per_seed": [
+      70.0,
+      63.0,
+      71.0,
+      68.0,
+      64.0,
+      57.0,
+      65.0,
+      68.0,
+      70.0,
+      70.0
+     ],
+     "n50_random": 66.6,
+     "AF50": 1.0,
+     "AF_at_budget": 1.008888888888889
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 79.1,
+     "at_budget_std": 1.8138357147217055,
+     "at_budget_per_seed": [
+      81,
+      79,
+      77,
+      78,
+      81,
+      75,
+      80,
+      80,
+      80,
+      80
+     ],
+     "target_50pct": 60,
+     "n50_mean": 66.4,
+     "n50_per_seed": [
+      66.0,
+      67.0,
+      69.0,
+      67.0,
+      65.0,
+      69.0,
+      66.0,
+      65.0,
+      65.0,
+      65.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 1.0,
+     "AF_at_budget": 1.0122222222222221
+    },
+    "known": {
+     "at_budget_mean": 15.8,
+     "at_budget_std": 2.5612496949731396,
+     "at_budget_per_seed": [
+      14,
+      13,
+      17,
+      18,
+      13,
+      12,
+      19,
+      19,
+      15,
+      18
+     ],
+     "target_50pct": 13,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      78.0,
+      88.0,
+      72.0,
+      67.0,
+      88.0,
+      NaN,
+      69.0,
+      64.0,
+      49.0,
+      71.0
+     ],
+     "n50_random": 74.6,
+     "AF50": null,
+     "AF_at_budget": 1.031111111111111
+    },
+    "novel": {
+     "at_budget_mean": 57.9,
+     "at_budget_std": 2.6248809496813372,
+     "at_budget_per_seed": [
+      60,
+      61,
+      55,
+      56,
+      62,
+      59,
+      56,
+      55,
+      60,
+      55
+     ],
+     "target_50pct": 43,
+     "n50_mean": 64.2,
+     "n50_per_seed": [
+      62.0,
+      64.0,
+      67.0,
+      66.0,
+      61.0,
+      56.0,
+      64.0,
+      67.0,
+      67.0,
+      68.0
+     ],
+     "n50_random": 64.2,
+     "AF50": 1.0,
+     "AF_at_budget": 1.0066666666666666
+    }
+   }
+  },
+  "substitution": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 48.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      48,
+      48,
+      48,
+      48,
+      48,
+      48,
+      48,
+      48,
+      48,
+      48
+     ],
+     "target_50pct": 42,
+     "n50_mean": 82.0,
+     "n50_per_seed": [
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0
+     ],
+     "n50_random": 86.4,
+     "AF50": 1.053658536585366,
+     "AF_at_budget": 1.1066666666666667
+    },
+    "known": {
+     "at_budget_mean": 6.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+     ],
+     "target_50pct": 7,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 97.8,
+     "AF50": null,
+     "AF_at_budget": 0.9388888888888889
+    },
+    "novel": {
+     "at_budget_mean": 39.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39
+     ],
+     "target_50pct": 33,
+     "n50_mean": 82.0,
+     "n50_per_seed": [
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0,
+      82.0
+     ],
+     "n50_random": 88.6,
+     "AF50": 1.0804878048780486,
+     "AF_at_budget": 1.1600000000000001
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 77.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      77,
+      77,
+      77,
+      77,
+      77,
+      77,
+      77,
+      77,
+      77,
+      77
+     ],
+     "target_50pct": 58,
+     "n50_mean": 61.0,
+     "n50_per_seed": [
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 1.1098360655737705,
+     "AF_at_budget": 1.021111111111111
+    },
+    "known": {
+     "at_budget_mean": 15.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+     ],
+     "target_50pct": 12,
+     "n50_mean": 60.0,
+     "n50_per_seed": [
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0
+     ],
+     "n50_random": 70.2,
+     "AF50": 1.1700000000000002,
+     "AF_at_budget": 0.9777777777777777
+    },
+    "novel": {
+     "at_budget_mean": 57.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57
+     ],
+     "target_50pct": 42,
+     "n50_mean": 61.0,
+     "n50_per_seed": [
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0
+     ],
+     "n50_random": 66.6,
+     "AF50": 1.0918032786885246,
+     "AF_at_budget": 1.048888888888889
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 78.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      78,
+      78,
+      78,
+      78,
+      78,
+      78,
+      78,
+      78,
+      78,
+      78
+     ],
+     "target_50pct": 60,
+     "n50_mean": 62.0,
+     "n50_per_seed": [
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 1.070967741935484,
+     "AF_at_budget": 0.981111111111111
+    },
+    "known": {
+     "at_budget_mean": 16.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16
+     ],
+     "target_50pct": 13,
+     "n50_mean": 60.0,
+     "n50_per_seed": [
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0
+     ],
+     "n50_random": 74.6,
+     "AF50": 1.2433333333333332,
+     "AF_at_budget": 1.031111111111111
+    },
+    "novel": {
+     "at_budget_mean": 57.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57,
+      57
+     ],
+     "target_50pct": 43,
+     "n50_mean": 62.0,
+     "n50_per_seed": [
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0,
+      62.0
+     ],
+     "n50_random": 64.2,
+     "AF50": 1.035483870967742,
+     "AF_at_budget": 0.981111111111111
+    }
+   }
+  },
+  "radius": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 49.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      49
+     ],
+     "target_50pct": 42,
+     "n50_mean": 76.0,
+     "n50_per_seed": [
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0
+     ],
+     "n50_random": 86.4,
+     "AF50": 1.1368421052631579,
+     "AF_at_budget": 1.1266666666666667
+    },
+    "known": {
+     "at_budget_mean": 6.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+     ],
+     "target_50pct": 7,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 97.8,
+     "AF50": null,
+     "AF_at_budget": 0.9388888888888889
+    },
+    "novel": {
+     "at_budget_mean": 39.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39,
+      39
+     ],
+     "target_50pct": 33,
+     "n50_mean": 76.0,
+     "n50_per_seed": [
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0,
+      76.0
+     ],
+     "n50_random": 88.6,
+     "AF50": 1.1657894736842105,
+     "AF_at_budget": 1.1600000000000001
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 80.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+     ],
+     "target_50pct": 58,
+     "n50_mean": 61.0,
+     "n50_per_seed": [
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0,
+      61.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 1.1098360655737705,
+     "AF_at_budget": 1.0744444444444445
+    },
+    "known": {
+     "at_budget_mean": 11.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+     ],
+     "target_50pct": 12,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 70.2,
+     "AF50": null,
+     "AF_at_budget": 0.6933333333333334
+    },
+    "novel": {
+     "at_budget_mean": 64.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64
+     ],
+     "target_50pct": 42,
+     "n50_mean": 59.0,
+     "n50_per_seed": [
+      59.0,
+      59.0,
+      59.0,
+      59.0,
+      59.0,
+      59.0,
+      59.0,
+      59.0,
+      59.0,
+      59.0
+     ],
+     "n50_random": 66.6,
+     "AF50": 1.1288135593220339,
+     "AF_at_budget": 1.2
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 80.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+     ],
+     "target_50pct": 60,
+     "n50_mean": 63.0,
+     "n50_per_seed": [
+      63.0,
+      63.0,
+      63.0,
+      63.0,
+      63.0,
+      63.0,
+      63.0,
+      63.0,
+      63.0,
+      63.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 1.053968253968254,
+     "AF_at_budget": 1.0122222222222221
+    },
+    "known": {
+     "at_budget_mean": 11.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+     ],
+     "target_50pct": 13,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 74.6,
+     "AF50": null,
+     "AF_at_budget": 0.6922222222222222
+    },
+    "novel": {
+     "at_budget_mean": 64.0,
+     "at_budget_std": 0.0,
+     "at_budget_per_seed": [
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64
+     ],
+     "target_50pct": 43,
+     "n50_mean": 60.0,
+     "n50_per_seed": [
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0
+     ],
+     "n50_random": 64.2,
+     "AF50": 1.07,
+     "AF_at_budget": 1.1255555555555554
+    }
+   }
+  },
+  "llm": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 43.666666666666664,
+     "at_budget_std": 1.699673171197595,
+     "at_budget_per_seed": [
+      46,
+      42,
+      43
+     ],
+     "target_50pct": 42,
+     "n50_mean": 84.33333333333333,
+     "n50_per_seed": [
+      83.0,
+      85.0,
+      85.0
+     ],
+     "n50_random": 86.4,
+     "AF50": 1.024505928853755,
+     "AF_at_budget": 1.0022222222222223
+    },
+    "known": {
+     "at_budget_mean": 10.333333333333334,
+     "at_budget_std": 1.699673171197595,
+     "at_budget_per_seed": [
+      12,
+      11,
+      8
+     ],
+     "target_50pct": 7,
+     "n50_mean": 49.666666666666664,
+     "n50_per_seed": [
+      50.0,
+      33.0,
+      66.0
+     ],
+     "n50_random": 97.8,
+     "AF50": 1.9691275167785236,
+     "AF_at_budget": 1.6133333333333333
+    },
+    "novel": {
+     "at_budget_mean": 29.0,
+     "at_budget_std": 2.8284271247461903,
+     "at_budget_per_seed": [
+      31,
+      25,
+      31
+     ],
+     "target_50pct": 33,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 88.6,
+     "AF50": null,
+     "AF_at_budget": 0.8777777777777778
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 68.33333333333333,
+     "at_budget_std": 3.39934634239519,
+     "at_budget_per_seed": [
+      73,
+      65,
+      67
+     ],
+     "target_50pct": 58,
+     "n50_mean": 73.66666666666667,
+     "n50_per_seed": [
+      70.0,
+      77.0,
+      74.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 0.9190045248868778,
+     "AF_at_budget": 0.9077777777777778
+    },
+    "known": {
+     "at_budget_mean": 19.0,
+     "at_budget_std": 2.160246899469287,
+     "at_budget_per_seed": [
+      21,
+      20,
+      16
+     ],
+     "target_50pct": 12,
+     "n50_mean": 38.0,
+     "n50_per_seed": [
+      26.0,
+      33.0,
+      55.0
+     ],
+     "n50_random": 70.2,
+     "AF50": 1.8473684210526315,
+     "AF_at_budget": 1.2555555555555555
+    },
+    "novel": {
+     "at_budget_mean": 44.666666666666664,
+     "at_budget_std": 4.027681991198191,
+     "at_budget_per_seed": [
+      48,
+      39,
+      47
+     ],
+     "target_50pct": 42,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      80.0,
+      NaN,
+      79.0
+     ],
+     "n50_random": 66.6,
+     "AF50": null,
+     "AF_at_budget": 0.7911111111111111
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 72.33333333333333,
+     "at_budget_std": 3.39934634239519,
+     "at_budget_per_seed": [
+      77,
+      69,
+      71
+     ],
+     "target_50pct": 60,
+     "n50_mean": 72.0,
+     "n50_per_seed": [
+      68.0,
+      75.0,
+      73.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 0.9222222222222223,
+     "AF_at_budget": 0.9133333333333333
+    },
+    "known": {
+     "at_budget_mean": 20.0,
+     "at_budget_std": 2.160246899469287,
+     "at_budget_per_seed": [
+      22,
+      21,
+      17
+     ],
+     "target_50pct": 13,
+     "n50_mean": 39.0,
+     "n50_per_seed": [
+      28.0,
+      33.0,
+      56.0
+     ],
+     "n50_random": 74.6,
+     "AF50": 1.9128205128205127,
+     "AF_at_budget": 1.2944444444444445
+    },
+    "novel": {
+     "at_budget_mean": 47.666666666666664,
+     "at_budget_std": 4.027681991198191,
+     "at_budget_per_seed": [
+      51,
+      42,
+      50
+     ],
+     "target_50pct": 43,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      77.0,
+      NaN,
+      74.0
+     ],
+     "n50_random": 64.2,
+     "AF50": null,
+     "AF_at_budget": 0.801111111111111
+    }
+   },
+   "llm_calls": {
+    "n": 27,
+    "cached": 0,
+    "picks_filled_randomly": 2
+   }
+  },
+  "llm_basic": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 41.0,
+     "at_budget_std": 2.943920288775949,
+     "at_budget_per_seed": [
+      40,
+      45,
+      38
+     ],
+     "target_50pct": 42,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      84.0,
+      NaN
+     ],
+     "n50_random": 86.4,
+     "AF50": null,
+     "AF_at_budget": 0.9422222222222222
+    },
+    "known": {
+     "at_budget_mean": 11.0,
+     "at_budget_std": 0.816496580927726,
+     "at_budget_per_seed": [
+      12,
+      11,
+      10
+     ],
+     "target_50pct": 7,
+     "n50_mean": 37.0,
+     "n50_per_seed": [
+      23.0,
+      48.0,
+      40.0
+     ],
+     "n50_random": 97.8,
+     "AF50": 2.6432432432432433,
+     "AF_at_budget": 1.6133333333333333
+    },
+    "novel": {
+     "at_budget_mean": 25.333333333333332,
+     "at_budget_std": 4.027681991198191,
+     "at_budget_per_seed": [
+      22,
+      31,
+      23
+     ],
+     "target_50pct": 33,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 88.6,
+     "AF50": null,
+     "AF_at_budget": 0.7677777777777777
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 69.66666666666667,
+     "at_budget_std": 0.9428090415820634,
+     "at_budget_per_seed": [
+      69,
+      71,
+      69
+     ],
+     "target_50pct": 58,
+     "n50_mean": 72.66666666666667,
+     "n50_per_seed": [
+      73.0,
+      73.0,
+      72.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 0.931651376146789,
+     "AF_at_budget": 0.9233333333333332
+    },
+    "known": {
+     "at_budget_mean": 20.666666666666668,
+     "at_budget_std": 0.9428090415820634,
+     "at_budget_per_seed": [
+      22,
+      20,
+      20
+     ],
+     "target_50pct": 12,
+     "n50_mean": 32.333333333333336,
+     "n50_per_seed": [
+      28.0,
+      33.0,
+      36.0
+     ],
+     "n50_random": 70.2,
+     "AF50": 2.1711340206185565,
+     "AF_at_budget": 1.4222222222222223
+    },
+    "novel": {
+     "at_budget_mean": 43.333333333333336,
+     "at_budget_std": 3.39934634239519,
+     "at_budget_per_seed": [
+      40,
+      48,
+      42
+     ],
+     "target_50pct": 42,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      80.0,
+      90.0
+     ],
+     "n50_random": 66.6,
+     "AF50": null,
+     "AF_at_budget": 0.7755555555555556
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 71.66666666666667,
+     "at_budget_std": 0.4714045207910317,
+     "at_budget_per_seed": [
+      72,
+      71,
+      72
+     ],
+     "target_50pct": 60,
+     "n50_mean": 72.33333333333333,
+     "n50_per_seed": [
+      72.0,
+      74.0,
+      71.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 0.9179723502304149,
+     "AF_at_budget": 0.9011111111111111
+    },
+    "known": {
+     "at_budget_mean": 21.0,
+     "at_budget_std": 0.816496580927726,
+     "at_budget_per_seed": [
+      22,
+      20,
+      21
+     ],
+     "target_50pct": 13,
+     "n50_mean": 37.0,
+     "n50_per_seed": [
+      37.0,
+      38.0,
+      36.0
+     ],
+     "n50_random": 74.6,
+     "AF50": 2.016216216216216,
+     "AF_at_budget": 1.3788888888888888
+    },
+    "novel": {
+     "at_budget_mean": 44.666666666666664,
+     "at_budget_std": 2.357022603955158,
+     "at_budget_per_seed": [
+      43,
+      48,
+      43
+     ],
+     "target_50pct": 43,
+     "n50_mean": 86.0,
+     "n50_per_seed": [
+      87.0,
+      81.0,
+      90.0
+     ],
+     "n50_random": 64.2,
+     "AF50": 0.7465116279069768,
+     "AF_at_budget": 0.7455555555555555
+    }
+   },
+   "llm_calls": {
+    "n": 27,
+    "cached": 0,
+    "picks_filled_randomly": 14
+   }
+  },
+  "gp_bo": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 65.8,
+     "at_budget_std": 4.621688003316538,
+     "at_budget_per_seed": [
+      67,
+      57,
+      70,
+      66,
+      69
+     ],
+     "target_50pct": 42,
+     "n50_mean": 59.4,
+     "n50_per_seed": [
+      54.0,
+      69.0,
+      57.0,
+      62.0,
+      55.0
+     ],
+     "n50_random": 86.4,
+     "AF50": 1.4545454545454546,
+     "AF_at_budget": 1.5355555555555553
+    },
+    "known": {
+     "at_budget_mean": 5.8,
+     "at_budget_std": 1.469693845669907,
+     "at_budget_per_seed": [
+      7,
+      3,
+      7,
+      6,
+      6
+     ],
+     "target_50pct": 7,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      75.0,
+      NaN,
+      90.0,
+      NaN,
+      NaN
+     ],
+     "n50_random": 97.8,
+     "AF50": null,
+     "AF_at_budget": 0.9388888888888889
+    },
+    "novel": {
+     "at_budget_mean": 56.6,
+     "at_budget_std": 2.8,
+     "at_budget_per_seed": [
+      56,
+      52,
+      60,
+      56,
+      59
+     ],
+     "target_50pct": 33,
+     "n50_mean": 51.2,
+     "n50_per_seed": [
+      51.0,
+      57.0,
+      48.0,
+      53.0,
+      47.0
+     ],
+     "n50_random": 88.6,
+     "AF50": 1.7304687499999998,
+     "AF_at_budget": 1.7188888888888887
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 76.2,
+     "at_budget_std": 2.85657137141714,
+     "at_budget_per_seed": [
+      74,
+      72,
+      78,
+      77,
+      80
+     ],
+     "target_50pct": 58,
+     "n50_mean": 69.0,
+     "n50_per_seed": [
+      67.0,
+      73.0,
+      69.0,
+      69.0,
+      67.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 0.9811594202898551,
+     "AF_at_budget": 1.021111111111111
+    },
+    "known": {
+     "at_budget_mean": 9.4,
+     "at_budget_std": 0.8,
+     "at_budget_per_seed": [
+      9,
+      10,
+      10,
+      8,
+      10
+     ],
+     "target_50pct": 12,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 70.2,
+     "AF50": null,
+     "AF_at_budget": 0.6366666666666666
+    },
+    "novel": {
+     "at_budget_mean": 63.2,
+     "at_budget_std": 2.7129319932501073,
+     "at_budget_per_seed": [
+      61,
+      59,
+      65,
+      65,
+      66
+     ],
+     "target_50pct": 42,
+     "n50_mean": 58.6,
+     "n50_per_seed": [
+      58.0,
+      66.0,
+      56.0,
+      58.0,
+      55.0
+     ],
+     "n50_random": 66.6,
+     "AF50": 1.1365187713310578,
+     "AF_at_budget": 1.2
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 77.2,
+     "at_budget_std": 2.2271057451320084,
+     "at_budget_per_seed": [
+      75,
+      75,
+      78,
+      77,
+      81
+     ],
+     "target_50pct": 60,
+     "n50_mean": 70.6,
+     "n50_per_seed": [
+      70.0,
+      73.0,
+      71.0,
+      71.0,
+      68.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 0.9405099150141645,
+     "AF_at_budget": 0.981111111111111
+    },
+    "known": {
+     "at_budget_mean": 9.6,
+     "at_budget_std": 0.7999999999999999,
+     "at_budget_per_seed": [
+      10,
+      10,
+      10,
+      8,
+      10
+     ],
+     "target_50pct": 13,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+     ],
+     "n50_random": 74.6,
+     "AF50": null,
+     "AF_at_budget": 0.6355555555555555
+    },
+    "novel": {
+     "at_budget_mean": 64.0,
+     "at_budget_std": 2.1908902300206643,
+     "at_budget_per_seed": [
+      61,
+      62,
+      65,
+      65,
+      67
+     ],
+     "target_50pct": 43,
+     "n50_mean": 59.4,
+     "n50_per_seed": [
+      60.0,
+      65.0,
+      57.0,
+      59.0,
+      56.0
+     ],
+     "n50_random": 64.2,
+     "AF50": 1.0808080808080809,
+     "AF_at_budget": 1.1255555555555554
+    }
+   }
+  },
+  "llm_strong": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 54.333333333333336,
+     "at_budget_std": 3.8586123009300755,
+     "at_budget_per_seed": [
+      56,
+      49,
+      58
+     ],
+     "target_50pct": 42,
+     "n50_mean": 73.0,
+     "n50_per_seed": [
+      69.0,
+      79.0,
+      71.0
+     ],
+     "n50_random": 86.4,
+     "AF50": 1.1835616438356165,
+     "AF_at_budget": 1.2788888888888887
+    },
+    "known": {
+     "at_budget_mean": 11.0,
+     "at_budget_std": 0.816496580927726,
+     "at_budget_per_seed": [
+      10,
+      12,
+      11
+     ],
+     "target_50pct": 7,
+     "n50_mean": 26.666666666666668,
+     "n50_per_seed": [
+      28.0,
+      31.0,
+      21.0
+     ],
+     "n50_random": 97.8,
+     "AF50": 3.6674999999999995,
+     "AF_at_budget": 1.6133333333333333
+    },
+    "novel": {
+     "at_budget_mean": 37.666666666666664,
+     "at_budget_std": 4.714045207910317,
+     "at_budget_per_seed": [
+      41,
+      31,
+      41
+     ],
+     "target_50pct": 33,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      79.0,
+      NaN,
+      80.0
+     ],
+     "n50_random": 88.6,
+     "AF50": null,
+     "AF_at_budget": 1.1377777777777778
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 77.33333333333333,
+     "at_budget_std": 2.0548046676563256,
+     "at_budget_per_seed": [
+      80,
+      75,
+      77
+     ],
+     "target_50pct": 58,
+     "n50_mean": 68.33333333333333,
+     "n50_per_seed": [
+      66.0,
+      73.0,
+      66.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 0.9907317073170733,
+     "AF_at_budget": 1.041111111111111
+    },
+    "known": {
+     "at_budget_mean": 19.0,
+     "at_budget_std": 1.4142135623730951,
+     "at_budget_per_seed": [
+      20,
+      20,
+      17
+     ],
+     "target_50pct": 12,
+     "n50_mean": 26.666666666666668,
+     "n50_per_seed": [
+      25.0,
+      25.0,
+      30.0
+     ],
+     "n50_random": 70.2,
+     "AF50": 2.6325,
+     "AF_at_budget": 1.2555555555555555
+    },
+    "novel": {
+     "at_budget_mean": 51.333333333333336,
+     "at_budget_std": 2.357022603955158,
+     "at_budget_per_seed": [
+      53,
+      48,
+      53
+     ],
+     "target_50pct": 42,
+     "n50_mean": 79.33333333333333,
+     "n50_per_seed": [
+      77.0,
+      84.0,
+      77.0
+     ],
+     "n50_random": 66.6,
+     "AF50": 0.8394957983193277,
+     "AF_at_budget": 0.9388888888888889
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 78.66666666666667,
+     "at_budget_std": 1.699673171197595,
+     "at_budget_per_seed": [
+      81,
+      77,
+      78
+     ],
+     "target_50pct": 60,
+     "n50_mean": 69.66666666666667,
+     "n50_per_seed": [
+      67.0,
+      73.0,
+      69.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 0.95311004784689,
+     "AF_at_budget": 0.9966666666666667
+    },
+    "known": {
+     "at_budget_mean": 20.0,
+     "at_budget_std": 1.4142135623730951,
+     "at_budget_per_seed": [
+      21,
+      21,
+      18
+     ],
+     "target_50pct": 13,
+     "n50_mean": 27.0,
+     "n50_per_seed": [
+      26.0,
+      25.0,
+      30.0
+     ],
+     "n50_random": 74.6,
+     "AF50": 2.7629629629629626,
+     "AF_at_budget": 1.2944444444444445
+    },
+    "novel": {
+     "at_budget_mean": 51.666666666666664,
+     "at_budget_std": 1.8856180831641267,
+     "at_budget_per_seed": [
+      53,
+      49,
+      53
+     ],
+     "target_50pct": 43,
+     "n50_mean": 80.33333333333333,
+     "n50_per_seed": [
+      79.0,
+      84.0,
+      78.0
+     ],
+     "n50_random": 64.2,
+     "AF50": 0.7991701244813278,
+     "AF_at_budget": 0.8755555555555555
+    }
+   },
+   "llm_calls": {
+    "n": 27,
+    "cached": 0,
+    "picks_filled_randomly": 0
+   }
+  },
+  "llm_gp": {
+   "0.00": {
+    "hit": {
+     "at_budget_mean": 58.0,
+     "at_budget_std": 16.51262143533445,
+     "at_budget_per_seed": [
+      73,
+      35,
+      66
+     ],
+     "target_50pct": 42,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      56.0,
+      NaN,
+      64.0
+     ],
+     "n50_random": 86.4,
+     "AF50": null,
+     "AF_at_budget": 1.3444444444444446
+    },
+    "known": {
+     "at_budget_mean": 11.0,
+     "at_budget_std": 1.632993161855452,
+     "at_budget_per_seed": [
+      11,
+      13,
+      9
+     ],
+     "target_50pct": 7,
+     "n50_mean": 32.0,
+     "n50_per_seed": [
+      41.0,
+      27.0,
+      28.0
+     ],
+     "n50_random": 97.8,
+     "AF50": 3.05625,
+     "AF_at_budget": 1.6133333333333333
+    },
+    "novel": {
+     "at_budget_mean": 42.0,
+     "at_budget_std": 18.547236990991408,
+     "at_budget_per_seed": [
+      58,
+      16,
+      52
+     ],
+     "target_50pct": 33,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      58.0,
+      NaN,
+      68.0
+     ],
+     "n50_random": 88.6,
+     "AF50": null,
+     "AF_at_budget": 1.2577777777777779
+    }
+   },
+   "0.03": {
+    "hit": {
+     "at_budget_mean": 76.33333333333333,
+     "at_budget_std": 9.46337971105226,
+     "at_budget_per_seed": [
+      84,
+      63,
+      82
+     ],
+     "target_50pct": 58,
+     "n50_mean": 71.0,
+     "n50_per_seed": [
+      64.0,
+      85.0,
+      64.0
+     ],
+     "n50_random": 67.7,
+     "AF50": 0.9535211267605634,
+     "AF_at_budget": 1.021111111111111
+    },
+    "known": {
+     "at_budget_mean": 18.333333333333332,
+     "at_budget_std": 2.6246692913372702,
+     "at_budget_per_seed": [
+      16,
+      22,
+      17
+     ],
+     "target_50pct": 12,
+     "n50_mean": 29.333333333333332,
+     "n50_per_seed": [
+      41.0,
+      27.0,
+      20.0
+     ],
+     "n50_random": 70.2,
+     "AF50": 2.3931818181818185,
+     "AF_at_budget": 1.2555555555555555
+    },
+    "novel": {
+     "at_budget_mean": 52.666666666666664,
+     "at_budget_std": 13.299958228840001,
+     "at_budget_per_seed": [
+      64,
+      34,
+      60
+     ],
+     "target_50pct": 42,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      64.0,
+      NaN,
+      70.0
+     ],
+     "n50_random": 66.6,
+     "AF50": null,
+     "AF_at_budget": 0.9666666666666667
+    }
+   },
+   "0.05": {
+    "hit": {
+     "at_budget_mean": 78.66666666666667,
+     "at_budget_std": 8.259674462242579,
+     "at_budget_per_seed": [
+      85,
+      67,
+      84
+     ],
+     "target_50pct": 60,
+     "n50_mean": 71.0,
+     "n50_per_seed": [
+      65.0,
+      83.0,
+      65.0
+     ],
+     "n50_random": 66.4,
+     "AF50": 0.9352112676056339,
+     "AF_at_budget": 0.9966666666666667
+    },
+    "known": {
+     "at_budget_mean": 19.333333333333332,
+     "at_budget_std": 2.6246692913372702,
+     "at_budget_per_seed": [
+      17,
+      23,
+      18
+     ],
+     "target_50pct": 13,
+     "n50_mean": 31.333333333333332,
+     "n50_per_seed": [
+      41.0,
+      28.0,
+      25.0
+     ],
+     "n50_random": 74.6,
+     "AF50": 2.380851063829787,
+     "AF_at_budget": 1.2944444444444445
+    },
+    "novel": {
+     "at_budget_mean": 53.666666666666664,
+     "at_budget_std": 12.552113589175153,
+     "at_budget_per_seed": [
+      64,
+      36,
+      61
+     ],
+     "target_50pct": 43,
+     "n50_mean": NaN,
+     "n50_per_seed": [
+      65.0,
+      NaN,
+      70.0
+     ],
+     "n50_random": 64.2,
+     "AF50": null,
+     "AF_at_budget": 0.9211111111111112
+    }
+   },
+   "llm_calls": {
+    "n": 27,
+    "cached": 0,
+    "picks_filled_randomly": 0
+   }
+  }
+ },
+ "llm_model": "gpt-4.1-mini",
+ "llm_strong_model": "gpt-5-mini",
+ "llm_base_url": "https://api.openai.com/v1"
+}

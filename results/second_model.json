@@ -1,0 +1,247 @@
+{
+ "B010": {
+  "id": "B010",
+  "formula": "Li2CeBr6",
+  "chgnet_e_hull": -0.132944477929009,
+  "mace_e_hull": -0.031911992834814384,
+  "agreed": true,
+  "mace_decomposition": [
+   "Br",
+   "CeBr3",
+   "LiBr"
+  ],
+  "chgnet_decomposition": [
+   "Br",
+   "CeBr3",
+   "LiBr"
+  ]
+ },
+ "A070": {
+  "id": "A070",
+  "formula": "Li3YbBr6",
+  "chgnet_e_hull": -0.06984659830729134,
+  "mace_e_hull": -0.002579254042811119,
+  "agreed": true,
+  "mace_decomposition": [
+   "LiBr",
+   "YbBr3"
+  ],
+  "chgnet_decomposition": [
+   "LiBr",
+   "YbBr3"
+  ]
+ },
+ "D076": {
+  "id": "D076",
+  "formula": "Li6YbHoCl12",
+  "chgnet_e_hull": -0.0596470832824707,
+  "mace_e_hull": -0.036640778705782306,
+  "agreed": true,
+  "mace_decomposition": [
+   "HoCl3",
+   "LiCl",
+   "YbCl3"
+  ],
+  "chgnet_decomposition": [
+   "HoCl3",
+   "LiCl",
+   "YbCl3"
+  ]
+ },
+ "D037": {
+  "id": "D037",
+  "formula": "Li6YbDyCl12",
+  "chgnet_e_hull": -0.05374743143717353,
+  "mace_e_hull": -0.016523507811339933,
+  "agreed": true,
+  "mace_decomposition": [
+   "DyCl3",
+   "LiCl",
+   "YbCl3"
+  ],
+  "chgnet_decomposition": [
+   "DyCl3",
+   "LiCl",
+   "YbCl3"
+  ]
+ },
+ "B002": {
+  "id": "B002",
+  "formula": "Li2ZrBr6",
+  "chgnet_e_hull": -0.0324223836263009,
+  "mace_e_hull": 0.014662968412610056,
+  "agreed": true,
+  "mace_decomposition": [
+   "LiBr",
+   "ZrBr4"
+  ],
+  "chgnet_decomposition": [
+   "LiBr",
+   "ZrBr4"
+  ]
+ },
+ "D085": {
+  "id": "D085",
+  "formula": "Li6DyLuCl12",
+  "chgnet_e_hull": -0.01740802129109742,
+  "mace_e_hull": -0.00755159760484414,
+  "agreed": true,
+  "mace_decomposition": [
+   "DyCl3",
+   "LiCl",
+   "LuCl3"
+  ],
+  "chgnet_decomposition": [
+   "DyCl3",
+   "LiCl",
+   "LuCl3"
+  ]
+ },
+ "C043": {
+  "id": "C043",
+  "formula": "Li3Lu(BrCl2)2",
+  "chgnet_e_hull": -0.01658341089884363,
+  "mace_e_hull": -0.0025679981733151003,
+  "agreed": true,
+  "mace_decomposition": [
+   "LiCl",
+   "LuBr3",
+   "LuCl3"
+  ],
+  "chgnet_decomposition": [
+   "LiCl",
+   "LuBr3",
+   "LuCl3"
+  ]
+ },
+ "D077": {
+  "id": "D077",
+  "formula": "Li6HoLuCl12",
+  "chgnet_e_hull": -0.015807215372721117,
+  "mace_e_hull": -0.016140857901480565,
+  "agreed": true,
+  "mace_decomposition": [
+   "HoCl3",
+   "LiCl",
+   "LuCl3"
+  ],
+  "chgnet_decomposition": [
+   "HoCl3",
+   "LiCl",
+   "LuCl3"
+  ]
+ },
+ "D078": {
+  "id": "D078",
+  "formula": "Li6DyHoCl12",
+  "chgnet_e_hull": -0.015288289388020182,
+  "mace_e_hull": -0.007909976903236249,
+  "agreed": true,
+  "mace_decomposition": [
+   "DyCl3",
+   "HoCl3",
+   "LiCl"
+  ],
+  "chgnet_decomposition": [
+   "DyCl3",
+   "HoCl3",
+   "LiCl"
+  ]
+ },
+ "C034": {
+  "id": "C034",
+  "formula": "Li3Er(BrCl2)2",
+  "chgnet_e_hull": -0.01319346957736478,
+  "mace_e_hull": 2.878032549169518e-05,
+  "agreed": true,
+  "mace_decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "chgnet_decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ]
+ },
+ "C035": {
+  "id": "C035",
+  "formula": "Li3Er(BrCl)3",
+  "chgnet_e_hull": -0.011828676859536813,
+  "mace_e_hull": 0.005195126878058343,
+  "agreed": true,
+  "mace_decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ],
+  "chgnet_decomposition": [
+   "Li3ErBr6",
+   "Li3ErCl6"
+  ]
+ },
+ "D075": {
+  "id": "D075",
+  "formula": "Li6ErTmCl12",
+  "chgnet_e_hull": -0.009858846664428711,
+  "mace_e_hull": -0.005965659104668397,
+  "agreed": true,
+  "mace_decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "chgnet_decomposition": [
+   "Li3ErCl6",
+   "LiCl",
+   "TmCl3"
+  ]
+ },
+ "D090": {
+  "id": "D090",
+  "formula": "Li6GdTmCl12",
+  "chgnet_e_hull": -0.009343067804972627,
+  "mace_e_hull": 0.0013506515347536663,
+  "agreed": true,
+  "mace_decomposition": [
+   "GdCl3",
+   "LiCl",
+   "TmCl3"
+  ],
+  "chgnet_decomposition": [
+   "LiCl",
+   "LiGdCl4",
+   "TmCl3"
+  ]
+ },
+ "D062": {
+  "id": "D062",
+  "formula": "Li6TmInCl12",
+  "chgnet_e_hull": -0.009004100163777728,
+  "mace_e_hull": -0.004552735102176353,
+  "agreed": true,
+  "mace_decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "TmCl3"
+  ],
+  "chgnet_decomposition": [
+   "Li3InCl6",
+   "LiCl",
+   "TmCl3"
+  ]
+ },
+ "A056": {
+  "id": "A056",
+  "formula": "Li3SmBr6",
+  "chgnet_e_hull": -0.007916227976480172,
+  "mace_e_hull": 0.021250296801691437,
+  "agreed": true,
+  "mace_decomposition": [
+   "LiBr",
+   "SmBr3"
+  ],
+  "chgnet_decomposition": [
+   "LiBr",
+   "SmBr3"
+  ]
+ }
+}

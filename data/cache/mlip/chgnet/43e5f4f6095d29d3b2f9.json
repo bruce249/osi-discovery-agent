@@ -1,0 +1,141 @@
+{
+ "ok": true,
+ "hash": "43e5f4f6095d29d3b2f9",
+ "model": "chgnet",
+ "e_per_atom": -4.894486427307129,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     3.79631058,
+     -4e-08,
+     0.0
+    ],
+    [
+     -1.89815636,
+     3.2877029,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     12.04125753
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 3.79631058,
+   "b": 3.7963124114957743,
+   "c": 12.04125753,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 120.00000329189716,
+   "volume": 150.28863578550227
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "La",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.0052950382232666016
+    },
+    "label": "La",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "La",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.005295053124427795
+    },
+    "label": "La",
+    "xyz": [
+     0.0,
+     0.0,
+     6.020628765
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "La",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.333333,
+     0.6666670000000001,
+     0.25
+    ],
+    "properties": {
+     "final_magmom": 0.005295023322105408
+    },
+    "label": "La",
+    "xyz": [
+     -2.611488980397425e-06,
+     2.1918030159009807,
+     3.0103143825
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "La",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.6666669999999999,
+     0.333333,
+     0.7500000000000001
+    ],
+    "properties": {
+     "final_magmom": 0.005295068025588989
+    },
+    "label": "La",
+    "xyz": [
+     1.8981568314889796,
+     1.09589984409902,
+     9.0309431475
+    ]
+   }
+  ]
+ },
+ "seconds": 0.020325660705566406,
+ "task_hash": "43e5f4f6095d29d3b2f9",
+ "kind": "reference",
+ "label": "mp-26"
+}

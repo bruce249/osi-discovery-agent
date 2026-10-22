@@ -1,0 +1,6 @@
+{
+ "ok": false,
+ "query": "Li6TmScCl12",
+ "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=Li6TmScCl12&per_page=25&mailto=osi-hackathon%40example.org",
+ "papers": []
+}

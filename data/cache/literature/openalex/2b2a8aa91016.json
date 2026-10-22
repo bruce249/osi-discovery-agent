@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "Li3InBr6",
+ "papers": [
+  {
+   "title": "Substitution effect of ionic conductivity in lithium ion conductor, LI3INBR6\u2212xCLx",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.ssi.2008.02.012",
+   "year": 2008
+  },
+  {
+   "title": "New Lithium Ion Conductor Li3InBr6 Studied by 7Li NMR",
+   "abstract": "Abstract Super ionic conductor Li3InBr6 (\u03c3=10\u22123Scm\u22121 at 297 K) due to lithium ions was synthesized and characterized by temperature dependence of the 7Li NMR T1. The substitution effect of the cation and the temperature behavior of T1 suggested that the high ionic conductivity resulted from the considerably disordered state of the cationic sublattice.",
+   "url": "https://doi.org/10.1246/cl.1998.223",
+   "year": 1998
+  },
+  {
+   "title": "Lithium superionic conductors Li3InBr6 and LiInBr4 studied by 7Li, 115In NMR",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.ssi.2006.06.026",
+   "year": 2006
+  },
+  {
+   "title": "Structure and Dynamics of Li3InBr6 and NaInBr4 by Means of Nuclear Magnetic Resonance",
+   "abstract": "Abstract Li3InBr6 and NaInBr4 have been synthesized and characterized by means of DTA, 81Br NQR, 6Li, 7Li, 23Na, and 115In NMR, and AC conductivity. These measurements revealed the presence of phase transitions and cationic diffusion in both compounds. From the spin-lattice relaxation times of 81Br NQR and the peak widths of 7Li and 23Na NMR spectra, it is deduced that the conduction is due to cationic diffusion. The activity energy for the Li+ diffusion was found to be 24 kJ/mol for Li3InBr6 .",
+   "url": "https://doi.org/10.1515/zna-1998-6-730",
+   "year": 1998
+  },
+  {
+   "title": "Materials Data on Li3InBr6 by Materials Project",
+   "abstract": "Li3InBr6 crystallizes in the monoclinic C2/c space group. The structure is three-dimensional. there are two inequivalent Li1+ sites. In the first Li1+ site, Li1+ is bonded to six Br1- atoms to form LiBr6 octahedra that share corners with two equivalent LiBr6 octahedra, edges with three equivalent InBr6 octahedra, and edges with five LiBr6 octahedra. The corner-sharing octahedra tilt angles range from 5\u20137\u00b0. There are a spread of Li\u2013Br bond distances ranging from 2.71\u20132.89 \u00c5. In the second Li1+ site, Li1+ is bonded to six Br1- atoms to form LiBr6 octahedra that share corners with two equivalent InBr6 octahedra, corners with four equivalent LiBr6 octahedra, edges with two equivalent InBr6 octahedra, and edges with four equivalent LiBr6 octahedra. The corner-sharing octahedra tilt angles range from 1\u20137\u00b0. There are a spread of Li\u2013Br bond distances ranging from 2.73\u20132.95 \u00c5. In3+ is bonded to six Br1- atoms to form InBr6 octahedra that share corners with two equivalent LiBr6 octahedra and edges with eight LiBr6 octahedra. The corner-sharing octahedral tilt angles are 1\u00b0. There are a spread of In\u2013Br bond distances ranging from 2.70\u20132.75 \u00c5. There are three inequivalent Br1- sites. In the first Br1- site, Br1- is bonded in a rectangular see-saw-like geometry to three Li1+ and one In3+ atom. In the second Br1- site, Br1- is bonded in a rectangular see-saw-like geometry to three Li1+ and one In3+ atom. In the third Br1- site, Br1- is bonded in a rectangular see-saw-like geometry to three Li1+ and one In3+ atom.",
+   "url": "https://doi.org/10.17188/1695089",
+   "year": 2020
+  },
+  {
+   "title": "Synthesis and Characterization of Lithium Ion Conductors, Li3InBr6 and their Substituted Compounds",
+   "abstract": "Li3-2xMxInBr6 (M=Mg, Ca, Sr and Ba) and Li3In1-xMxBr6 was synthesized, and thier substitution effect was investigated by means of 7Li and 115In NMR, X-ray diffraction and AC conductivity measurements. Phase transition was observed at 314 K in Li3InBr6 and fast Li+ diffusion was observed in the high temperature phase. Li3InBr6 has high Li+ ion conductivity and showed a little difference in X-ray diffraction patterns between the low-temperature phase and the high-temperature phase. These indicate that the sub-lattice for Li+ ions changed largely at the phase transition point and this change makes Li+ diffusion easily. In the high temperature phase of substituted compounds, the conductivity decreased with the amounts of substitution. and defects produced by the substitution with divalent cation did not contribute to the Li+ ion conduction. In the LT phase for Mg compound, the ionic conductivity increases up to x = 0.4 due to the introduction of the extrinsic vacancies.",
+   "url": "https://doi.org/10.4028/www.scientific.net/ddf.242-244.17",
+   "year": 2005
+  },
+  {
+   "title": "Substitution Effect in the Ion Conductor Li3InBr6, Studied by Nuclear Magnetic Resonance",
+   "abstract": "Li3-2x Mg InBr6 (x= 0.02 - 0.4) was synthesized, and the cation substitution effect on the conductivity was investigated by means of 7Li and 115In NMR, and X-ray diffraction.With increasing x the lattice constants a and c increased, but b and \u03b2 did not show significant changes. The conductivity of the low temperature phase increased with x, associated with a narrowing of the 7Li NMR spectra. In the high temperature superionic phase, on the other hand, the conductivity decreased with x accompanied by a broadening of the 115In NMR spectra",
+   "url": "https://doi.org/10.1515/zna-2002-6-728",
+   "year": 2002
+  },
+  {
+   "title": "Substitution Effect for Br on the Lithium Ion Conductivity of Lithium Indium Bromide",
+   "abstract": "Li3InBr6-yXy (X=F, I) was synthesized and the substitution effect on ionic conductivity was investigated. Li3InBr6-yFy was single phase at y {less than or equal to} 3. The lattice constants were decreased with F content. The conductivity of Li3InBr6-yFy was decreased with y and electrochemical stability was improved by the substitution. The conductivity in Li3InBr6-yIy(y {less than or equal to} 3) was changed with y and Li3InBr3I3 showed the highest value in these compounds to be 3 \u00d710-3 Scm-1 at 333 K. 7Li NMR spectra in Li3InBr6-yIy was sharp and it was confirmed the diffusion of Li ion was fast at room temperature.",
+   "url": "https://doi.org/10.1149/1.3115315",
+   "year": 2009
+  },
+  {
+   "title": "Preparation of Substituted Compounds of Lithium Indium Bromide and Fabrication of All Solid-State Battery",
+   "abstract": "Background and Objective: Li3InBr6-yXy (X=F, I) was synthesized and the substitution effect on ionic conductivity was investigated. Method: An all solid state secondary battery was fabricated using Li3InBr6-yXy (X=F, Cl, I) and evaluated. Li3InBr6-yFy was single phase at y \u2264 3. The lattice constants for both compounds were decreased with an amount of F. The conductivity of Li3InBr6-yFy was decreased with y and electrochemical stability was improved by the substitution. The conductivity in Li3InBr6-yIy(y \u2264 3) was changed with y and Li3InBr3I3 showed the highest value in these compounds to be 3 \u00d710-3 Scm-1 at 333 K. 7Li NMR spectra in Li3InBr6-yIy was sharp and it was confirmed the diffusion of Li ion was fast at room temperature. Batteries using Li3InBr5F could be stably charged and discharged for 10 cycles. Results and Conclusion: The discharge capacity increased in the first few cycles and the maximum value of 81 mAhg-1 was obtained in the fourth cycle. Keywords: Solid electrolyte, ionic conductivity, Li-ion secondary battery, all solid-state battery, substitution effect, phase transition.",
+   "url": "https://doi.org/10.2174/2405520410666170614114423",
+   "year": 2017
+  },
+  {
+   "title": "Li ion conductivity of solid electrolyte, Li3\u22122xMxInBr6(M = Ca, Sr and Ba)",
+   "abstract": "Li3\u22122xMxInBr6 (M = Ca, Sr, Ba; x = 0-1.0) was synthesized and the cation substitution effect was investigated by means of X-ray diffraction and AC conductivity measurements. In Li3\u22122xSrxInBr6(x\u22640.7), the conductivity of high temperature phase decreased with an increase of x and LiSrInBr6 show almost the same conductivity to Li3InBr6. Intensity of XRD peaks of LiSrInBr6 was different from those of Li3InBr6 and the substitution of Sr was expected to affect the structure and ionic conductivity. In Li3\u22122xCaxInBr6, the conductivity decreased monotonously with an increase of x.",
+   "url": "https://doi.org/10.5796/electrochemistry.71.1129",
+   "year": 2003
+  },
+  {
+   "title": "First-Principles Molecular Dynamics of Non-Arrhenius Li+ Diffusion in Solid Electrolytes for Batteries",
+   "abstract": "Our simulations address a long-standing problem in the design of solid-state batteries \u2013 the low ionic conductivity across solid-solid interfaces and through the solid electrolyte. Significant insights in developing new battery materials can be achieved through understanding of Li+ ion diffusion, using first-principles molecular dynamics simulations. Previous research from our group has determined the mechanism for the lithium ion diffusion pathway through the Li3InBr6 crystal1. Our results expanded on these findings by simulating diffusion in Li3InCl6 and Li3InBr6-xClx. In particular, we focus on determining the effects of high temperature and electronic structure, in order to explain variation in the Li+ conductivity in these lithium halides. We explore the hypothesis that covalent-like bonds between Li+ and the halide anions help drive conductivity through correlated motion of the Li+ ions. Our novel approach dynamically tracks covalent bonds, especially correlated bond breaking and forming. Thus, the electronic structure must be simulated and to do this we use ab-initio DFT simulations, within the Quantum Espresso implementation. In our previous research, we noted that the conductivity of Li3InBr6 is non-Arrhenius at high temperatures. The diffusion mechanism does not change with temperature, so the effect was hypothesized to be from changes in the electronic structure, such as the weakening of bonds. The first step of our investigation was to determine the simulated melting temperature of Li3InBr6, as our simulations at 900K may be near the simulated melting temperature, which could explain the weakening of bonds. The melting temperature is simulated starting with an amorphous, 3 x 3 x 3 supercell containing 520 atoms. Then using the two-phase approach (TPA) with 1040 atoms, we determined the melting temperature. Second, we simulated Li+ diffusion along with the breaking and forming of covalent-like bonds using first principle dynamics and Wannier analysis. Exchange of Br anions with Cl anions changes the nature of covalent type bonds, but does not affect ionic bonds. To further explore nature of the interaction between the Li+ and the anion sub-lattice, the Br concentration in Li3InBr6-xClx was varied and bond breaking and forming is tracked. We established that lithium ion diffusion, near the melting temperature, is impeded compared to lower temperatures owing to a degradation of covalent-like bonds. The Li+ diffusion mechanism, from octahedral to tetrahedral back to octahedral sites, is propelled by the fluctuations of neighboring covalent-like bonds. Decreasing the Br concentration in Li3InBr6-xClx shows a non-monotonic change in conductivity, which is unexplainable in a purely ionic view of Li+ diffusion. The disorder caused by different bonds strength between Li+ and Cl- versus Br- leads to a relatively high conductivity when the ratio of Cl to Br is 1:1 but a marked decrease with other ratios2. Our novel first-principles study of the dynamic electronic structure is the only way to understand these unusual trends in conductivity and potentially predict conductivity in many solid state electrolytes. 1) Adelstein, N. and Wood, B. Li+ conductivity in a superionic solid electrolyte driven by dynamically frustrated bond disorder. Journal of Materials Chemistry (2016) submitted. 2. Tomita, Y. Substitution effect of ionic conductivity in lithium ion conductor, Li3InBr6-xClx. Solid State Ionics. (2008) 179, 867-870.",
+   "url": "https://doi.org/10.1149/ma2016-02/4/598",
+   "year": 2016
+  },
+  {
+   "title": "Ionic conductivity and structure of halocomplex salts of group 13 elements",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/s0167-2738(00)00491-4",
+   "year": 2000
+  },
+  {
+   "title": "Alloying effects on superionic conductivity in lithium indium halides for all-solid-state batteries",
+   "abstract": "Alloying of anions is a promising engineering strategy for tuning ionic conductivity in halide-based inorganic solid electrolytes. We explain the alloying effects in Li3InBr6\u2212xClx, in terms of strain, chemistry, and microstructure, using first-principles molecular dynamics simulations and electronic structure analysis. We find that strain and bond chemistry can be tuned through alloying and affect the activation energy and maximum diffusivity coefficient. The similar conductivities of the x = 3 and x = 6 compositions can be understood by assuming that the alloy separates into Br-rich and Cl-rich regions. Phase-separation increases diffusivity at the interface and in the expanded Cl-region, suggesting microstructure effects are critical. Similarities with other halide superionic conductors are highlighted.",
+   "url": "https://doi.org/10.1063/1.5011378",
+   "year": 2018
+  },
+  {
+   "title": "Synthesis of Li3+xIn1-xMxBr6(M=Zn, Co, Fe) by Nano-grinding and their Ionic Conductivity",
+   "abstract": "Li3+xIn1-xMxBr6 (M=Zn, Co, Fe) was synthesized by nano-grinding. No peak of source materials was observed for all the compounds in XRD measurements. With an increase of x for M=Fe compounds, the lattice constants decreased, because the ionic radius of Fe2+ ion are much smaller than that of In3+ ion. In the high temperature phase for Li3+xIn1-xMxBr6 (M=Zn, Co), the conductivity decreased with x. In Zn compound, a new phase transition was observed at about 345 K and the conductivity became higher than that of the medium temperature phase. In Li3+xIn1-xFexBr6, the conductivity of high temperature phase was almost equal to that for Li3InBr6. In 7Li NMR measurement, the spectra in high temperature phase for Li3+xIn1-xFexBr6 was narrowed to be less than 1 kHz. It is indicated that Li+ ion diffuse fast in the crystal and these compounds are good Li ion conductors.",
+   "url": "https://doi.org/10.14723/tmrsj.33.973",
+   "year": 2008
+  },
+  {
+   "title": "Mixed Lithium Indium Halides As Solid-Electrolytes: Computational Experiments on Drivers of Li+ Diffusion",
+   "abstract": "Introduction The search for solid electrolytes with fast Li+ diffusion is essential to the development of safer and higher energy-density all-solid state batteries. The presented simulations aim to understand the effect of the dynamic electronic structure on Li+ diffusion by not only identifying the atomic scale Li+ diffusion process, but also the effect of anion substitution on the interaction of the Li+ and the surrounding lattice. In this report, the diffusion processes of Li+ in Li3InCl\u00ad6 and Li3InBr6-xClx are probed using molecular dynamics simulation. Methodology Ab-initio molecular dynamics using Quantum ESPRESSO is used to simulate Li+ diffusion in Li3InCl\u00ad6 electrolytes. A 2x2x1 supercell structure containing 80 atoms is sufficient to capture the local and mid-range environment around the diffusing Li+. Computational experiments examined the effect of different changing temperature, volume, and the ratio of Br to Cl. The activation energies of Li+ diffusion in the electrolytes are determined by plotting the mean squared displacement versus time and temperatures. Maximally localized Wannier functions (MLWFs) are used for further electronic structure analysis of bond breaking and forming and polarization, thus allowing for an innovative analysis of the correlation of the electronic and ionic dynamics1. Results and Discussion Mixed lithium indium halides have unusual non-monotonic conductivity2 that cannot be explained by a simple picture of ionic interaction between Li+ and the anions sub-lattice. Li3InBr6 has the highest conductivity; if the decrease in conductivity is due to the smaller radius of Cl and thus a smaller volume, then the conductivity should decrease monotonically as Cl is introduced. Instead the Li3InBr3Cl3 alloy has a similar conductivity to the pure Br electrolyte, while other ratios have significantly lower conductivity. This trend can only be understood with first principles simulations of the Li+ diffusion pathways in the lithium indium halides. Molecular dynamics simulations of Li+ (at different temperatures) allows for the estimation of the activation energy and comparison to experiment. The simulations that vary temperature and volume also test the hypothesis posed in previous work1 that the driving force for Li+ mobility in the electrolyte arises from an internal frustration between the electronic (bonding) and structural (geometric) lattice. Mobility of Li+, a \u201cjumping\u201d ion, reveals a conduction pathway that involves transitions between octahedral sites through a tetrahedral interstitial site. The presence of a Cl\u00ad- anion can aid or disrupt the frustration that affects Li+ diffusion through correlation of Li+ diffusion events. The Cl- anions change the nature of the Li+ - halide polar-covalent bond, which can be uniquely analyzed with our novel dynamical methods. Therefore, in comparison with Br-, Cl- tips the scale of the bonding character of Li3InCl\u00ad6 just enough to disrupt the electronic-geometrical frustration. References 1. Adelstein, N. and Wood, B. Li+ conductivity in a superionic solid electrolyte driven by dynamically frustrated bond disorder. Journal of Materials Chemistry (2016) submitted. 2. Tomita, Y. Substitution effect of ionic conductivity in lithium ion conductor, Li3InBr6-xClx. Solid State Ionics. (2008) 179, 867-870.",
+   "url": "https://doi.org/10.1149/ma2016-02/4/597",
+   "year": 2016
+  },
+  {
+   "title": "Subcontract Report: Diffusion Mechanisms and Bond Dynamics in Solid Electrolyte Ion-Conductors",
+   "abstract": "We employ first-principles molecular dynamics simulations and Maximally Localized Wannier Function (MLWF) analysis to explore how halide substitution and nano-phase microstructures affect diffusivity, through the activation energy barrier - Ea and D0, in the solid electrolyte Li3InBr6-xClx. We find that nano-phase microstructures with x=3 (50-50 Br-Cl) mixed composition have a higher diffusivity compared to x=2 and x=3 solid solutions. There is a positive linear relationship between ln(D0.) and Ea, which suggests that for superionic conductivity optimizing both the activation energy and the D0 is important. Bond frustration due to mismatch in crystal geometry and ideal coordination number leads to especially high diffusivity through a high D0 in the x=3 composition.",
+   "url": "https://doi.org/10.2172/1399745",
+   "year": 2017
+  },
+  {
+   "title": "Alloying Effects on Superionic Conductivity in Lithium Indium Halides for All-Solid-State Batteries",
+   "abstract": "The low ionic conductivity in solid electrolytes is a limiting factor for commercial implementation of all solid state batteries. Through understanding Li+ ion diffusion by using first-principles molecular dynamics, significant insights in developing new battery materials can be achieved. For example, alloying of anions is a promising engineering strategy for tuning ionic conductivity in halide-based inorganic solid electrolytes. We explain the alloying effects in Li3InBr6\u2212xClx, in terms of strain, chemistry, and microstructure, using first-principles molecular dynamics simulations and novel electronic structure analysis. We find that strain and bond chemistry can be tuned through alloying and affect the activation energy and maximum diffusivity coefficients. The similar conductivities of the x=3 and x=6 compositions can be understood by assuming the alloy separates into Br-rich and Cl-rich regions. Phase-separation increases diffusivity at the interface and in the expanded Cl-region, suggesting microstructure effects are critical.",
+   "url": "https://doi.org/10.1149/ma2018-01/21/1330",
+   "year": 2018
+  },
+  {
+   "title": "Structure and Ionic Conductivity of Halocomplexes of Main Group Metallic Elements Studied by NMR and NQR",
+   "abstract": "",
+   "url": "https://doi.org/10.1007/s10751-005-9198-9",
+   "year": 2005
+  },
+  {
+   "title": "Structure and Ionic Conductivity of Halocomplexes of Main Group Metallic Elements Studied by NMR and NQR",
+   "abstract": "",
+   "url": "https://doi.org/10.1007/3-540-30924-1_86",
+   "year": 2008
+  },
+  {
+   "title": "Correlating Ion Jumps with Bond Covalency in Solid Electrolytes",
+   "abstract": "The development of Li-ion solid electrolyte batteries will improve battery safety and potentially energy density compared to conventional Li-ion batteries, which have liquid-electrolytes. Solid electrolytes are inorganic polycrystals, so they cannot catch on fire and resist dendrite growth. However, Li-ion conductivity in the solid-electrolyte is relatively slow compared to liquids, so this project focuses on understanding the diffusion mechanism of binary metal halides for the improvement of other superionic materials. This work is inspired by the high conductivity of \u03b1-AgI and is based on previous computational work by the Adelstein lab that showed thermally driven bond fluctuations aid in the conduction of Li-ions in Li3InBr6. Since bond character is determined by the interaction of the cation and anion and crystal structure, we simulate both Ag and Cu metal halides in various crystal structures. Each crystal structure (\u03b1, \u03b2, zinc-blende, or rock-salt) is simulated at three temperatures for AgCl, AgBr, AgI, CuCl, CuBr, and CuI to obtain the activation energy barrier. Diffusivity, jump events, and bond character (ionic or polar-covalent) were calculated for each simulation, which allows us to differentiate between different diffusion mechanisms of Ag and Cu. Our on-going investigation into the silver and copper halides aims to test the hypothesis that fluctuations in bond character help superionic diffusion by correlating ion jumps with bond character.",
+   "url": "https://doi.org/10.1149/ma2021-017438mtgabs",
+   "year": 2021
+  },
+  {
+   "title": "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes",
+   "abstract": "Abstract Halide solid\u2010state electrolytes (SSEs) are promising superionic conductors with high oxidative stability and ionic conductivity, making them attractive for all\u2010solid\u2010state lithium\u2010ion batteries. However, most studies have focused on ion\u2010stacking structures, overlooking the role of bond characteristics in ionic transport. Here, we investigate bond dynamics and the superionic transition (SIT) in bromide electrolyte, Li 3 InBr 6 , using synchrotron X\u2010ray techniques and ab initio molecular dynamics (AIMD) simulations. We demonstrate that the SIT in halide SSEs is driven by a thermally induced transition in bonding character (ionic to covalent) rather than a change in crystal phase. AIMD simulations further reveal enhanced Li\u207a diffusion and collective anion motion at elevated temperatures. Expanding our study to Li 3 LnBr 6 (Ln = Gd, Tb, Ho, Tm, and Lu), we confirm the widespread occurrence of SIT in this material class, with Li 3 GdBr 6 exhibiting the highest ionic conductivity (5.2 mS cm \u22121 at 298 K). More importantly, the ionic\u2010covalent transition is highly tunable through electrolyte modifications, such as cation/anion substitution and synthesis methods. Our findings provide a new perspective on ionic transport, highlighting the critical role of chemical bond characteristics in halide SSEs.",
+   "url": "https://doi.org/10.1002/anie.202508835",
+   "year": 2025
+  },
+  {
+   "title": "Compatibility of Halide Electrolytes in Solid-State Li\u2013S Battery Cathodes",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide The utilization of earth-abundant and high-capacity sulfur in solid-state batteries presents a promising strategy to circumvent the use of rare transition metals and enhance achievable specific energy. However, numerous challenges remain. The transport limitation within the cathode composite, particularly with sulfide electrolytes during charging, has been identified as a major degradation mechanism in solid-state Li\u2013S batteries. This degradation is linked to electrolyte oxidation and a concomitant reduction in the effective ionic conductivity of the cathode composite. Inspired by the sufficiently high oxidation stability of halide-based electrolytes, we investigated their compatibility with solid-state Li\u2013S batteries in this work. The electrochemical stability of halides in contact with conductive additives, the stability window of fast ion transport in the composite electrodes, and chemical compatibility with sulfur-active materials (e.g., S and Li 2 S), in addition to the cyclability of the halide-based composite electrodes, are explored. Three halides were employed as model electrolytes: Li 3 InCl 6, Li 3 YCl 6, and Li 3 YBr 6 . Despite its high oxidation stability, Li 3 InCl 6 exhibited rapid degradation due to electrolyte reduction. The composite with Li 3 YCl 6 lost its capacity because of chemical incompatibility, especially with Li 2 S, resulting in the formation of LiYS 2 at the interface. In contrast, Li 3 YBr 6 demonstrated superior performance, maintaining a capacity of 1100 mAh g S \u20131 for 20 cycles (normalized to the sulfur content in the cathode material). This study elucidates the degradation mechanisms of halide-based solid-state Li\u2013S batteries and proposes potential design strategies to mitigate chemical incompatibility issues.",
+   "url": "https://doi.org/10.1021/acs.chemmater.4c02159",
+   "year": 2024
+  },
+  {
+   "title": "The Liquid-Mediated Synthesis and Performance Evaluation of Li-Zr-F Composite for Ion-Conduction",
+   "abstract": "Crystalline lithium fluoride (LiF) has been intensively pursued as potential alternative solid electrolytes (SEs) owing to its excellent chemical and electrochemical oxidation stability, and good deformability. However, due to its low ion conductivity, LiF is still challenging for practical SE applications. Herein, Li-Zr-F composite-based SE by liquid-mediated synthesis is proposed to be studied. methanol (CH3OH) was mainly evaluated as a liquid-mediated precursor for synthesizing Li-Zr-F composites under the stoichiometric proportion of LiF and ZrF4 (2:1 and 2:0.8) and a subsequent annealing process at 25\u00b0C/150\u00b0C, 50\u00b0C/150\u00b0C, and 70\u00b0C/150\u00b0C, respectively. X-ray diffraction results revealed that the Li-Zr-F composites could be crystallized in the three main types of phase formations, including Li2ZrF6 ( ), Li2ZrF6 ( ), and Li4ZrF8 ( ) octahedron structures. In addition, the effect of cation stack sublattice synthesized by methanol mediator on the ion conduction of Li-Zr-F composites was investigated by using electrochemical impedance spectroscopy (EIS). Through the Zr4+-substitution, Li2ZrF6 ( )-based SE exhibited the highest ion conduction which was increased to 2.40 \u00d7 10-8 S/cm and 3.89 \u00d7 10-8 S/cm under the stoichiometric proportion of LiF and ZrF4 2:0.8 at a dried temperature of 50\u00b0C/150\u00b0C with, respectively. A 0.21 eV activation energy ( ) was achieved for a battery with Li2ZrF6 ( )-based SE. Meanwhile, LiF exhibited up to 0.78 eV leading to a low kinetic rate for ion diffusion. These results implied that Li2ZrF6 ( )-based SE was successfully synthesized under the optimal condition of CH3OH-50\u00b0C/150\u00b0C which could improve the ion-conductivity of LiF.",
+   "url": "https://doi.org/10.21926/jept.2301010",
+   "year": 2023
+  },
+  {
+   "title": "Exploring Cationic Substitutions in the Solid Electrolyte NaAlCl4 with Density Functional Theory",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide NaAlCl 4 is an established solid electrolyte in high-temperature Na-based battery systems, but its ionic conductivity is not sufficiently high for room-temperature applications. We employ density functional theory and thermodynamic corrections to evaluate the efficacy of various elements for substitution, utilizing on-the-fly machine-learned potentials to accelerate the required phonon calculations by 1 order of magnitude at a minor error of \u22120.7 \u00b1 1.0 meV/atom. All investigated isovalent substitutions are favorable within 4 meV/atom, with potassium and silver as substitutes for sodium and gallium as a substitute for aluminum. The most promising aliovalent substitution was identified for Zn on the tieline between NaAlCl 4 and Na 2 ZnCl 4 . The structure of latter, with aluminum ions replacing zinc, yields a structure with separate layers for the differently charged cations and vacancies for potential Na conduction. Our investigation may pave the way for more reliable discovery of new Na conductors by inclusion of thermodynamic properties.",
+   "url": "https://doi.org/10.1021/acs.jpcc.4c05559",
+   "year": 2024
+  },
+  {
+   "title": "New Cost\u2010Effective Halide Solid Electrolytes for All\u2010Solid\u2010State Batteries: Mechanochemically Prepared Fe 3+ \u2010Substituted Li 2 ZrCl 6",
+   "abstract": "Abstract Owing to the combined advantages of sulfide and oxide solid electrolytes (SEs), that is, mechanical sinterability and excellent (electro)chemical stability, recently emerging halide SEs such as Li 3 YCl 6 are considered to be a game changer for the development of all\u2010solid\u2010state batteries. However, the use of expensive central metals hinders their practical applicability. Herein, a new halide superionic conductors are reported that are free of rare\u2010earth metals: hexagonal close\u2010packed (hcp) Li 2 ZrCl 6 and Fe 3+ \u2010substituted Li 2 ZrCl 6 , derived via a mechanochemical method. Conventional heat treatment yields cubic close\u2010packed monoclinic Li 2 ZrCl 6 with a low Li + conductivity of 5.7 \u00d7 10 \u22126 S cm \u22121 at 30 \u00b0C. In contrast, hcp Li 2 ZrCl 6 with a high Li + conductivity of 4.0 \u00d7 10 \u22124 S cm \u22121 is derived via ball\u2010milling. More importantly, the aliovalent substitution of Li 2 ZrCl 6 with Fe 3+ , which is probed by complementary analyses using X\u2010ray diffraction, pair distribution function, X\u2010ray absorption spectroscopy, and Raman spectroscopy measurements, drastically enhances the Li + conductivity up to \u22481 mS cm \u22121 for Li 2.25 Zr 0.75 Fe 0.25 Cl 6 . The superior interfacial stability when using Li 2+ x Zr 1\u2212 x Fe x Cl 6 , as compared to that when using conventional Li 6 PS 5 Cl, is proved. Furthermore, an excellent electrochemical performance of the all\u2010solid\u2010state batteries is achieved via the combination of Li 2 ZrCl 6 and single\u2010crystalline LiNi 0.88 Co 0.11 Al 0.01 O 2 .",
+   "url": "https://doi.org/10.1002/aenm.202003190",
+   "year": 2021
+  }
+ ]
+}

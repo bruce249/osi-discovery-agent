@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "Gd lithium chloride solid electrolyte",
+ "papers": [
+  {
+   "title": "Fluorine-Substituted Lithium Chloride Solid Electrolytes for High-Voltage All-Solid-State Lithium-Ion Batteries",
+   "abstract": "Lithium ternary halides are promising solid electrolytes, owing to their high ionic conductivity and reasonably high oxidative and chemical stability. Recently, fluorine substitution in Li 3 MCl 6 has been suggested as a promising approach for further enhancing oxidation stability. Accordingly, this study outlines a material design strategy for F-substituted Li 3 MCl 6 through systematic theoretical analyses. Calculations reveal that the mixing limit of F in Li 3 MCl 6\u2013 x F x is in the range of 0.5\u20131.5, and the resulting Li 3 MCl 6\u2013 x F x phases can retain ionic conductivity above 1 mS/cm up to x = 1.0. The calculations also predict that the formation of F-containing passivating phases could increase the oxidation potential for Li 3 MCl 5 F to \u223c6.3 V. The proposed material design strategy is validated through the synthesis of Li 3 YCl 5 F, which is confirmed to show both high ionic conductivity and enhanced oxidation stability. The design guidelines presented herein can accelerate the potential use of halide-based electrolyte chemistries in high-voltage all-solid-state batteries.",
+   "url": "https://doi.org/10.1021/acsenergylett.3c02307",
+   "year": 2023
+  },
+  {
+   "title": "Designing lithium halide solid electrolytes",
+   "abstract": "All-solid-state lithium batteries have attracted widespread attention for next-generation energy storage, potentially providing enhanced safety and cycling stability. The performance of such batteries relies on solid electrolyte materials; hence many structures/phases are being investigated with increasing compositional complexity. Among the various solid electrolytes, lithium halides show promising ionic conductivity and cathode compatibility, however, there are no effective guidelines when moving toward complex compositions that go beyond ab-initio modeling. Here, we show that ionic potential, the ratio of charge number and ion radius, can effectively capture the key interactions within halide materials, making it possible to guide the design of the representative crystal structures. This is demonstrated by the preparation of a family of complex layered halides that combine an enhanced conductivity with a favorable isometric morphology, induced by the high configurational entropy. This work provides insights into the characteristics of complex halide phases and presents a methodology for designing solid materials.",
+   "url": "https://doi.org/10.1038/s41467-024-45258-3",
+   "year": 2024
+  },
+  {
+   "title": "A LaCl3-based lithium superionic conductor compatible with lithium metal",
+   "abstract": "",
+   "url": "https://doi.org/10.1038/s41586-023-05899-8",
+   "year": 2023
+  },
+  {
+   "title": "A cost-effective, ionically conductive and compressible oxychloride solid-state electrolyte for stable all-solid-state lithium-based batteries",
+   "abstract": "Abstract To enable the development of all-solid-state batteries, an inorganic solid-state electrolyte should demonstrate high ionic conductivity (i.e., > 1 mS cm \u22121 at 25 \u00b0C), compressibility (e.g., > 90% density under 250\u2212350 MPa), and cost-effectiveness (e.g., < $50/kg). Here we report the development and preparation of Li 1.75 ZrCl 4.75 O 0.5 oxychloride solid-state electrolyte that demonstrates an ionic conductivity of 2.42 mS cm \u22121 at 25 \u00b0C, a compressibility enabling 94.2% density under 300 MPa and an estimated raw materials cost of $11.60/kg. As proof of concept, the Li 1.75 ZrCl 4.75 O 0.5 is tested in combination with a LiNi 0.8 Mn 0.1 Co 0.1 O 2 -based positive electrode and a Li 6 PS 5 Cl-coated Li-In negative electrode in lab-scale cell configuration. This all-solid-state cell delivers a discharge capacity retention of 70.34% (final discharge capacity of 70.2 mAh g \u22121 ) after 2082 cycles at 1 A g \u22121 , 25 \u00b0C and 1.5 tons of stacking pressure.",
+   "url": "https://doi.org/10.1038/s41467-023-39522-1",
+   "year": 2023
+  },
+  {
+   "title": "Prediction of Novel Trigonal Chloride Superionic Conductors as Promising Solid Electrolytes for All\u2010Solid\u2010State Lithium Batteries",
+   "abstract": "Abstract Recently emerging lithium ternary chlorides have attracted increasing attention for solid\u2010state electrolytes (SSEs) due to their favorable combination between ionic conductivity and electrochemical stability. However, a noticeable discrepancy in Li\u2010ion conductivity persists between chloride SSEs and organic liquid electrolytes, underscoring the need for designing novel chloride SSEs with enhanced Li\u2010ion conductivity. Herein, an intriguing trigonal structure (i.e., Li3SmCl6 with space group P3112) is identified using the global structure searching method in conjunction with first\u2010principles calculations, and its potential for SSEs is systematically evaluated. Importantly, the structure of Li3SmCl6 exhibits a high ionic conductivity of 15.46 mS cm\u22121 at room temperature due to the 3D lithium percolation framework distinct from previous proposals, associated with the unique in\u2010plane cation ordering and stacking sequences. Furthermore, it is unveiled that Li3SmCl6 possesses a wide electrochemical window of 0.73\u22124.30 V vs Li+/Li and excellent chemical interface stability with high\u2010voltage cathodes. Several other Li3MCl6 (M = Er, and In) materials with isomorphic structures to Li3SmCl6 are also found to be potential chloride SSEs, suggesting the broader applicability of this structure. This work reveals a new class of ternary chloride SSEs and sheds light on strategy for structure searching in the design of high\u2010performance SSEs.",
+   "url": "https://doi.org/10.1002/advs.202404213",
+   "year": 2024
+  },
+  {
+   "title": "The Universal Super Cation\u2010Conductivity in Multiple\u2010cation Mixed Chloride Solid\u2010State Electrolytes",
+   "abstract": "Abstract As exciting candidates for next\u2010generation energy storage, all\u2010solid\u2010state lithium batteries (ASSLBs) are highly dependent on advanced solid\u2010state electrolytes (SSEs). Here, using cost\u2010effective LaCl3 and CeCl3 lattice (UCl3\u2010type structure) as the host and further combined with a multiple\u2010cation mixed strategy, we report a series of UCl3\u2010type SSEs with high room\u2010temperature ionic conductivities over 10\u22123 S cm\u22121 and good compatibility with high\u2010voltage oxide cathodes. The intrinsic large\u2010size hexagonal one\u2010dimensional channels and highly disordered amorphous phase induced by multi\u2010metal cation species are believed to trigger fast multiple ionic conductions of Li+, Na+, K+, Cu+, and Ag+. The UCl3\u2010type SSEs enable a stable prototype ASSLB capable of over 3000 cycles and high reversibility at \u221230 \u00b0C. Further exploration of the brand\u2010new multiple\u2010cation mixed chlorides is likely to lead to the development of advanced halide SSEs suitable for ASSLBs with high energy density.",
+   "url": "https://doi.org/10.1002/anie.202306433",
+   "year": 2023
+  },
+  {
+   "title": "Research Progress on Sodium Chloride Solid Electrolytes",
+   "abstract": "\uff1b\u6df1\u5733\u5e02\u9762 \u4e0a\u9879\u76ee(JCYJ20220530150200001); \u5e7f\u4e1c\u7701\"\u73e0\u6c5f\u4eba\u624d\u8ba1\u5212\"\u9752\u5e74\u62d4\u5c16\u4eba\u624d\u9879\u76ee(2021QN02L210); \u56fd\u5bb6\u81ea\u7136\u79d1\u5b66\u57fa\u91d1\u533a\u57df\u521b\u65b0\u53d1 \u5c55\u8054\u5408\u9879\u76ee(U22A20439) Shenzhen Science and Technology Program (RCYX20221008092929074)\uff1bGuangdong S&T Program (2023B0909060004)\uff1bShenzhen Fundamental Research Program (JCYJ20220530150200001); Zhujiang Talent Program of Guangdong Province(2021QN02L210);",
+   "url": "https://doi.org/10.15541/jim20250307",
+   "year": 2025
+  },
+  {
+   "title": "Superionic Conductivity Invoked by Enhanced Correlation Migration in Lithium Halides Solid Electrolytes",
+   "abstract": "Lithium halides are experiencing reflorescence as a promising solid electrolyte in all-solid-state batteries (ASSBs) owing to their moderate conductivities and high oxidation potential. Herein we report new lithium-superionic chlorides, Li 3\u2013 x Sc 1\u2013 x Zr x Cl 6 and Li 3\u2013 x Sc 1\u2013 x Hf x Cl 6 ( x = 0.25, 0.50, 0.625, 0.75), that demonstrate high ionic conductivities up to 2.2 mS cm \u20131 at room temperature coupled with low activation energy barriers (0.31 and 0.33 eV for Zr and Hf-analogy, respectively). This notably improved conductivity upon Zr 4+ /Hf 4+ substitution is ascribed to the decreased energy barrier along the c axis and enhanced correlated migration invoked by the tuned Li + /vacancy concentration. Evaluation in solid-state cells further confirmed the potential of this electrolyte to be used in high voltage ASSBs. Our work elucidates the impact of tuned cationic/vacancy concentration and consequently enhanced correlated migration on cationic conductivity. This strategy can be extended to other systems and serve as a guideline for the design of fast ion conductors.",
+   "url": "https://doi.org/10.1021/acsenergylett.3c02496",
+   "year": 2024
+  },
+  {
+   "title": "Measurement of Cerium and Gadolinium in Solid Lithium Chloride\u2013Potassium Chloride Salt Using Laser-Induced Breakdown Spectroscopy (LIBS)",
+   "abstract": "Pyroprocessing of used nuclear fuel (UNF) has many advantages\u2014including that it is proliferation resistant. However, as part of the process, special nuclear materials accumulate in the electrolyte salt and present material accountability and safeguards concerns. The main motivation of this work was to explore a laser-induced breakdown spectroscopy (LIBS) approach as an online monitoring technique to enhance the material accountability of special nuclear materials in pyroprocessing. In this work, a vacuum extraction method was used to draw the molten salt (CeCl 3 -GdCl 3 -LiCl-KCl) up into 4 mm diameter Pyrex tubes where it froze. The salt was then removed and the solid salt was measured using LIBS and inductively coupled plasma mass spectroscopy (ICP-MS). A total of 36 samples were made that varied the CeCl 3 and GdCl 3 (surrogates for uranium and plutonium, respectively) concentrations from 0.5 wt% to 5 wt%. From these samples, univariate calibration curves for Ce and Gd were generated using peak area and peak intensity methods. For Ce, the Ce 551.1 nm line using the peak area provided the best calibration curve with a limit of detection (LOD) of 0.099 wt% and a root mean squared error of cross-validation (RMSECV) of 0.197 wt%. For Gd, the best curve was generated using the peak intensities of the Gd 564.2 nm line resulting in a LOD of 0.027 wt% and a RMSECV of 0.295 wt%. The RMSECV for the univariate cases were determined using leave-one-out cross-validation. In addition to the univariate calibration curves, partial least squares (PLS) regression was done to develop a calibration model. The PLS models yielded similar results with RMSECV (determined using Venetian blind cross-validation with 17% left out per split) values of 0.30 wt% and 0.29 wt% for Ce and Gd, respectively. This work has shown that solid pyroprocessing salt can be qualitatively and quantitatively monitored using LIBS. This work has the potential of significantly enhancing the material monitoring and safeguards of special nuclear materials in pyroprocessing.",
+   "url": "https://doi.org/10.1177/0003702817709298",
+   "year": 2017
+  },
+  {
+   "title": "Interfacial engineering of solid electrolytes",
+   "abstract": "The roles of interfaces in either blocking or enhancing ionic conduction in various types of solid electrolytes, including lithium, sodium, oxygen and other types of ion conductors as well as proton conductors, are critically reviewed. Two important fundamental interfacial phenomena, namely the formation of space charges and two-dimensional interfacial phases (complexions), can markedly alter ion transport along or across various types of interfaces, including grain and phase boundaries as well as free surfaces. Since the experiments and models of space charges have been well documented in literature, a new focus of this short review and viewpoint article is to propose and discuss an emerging opportunity of utilizing the formation and transition of interfacial phases to either alleviate the blocking effects or further enhance ionic conduction in solid electrolytes.",
+   "url": "https://doi.org/10.1016/j.jmat.2015.03.002",
+   "year": 2015
+  },
+  {
+   "title": "Garnet-Type Lithium Metal Fluorides: A Potential Solid Electrolyte for Solid-State Batteries",
+   "abstract": "In this work, we introduced a garnet-type lithium metal fluoride, Li 3 Na 3 M 2 F 12 (M = Al, Sc, In), as solid-state lithium-ion conductors for the first time. The mechanically milled Li 3 Na 3 M 2 F 12 compounds crystallized in a cubic garnet-like structure ( Ia3\u0305d, No. 230). The ionic conductivities of Li 3 Na 3 Al 2 F 12, Li 3 Na 3 Sc 2 F 12, and Li 3 Na 3 In 2 F 12 are 1.7 \u00d7 10 \u20136, 8.2 \u00d7 10 \u20136, and 2.4 \u00d7 10 \u20136 S/cm at 300 \u00b0C and 1.2 \u00d7 10 \u201310, 2.6 \u00d7 10 \u20139, and 1.8 \u00d7 10 \u201310 S/cm at 100 \u00b0C, respectively. Even though these fluoride garnets\u2019 conductivity is less, it is still better than those of the oxide analogues Li 3 Ln 3 Te 2 O 12 (Ln = Er, Gd, Tb, Nd). Moreover, we explored why garnet-type Li 3 Na 3 M 2 F 12 has low ionic conductivity and presented strategies for further improving conductivities.",
+   "url": "https://doi.org/10.1021/acsaem.2c03334",
+   "year": 2022
+  },
+  {
+   "title": "Electrolytes for solid state lithium batteries in the [N13pip]ClO4-LiClO4-Al2O3 system for solid state lithium batteries",
+   "abstract": "The transport, electrochemical, structural, and thermal properties of electrolytes in the ternary system [N13pip]ClO4-LiClO4-\u03b3-Al2O3 (N13pip is N-methyl-N-ethyl-piperidinium cation) were investigated at the molar ratio [N13pip]ClO4:LiClO4 = 0.82:0.18. The addition of alumina leads to a change in the thermodynamic properties of the [N13pip]ClO4-LiClO4 system that can be explained by a partial transfer of lithium perchlorate from the organic phase to the surface of \u03b3-Al2O3. The highest ionic conductivity of 6.2\u221910\u20134 S/cm at 110 \u00b0C was observed for the composition containing the volume fraction (f) of \u03b3-Al2O3 equal to 0.5. The increase in conductivity compared to the binary system 0.82[N13pip]ClO4-0.18LiClO4 is achieved due to the amorphization of the organic salt near the salt/LiClO4/oxide interfaces. Galvanostatic cycling with Li electrodes shows that composites with f = 0.5 are stable at 110 \u00b0C for at least 68 charge/discharge cycles, and the electrolyte is shown to be electrochemically stable up to 5 V. This system can be used as a solid-state electrolyte in lithium-ion current sources.",
+   "url": "https://doi.org/10.15826/chimtech.2024.11.3.04",
+   "year": 2024
+  },
+  {
+   "title": "Probing the electrochemical behaviour of lithium imide as an electrolyte for solid-state batteries",
+   "abstract": ") as well as the ability to operate in Li-metal battery cells. These results not only highlight the promising performance of lithium imide, but also its potential to be the basis for a new family of antifluorite based solid electrolytes.",
+   "url": "https://doi.org/10.1039/d5eb00058k",
+   "year": 2025
+  },
+  {
+   "title": "Ab initio investigations of solid electrolytes for lithium- and Sodium-ion batteries",
+   "abstract": "Thesis: Ph. D., Massachusetts Institute of Technology, Department of Materials Science and Engineering, 2017.",
+   "url": "https://openalex.org/W2612165201",
+   "year": 2017
+  },
+  {
+   "title": "Gadolinium-doped lithium titanate as multifunctional fillers for composite electrolyte with high lithium-ion transference number in all-solid-state lithium batteries",
+   "abstract": "Polyethylene oxide (PEO)-based composite polymer electrolytes (CPEs) offer high energy density and low cost. However, their practical application is severely hindered by low ionic conductivity and poor interfacial stability. To address these challenges, this study introduces Gd 3+ -doped Li 4 Ti 5 O 12 nanosheets (GLTO NSs) \u2014 a material originally used as an anode \u2014 as functional active fillers into PEO. Within the PEO matrix, the GLTO NSs interconnect to form a continuous three-dimensional ionic transport network, providing additional fast conduction pathways for Li + . Meanwhile, the surface oxygen vacancies introduced by Gd 3+ doping can anchor TFSI \u2212 , effectively enhancing ionic conductivity. The PL/5GLTO electrolyte exhibits an ionic conductivity of 4.87 \u00d7 10 \u22124 S cm \u22121 , a high Li + transference number of 0.60, and an extended electrochemical stability window of 5.39 V (vs Li/Li + ). Consequently, the Li/PL/5GLTO/LiFePO 4 battery retains 70.02% of its discharge capacity after 420 cycles at 0.5C. Moreover, even in a high-voltage LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811) system, the PL/5GLTO battery also demonstrates good cycling stability, highlighting the critical role of GLTO in enhancing both interfacial and high-voltage stability. This study provides an effective material design strategy for developing high-performance PEO-based CPEs, showing promising application prospects in all-solid-state lithium metal batteries.",
+   "url": "https://doi.org/10.1016/j.jpowsour.2026.241561",
+   "year": 2026
+  },
+  {
+   "title": "The Universal Super Cation\u2010Conductivity in Multiple\u2010cation Mixed Chloride Solid\u2010State Electrolytes",
+   "abstract": "Abstract As exciting candidates for next\u2010generation energy storage, all\u2010solid\u2010state lithium batteries (ASSLBs) are highly dependent on advanced solid\u2010state electrolytes (SSEs). Here, using cost\u2010effective LaCl3 and CeCl3 lattice (UCl3\u2010type structure) as the host and further combined with a multiple\u2010cation mixed strategy, we report a series of UCl3\u2010type SSEs with high room\u2010temperature ionic conductivities over 10\u22123 S cm\u22121 and good compatibility with high\u2010voltage oxide cathodes. The intrinsic large\u2010size hexagonal one\u2010dimensional channels and highly disordered amorphous phase induced by multi\u2010metal cation species are believed to trigger fast multiple ionic conductions of Li+, Na+, K+, Cu+, and Ag+. The UCl3\u2010type SSEs enable a stable prototype ASSLB capable of over 3000 cycles and high reversibility at \u221230 \u00b0C. Further exploration of the brand\u2010new multiple\u2010cation mixed chlorides is likely to lead to the development of advanced halide SSEs suitable for ASSLBs with high energy density.",
+   "url": "https://doi.org/10.1002/ange.202306433",
+   "year": 2023
+  },
+  {
+   "title": "Strategies to Boost the Safety and Ionic Conductivity of Lithium\u2010Ion Batteries Using Solid State Electrolytes: A Review",
+   "abstract": "ABSTRACT The enormous potential of lithium\u2010ion batteries (LIBs) to provide environmentally sustainable practices and efficient energy storage has led to a rising interest in LIBs. Thermal runaway behaviors in LIBs, including high temperature, ejection, combustion, explosion, and the release of toxic gases, as well as thermal failure propagation in a battery pack, are both possible. Here, briefly mentioned about solid\u2010state electrolytes (SSE), which may use to make LIBs safer by reducing these risks. However, the SSE's ionic conductivity is subpar when compared to that of other liquid electrolytes, demanding modification. The authors have also focused on several SSE types in this review, including inorganic SSE, solid polymer electrolytes (SPEs), and composite solid electrolytes. Additionally, it was described how to enhance the ionic conductivity of SSEs at ambient temperature.",
+   "url": "https://doi.org/10.1002/wene.544",
+   "year": 2025
+  },
+  {
+   "title": "Boosting Room-Temperature Li$^+$ Conductivity via strain in solid electrolytes for Lithium-ion Batteries",
+   "abstract": "Room-temperature (RT) conductivity of most candidates for solid electrolytes of miniaturized lithium-ion batteries is still 1-2 orders of magnitude below commercial requirements, therefore several approaches are being pursued aiming the enhancement of such values. In this letter, we report for the first time direct theoretical evidence that epitaxial strain can be an efficient tool to reach this goal.",
+   "url": "https://doi.org/10.48550/arxiv.1603.04830",
+   "year": 2016
+  },
+  {
+   "title": "Mechanochemical Synthesis of Solid-State Electrolytes",
+   "abstract": "In recent decades, the field of materials research has put significant emphasis on developing innovative platforms that have the potential to address the increasing global energy demand. Batteries have demonstrated their enormous effectiveness in the context of energy storage and consumption. However, safety issues associated with liquid electrolytes combined with a low abundance of lithium in the Earth\u2019s crust gave rise to the development of solid-state electrolytes and cations other than lithium. The commercial production of solid-state batteries demands the scaling up of solid-state electrolyte syntheses as well as the mixing of electrode composites containing solid electrolytes. This review is motivated by the recent literature, and it gives a thorough overview of solid-state electrolytes and highlights the significance of the employed milling and dispersing procedures for the resulting ionic transport properties.",
+   "url": "https://doi.org/10.3390/inorganics12020054",
+   "year": 2024
+  },
+  {
+   "title": "Materials design of sodium chloride solid electrolytes Na 3 MCl 6 for all-solid-state sodium-ion batteries",
+   "abstract": "A materials design strategy for sodium chloride solid electrolytes was developed through systematic assessment of the phase stability, electrochemical stability, and transport properties of novel Na 3 MCl 6 .",
+   "url": "https://doi.org/10.1039/d1ta07050a",
+   "year": 2021
+  },
+  {
+   "title": "Polymer Electrolytes for Lithium-Ion Batteries Studied by NMR Techniques",
+   "abstract": "This review is devoted to different types of novel polymer electrolytes for lithium power sources developed during the last decade. In the first part, the compositions and conductivity of various polymer electrolytes are considered. The second part contains NMR applications to the ion transport mechanism. Polymer electrolytes prevail over liquid electrolytes because of their exploitation safety and wider working temperature ranges. The gel electrolytes are mainly attractive. The systems based on polyethylene oxide, poly(vinylidene fluoride-co-hexafluoropropylene), poly(ethylene glycol) diacrylate, etc., modified by nanoparticle (TiO2, SiO2, etc.) additives and ionic liquids are considered in detail. NMR techniques such as high-resolution NMR, solid-state NMR, magic angle spinning (MAS) NMR, NMR relaxation, and pulsed-field gradient NMR applications are discussed. 1H, 7Li, and 19F NMR methods applied to polymer electrolytes are considered. Primary attention is given to the revelation of the ion transport mechanism. A nanochannel structure, compositions of ion complexes, and mobilities of cations and anions studied by NMR, quantum-chemical, and ionic conductivity methods are discussed.",
+   "url": "https://doi.org/10.3390/membranes12040416",
+   "year": 2022
+  },
+  {
+   "title": "Complex hydrides as room-temperature solid electrolytes for rechargeable batteries",
+   "abstract": "A central goal in current battery research is to increase the safety and energy density of Li-ion batteries. Electrolytes nowadays typically consist of lithium salts dissolved in organic solvents. Solid electrolytes could facilitate safer batteries with higher capacities, as they are compatible with Li-metal anodes, prevent Li dendrite formation, and eliminate risks associated with flammable organic solvents. Less than 10 years ago, LiBH 4 was proposed as a solid-state electrolyte. It showed a high ionic conductivity, but only at elevated temperatures. Since then a range of other complex metal hydrides has been reported to show similar characteristics. Strategies have been developed to extend the high ionic conductivity of LiBH 4 down to room temperature by partial anion substitution or nanoconfinement. The present paper reviews the recent developments in complex metal hydrides as solid electrolytes, discussing in detail LiBH 4 , strategies towards for fast room-temperature ionic conductors, alternative compounds, and first explorations of implementation of these electrolytes in all-solid-state batteries.",
+   "url": "https://doi.org/10.1007/s00339-016-9807-2",
+   "year": 2016
+  },
+  {
+   "title": "Environmental Sustainability of Natural Biopolymer\u2010Based Electrolytes for Lithium Ion Battery Applications",
+   "abstract": "Biopolymer based electrolytes can overcome current performance limitations of lithium-ion batteries (LIBs). Biopolymers enable electrolytes with high ionic conductivities and wide electrochemical stability windows. While the biobased character of natural materials is claimed as an inherent advantage in meeting current environmental sustainability challenges, further research is required to quantify and compare their environmental impacts as electrolytes. The challenge is addressed by identifying the most promising biopolymer electrolytes for LIBs, measuring ionic conductivities and electrochemical stability windows, and quantifying environmental impacts using life cycle assessment. The environmental impacts of the cost to isolate cellulose derivatives, nanocelluloses, chitin/nanochitin, chitosan, lignin, agar, and silk are reported for climate change, acidification, freshwater ecotoxicity, marine eutrophication, human toxicity, and water use. Material criticality, circularity index, and material circularity indicator, emerging impact categories are prioritized to help integrate biopolymers into circular and sustainable materials. The electrochemical properties and environmental impacts of natural biopolymer membrane-liquid electrolyte pairs, gel electrolytes, and solid electrolytes are quantified and benchmarked against conventional fossil-based electrolytes, providing consistent and comparable electrochemical properties of the most relevant biopolymer electrolytes fabricated so far. This study highlights the significant functional and environmental benefits of biopolymer electrolytes and identifies the most electrochemically competitive biopolymer electrolytes in LIBs.",
+   "url": "https://doi.org/10.1002/adma.202416733",
+   "year": 2025
+  },
+  {
+   "title": "Li4.3AlS3.3Cl0.7: A Sulfide-Chloride Lithium Ion Conductor with a Highly Disordered Structure",
+   "abstract": "Mixed anion materials and anion doping are very promising strategies to improve solid-state electrolyte properties by enabling an optimized balance between good electrochemical stability and high ionic conductivity. In this work, we present the discovery of a novel lithium aluminum sulfide-chloride phase. The structure is strongly affected by the presence of chloride anions on the sulfur site, as this stabilizes a higher symmetry phase presenting a large degree of cationic site disorder, as well as disordered octahedral lithium vacancies, in comparison with Li-Al-S ternaries. The effect of disorder on the lithium conductivity properties was assessed by a combined experimental-theoretical approach. In particular, the conductivity is increased by a factor 103 compared to the pure sulfide phases. Although it remains moderate (10\u22126 S\u00b7cm-1), Ab Initio Molecular Dynamics and Maximum Entropy (applied to neutron diffraction data) methods show that disorder leads to a 3D diffusion pathway, where Li atoms move thanks to a concerted mechanism. An understanding of the structure-property relationships is developed to determine the limiting factor governing lithium ion conductivity. This analysis, added to the strong step forward obtained in the determination of the dimensionality of diffusion paves the way for accessing even higher conductivity in materials comprising an hcp anion arrangement.",
+   "url": "https://doi.org/10.26434/chemrxiv.14454627",
+   "year": 2021
+  },
+  {
+   "title": "Paradigms of frustration in superionic solid electrolytes",
+   "abstract": "Superionic solid electrolytes have widespread use in energy devices, but the fundamental motivations for fast ion conduction are often elusive. In this Perspective, we draw upon atomistic simulations of a wide range of superionic conductors to illustrate some ways frustration can lower diffusion cation barriers in solids. Based on our studies of halides, oxides, sulfides and hydroborates and a survey of published reports, we classify three types of frustration that create competition between different local atomic preferences, thereby flattening the diffusive energy landscape. These include chemical frustration, which derives from competing factors in the anion-cation interaction; structural frustration, which arises from lattice arrangements that induce site distortion or prevent cation ordering; and dynamical frustration, which is associated with temporary fluctuations in the energy landscape due to anion reorientation or cation reconfiguration. For each class of frustration, we provide detailed simulation analyses of various materials to show how ion mobility is facilitated, resulting in stabilizing factors that are both entropic and enthalpic in origin. We propose the use of these categories as a general construct for classifying frustration in superionic conductors and discuss implications for future development of suitable descriptors and improvement strategies. This article is part of the Theo Murphy meeting issue 'Understanding fast-ion conduction in solid electrolytes'.",
+   "url": "https://doi.org/10.1098/rsta.2019.0467",
+   "year": 2021
+  }
+ ]
+}

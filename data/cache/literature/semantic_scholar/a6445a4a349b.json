@@ -1,0 +1,6 @@
+{
+ "ok": false,
+ "query": "Al lithium chloride solid electrolyte",
+ "error": "HTTPError: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=Al+lithium+chloride+solid+electrolyte&fields=title%2Cabstract%2Curl%2Cyear&limit=20",
+ "papers": []
+}

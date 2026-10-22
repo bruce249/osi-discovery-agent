@@ -1,0 +1,141 @@
+{
+ "ok": true,
+ "hash": "1d096096d0d70dcf71b1",
+ "model": "chgnet",
+ "e_per_atom": -4.729693412780762,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     3.71007463,
+     6e-08,
+     0.0
+    ],
+    [
+     -1.85503522,
+     3.21301807,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     11.89921547
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 3.7100746300000003,
+   "b": 3.7100728814387156,
+   "c": 11.89921547,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 119.9999773050607,
+   "volume": 141.84503754978965
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Nd",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.01398061215877533
+    },
+    "label": "Nd",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Nd",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.013980582356452942
+    },
+    "label": "Nd",
+    "xyz": [
+     0.0,
+     0.0,
+     5.949607735
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Nd",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.333333,
+     0.6666670000000001,
+     0.25
+    ],
+    "properties": {
+     "final_magmom": 0.013979949057102203
+    },
+    "label": "Nd",
+    "xyz": [
+     -4.583699504401295e-07,
+     2.14201313767267,
+     2.9748038675
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Nd",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.6666669999999999,
+     0.333333,
+     0.75
+    ],
+    "properties": {
+     "final_magmom": 0.013979941606521606
+    },
+    "label": "Nd",
+    "xyz": [
+     1.8550398683699494,
+     1.07100499232733,
+     8.9244116025
+    ]
+   }
+  ]
+ },
+ "seconds": 0.021280288696289062,
+ "task_hash": "1d096096d0d70dcf71b1",
+ "kind": "reference",
+ "label": "mp-123"
+}

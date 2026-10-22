@@ -1,0 +1,141 @@
+{
+ "ok": true,
+ "hash": "a8a649047bd77a96be10",
+ "model": "chgnet",
+ "e_per_atom": -4.747139930725098,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     3.74830739,
+     1e-08,
+     -0.0
+    ],
+    [
+     -1.87415317,
+     3.24612728,
+     -0.0
+    ],
+    [
+     0.0,
+     0.0,
+     12.01424671
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 3.74830739,
+   "b": 3.7483052733977322,
+   "c": 12.01424671,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 120.00000926017512,
+   "volume": 146.18314129513513
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Pr",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.009223997592926025
+    },
+    "label": "Pr",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Pr",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.009224027395248413
+    },
+    "label": "Pr",
+    "xyz": [
+     0.0,
+     0.0,
+     6.007123355
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Pr",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.33333299999999993,
+     0.666667,
+     0.25
+    ],
+    "properties": {
+     "final_magmom": 0.009224005043506622
+    },
+    "label": "Pr",
+    "xyz": [
+     -1.5241535203780424e-06,
+     2.16408593870909,
+     3.0035616775
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Pr",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.6666669999999999,
+     0.33333299999999993,
+     0.75
+    ],
+    "properties": {
+     "final_magmom": 0.00922393798828125
+    },
+    "label": "Pr",
+    "xyz": [
+     1.8741557441535197,
+     1.0820413512909097,
+     9.0106850325
+    ]
+   }
+  ]
+ },
+ "seconds": 0.020842790603637695,
+ "task_hash": "a8a649047bd77a96be10",
+ "kind": "reference",
+ "label": "mp-38"
+}

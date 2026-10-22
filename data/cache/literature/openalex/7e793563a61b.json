@@ -1,0 +1,18 @@
+{
+ "ok": true,
+ "query": "Li3VCl6",
+ "papers": [
+  {
+   "title": "An Active Halide Catholyte Boosts the Extra Capacity for All\u2010Solid\u2010State Batteries",
+   "abstract": "Abstract Replacing flammable organic liquid electrolytes with nonflammable solid electrolytes (SEs) in lithium batteries is crucial for enhancing safety across various applications, including portable electronics, electric vehicles, and scalable energy storage. Since typical cathode materials do not possess superionic conductivity, Li\u2010ion conduction in the cathode predominantly relies on incorporating a significant number of SEs as additives to form a composite cathode, which substantially compromises the energy density of solid\u2010state lithium batteries. Here, a halide SE, Li3VCl6 is demonstrated, which not only exhibits a decent Li+ conductivity, but more importantly, delivers a highly reversible capacity of approximately 80 mAh g\u22121 with an average voltage of 3 V versus Li+/Li. The ionic conductivity of Li3VCl6 experiences marginal fluctuations upon electrochemical lithiation/delithiation, as its prototypical solid\u2010solution reaction results solely in a reduction of lithium vacancy. When combined with the traditional LiFePO4 cathode, the active Li3VCl6 catholyte enables an impressive capacity of 217.1 mAh g\u22121LFP and about 50% increase in energy density compared with inactive catholytes. Harnessing the integrated mass of the catholyte\u2014which can serve as an active material\u2014presents an opportunity to boost the extra capacity, rendering it feasible in applications.",
+   "url": "https://doi.org/10.1002/adma.202405277",
+   "year": 2024
+  },
+  {
+   "title": "Recent Advances in Lithium Iron Phosphate Battery Technology: A Comprehensive Review",
+   "abstract": "Lithium iron phosphate (LFP) batteries have emerged as one of the most promising energy storage solutions due to their high safety, long cycle life, and environmental friendliness. In recent years, significant progress has been made in enhancing the performance and expanding the applications of LFP batteries through innovative materials design, electrode engineering, and manufacturing techniques. This review paper provides a comprehensive overview of the recent advances in LFP battery technology, covering key developments in materials synthesis, electrode architectures, electrolytes, cell design, and system integration. This review paper aims to provide a comprehensive overview of the recent advances in lithium iron phosphate (LFP) battery technology, encompassing materials development, electrode engineering, electrolytes, cell design, and applications. By highlighting the latest research findings and technological innovations, this paper seeks to contribute to the continued advancement and widespread adoption of LFP batteries as sustainable and reliable energy storage solutions for various applications. We also discuss the current challenges and future prospects for LFP batteries, emphasizing their potential role in sustainable energy storage solutions for various applications, including electric vehicles, renewable energy integration, and grid-scale energy storage.",
+   "url": "https://doi.org/10.3390/batteries10120424",
+   "year": 2024
+  }
+ ]
+}

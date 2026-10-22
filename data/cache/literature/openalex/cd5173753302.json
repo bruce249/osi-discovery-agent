@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "query": "Li3FeCl6",
+ "papers": [
+  {
+   "title": "Materials engineering of Fe-based halides for low-cost and high-energy-density all-solid-state lithium batteries: A review and perspective",
+   "abstract": "Abstract All-solid-state lithium batteries (ASSLBs) are promising for next-generation energy storage owing to their enhanced safety and potential for high energy density. However, their practical deployment is constrained by challenges such as immature manufacturing processes and the high cost of key materials. Fe-based halides (FBHs) have recently emerged as compelling candidates for addressing these issues, benefiting from their low cost, structural tunability, and inherent multifunctionality. This review highlights the unique dual function of FBHs in ASSLBs, wherein they can serve simultaneously or separately as solid-state electrolytes with acceptable ionic conductivity and as high-capacity cathodes featuring reversible redox chemistry. We first discuss the structural characteristics and cost advantages of FBHs. Subsequently, we examine their applications as solid electrolytes and as cathodes in full-cell configurations, with emphasis on their interfacial compatibility and electrochemical performance. Finally, we outline the remaining challenges and perspectives on the practical implementation of FBHs in ASSLBs. This review is expected to enable systematic understanding of the dual-function potential of FBHs and offers significant guidance for the development of low-cost, high-energy-density ASSLBs.",
+   "url": "https://doi.org/10.26599/emd.2026.9370102",
+   "year": 2026
+  }
+ ]
+}

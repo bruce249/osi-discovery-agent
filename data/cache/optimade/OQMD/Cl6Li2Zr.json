@@ -1,0 +1,7 @@
+{
+ "provider": "OQMD",
+ "formula": "Cl6Li2Zr",
+ "status": "unchecked",
+ "ids": [],
+ "error": "ReadTimeout: HTTPSConnectionPool(host='oqmd.org', port=443): Read timed out. (read timeout=30)"
+}

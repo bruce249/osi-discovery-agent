@@ -1,0 +1,24 @@
+{
+ "ok": true,
+ "query": "Li3GdCl6",
+ "papers": [
+  {
+   "title": "Calculated thermodynamic properties of GdCl3 in LiCl-KCl eutectic molten salt",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jnucmat.2018.05.030",
+   "year": 2018
+  },
+  {
+   "title": "Electrical conductivity of GdCl3-LiCl and GdCl3-LiCl-Gd2O3 molten systems",
+   "abstract": "The electrical conductivity of LiCl?GdCl3 molten systems with the gadolinium chloride additions ranging from 0 to 23 mol % was measured depending on both the temperature and concentration of GdCl3. The molar conductivity of the molten GdCl3?LiCl system is calculated taking into account the assumption of additivity of the molar volume of the mixture. The obtained temperature dependencies can be approximated by Arrhenius-type equation. The effective activation energy, Ea, increased with the GdCl3 content. The liquidus temperatures of the studied systems were determined by differential scanning calorimetry. The high-temperature Raman spectra of LiCl?GdCl3 chloride melts were recorded. In addition, the conductivity of 0.77LiCl?0.23GdCl3 molten system with 1 mol % of Gd2O3 was measured. The investigation demonstrates that the addition of gadolinium oxide results in a decrease of the conductivity of the chloride molten system and growth of its liquidus temperature",
+   "url": "https://doi.org/10.2298/jsc230131051n",
+   "year": 2023
+  },
+  {
+   "title": "Rare Earth Electrochemical Property Measurements and Phase Diagram Development in a Complex Molten Salt Mixture for Molten Salt Recycle",
+   "abstract": "Pyroprocessing is a promising alternative for the reprocessing of used nuclear fuel (UNF) that uses electrochemical methods. Compared to the hydrometallurgical reprocessing method, pyroprocessing has many advantages such as reduced volume of radioactive waste, simple waste processing, ability to treat refractory material, and compatibility with fast reactor fuel recycle. The key steps of the process are the electro-refining of the spent metallic fuel in the LiCl-KCl eutectic salt, which can be integrated with an electrolytic reduction step for the reprocessing of spent oxide fuels.",
+   "url": "https://doi.org/10.2172/1432448",
+   "year": 2018
+  }
+ ]
+}

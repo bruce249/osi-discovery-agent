@@ -1,0 +1,9 @@
+{
+ "provider": "JARVIS",
+ "formula": "Cl6Li3Sc",
+ "status": "present",
+ "ids": [
+  "dft_3d_JVASP-110663"
+ ],
+ "n_returned": 1
+}

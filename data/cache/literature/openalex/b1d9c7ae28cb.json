@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "Hf lithium chloride solid electrolyte",
+ "papers": [
+  {
+   "title": "A cost-effective and humidity-tolerant chloride solid electrolyte for lithium batteries",
+   "abstract": "Abstract Li-ion-conducting chloride solid electrolytes receive considerable attention due to their physicochemical characteristics such as high ionic conductivity, deformability and oxidative stability. However, the raw materials are expensive, and large-scale use of this class of inorganic superionic conductors seems unlikely. Here, a cost-effective chloride solid electrolyte, Li 2 ZrCl 6 , is reported. Its raw materials are several orders of magnitude cheaper than those for the state-of-the-art chloride solid electrolytes, but high ionic conductivity (0.81 mS cm \u20131 at room temperature), deformability, and compatibility with 4V-class cathodes are still simultaneously achieved in Li 2 ZrCl 6 . Moreover, Li 2 ZrCl 6 demonstrates a humidity tolerance with no sign of moisture uptake or conductivity degradation after exposure to an atmosphere with 5% relative humidity. By combining Li 2 ZrCl 6 with the Li-In anode and the single-crystal LiNi 0.8 Mn 0.1 Co 0.1 O 2 cathode, we report a room-temperature all-solid-state cell with a stable specific capacity of about 150 mAh g \u20131 for 200 cycles at 200 mA g \u20131 .",
+   "url": "https://doi.org/10.1038/s41467-021-24697-2",
+   "year": 2021
+  },
+  {
+   "title": "Fluorine-Substituted Lithium Chloride Solid Electrolytes for High-Voltage All-Solid-State Lithium-Ion Batteries",
+   "abstract": "Lithium ternary halides are promising solid electrolytes, owing to their high ionic conductivity and reasonably high oxidative and chemical stability. Recently, fluorine substitution in Li 3 MCl 6 has been suggested as a promising approach for further enhancing oxidation stability. Accordingly, this study outlines a material design strategy for F-substituted Li 3 MCl 6 through systematic theoretical analyses. Calculations reveal that the mixing limit of F in Li 3 MCl 6\u2013 x F x is in the range of 0.5\u20131.5, and the resulting Li 3 MCl 6\u2013 x F x phases can retain ionic conductivity above 1 mS/cm up to x = 1.0. The calculations also predict that the formation of F-containing passivating phases could increase the oxidation potential for Li 3 MCl 5 F to \u223c6.3 V. The proposed material design strategy is validated through the synthesis of Li 3 YCl 5 F, which is confirmed to show both high ionic conductivity and enhanced oxidation stability. The design guidelines presented herein can accelerate the potential use of halide-based electrolyte chemistries in high-voltage all-solid-state batteries.",
+   "url": "https://doi.org/10.1021/acsenergylett.3c02307",
+   "year": 2023
+  },
+  {
+   "title": "Designing lithium halide solid electrolytes",
+   "abstract": "All-solid-state lithium batteries have attracted widespread attention for next-generation energy storage, potentially providing enhanced safety and cycling stability. The performance of such batteries relies on solid electrolyte materials; hence many structures/phases are being investigated with increasing compositional complexity. Among the various solid electrolytes, lithium halides show promising ionic conductivity and cathode compatibility, however, there are no effective guidelines when moving toward complex compositions that go beyond ab-initio modeling. Here, we show that ionic potential, the ratio of charge number and ion radius, can effectively capture the key interactions within halide materials, making it possible to guide the design of the representative crystal structures. This is demonstrated by the preparation of a family of complex layered halides that combine an enhanced conductivity with a favorable isometric morphology, induced by the high configurational entropy. This work provides insights into the characteristics of complex halide phases and presents a methodology for designing solid materials.",
+   "url": "https://doi.org/10.1038/s41467-024-45258-3",
+   "year": 2024
+  },
+  {
+   "title": "Superionic Conductivity Invoked by Enhanced Correlation Migration in Lithium Halides Solid Electrolytes",
+   "abstract": "Lithium halides are experiencing reflorescence as a promising solid electrolyte in all-solid-state batteries (ASSBs) owing to their moderate conductivities and high oxidation potential. Herein we report new lithium-superionic chlorides, Li 3\u2013 x Sc 1\u2013 x Zr x Cl 6 and Li 3\u2013 x Sc 1\u2013 x Hf x Cl 6 ( x = 0.25, 0.50, 0.625, 0.75), that demonstrate high ionic conductivities up to 2.2 mS cm \u20131 at room temperature coupled with low activation energy barriers (0.31 and 0.33 eV for Zr and Hf-analogy, respectively). This notably improved conductivity upon Zr 4+ /Hf 4+ substitution is ascribed to the decreased energy barrier along the c axis and enhanced correlated migration invoked by the tuned Li + /vacancy concentration. Evaluation in solid-state cells further confirmed the potential of this electrolyte to be used in high voltage ASSBs. Our work elucidates the impact of tuned cationic/vacancy concentration and consequently enhanced correlated migration on cationic conductivity. This strategy can be extended to other systems and serve as a guideline for the design of fast ion conductors.",
+   "url": "https://doi.org/10.1021/acsenergylett.3c02496",
+   "year": 2024
+  },
+  {
+   "title": "Solid-State Electrolytes for Lithium-Ion Batteries: Fundamentals, Challenges and Perspectives",
+   "abstract": "Abstract With the rapid popularization and development of lithium-ion batteries, associated safety issues caused by the use of flammable organic electrolytes have drawn increasing attention. To address this, solid-state electrolytes have become the focus of research for both scientific and industrial communities due to high safety and energy density. Despite these promising prospects, however, solid-state electrolytes face several formidable obstacles that hinder commercialization, including insufficient lithium-ion conduction and surge transfer impedance at the interface between solid-state electrolytes and electrodes. Based on this, this review will provide an introduction into typical lithium-ion conductors involving inorganic, organic and inorganic\u2013organic hybrid electrolytes as well as the mechanisms of lithium-ion conduction and corresponding factors affecting performance. Furthermore, this review will comprehensively discuss emerging and advanced characterization techniques and propose underlying strategies to enhance ionic conduction along with future development trends. Graphical Abstract",
+   "url": "https://doi.org/10.1007/s41918-019-00048-0",
+   "year": 2019
+  },
+  {
+   "title": "A review of all-solid-state electrolytes for lithium batteries: high-voltage cathode materials, solid-state electrolytes and electrode\u2013electrolyte interfaces",
+   "abstract": "Solid-state electrolytes attract great attention due to their advantages in safety, electrochemical stability and battery packaging. High-voltage cathode materials and the Li metal anode further increase the energy density and electrochemical cycling properties.",
+   "url": "https://doi.org/10.1039/d2qm01071b",
+   "year": 2023
+  },
+  {
+   "title": "Electrochemical Deposition of Very Smooth Lithium Using Nonaqueous Electrolytes Containing HF",
+   "abstract": "X\u2010ray photoelectron spectroscopy and scanning electron microscopy methods were used for analysis of the surface layers of lithium deposited at various current densities from propylene carbonate containing and various amounts of HF, to investigate the effect of HF in electrolytes on the surface reaction of lithium during electrochemical deposition. Our analyses indicate that the surface state of lithium and the morphology of lithium deposits are influenced by both the concentration of HF and the electrodeposition current. The first parameter for the electrodeposition of lithium is related to the chemical reaction rate of the lithium surface with HF and second to the electrodeposition rate of lithium. These results suggest that surface modification is effective in suppressing lithium dendrite formation when the chemical reaction rate with HF is greater than the electrochemical deposition rate of lithium.",
+   "url": "https://doi.org/10.1149/1.1836979",
+   "year": 1996
+  },
+  {
+   "title": "Lithium Metal Anodes with Nonaqueous Electrolytes",
+   "abstract": "High-energy rechargeable lithium (Li) metal batteries (LMBs) with Li metal anode (LMA) were first developed in the 1970s, but their practical applications have been hindered by the safety and low-efficiency concerns related to LMA. Recently, a worldwide effort on LMA-based rechargeable LMBs has been revived to replace graphite-based, Li-ion batteries because of the much higher energy density that can be achieved with LMBs. This review focuses on the recent progress on the stabilization of LMA with nonaqueous electrolytes and reveals the fundamental mechanisms behind this improved stability. Various strategies that can enhance the stability of LMA in practical conditions and perspectives on the future development of LMA are also discussed. These strategies include the use of novel electrolytes such as superconcentrated electrolytes, localized high-concentration electrolytes, and highly fluorinated electrolytes, surface coatings that can form a solid electrolyte interphase with a high interfacial energy and self-healing capabilities, development of \"anode-free\" Li batteries to minimize the interaction between LMA and electrolyte, approaches to enable operation of LMA in practical conditions, etc. Combination of these strategies ultimately will lead us closer to the large-scale application of LMBs which often is called the \"Holy Grail\" of energy storage systems.",
+   "url": "https://doi.org/10.1021/acs.chemrev.0c00275",
+   "year": 2020
+  },
+  {
+   "title": "A family of oxychloride amorphous solid electrolytes for long-cycling all-solid-state lithium batteries",
+   "abstract": "Abstract Solid electrolyte is vital to ensure all-solid-state batteries with improved safety, long cyclability, and feasibility at different temperatures. Herein, we report a new family of amorphous solid electrolytes, xLi2O-MCly (M = Ta or Hf, 0.8 \u2264 x \u2264 2, y = 5 or 4). xLi2O-MCly amorphous solid electrolytes can achieve desirable ionic conductivities up to 6.6 \u00d7 10\u22123 S cm\u22121 at 25 \u00b0C, which is one of the highest values among all the reported amorphous solid electrolytes and comparable to those of the popular crystalline ones. The mixed-anion structural models of xLi2O-MCly amorphous SEs are well established and correlated to the ionic conductivities. It is found that the oxygen-jointed anion networks with abundant terminal chlorines in xLi2O-MCly amorphous solid electrolytes play an important role for the fast Li-ion conduction. More importantly, all-solid-state batteries using the amorphous solid electrolytes show excellent electrochemical performance at both 25 \u00b0C and \u221210 \u00b0C. Long cycle life (more than 2400 times of charging and discharging) can be achieved for all-solid-state batteries using the xLi2O-TaCl5 amorphous solid electrolyte at 400 mA g\u22121, demonstrating vast application prospects of the oxychloride amorphous solid electrolytes.",
+   "url": "https://doi.org/10.1038/s41467-023-39197-8",
+   "year": 2023
+  },
+  {
+   "title": "Electrocatalytic transformation of HF impurity to H2 and LiF in lithium-ion batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1038/s41929-018-0047-z",
+   "year": 2018
+  },
+  {
+   "title": "Composite solid-state electrolytes for all solid-state lithium batteries: progress, challenges and outlook",
+   "abstract": "Composite solid-state electrolytes (CSEs) with multiple phases offer greater flexibility to customize and combine the advantages of single-phase electrolytes, making them promising candidates for commercial all-solid-state batteries (ASSBs).",
+   "url": "https://doi.org/10.1039/d4ya00542b",
+   "year": 2024
+  },
+  {
+   "title": "Electrolyte and Solid-Electrolyte Interphase Layer in Lithium-Ion Batteries",
+   "abstract": "The supply and the management of the energy are particularly at the centre of our daily concerns and represent a socio-economic priority. Indeed, while cars use fossil fuel as the main source of energy for over a century, the depletion of the oil reserves and the necessity to reduce the carbon dioxide emissions, stimulate the development of electric vehicles. Therefore, one of the main challenges for the coming decades is the development of new technologies for the storage of electrochemical energy.",
+   "url": "https://doi.org/10.5772/31112",
+   "year": 2012
+  },
+  {
+   "title": "Progress and perspective of the cathode/electrolyte interface construction in all\u2010solid\u2010state lithium batteries",
+   "abstract": "Abstract Security risks of flammability and explosion represent major problems with the use of conventional lithium rechargeable batteries using a liquid electrolyte. The application of solid\u2010state electrolytes could effectively help to avoid these safety concerns. However, integrating the solid\u2010state electrolytes into the all\u2010solid\u2010state lithium batteries is still a huge challenge mainly due to the high interfacial resistance present in the entire battery, especially at the interface between the cathode and the solid\u2010state electrolyte pellet and the interfaces inside the cathode. Herein, recent progress made from investigations of cathode/solid\u2010state electrolyte interfacial behaviors including the contact problem, the interlayer diffusion issue, the space\u2010charge layer effect, and electrochemical compatibility is presented according to the classification of oxide\u2010, sulfide\u2010, and polymer\u2010based solid\u2010state electrolytes. We also propose strategies for the construction of ideal next\u2010generation cathode/solid\u2010state electrolyte interfaces with high room\u2010temperature ionic conductivity, stable interfacial contact during long cycling, free formation of the space\u2010charge region, and good compatibility with high\u2010voltage cathodes.",
+   "url": "https://doi.org/10.1002/cey2.129",
+   "year": 2021
+  },
+  {
+   "title": "Recent Developments and Challenges in Hybrid Solid Electrolytes for Lithium-Ion Batteries",
+   "abstract": "Lithium-ion batteries (LIBs) have attracted worldwide research interest due to their high energy density and long cycle life. Solid-state LIBs improve the safety of conventional liquid-based LIBs by replacing the flammable organic electrolytes with a solid electrolyte. Among the various types of solid electrolytes, hybrid solid electrolytes (HSEs) demonstrate great promise to achieve high ionic conductivity, reduced interfacial resistance between the electrolyte and electrodes, mechanical robustness, and excellent processability due to the combined advantages of both polymer and inorganic electrolyte. This article summarizes recent developments in HSEs for LIBs. Approaches for the preparation of hybrid electrolytes and current understanding of ion-transport mechanisms are discussed. The main challenges including unsatisfactory ionic conductivity and perspectives of HSEs for LIBs are highlighted for future development. The present review provides insights into HSE development to allow a more efficient and target-oriented future endeavor on achieving high-performance solid-state LIBs.",
+   "url": "https://doi.org/10.3389/fenrg.2020.00202",
+   "year": 2020
+  },
+  {
+   "title": "Exploring the Potential of Halide Electrolytes for Next\u2010Generation All\u2010Solid\u2010State Lithium Batteries",
+   "abstract": "Abstract All\u2010solid\u2010state lithium batteries (ASSLBs) are expected to revolutionize large\u2010scale energy storage and electric vehicles due to their exceptional safety and high energy density. Central to this technology is the development of solid electrolytes, with halide electrolytes emerging as highly promising candidates, offering high ionic conductivity, robust electrochemical stability and excellent mechanical properties. Since the breakthrough discovery of Li3YCl6 in 2018, research on halide electrolytes has entered a new era. However, despite continuous research efforts, practical challenges persist in their application, including the need to further enhance ionic conductivity, improve moisture resistance, and achieve better compatibility with electrode materials. This review provides a comprehensive overview of recent progress and ongoing challenges in halide electrolytes, examining crystal structures, conduction mechanisms, and scalable synthesis techniques. Various modification strategies are also explored aimed at boosting ionic conductivity and electrochemical stability, with a particular focus on improving interface stability. Finally, future perspectives are outlined for designing high\u2010performance halide electrolyte materials, offering guidance for ongoing research efforts toward their commercial application in ASSLBs.",
+   "url": "https://doi.org/10.1002/adfm.202416671",
+   "year": 2024
+  },
+  {
+   "title": "The Universal Super Cation\u2010Conductivity in Multiple\u2010cation Mixed Chloride Solid\u2010State Electrolytes",
+   "abstract": "Abstract As exciting candidates for next\u2010generation energy storage, all\u2010solid\u2010state lithium batteries (ASSLBs) are highly dependent on advanced solid\u2010state electrolytes (SSEs). Here, using cost\u2010effective LaCl3 and CeCl3 lattice (UCl3\u2010type structure) as the host and further combined with a multiple\u2010cation mixed strategy, we report a series of UCl3\u2010type SSEs with high room\u2010temperature ionic conductivities over 10\u22123 S cm\u22121 and good compatibility with high\u2010voltage oxide cathodes. The intrinsic large\u2010size hexagonal one\u2010dimensional channels and highly disordered amorphous phase induced by multi\u2010metal cation species are believed to trigger fast multiple ionic conductions of Li+, Na+, K+, Cu+, and Ag+. The UCl3\u2010type SSEs enable a stable prototype ASSLB capable of over 3000 cycles and high reversibility at \u221230 \u00b0C. Further exploration of the brand\u2010new multiple\u2010cation mixed chlorides is likely to lead to the development of advanced halide SSEs suitable for ASSLBs with high energy density.",
+   "url": "https://doi.org/10.1002/anie.202306433",
+   "year": 2023
+  },
+  {
+   "title": "The passivity of lithium electrodes in liquid electrolytes for secondary batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1038/s41578-021-00345-5",
+   "year": 2021
+  },
+  {
+   "title": "Computational simulation-assisted research on chloride solid electrolytes for lithium-ion batteries",
+   "abstract": "Due to the phenomenon of easy deformation and short circuit of traditional organic liquid lithium-ion batteries, instantaneous thermal runaway occurs, resulting in combustion and even explosion. Solid-state batteries, with their excellent safety, can fundamentally solve this problem. In recent years, computational simulation has become more and more popular in the development and research of solid electrolyte, and this way of computation-assisted experiment has greatly promoted the development of electrolyte. This paper introduces the latest progress in the research of chloride electrolyte, which belongs to the category of halide electrolyte. The development process of chloride solid electrolyte is reviewed. The preparation method, modification of anion and cation regulation, optimization of structure regulation and stability of temperature, humidity and electrode material are also discussed. Finally, the problems facing the chloride solid electrolyte are summarized and analyzed, and the future development direction of the chloride solid electrolyte is further proposed.",
+   "url": "https://doi.org/10.1360/ssc-2023-0255",
+   "year": 2024
+  },
+  {
+   "title": "Protected Lithium\u2010Metal Anodes in Batteries: From Liquid to Solid",
+   "abstract": "High-energy lithium-metal batteries are among the most promising candidates for next-generation energy storage systems. With a high specific capacity and a low reduction potential, the Li-metal anode has attracted extensive interest for decades. Dendritic Li formation, uncontrolled interfacial reactions, and huge volume effect are major hurdles to the commercial application of Li-metal anodes. Recent studies have shown that the performance and safety of Li-metal anodes can be significantly improved via organic electrolyte modification, Li-metal interface protection, Li-electrode framework design, separator coating, and so on. Superior to the liquid electrolytes, solid-state electrolytes are considered able to inhibit problematic Li dendrites and build safe solid Li-metal batteries. Inspired by the bright prospects of solid Li-metal batteries, increasing efforts have been devoted to overcoming the obstacles of solid Li-metal batteries, such as low ionic conductivity of the electrolyte and Li-electrolyte interfacial problems. Here, the approaches to protect Li-metal anodes from liquid batteries to solid-state batteries are outlined and analyzed in detail. Perspectives regarding the strategies for developing Li-metal anodes are discussed to facilitate the practical application of Li-metal batteries.",
+   "url": "https://doi.org/10.1002/adma.201701169",
+   "year": 2017
+  },
+  {
+   "title": "Enhanced supercapacitive performance of Mo1.33C MXene based asymmetric supercapacitors in lithium chloride electrolyte",
+   "abstract": "Two-dimensional (2D) Mo1.33C MXene renders great potential for energy storage applications and is mainly studied in the sulfuric acid (H2SO4) electrolyte. However, H2SO4 limits the electrode potential to 0.9 V for symmetric devices and 1.3 V for asymmetric devices. Herein, we explore the electrochemical behavior of Mo1.33C MXene in LiCl electrolyte. In comparison to H2SO4, LiCl electrolyte is a neutral salt with high solubility at room temperature and low hazardousness. The analysis shows a volumetric capacitance of 815 Fcm\u22123 at a scan rate of 2 mVs\u22121 with a large operating potential window of -1.2 to +0.3V (vs. Ag/AgCl). This is further exploited to construct MXene-based asymmetric supercapacitors Mo1.33C//MnxOn, and the electrochemical performance is evaluated in 5M LiCl electrolyte. Owing to the wide voltage widow of the Mo1.33C//MnxOn devices (2V) and high packing density of the electrodes, we have achieved a volumetric energy density of 58 mWh/cm3, a maximum power density of 31 Wcm\u22123 and retained 92% of the initial capacitance after 10,000 charge/discharge cycles at 10 A g\u22121. One of the main value propositions of this work, aside from the high energy density, is the outstanding columbic efficiency (100%), which ensures excellent cyclic stability and is highly desirable for practical applications.",
+   "url": "https://doi.org/10.1016/j.ensm.2021.05.006",
+   "year": 2021
+  },
+  {
+   "title": "Solid and Solid\u2010Like Composite Electrolyte for Lithium Ion Batteries: Engineering the Ion Conductivity at Interfaces",
+   "abstract": "Abstract The development of solid composite electrolytes or solid composite electrolytes (SCEs) consisting of an ionic conductor and a dielectric matrix offers an elegant strategy to enhance the ionic conductivity of electrolytes by engineering the interface conduction. At the conductor/matrix interface, the ionic conductivity can be enhanced by the enriched charge carrier concentration and/or the changed molecular structure of the ionic conductor. This review deals with the interfacial ion conduction mechanisms of the inorganic particle\u2010based SCE, polymer\u2010SCE, and ionic liquid electrolyte\u2010based SCE (ILE\u2010SCE). In the first part of this review, an overview is given of the space\u2010charge theory developed to describe the increased vacancy concentration at the interface of inorganic particle\u2010based SCE. In the second part, the proposed interface interactions and structural changes associated with interface conduction for the polymer\u2010SCE and ILE\u2010SCE are reviewed. For the ILE\u2010SCE, the preparation methods and interface characterization are discussed together with the proposed conductivity models. The use of mesoporous matrix materials with high internal surface area for ILE\u2010SCE is reviewed here for the first time.",
+   "url": "https://doi.org/10.1002/admi.201800899",
+   "year": 2018
+  },
+  {
+   "title": "Research Progress on Sodium Chloride Solid Electrolytes",
+   "abstract": "\uff1b\u6df1\u5733\u5e02\u9762 \u4e0a\u9879\u76ee(JCYJ20220530150200001); \u5e7f\u4e1c\u7701\"\u73e0\u6c5f\u4eba\u624d\u8ba1\u5212\"\u9752\u5e74\u62d4\u5c16\u4eba\u624d\u9879\u76ee(2021QN02L210); \u56fd\u5bb6\u81ea\u7136\u79d1\u5b66\u57fa\u91d1\u533a\u57df\u521b\u65b0\u53d1 \u5c55\u8054\u5408\u9879\u76ee(U22A20439) Shenzhen Science and Technology Program (RCYX20221008092929074)\uff1bGuangdong S&T Program (2023B0909060004)\uff1bShenzhen Fundamental Research Program (JCYJ20220530150200001); Zhujiang Talent Program of Guangdong Province(2021QN02L210);",
+   "url": "https://doi.org/10.15541/jim20250307",
+   "year": 2025
+  },
+  {
+   "title": "Research Progress on Solid-State Electrolytes in Solid-State Lithium Batteries: Classification, Ionic Conductive Mechanism, Interfacial Challenges",
+   "abstract": "Solid-state lithium batteries exhibit high-energy density and exceptional safety performance, thereby enabling an extended driving range for electric vehicles in the future. Solid-state electrolytes (SSEs) are the key materials in solid-state batteries that guarantee the safety performance of the battery. This review assesses the research progress on solid-state electrolytes, including polymers, inorganic compounds (oxides, sulfides, halides), and organic-inorganic composites, the challenges related to solid-state batteries in terms of their interfaces, and the status of industrialization research on solid-state electrolytes. For each kind of solid-state electrolytes, details on the preparation, properties, composition, ionic conductivity, ionic migration mechanism, and structure-activity relationship, are collected. For the challenges faced by solid-state batteries, the high interfacial resistance, the side reactions between solid-state electrolytes and electrodes, and interface instability, are mainly discussed. The current industrialization research status of various solid electrolytes is analyzed in regard to relevant enterprises from different countries. Finally, the potential development directions and prospects of high-energy density solid-state batteries are discussed. This review provides a comprehensive reference for SSE researchers and paves the way for innovative advancements in regard to solid-state lithium batteries.",
+   "url": "https://doi.org/10.3390/nano14221773",
+   "year": 2024
+  },
+  {
+   "title": "2D Layered Nanomaterials as Fillers in Polymer Composite Electrolytes for Lithium Batteries",
+   "abstract": "Abstract Polymer composite electrolytes (PCEs), i.e., materials combining the disciplines of polymer chemistry, inorganic chemistry, and electrochemistry, have received tremendous attention within academia and industry for lithium\u2010based battery applications. While PCEs often comprise 3D micro\u2010 or nanoparticles, this review thoroughly summarizes the prospects of 2D layered inorganic, organic, and hybrid nanomaterials as active (ion conductive) or passive (nonion conductive) fillers in PCEs. The synthetic inorganic nanofillers covered here include graphene oxide, boron nitride, transition metal chalcogenides, phosphorene, and MXenes. Furthermore, the use of naturally occurring 2D layered clay minerals, such as layered double hydroxides and silicates, in PCEs is also thoroughly detailed considering their impact on battery cell performance. Despite the dominance of 2D layered inorganic materials, their organic and hybrid counterparts, such as 2D covalent organic frameworks and 2D metal\u2013organic frameworks are also identified as tuneable nanofillers for use in PCE. Hence, this review gives an overview of the plethora of options available for the selective development of both the 2D layered nanofillers and resulting PCEs, which can revolutionize the field of polymer\u2010based solid\u2010state electrolytes and their implementation in lithium and post\u2010lithium batteries.",
+   "url": "https://doi.org/10.1002/aenm.202203326",
+   "year": 2023
+  },
+  {
+   "title": "The Impact of Polymer Electrolyte Properties on Lithium-Ion Batteries",
+   "abstract": "In recent decades, the enhancement of the properties of electrolytes and electrodes resulted in the development of efficient electrochemical energy storage devices. We herein reported the impact of the different polymer electrolytes in terms of physicochemical, thermal, electrical, and mechanical properties of lithium-ion batteries (LIBs). Since LIBs use many groups of electrolytes, such as liquid electrolytes, quasi-solid electrolytes, and solid electrolytes, the efficiency of the full device relies on the type of electrolyte used. A good electrolyte is the one that, when used in Li-ion batteries, exhibits high Li+ diffusion between electrodes, the lowest resistance during cycling at the interfaces, a high capacity of retention, a very good cycle-life, high thermal stability, high specific capacitance, and high energy density. The impact of various polymer electrolytes and their components has been reported in this work, which helps to understand their effect on battery performance. Although, single-electrolyte material cannot be sufficient to fulfill the requirements of a good LIB. This review is aimed to lead toward an appropriate choice of polymer electrolyte for LIBs.",
+   "url": "https://doi.org/10.3390/polym14153101",
+   "year": 2022
+  }
+ ]
+}

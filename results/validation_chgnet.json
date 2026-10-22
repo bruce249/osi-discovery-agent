@@ -1,0 +1,4742 @@
+{
+ "model": "chgnet",
+ "n_refs": 513,
+ "n_compounds": 399,
+ "n_refs_failed": 0,
+ "mae_compounds": 0.013589011916044112,
+ "mae_all": 0.015717508885233968,
+ "spearman_compounds": 0.43840971776174104,
+ "stable_ternaries": [
+  {
+   "formula": "LiAlCl4",
+   "material_id": "mp-22983",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Li3ErBr6",
+   "material_id": "mp-1222492",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Li3ErCl6",
+   "material_id": "mp-676361",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Li3InCl6",
+   "material_id": "mp-676109",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "LiFeBr4",
+   "material_id": "mp-1211043",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "LiGaBr3",
+   "material_id": "mp-28327",
+   "mlip_e_hull": 0.009236558278400864
+  },
+  {
+   "formula": "LiGaBr4",
+   "material_id": "mp-28326",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Li2DyIn",
+   "material_id": "mp-865580",
+   "mlip_e_hull": 0.0010452951703752156
+  },
+  {
+   "formula": "Li2ErIn",
+   "material_id": "mp-865579",
+   "mlip_e_hull": 0.003154259461623621
+  },
+  {
+   "formula": "LiFeCl4",
+   "material_id": "mp-1210931",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "LiGaCl3",
+   "material_id": "mp-29344",
+   "mlip_e_hull": 0.027365271250405776
+  },
+  {
+   "formula": "LiGaCl4",
+   "material_id": "mp-28341",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "GdIn2Cl5",
+   "material_id": "mp-1212862",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Li2GdIn",
+   "material_id": "mp-865483",
+   "mlip_e_hull": 0.0054617661696214626
+  },
+  {
+   "formula": "Li2HoIn",
+   "material_id": "mp-865622",
+   "mlip_e_hull": 0.005402428763253475
+  },
+  {
+   "formula": "LiLuIn2",
+   "material_id": "mp-1185369",
+   "mlip_e_hull": 0.01891136169433638
+  },
+  {
+   "formula": "LiTmIn2",
+   "material_id": "mp-861665",
+   "mlip_e_hull": 0.015807191530862852
+  },
+  {
+   "formula": "Li2Y5In9",
+   "material_id": "mp-638690",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Li2YIn",
+   "material_id": "mp-1185233",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Y2InCl7",
+   "material_id": "mp-29304",
+   "mlip_e_hull": 0.0
+  },
+  {
+   "formula": "Li2YbIn",
+   "material_id": "mp-1185190",
+   "mlip_e_hull": 0.012043952941894531
+  },
+  {
+   "formula": "LiYb2In",
+   "material_id": "mp-1185254",
+   "mlip_e_hull": 0.0
+  }
+ ],
+ "stable_ternaries_above_0.1": 0,
+ "go": true,
+ "rows": [
+  {
+   "material_id": "mp-134",
+   "formula": "Al",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1183144",
+   "formula": "Al",
+   "n_elements": 1,
+   "mp_e_hull": 0.01144597249999979,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.001463174819946289,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1244953",
+   "formula": "Al",
+   "n_elements": 1,
+   "mp_e_hull": 0.09572362820000002,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.02595253944396969,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1245129",
+   "formula": "Al",
+   "n_elements": 1,
+   "mp_e_hull": 0.09475041080000013,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.02304909706115721,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-2647008",
+   "formula": "Al",
+   "n_elements": 1,
+   "mp_e_hull": 0.032078224999999794,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010323524475097656,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23288",
+   "formula": "AlBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-39008",
+   "formula": "AlBr4",
+   "n_elements": 2,
+   "mp_e_hull": 0.03478791850000018,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23154",
+   "formula": "Br",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-998864",
+   "formula": "Br",
+   "n_elements": 1,
+   "mp_e_hull": 0.08391820500000002,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.07879638671875,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-51",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.0028927066666666335,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-135",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.0051269066666665974,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0033174753189086914,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10173",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.002505461666666653,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0022259950637817383,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567337",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.010871739166666616,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0035326480865478516,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-976411",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.002797539166666585,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0012285709381103516,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1018134",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0006584326426188891,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1063005",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.01857753333333334,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.015489975611368889,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1103107",
+   "formula": "Li",
+   "n_elements": 1,
+   "mp_e_hull": 0.05537947250000008,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.05988987286885572,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1210753",
+   "formula": "Li2Al",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-975868",
+   "formula": "Li3Al",
+   "n_elements": 2,
+   "mp_e_hull": 0.042505431666666205,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.04740680754184723,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-16506",
+   "formula": "Li3Al2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568404",
+   "formula": "Li9Al4",
+   "n_elements": 2,
+   "mp_e_hull": 0.005553380512820283,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1067",
+   "formula": "LiAl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1079240",
+   "formula": "LiAl",
+   "n_elements": 2,
+   "mp_e_hull": 0.08662110999999983,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.06676125526428223,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10890",
+   "formula": "LiAl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-975906",
+   "formula": "LiAl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.018805077500000156,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0034630298614501953,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23259",
+   "formula": "LiBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.025497360000000135,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.02089524269104004,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-976280",
+   "formula": "LiBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-25469",
+   "formula": "AlCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22848",
+   "formula": "Cl2",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-570778",
+   "formula": "Cl2",
+   "n_elements": 1,
+   "mp_e_hull": 0.03497849499999983,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.016199350357055664,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22983",
+   "formula": "LiAlCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22905",
+   "formula": "LiCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.02046188250000025,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0013685226440429688,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1185319",
+   "formula": "LiCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23152",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0005004405975341797,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23157",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.050300224999999976,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.018082618713378906,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567379",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.062386567499999934,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00853729248046875,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567597",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.049545179999999966,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00031256675720214844,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1067758",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.08585941499999983,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.020024776458740234,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1096851",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.09904825000000006,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0008625984191894531,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1182070",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.058095357500000055,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005559444427490234,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1525145",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.08174027999999822,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.015942096710205078,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1525652",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.09627707499999616,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.007846355438232422,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1947043",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.07196237749999312,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1949763",
+   "formula": "Bi",
+   "n_elements": 1,
+   "mp_e_hull": 0.0722649699999991,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 9.5367431640625e-05,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-568758",
+   "formula": "BiBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.03871325875000009,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 6.103515625e-05,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568301",
+   "formula": "BiBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0023422625000000252,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00616455078125,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-610430",
+   "formula": "BiBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.061744708750000044,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.017923355102539062,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-752602",
+   "formula": "BiBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.00034056625000022933,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006001710891723633,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-2913080",
+   "formula": "BiBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23222",
+   "formula": "Li3Bi",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0009140968322753906,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-2646976",
+   "formula": "Li3Bi",
+   "n_elements": 2,
+   "mp_e_hull": 0.01082244875000038,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-22902",
+   "formula": "LiBi",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22908",
+   "formula": "BiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28",
+   "formula": "Ce",
+   "n_elements": 1,
+   "mp_e_hull": 0.001560065000000499,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.04928779602050781,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-64",
+   "formula": "Ce",
+   "n_elements": 1,
+   "mp_e_hull": 0.039662235000000656,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-20372",
+   "formula": "Ce",
+   "n_elements": 1,
+   "mp_e_hull": 0.04283893750000001,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.048729896545410156,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567332",
+   "formula": "Ce",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.04933738708496094,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1104603",
+   "formula": "Ce2Br5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-569850",
+   "formula": "CeBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1183535",
+   "formula": "Br2Cl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.03413524400000023,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-864928",
+   "formula": "BrCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.09600036749999985,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03905057907104492,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1008492",
+   "formula": "BrCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0006782575000001678,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0005621910095214844,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1066781",
+   "formula": "BrCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1524139",
+   "formula": "BrCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0035791397094726562,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-88",
+   "formula": "Dy",
+   "n_elements": 1,
+   "mp_e_hull": 0.017375770000000124,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10658",
+   "formula": "Dy",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0016601880391435841,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10750",
+   "formula": "Dy",
+   "n_elements": 1,
+   "mp_e_hull": 0.02132332999999953,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00018262863159179688,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184067",
+   "formula": "Dy",
+   "n_elements": 1,
+   "mp_e_hull": 0.004164762499999419,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0007238388061523438,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-864982",
+   "formula": "DyBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-28448",
+   "formula": "DyCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-99",
+   "formula": "Er",
+   "n_elements": 1,
+   "mp_e_hull": 0.006679150000000078,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0001239776611328125,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10752",
+   "formula": "Er",
+   "n_elements": 1,
+   "mp_e_hull": 0.026915709999999926,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184113",
+   "formula": "Er",
+   "n_elements": 1,
+   "mp_e_hull": 0.007850050000000053,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00012063980102539062,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184115",
+   "formula": "Er",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0005402565002441406,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-863029",
+   "formula": "ErCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-37873",
+   "formula": "Li3ErBr6",
+   "n_elements": 3,
+   "mp_e_hull": 0.0027015384999975467,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0006290435790994309,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1222492",
+   "formula": "Li3ErBr6",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-676361",
+   "formula": "Li3ErCl6",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-144",
+   "formula": "Ho",
+   "n_elements": 1,
+   "mp_e_hull": 0.010333959999999642,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10659",
+   "formula": "Ho",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0017070770263671875,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10765",
+   "formula": "Ho",
+   "n_elements": 1,
+   "mp_e_hull": 0.023658919999999917,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0001621246337890625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-973986",
+   "formula": "Ho",
+   "n_elements": 1,
+   "mp_e_hull": 0.005437699999999879,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0007233619689941406,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-977375",
+   "formula": "HoBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-864662",
+   "formula": "HoCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-85",
+   "formula": "In",
+   "n_elements": 1,
+   "mp_e_hull": 0.03681058000000004,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0003783702850341797,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-973111",
+   "formula": "In",
+   "n_elements": 1,
+   "mp_e_hull": 0.04770052999999974,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1055994",
+   "formula": "In",
+   "n_elements": 1,
+   "mp_e_hull": 0.02979523999999989,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0015649795532226562,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184478",
+   "formula": "In",
+   "n_elements": 1,
+   "mp_e_hull": 0.034837419999999675,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.011588335037231445,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184502",
+   "formula": "In",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 8.598963419581551e-05,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184511",
+   "formula": "In",
+   "n_elements": 1,
+   "mp_e_hull": 0.050234822499999776,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0005390644073486328,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184693",
+   "formula": "In",
+   "n_elements": 1,
+   "mp_e_hull": 0.05330944482758593,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.011467950097445723,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-685014",
+   "formula": "In2Br3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.019889318026029112,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-568692",
+   "formula": "In4Br7",
+   "n_elements": 2,
+   "mp_e_hull": 0.016080847215909078,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00355217673561814,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-680760",
+   "formula": "In4Br7",
+   "n_elements": 2,
+   "mp_e_hull": 0.009646504488636243,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28112",
+   "formula": "In5Cl9",
+   "n_elements": 2,
+   "mp_e_hull": 0.022781173535714405,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01869419642857162,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28988",
+   "formula": "In7Br9",
+   "n_elements": 2,
+   "mp_e_hull": 0.010021336328124963,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28730",
+   "formula": "In7Cl9",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22870",
+   "formula": "InBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568108",
+   "formula": "InBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-570219",
+   "formula": "InBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23276",
+   "formula": "InCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.003466367721557617,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571555",
+   "formula": "InCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.001488094062500167,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0019466876983642578,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571636",
+   "formula": "InCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.001645879062500022,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1212122",
+   "formula": "InCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-862983",
+   "formula": "InCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-510430",
+   "formula": "Li13In3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-31324",
+   "formula": "Li2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-867226",
+   "formula": "Li3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0005445103571424248,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.004231929779052734,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-976055",
+   "formula": "Li3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.009691097857142505,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-21293",
+   "formula": "Li3In2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1120720",
+   "formula": "Li3InBr6",
+   "n_elements": 3,
+   "mp_e_hull": 0.03420655700000008,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.012063980102539062,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1147621",
+   "formula": "Li3InBr6",
+   "n_elements": 3,
+   "mp_e_hull": 0.019537601000000127,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-676109",
+   "formula": "Li3InCl6",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1079408",
+   "formula": "Li5In4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00017589992947009137,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22460",
+   "formula": "LiIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-863027",
+   "formula": "LiIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005601644515991211,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-973748",
+   "formula": "LiIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.008617849999999816,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-145",
+   "formula": "Lu",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0007424354553222656,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-973571",
+   "formula": "Lu",
+   "n_elements": 1,
+   "mp_e_hull": 0.0007333666666671235,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-866214",
+   "formula": "LuBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-865324",
+   "formula": "LuCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-686004",
+   "formula": "Li3ScCl6",
+   "n_elements": 3,
+   "mp_e_hull": 0.016255320750000912,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-67",
+   "formula": "Sc",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1055932",
+   "formula": "Sc",
+   "n_elements": 1,
+   "mp_e_hull": 0.052474915000000344,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.002128124237060547,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1179655",
+   "formula": "Sc",
+   "n_elements": 1,
+   "mp_e_hull": 0.06626405000000002,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03799104690551758,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1977495",
+   "formula": "Sc",
+   "n_elements": 1,
+   "mp_e_hull": 0.06532240499999986,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03899304072062204,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-542449",
+   "formula": "Sc5Cl8",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27513",
+   "formula": "Sc7Cl10",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23186",
+   "formula": "Sc7Cl12",
+   "n_elements": 2,
+   "mp_e_hull": 0.04880600511278299,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01079197933799314,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-862565",
+   "formula": "ScBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.042269746666666386,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.04523568683200452,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1186984",
+   "formula": "ScBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-27507",
+   "formula": "ScCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.02138946274999931,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23309",
+   "formula": "ScCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1147619",
+   "formula": "Li3YBr6",
+   "n_elements": 3,
+   "mp_e_hull": 0.02565027199999914,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00991697311401385,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-9",
+   "formula": "Y",
+   "n_elements": 1,
+   "mp_e_hull": 0.023963343333333498,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0003838539123535156,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-112",
+   "formula": "Y",
+   "n_elements": 1,
+   "mp_e_hull": 0.003549638333333327,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00016927719116210938,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1187717",
+   "formula": "Y",
+   "n_elements": 1,
+   "mp_e_hull": 0.006932883333333528,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187739",
+   "formula": "Y",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010916392008466502,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1205567",
+   "formula": "Y2Br3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-27678",
+   "formula": "Y2Cl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.012350273132324396,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-754815",
+   "formula": "YBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-865605",
+   "formula": "YBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.06120486624999977,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.030873775482177734,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-540884",
+   "formula": "YCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.05231977555555556,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27455",
+   "formula": "YCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-685068",
+   "formula": "YbBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1025400",
+   "formula": "YbCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-3216222",
+   "formula": "YbCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.05488161624999677,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.03768277168273926,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-90",
+   "formula": "Cr",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567624",
+   "formula": "CrBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0772509488888895,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03335673720748389,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1183765",
+   "formula": "CrBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0855924672222228,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.07434883824101224,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-27734",
+   "formula": "CrBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-13",
+   "formula": "Fe",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1271068",
+   "formula": "Fe",
+   "n_elements": 1,
+   "mp_e_hull": 0.0170698550000008,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010519027709960938,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1271128",
+   "formula": "Fe",
+   "n_elements": 1,
+   "mp_e_hull": 0.09913460000000107,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.012314796447753906,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-22880",
+   "formula": "FeBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03657023111979196,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23232",
+   "formula": "FeBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22967",
+   "formula": "Li2FeBr4",
+   "n_elements": 3,
+   "mp_e_hull": 0.02874205428571397,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.054262569972446606,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-35039",
+   "formula": "Li2FeBr4",
+   "n_elements": 3,
+   "mp_e_hull": 0.03015749714285665,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.06088406699044313,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1211043",
+   "formula": "LiFeBr4",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-142",
+   "formula": "Ga",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10021",
+   "formula": "Ga",
+   "n_elements": 1,
+   "mp_e_hull": 0.015274297500000422,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.017155885696411133,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567540",
+   "formula": "Ga",
+   "n_elements": 1,
+   "mp_e_hull": 0.011682432000000187,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.016613483428955078,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-569007",
+   "formula": "Ga",
+   "n_elements": 1,
+   "mp_e_hull": 0.03406383704545446,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0265770391984419,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1067880",
+   "formula": "Ga",
+   "n_elements": 1,
+   "mp_e_hull": 0.0048232650000001875,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.021241188049316406,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-28384",
+   "formula": "GaBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-650841",
+   "formula": "GaBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.010760064305555428,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.003950754801432588,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-30953",
+   "formula": "GaBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-29210",
+   "formula": "Li2Ga",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1222769",
+   "formula": "Li2Ga7",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0057927767435708155,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-976023",
+   "formula": "Li3Ga",
+   "n_elements": 2,
+   "mp_e_hull": 0.009995577916666498,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0038671493530273438,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-976025",
+   "formula": "Li3Ga",
+   "n_elements": 2,
+   "mp_e_hull": 0.018924437916666648,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1222489",
+   "formula": "Li3Ga14",
+   "n_elements": 2,
+   "mp_e_hull": 0.016176958602941216,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01264429092407271,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-9568",
+   "formula": "Li3Ga2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567306",
+   "formula": "Li3Ga7",
+   "n_elements": 2,
+   "mp_e_hull": 0.0102115336000006,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1205930",
+   "formula": "Li5Ga4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010617574055986623,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1307",
+   "formula": "LiGa",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-863257",
+   "formula": "LiGa3",
+   "n_elements": 2,
+   "mp_e_hull": 0.008717875750000381,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185332",
+   "formula": "LiGa3",
+   "n_elements": 2,
+   "mp_e_hull": 0.022782648250000204,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005377054214477539,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-28327",
+   "formula": "LiGaBr3",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.009236558278400864,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28326",
+   "formula": "LiGaBr4",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-155",
+   "formula": "Gd",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00031375885009765625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-19981",
+   "formula": "Gd",
+   "n_elements": 1,
+   "mp_e_hull": 0.030212142499999928,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00023365020751953125,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-570087",
+   "formula": "Gd",
+   "n_elements": 1,
+   "mp_e_hull": 0.020305533333333514,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00022824605306048795,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-614502",
+   "formula": "Gd",
+   "n_elements": 1,
+   "mp_e_hull": 0.04838070000000094,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-618813",
+   "formula": "Gd2Br3",
+   "n_elements": 2,
+   "mp_e_hull": 0.007978507000002466,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03068485260009801,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1064427",
+   "formula": "GdBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.0634135175000008,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27182",
+   "formula": "GdBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-103",
+   "formula": "Hf",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-8640",
+   "formula": "Hf",
+   "n_elements": 1,
+   "mp_e_hull": 0.07240838999999966,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0002918243408203125,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1009460",
+   "formula": "Hf",
+   "n_elements": 1,
+   "mp_e_hull": 0.045170049999999407,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.02905750274658203,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-864915",
+   "formula": "HfBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.06203224687499986,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1212517",
+   "formula": "HfBr4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-26",
+   "formula": "La",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010113716125488281,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-156",
+   "formula": "La",
+   "n_elements": 1,
+   "mp_e_hull": 0.0006659949999994197,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28571",
+   "formula": "La2Br5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27679",
+   "formula": "LaBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.09736768799999851,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.028748846054076793,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28572",
+   "formula": "LaBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.002927258999998905,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.000716177622477332,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23263",
+   "formula": "LaBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-123",
+   "formula": "Nd",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0005078315734863281,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-159",
+   "formula": "Nd",
+   "n_elements": 1,
+   "mp_e_hull": 0.009014402500000074,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-974788",
+   "formula": "Nd",
+   "n_elements": 1,
+   "mp_e_hull": 0.0027171891666668557,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0011944770812988281,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1210109",
+   "formula": "NdBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.020419790277778738,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-27975",
+   "formula": "NdBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-38",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.000148773193359375,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-97",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.008044544999999736,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00014781951904296875,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567630",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.008282981666666522,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.000595410664876006,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-981544",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.0038780250000005623,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0006618499755859375,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1009594",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.0316978050000003,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0019330978393554688,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1059256",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.028943510000000394,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0015611648559570312,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1059528",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.00970146500000002,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0008206367492675781,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1179917",
+   "formula": "Pr",
+   "n_elements": 1,
+   "mp_e_hull": 0.013613315000000625,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23169",
+   "formula": "Pr2Br5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23221",
+   "formula": "PrBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-68",
+   "formula": "Sm",
+   "n_elements": 1,
+   "mp_e_hull": 0.022064929999999983,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.001255035400390625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-69",
+   "formula": "Sm",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00017642974853515625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-86",
+   "formula": "Sm",
+   "n_elements": 1,
+   "mp_e_hull": 0.0009036583333328352,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00041294097900390625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-21377",
+   "formula": "Sm",
+   "n_elements": 1,
+   "mp_e_hull": 0.010519125000000074,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1208711",
+   "formula": "SmBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.019807497222222636,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-2019122",
+   "formula": "SmBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.04052948916667276,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0018625259399414062,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-27976",
+   "formula": "SmBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-30769",
+   "formula": "Li13Sn5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0033475494444448195,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-7924",
+   "formula": "Li2Sn5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0046469228571432986,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1185265",
+   "formula": "Li3Sn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-30766",
+   "formula": "Li5Sn2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-30767",
+   "formula": "Li7Sn2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-30768",
+   "formula": "Li7Sn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0009651171666669178,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-13444",
+   "formula": "LiSn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0012290683333335828,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-569073",
+   "formula": "LiSn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005932807922363281,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1185461",
+   "formula": "LiSn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.03375891249999974,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01620548963546753,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-117",
+   "formula": "Sn",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.10234594345092773,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-623511",
+   "formula": "Sn",
+   "n_elements": 1,
+   "mp_e_hull": 0.06140700499999996,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-949028",
+   "formula": "Sn",
+   "n_elements": 1,
+   "mp_e_hull": 0.029621803478260933,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.12846990253614354,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1056308",
+   "formula": "Sn",
+   "n_elements": 1,
+   "mp_e_hull": 0.06596810500000005,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005402326583862305,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1179414",
+   "formula": "Sn",
+   "n_elements": 1,
+   "mp_e_hull": 0.09648671749999993,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005219936370849609,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-29862",
+   "formula": "SnBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0026508624999999064,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005999883015950669,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-978985",
+   "formula": "SnBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.00742505999999965,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.011526743570963838,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1105170",
+   "formula": "SnBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.008814539999999926,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.008380889892578125,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1272139",
+   "formula": "SnBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23216",
+   "formula": "SnBr4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-18",
+   "formula": "Tb",
+   "n_elements": 1,
+   "mp_e_hull": 0.01891127500000067,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00016021728515625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-7163",
+   "formula": "Tb",
+   "n_elements": 1,
+   "mp_e_hull": 0.018885140000000078,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-11698",
+   "formula": "Tb",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0012447039286298534,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571249",
+   "formula": "Tb",
+   "n_elements": 1,
+   "mp_e_hull": 0.013679741666667411,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0003145535786943654,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-31007",
+   "formula": "Tb5Br8",
+   "n_elements": 2,
+   "mp_e_hull": 0.02013215384615563,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-30985",
+   "formula": "Tb6Br7",
+   "n_elements": 2,
+   "mp_e_hull": 0.044540896538461716,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.007727169073545426,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27924",
+   "formula": "TbBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.01031209749999995,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.004293531179428101,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-863746",
+   "formula": "TbBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-46",
+   "formula": "Ti",
+   "n_elements": 1,
+   "mp_e_hull": 0.004434846666666381,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0012540817260742188,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-72",
+   "formula": "Ti",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03305562337239554,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-6985",
+   "formula": "Ti",
+   "n_elements": 1,
+   "mp_e_hull": 0.06196251666666619,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-540672",
+   "formula": "Ti7Br16",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.012092922044836918,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27785",
+   "formula": "TiBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.07344290319444546,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28214",
+   "formula": "TiBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0018854141235351562,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571065",
+   "formula": "TiBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0028880587499999777,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27634",
+   "formula": "TiBr4",
+   "n_elements": 2,
+   "mp_e_hull": 0.000565339749999616,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00607032775878924,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-569814",
+   "formula": "TiBr4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-143",
+   "formula": "Tm",
+   "n_elements": 1,
+   "mp_e_hull": 0.00357894833333372,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-10660",
+   "formula": "Tm",
+   "n_elements": 1,
+   "mp_e_hull": 0.03143580333333329,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.000377655029296875,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-971769",
+   "formula": "Tm",
+   "n_elements": 1,
+   "mp_e_hull": 0.010575138333333456,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00045108795166015625,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1018122",
+   "formula": "Tm",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0002956390380859375,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-865301",
+   "formula": "TmBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-146",
+   "formula": "V",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-971787",
+   "formula": "VBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-865473",
+   "formula": "VBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1546306",
+   "formula": "VBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.00013755750000044031,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0020265579223632812,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-2757308",
+   "formula": "VBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0018720626831054688,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-131",
+   "formula": "Zr",
+   "n_elements": 1,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-8635",
+   "formula": "Zr",
+   "n_elements": 1,
+   "mp_e_hull": 0.0392637399999991,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0014123916625976562,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1077723",
+   "formula": "Zr",
+   "n_elements": 1,
+   "mp_e_hull": 0.0157476299999999,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.029045422871908144,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-504594",
+   "formula": "ZrBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1065846",
+   "formula": "ZrBr",
+   "n_elements": 2,
+   "mp_e_hull": 2.477749999929557e-05,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00032520294189453125,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1066783",
+   "formula": "ZrBr",
+   "n_elements": 2,
+   "mp_e_hull": 0.06606281000000003,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0036988258361816406,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28495",
+   "formula": "ZrBr2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0319045672222229,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23247",
+   "formula": "ZrBr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1207486",
+   "formula": "ZrBr4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-582011",
+   "formula": "CeCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22857",
+   "formula": "CrCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.07023948999999963,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03625025572600293,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-27630",
+   "formula": "CrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0009250749999996088,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.004454771677653291,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567504",
+   "formula": "CrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0031940142313642284,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-569890",
+   "formula": "CrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0008342662500000486,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-29582",
+   "formula": "Li2CrCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.039407735000001054,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0046941817752905735,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567474",
+   "formula": "Li2CrCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.050167958571429416,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0066091598026343235,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-685992",
+   "formula": "Li2CrCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.06780988678571553,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0157148421756812,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23361",
+   "formula": "Li5CrCl8",
+   "n_elements": 3,
+   "mp_e_hull": 0.011431601428571803,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.010736578986758616,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184100",
+   "formula": "Dy3Er",
+   "n_elements": 2,
+   "mp_e_hull": 0.025039610000000323,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1225278",
+   "formula": "DyEr",
+   "n_elements": 2,
+   "mp_e_hull": 0.012989860000000242,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1183856",
+   "formula": "DyEr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.01035976624999968,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0002009868621826172,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-656152",
+   "formula": "Gd2Cl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0034933440000006755,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00067901611328125,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1078829",
+   "formula": "Gd2Cl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184431",
+   "formula": "Gd3Dy",
+   "n_elements": 2,
+   "mp_e_hull": 0.045947089999998525,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006229281425476074,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23265",
+   "formula": "GdCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1224750",
+   "formula": "GdDy",
+   "n_elements": 2,
+   "mp_e_hull": 0.009385665000001708,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.013200521469116211,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-28122",
+   "formula": "LiGdCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.002435290833332715,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184065",
+   "formula": "Dy3Ho",
+   "n_elements": 2,
+   "mp_e_hull": 0.023992627500000197,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00047600269317626953,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1225502",
+   "formula": "DyHo",
+   "n_elements": 2,
+   "mp_e_hull": 0.014800349999999796,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0005862712860107422,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1183788",
+   "formula": "DyHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.026367569999999674,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0003546476364135742,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1183841",
+   "formula": "DyHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.025349389999999694,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0003203153610229492,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1183844",
+   "formula": "DyHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.013261806250000063,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00032699108123779297,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-21351",
+   "formula": "Dy2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-20786",
+   "formula": "Dy3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.00014883625000017275,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0067414045333862305,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1212972",
+   "formula": "Dy3In5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568144",
+   "formula": "Dy5In3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-257",
+   "formula": "DyIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-20236",
+   "formula": "DyIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-865580",
+   "formula": "Li2DyIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010452951703752156,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185324",
+   "formula": "LiDy2In",
+   "n_elements": 3,
+   "mp_e_hull": 0.012275786875000083,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-974059",
+   "formula": "LiDyIn2",
+   "n_elements": 3,
+   "mp_e_hull": 0.013704706249999976,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.035032033920288086,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184141",
+   "formula": "Dy3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.028087440000000186,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00055694580078125,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184174",
+   "formula": "Dy3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.010321310000000139,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1183846",
+   "formula": "DyLu3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0026786837500010208,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184064",
+   "formula": "Dy3Tm",
+   "n_elements": 2,
+   "mp_e_hull": 0.026246288333333645,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184143",
+   "formula": "DyTm3",
+   "n_elements": 2,
+   "mp_e_hull": 0.008267587499999784,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-28044",
+   "formula": "TmCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-979419",
+   "formula": "Dy3Y",
+   "n_elements": 2,
+   "mp_e_hull": 0.02652705333333305,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0014992952346801758,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-979924",
+   "formula": "Dy3Y",
+   "n_elements": 2,
+   "mp_e_hull": 0.025240515833332644,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.001312851905822754,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184145",
+   "formula": "Dy3Y",
+   "n_elements": 2,
+   "mp_e_hull": 0.014773465833332722,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010901689529418945,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184149",
+   "formula": "DyY3",
+   "n_elements": 2,
+   "mp_e_hull": 0.009616416250000093,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.001506209373474121,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187988",
+   "formula": "Yb3Dy",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.127634197473526,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-980063",
+   "formula": "YbDy3",
+   "n_elements": 2,
+   "mp_e_hull": 0.047278244166662375,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.08895274996757507,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187669",
+   "formula": "YbDy3",
+   "n_elements": 2,
+   "mp_e_hull": 0.04653952666666328,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.09139963984489441,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184453",
+   "formula": "Gd3Er",
+   "n_elements": 2,
+   "mp_e_hull": 0.031349945000000545,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.004226326942443848,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-975612",
+   "formula": "GdEr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0016186987499997585,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0019363164901733398,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184575",
+   "formula": "Ho3Er",
+   "n_elements": 2,
+   "mp_e_hull": 0.028866957500000012,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 9.775161743164062e-05,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184695",
+   "formula": "Ho3Er",
+   "n_elements": 2,
+   "mp_e_hull": 0.02719084250000048,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.000102996826171875,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184718",
+   "formula": "Ho3Er",
+   "n_elements": 2,
+   "mp_e_hull": 0.011024867500000646,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1223785",
+   "formula": "HoEr",
+   "n_elements": 2,
+   "mp_e_hull": 0.011081725000000375,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184779",
+   "formula": "HoEr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.009436107500000013,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-877",
+   "formula": "Er2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184156",
+   "formula": "Er3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.003190851250000293,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006783962249755859,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184184",
+   "formula": "Er3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.012527393750000115,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1106153",
+   "formula": "Er3In5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1189039",
+   "formula": "Er5In3",
+   "n_elements": 2,
+   "mp_e_hull": 0.014258803749999771,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0053081512451171875,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-11370",
+   "formula": "ErIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1291",
+   "formula": "ErIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-865579",
+   "formula": "Li2ErIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.003154259461623621,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-976743",
+   "formula": "LiEr2In",
+   "n_elements": 3,
+   "mp_e_hull": 0.012282246875000347,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-862619",
+   "formula": "LiErIn2",
+   "n_elements": 3,
+   "mp_e_hull": 0.0038811190624996605,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.030949711799621582,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184196",
+   "formula": "Er3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.0059458074999998445,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-985437",
+   "formula": "ErLu3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0020910662500002175,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184192",
+   "formula": "Er3Tm",
+   "n_elements": 2,
+   "mp_e_hull": 0.007530714583332987,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184302",
+   "formula": "ErTm3",
+   "n_elements": 2,
+   "mp_e_hull": 0.006549970000000016,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187789",
+   "formula": "Y3Er",
+   "n_elements": 2,
+   "mp_e_hull": 0.007114766249999072,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010439157485961914,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1215904",
+   "formula": "YEr",
+   "n_elements": 2,
+   "mp_e_hull": 0.01085284166666689,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0015690326690673828,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187847",
+   "formula": "YEr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.009801113333333333,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0003389120101928711,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187992",
+   "formula": "Yb3Er",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.13635817170143127,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-980070",
+   "formula": "YbEr3",
+   "n_elements": 2,
+   "mp_e_hull": 0.06260573736111041,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.09529992938041687,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23229",
+   "formula": "FeCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0024356842041015625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571096",
+   "formula": "FeCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0030686399999995118,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-583463",
+   "formula": "FeCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0014977854166664528,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-676241",
+   "formula": "FeCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.02585396250000027,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005859533945719697,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1049060",
+   "formula": "FeCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0073143641153974315,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1225059",
+   "formula": "FeCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-676683",
+   "formula": "Li2FeCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.05172443028571383,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.02858705066499212,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-676752",
+   "formula": "Li2FeCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.05921442671428512,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.029080563499813472,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1222745",
+   "formula": "Li2FeCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.02111213285714264,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.010092144920712087,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-28828",
+   "formula": "Li6FeCl8",
+   "n_elements": 3,
+   "mp_e_hull": 0.03138168466666613,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1210931",
+   "formula": "LiFeCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-616204",
+   "formula": "Ga3Cl7",
+   "n_elements": 2,
+   "mp_e_hull": 0.00960190350000012,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568848",
+   "formula": "GaCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-30952",
+   "formula": "GaCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0012116432189941406,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571266",
+   "formula": "GaCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0014818399999998455,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-29344",
+   "formula": "LiGaCl3",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.027365271250405776,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28341",
+   "formula": "LiGaCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184743",
+   "formula": "GdHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.02229445000000041,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005420684814453125,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-638079",
+   "formula": "Gd2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.010568053333335214,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184479",
+   "formula": "Gd3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006751537322998047,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-19819",
+   "formula": "GdIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.000767709999999866,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0005846023559570312,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-21005",
+   "formula": "GdIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1212862",
+   "formula": "GdIn2Cl5",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-20258",
+   "formula": "GdIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-865483",
+   "formula": "Li2GdIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0054617661696214626,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185362",
+   "formula": "LiGd2In",
+   "n_elements": 3,
+   "mp_e_hull": 0.020167366250001706,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00558009514441693,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184496",
+   "formula": "Gd3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184469",
+   "formula": "Gd3Y",
+   "n_elements": 2,
+   "mp_e_hull": 0.0349889758333326,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.019292354583740234,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184538",
+   "formula": "GdY3",
+   "n_elements": 2,
+   "mp_e_hull": 0.022591784999999476,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.017110347747802734,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1188067",
+   "formula": "YbGd3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0897742211818695,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-29422",
+   "formula": "HfCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-20686",
+   "formula": "Ho2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-863737",
+   "formula": "Ho3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0018156999999989765,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.007389068603515625,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-973465",
+   "formula": "Ho3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.011835522499999307,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1188109",
+   "formula": "Ho3In5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1188417",
+   "formula": "Ho5In3",
+   "n_elements": 2,
+   "mp_e_hull": 0.030056099999999475,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005765438079833984,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1189750",
+   "formula": "Ho5In3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-30728",
+   "formula": "HoIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-21431",
+   "formula": "HoIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-865622",
+   "formula": "Li2HoIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005402428763253475,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185328",
+   "formula": "LiHo2In",
+   "n_elements": 3,
+   "mp_e_hull": 0.011842002499999449,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-862676",
+   "formula": "LiHoIn2",
+   "n_elements": 3,
+   "mp_e_hull": 0.009626300312500113,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03518533706665039,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-973689",
+   "formula": "Ho3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.007689831250000445,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184930",
+   "formula": "HoLu3",
+   "n_elements": 2,
+   "mp_e_hull": 0.002507173749999758,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184707",
+   "formula": "Ho3Sc",
+   "n_elements": 2,
+   "mp_e_hull": 0.019928658749999606,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0022717714309692383,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-982619",
+   "formula": "Ho3Tm",
+   "n_elements": 2,
+   "mp_e_hull": 0.010005694583333558,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184899",
+   "formula": "HoTm3",
+   "n_elements": 2,
+   "mp_e_hull": 0.00735716375000095,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187798",
+   "formula": "Y3Ho",
+   "n_elements": 2,
+   "mp_e_hull": 0.007527657499998952,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00102996826171875,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1215900",
+   "formula": "YHo",
+   "n_elements": 2,
+   "mp_e_hull": 0.011471011666666087,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0010051727294921875,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-980082",
+   "formula": "YHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.030433553333333307,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0011444091796875,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187849",
+   "formula": "YHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.027980490833333427,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0008444786071777344,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187851",
+   "formula": "YHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.011628873333332734,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0007576942443847656,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187990",
+   "formula": "Yb3Ho",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.12443283200263977,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187675",
+   "formula": "YbHo3",
+   "n_elements": 2,
+   "mp_e_hull": 0.05143769375000318,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.09235438704490662,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1184968",
+   "formula": "Li2LuIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.011883510982142909,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.016352713108062744,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-976595",
+   "formula": "LiLu2In",
+   "n_elements": 3,
+   "mp_e_hull": 0.024501412307692316,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185369",
+   "formula": "LiLuIn2",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01891136169433638,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1250",
+   "formula": "Lu2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-976949",
+   "formula": "Lu3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0017465649999994781,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005329608917236328,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185478",
+   "formula": "Lu3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.005957790000000074,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1188644",
+   "formula": "Lu5In3",
+   "n_elements": 2,
+   "mp_e_hull": 0.012234398333332841,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.013598799705505371,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1210556",
+   "formula": "Lu5In4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006524297926160827,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1207089",
+   "formula": "LuIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1206287",
+   "formula": "LuIn2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-977",
+   "formula": "LuIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1184974",
+   "formula": "Li2ScIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.015649689732142757,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.06493693590164185,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185454",
+   "formula": "LiScIn2",
+   "n_elements": 3,
+   "mp_e_hull": 0.009762291666667533,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.04515258471171091,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-31348",
+   "formula": "Sc2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-19713",
+   "formula": "Sc3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-570428",
+   "formula": "Sc3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.008284007500000357,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0007410049438476562,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1207100",
+   "formula": "ScIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1206268",
+   "formula": "ScIn2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-20539",
+   "formula": "ScIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-865860",
+   "formula": "Li2TmIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.00042583044871813414,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.010880768299102783,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-976339",
+   "formula": "LiTm2In",
+   "n_elements": 3,
+   "mp_e_hull": 0.015838896730769214,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-861665",
+   "formula": "LiTmIn2",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.015807191530862852,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-21486",
+   "formula": "Tm2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1187699",
+   "formula": "Tm3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0028213095833331536,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006923675537109375,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187834",
+   "formula": "Tm3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.01079078458333349,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1188632",
+   "formula": "Tm5In3",
+   "n_elements": 2,
+   "mp_e_hull": 0.014081446041666723,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006454825401306152,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1208206",
+   "formula": "Tm5In4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.004966629876030915,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-20848",
+   "formula": "TmIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-21177",
+   "formula": "TmIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-638690",
+   "formula": "Li2Y5In9",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1185233",
+   "formula": "Li2YIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-21294",
+   "formula": "Y2In",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-29304",
+   "formula": "Y2InCl7",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1187884",
+   "formula": "Y3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.021726857083334217,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00757598876953125,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1105835",
+   "formula": "Y3In5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00057220458984375,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1199503",
+   "formula": "Y3In5",
+   "n_elements": 2,
+   "mp_e_hull": 0.06455999499999976,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22704",
+   "formula": "YIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.008298884999999423,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1215997",
+   "formula": "YIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005541801452636719,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-20131",
+   "formula": "YIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1185190",
+   "formula": "Li2YbIn",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.012043952941894531,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1185254",
+   "formula": "LiYb2In",
+   "n_elements": 3,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-980052",
+   "formula": "Yb3In",
+   "n_elements": 2,
+   "mp_e_hull": 0.08783622250000178,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.03335303068161011,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-2459",
+   "formula": "YbIn",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-3216283",
+   "formula": "YbIn2",
+   "n_elements": 2,
+   "mp_e_hull": 0.02724308000000164,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-20469",
+   "formula": "YbIn3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22896",
+   "formula": "LaCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1185479",
+   "formula": "Lu3Sc",
+   "n_elements": 2,
+   "mp_e_hull": 0.008675938750000611,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-972416",
+   "formula": "Tm3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.004142062500000598,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187686",
+   "formula": "TmLu3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0016304145833334616,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00011746088663677767,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187801",
+   "formula": "Y3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.004641449999999381,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-865596",
+   "formula": "YLu3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0030598570833344496,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187999",
+   "formula": "Yb3Lu",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.14275529980659485,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-973953",
+   "formula": "NdCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0878457513888895,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.06678120295206647,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23183",
+   "formula": "NdCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-32644",
+   "formula": "Pr5Cl12",
+   "n_elements": 2,
+   "mp_e_hull": 0.08935021519607833,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03903226291432116,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-23211",
+   "formula": "PrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1187674",
+   "formula": "Tm3Sc",
+   "n_elements": 2,
+   "mp_e_hull": 0.014999221250000971,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.005285382270812988,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1215893",
+   "formula": "YSc",
+   "n_elements": 2,
+   "mp_e_hull": 0.05109069416666667,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.02742314338684082,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187986",
+   "formula": "Yb3Sc",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.16453972458839417,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-29453",
+   "formula": "SmCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.07576974722222207,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03697448306613538,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-867134",
+   "formula": "SmCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.02955342555555518,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.09914991590711875,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-863026",
+   "formula": "SmCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-998230",
+   "formula": "LiSnCl3",
+   "n_elements": 3,
+   "mp_e_hull": 0.01898653350000057,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.010871124267577859,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-998591",
+   "formula": "LiSnCl3",
+   "n_elements": 3,
+   "mp_e_hull": 0.008468366500000712,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-29179",
+   "formula": "SnCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0005602804166668918,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00011126200358058114,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-569152",
+   "formula": "SnCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-29866",
+   "formula": "SnCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1205852",
+   "formula": "Tb2Cl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03994607925415039,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-27923",
+   "formula": "TbCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.07182018583333338,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.024803320566813447,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568342",
+   "formula": "TbCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0727232433333338,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.023368994394938447,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23293",
+   "formula": "TbCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0037149587500007186,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.03939199447631836,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568170",
+   "formula": "TbCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.023713705000000473,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0681910514831543,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-570232",
+   "formula": "TbCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-540671",
+   "formula": "Ti7Cl16",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.024189244145932598,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28116",
+   "formula": "TiCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.04266118256944473,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23275",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0278188362500007,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.012660026550292969,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567330",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.028030144375000177,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.012758255004882812,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-567354",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.028368000000000393,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0120391845703125,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-568230",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.027522782500000176,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01252889633178711,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-569756",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.026650536666667612,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.017516613006591797,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571143",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571377",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.025326570416666527,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.013251145680745147,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571424",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.02594379500000077,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.015906333923339844,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-2017901",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.01568460464477539,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-2036706",
+   "formula": "TiCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.02168541500000032,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01608753204345703,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-30092",
+   "formula": "TiCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-981249",
+   "formula": "Y3Tm",
+   "n_elements": 2,
+   "mp_e_hull": 0.0059262058333331424,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187880",
+   "formula": "YTm3",
+   "n_elements": 2,
+   "mp_e_hull": 0.008026589583334243,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187987",
+   "formula": "Yb3Tm",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.12954023480415344,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-980196",
+   "formula": "YbTm3",
+   "n_elements": 2,
+   "mp_e_hull": 0.05687736083333306,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.09283575415611267,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-36330",
+   "formula": "Li2VCl4",
+   "n_elements": 3,
+   "mp_e_hull": 0.011326253571428246,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.01055544898623495,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-532443",
+   "formula": "Li5V5Cl16",
+   "n_elements": 3,
+   "mp_e_hull": 0.0005201180769223157,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-29250",
+   "formula": "Li6VCl8",
+   "n_elements": 3,
+   "mp_e_hull": 0.012592725333332666,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22877",
+   "formula": "VCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-28117",
+   "formula": "VCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-570763",
+   "formula": "VCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0039002099999994044,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-865511",
+   "formula": "VCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.05469628999999987,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.033896255493163885,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1205372",
+   "formula": "VCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.006409835815429865,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-2051057",
+   "formula": "VCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.00039802100000141394,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.0062503814697265625,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1101909",
+   "formula": "VCl5",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-980944",
+   "formula": "Yb3Y",
+   "n_elements": 2,
+   "mp_e_hull": 0.0025641474999957836,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.10086563229560852,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1187547",
+   "formula": "YbY3",
+   "n_elements": 2,
+   "mp_e_hull": 0.08387978874999646,
+   "mp_e_hull_source": "default",
+   "mlip_e_hull": 0.06947144865989685,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-27440",
+   "formula": "ZrCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-1067974",
+   "formula": "ZrCl",
+   "n_elements": 2,
+   "mp_e_hull": 0.05861956249999967,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0013365745544433594,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-23162",
+   "formula": "ZrCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-571537",
+   "formula": "ZrCl2",
+   "n_elements": 2,
+   "mp_e_hull": 0.07382260555555575,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.011588202582465179,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-22871",
+   "formula": "ZrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-569391",
+   "formula": "ZrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.07023514249999963,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0025653839111328125,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-685155",
+   "formula": "ZrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.07107212499999971,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0020694732666015625,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1100795",
+   "formula": "ZrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.025718440000000342,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.00327301025390625,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-1192044",
+   "formula": "ZrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.020424919999999958,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0015659332275390625,
+   "theoretical": false
+  },
+  {
+   "material_id": "mp-2353328",
+   "formula": "ZrCl3",
+   "n_elements": 2,
+   "mp_e_hull": 0.05359978749999961,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0032281875610351562,
+   "theoretical": true
+  },
+  {
+   "material_id": "mp-569175",
+   "formula": "ZrCl4",
+   "n_elements": 2,
+   "mp_e_hull": 0.0,
+   "mp_e_hull_source": "GGA_GGA+U",
+   "mlip_e_hull": 0.0,
+   "theoretical": false
+  }
+ ]
+}

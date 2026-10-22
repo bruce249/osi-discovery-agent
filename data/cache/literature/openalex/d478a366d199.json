@@ -1,0 +1,18 @@
+{
+ "ok": true,
+ "query": "Li3TmCl6",
+ "papers": [
+  {
+   "title": "First-principles study of a stable anode interface based on the electron tunneling effect to suppress transition metal reduction in lithium halide solid-state electrolytes",
+   "abstract": "All-solid-state batteries are expected to become the best solution to replace current liquid lithium batteries, as they exhibit high safety and high ionic conductivity. The Li3ErCl6 and Li3YCl6 in transition metal lithium halide solid electrolytes have ionic conductivities of more than 10\u22124 orders of magnitude, so their study has become a hotspots in solid electrolyte research. However, in all-solid-state batteries assembled with Li3YCl6 and lithium metal with high energy density (3860 mAh/g), transition metal reductive dissolution occurs at the interface, which leads to a continuous reaction phenomenon. In view of these situations, first-principles methods are used to calculate the ionic conductivity of Li3TMCl6 (TM = Er, Y) and improve the stability of the Li| Li3TMCl6(Li|LTMC) interface. The results show that the incorporation of the same-valent ion La3+ into Li3YCl6 can increase the unit cell volume and make Li-Cl induce weaker Coulomb repulsion, can widen the Li+ diffusion channel and can reduce the activation energy by 25%. The higher valence ion Zr4+ is used instead of TM3+ to reduce the lithium ion concentration in the unit cell by charge compensation, thereby increasing the ionic conductivity to 10\u22122 S\u00b7cm-1. In addition, the interfacial atomic interactions at the Li|LTMC picosecond time scale are described, and the interfacial interaction is exacerbated by the electron tunneling effect, which causes the transition metal TM to dissolve at the microscopic scale. LiCl deposition of LTMC to form a double-layer lithium halide solid electrolyte effectively inhibited the electron tunneling phenomenon and improved the interface stability.",
+   "url": "https://doi.org/10.1016/j.ceja.2022.100377",
+   "year": 2022
+  },
+  {
+   "title": "First-Principles Calculations of the Effect of Transition Metal Valence Change on Lithium Ion Transport in Li3ybcl6 Solid Electrolyte",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.4536481",
+   "year": 2023
+  }
+ ]
+}

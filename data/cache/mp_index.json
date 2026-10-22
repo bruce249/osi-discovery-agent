@@ -1,0 +1,4514 @@
+{
+ "Al": [
+  {
+   "material_id": "mp-134",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-998860",
+   "theoretical": false,
+   "e_hull": 0.10340029000000062
+  },
+  {
+   "material_id": "mp-1183144",
+   "theoretical": true,
+   "e_hull": 0.010480727500000064
+  },
+  {
+   "material_id": "mp-1239196",
+   "theoretical": true,
+   "e_hull": 0.30212553249999985
+  },
+  {
+   "material_id": "mp-1244953",
+   "theoretical": true,
+   "e_hull": 0.09572362820000002
+  },
+  {
+   "material_id": "mp-1245067",
+   "theoretical": true,
+   "e_hull": 0.11430868650000026
+  },
+  {
+   "material_id": "mp-1245129",
+   "theoretical": true,
+   "e_hull": 0.09475041080000057
+  },
+  {
+   "material_id": "mp-1245152",
+   "theoretical": true,
+   "e_hull": 0.10208155080000036
+  },
+  {
+   "material_id": "mp-1245307",
+   "theoretical": true,
+   "e_hull": 0.10754954110000003
+  },
+  {
+   "material_id": "mp-2647008",
+   "theoretical": true,
+   "e_hull": 0.03207822500000024
+  }
+ ],
+ "AlBr3": [
+  {
+   "material_id": "mp-23288",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "AlBr4": [
+  {
+   "material_id": "mp-39008",
+   "theoretical": true,
+   "e_hull": 0.034787918500000625
+  }
+ ],
+ "Br": [
+  {
+   "material_id": "mp-23154",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-673171",
+   "theoretical": true,
+   "e_hull": 0.6295774250000001
+  },
+  {
+   "material_id": "mp-998861",
+   "theoretical": true,
+   "e_hull": 0.6662806450000001
+  },
+  {
+   "material_id": "mp-998864",
+   "theoretical": true,
+   "e_hull": 0.08391820500000002
+  },
+  {
+   "material_id": "mp-1010048",
+   "theoretical": true,
+   "e_hull": 0.20109457500000016
+  },
+  {
+   "material_id": "mp-1062055",
+   "theoretical": false,
+   "e_hull": 0.6001822583333334
+  },
+  {
+   "material_id": "mp-1120813",
+   "theoretical": true,
+   "e_hull": 0.11358546468750008
+  }
+ ],
+ "Li": [
+  {
+   "material_id": "mp-51",
+   "theoretical": false,
+   "e_hull": 0.0016723733333336988
+  },
+  {
+   "material_id": "mp-135",
+   "theoretical": false,
+   "e_hull": 0.009650863333333426
+  },
+  {
+   "material_id": "mp-10173",
+   "theoretical": false,
+   "e_hull": 0.005987748333333709
+  },
+  {
+   "material_id": "mp-567337",
+   "theoretical": false,
+   "e_hull": 0.008819463333333388
+  },
+  {
+   "material_id": "mp-604313",
+   "theoretical": true,
+   "e_hull": 0.2617987441666667
+  },
+  {
+   "material_id": "mp-976411",
+   "theoretical": true,
+   "e_hull": 0.0058890908333335545
+  },
+  {
+   "material_id": "mp-1018134",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1063005",
+   "theoretical": true,
+   "e_hull": 0.015670883333333663
+  },
+  {
+   "material_id": "mp-1103107",
+   "theoretical": true,
+   "e_hull": 0.055379472500000304
+  }
+ ],
+ "Li2Al": [
+  {
+   "material_id": "mp-1210753",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1210792",
+   "theoretical": true,
+   "e_hull": 0.3288388150000001
+  }
+ ],
+ "Li3Al": [
+  {
+   "material_id": "mp-975868",
+   "theoretical": true,
+   "e_hull": 0.05941175812499999
+  }
+ ],
+ "Li3Al2": [
+  {
+   "material_id": "mp-16506",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li7Al6": [
+  {
+   "material_id": "mp-1212183",
+   "theoretical": true,
+   "e_hull": 1.784575867692308
+  }
+ ],
+ "Li9Al4": [
+  {
+   "material_id": "mp-568404",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiAl": [
+  {
+   "material_id": "mp-1067",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1079240",
+   "theoretical": false,
+   "e_hull": 0.08662110999999939
+  },
+  {
+   "material_id": "mp-1191737",
+   "theoretical": false,
+   "e_hull": 0.1468947974999999
+  }
+ ],
+ "LiAl2": [
+  {
+   "material_id": "mp-1211134",
+   "theoretical": true,
+   "e_hull": 0.36599554749999985
+  }
+ ],
+ "LiAl3": [
+  {
+   "material_id": "mp-10890",
+   "theoretical": false,
+   "e_hull": 0.0109495750000006
+  },
+  {
+   "material_id": "mp-975906",
+   "theoretical": true,
+   "e_hull": 0.026654015000000975
+  }
+ ],
+ "LiBr": [
+  {
+   "material_id": "mp-23259",
+   "theoretical": false,
+   "e_hull": 0.009895712500000542
+  },
+  {
+   "material_id": "mp-976280",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "AlCl3": [
+  {
+   "material_id": "mp-25469",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-25470",
+   "theoretical": false,
+   "e_hull": 0.9092778137500002
+  }
+ ],
+ "Cl2": [
+  {
+   "material_id": "mp-22848",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-570778",
+   "theoretical": false,
+   "e_hull": 0.03497849499999983
+  }
+ ],
+ "LiAlCl4": [
+  {
+   "material_id": "mp-22983",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiCl": [
+  {
+   "material_id": "mp-22905",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1185319",
+   "theoretical": true,
+   "e_hull": 0.0038527562499997003
+  }
+ ],
+ "Bi": [
+  {
+   "material_id": "mp-23152",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-23157",
+   "theoretical": false,
+   "e_hull": 0.050300225000000864
+  },
+  {
+   "material_id": "mp-567379",
+   "theoretical": false,
+   "e_hull": 0.062386567499999046
+  },
+  {
+   "material_id": "mp-567597",
+   "theoretical": false,
+   "e_hull": 0.06971963749999333
+  },
+  {
+   "material_id": "mp-568087",
+   "theoretical": false,
+   "e_hull": 0.21491629999999873
+  },
+  {
+   "material_id": "mp-568610",
+   "theoretical": false,
+   "e_hull": 0.23528697499999396
+  },
+  {
+   "material_id": "mp-568714",
+   "theoretical": false,
+   "e_hull": 1.1665890199999964
+  },
+  {
+   "material_id": "mp-569358",
+   "theoretical": true,
+   "e_hull": 0.5993978949999956
+  },
+  {
+   "material_id": "mp-1067758",
+   "theoretical": false,
+   "e_hull": 0.0858594149999945
+  },
+  {
+   "material_id": "mp-1078637",
+   "theoretical": false,
+   "e_hull": 0.10084982749999938
+  },
+  {
+   "material_id": "mp-1096851",
+   "theoretical": true,
+   "e_hull": 0.09904824999999562
+  },
+  {
+   "material_id": "mp-1182070",
+   "theoretical": false,
+   "e_hull": 0.05809535749999384
+  },
+  {
+   "material_id": "mp-1182248",
+   "theoretical": true,
+   "e_hull": 1.0773168849999948
+  },
+  {
+   "material_id": "mp-1525145",
+   "theoretical": true,
+   "e_hull": 0.08174027999999822
+  },
+  {
+   "material_id": "mp-1525652",
+   "theoretical": true,
+   "e_hull": 0.09627707499999616
+  },
+  {
+   "material_id": "mp-1947043",
+   "theoretical": true,
+   "e_hull": 0.07196237749999312
+  },
+  {
+   "material_id": "mp-1949763",
+   "theoretical": true,
+   "e_hull": 0.0722649699999991
+  }
+ ],
+ "Bi6Br7": [
+  {
+   "material_id": "mp-27709",
+   "theoretical": false,
+   "e_hull": 0.05895959403846085
+  }
+ ],
+ "BiBr": [
+  {
+   "material_id": "mp-568758",
+   "theoretical": false,
+   "e_hull": 0.0387132587499992
+  }
+ ],
+ "BiBr3": [
+  {
+   "material_id": "mp-568301",
+   "theoretical": false,
+   "e_hull": 0.002342262499998693
+  },
+  {
+   "material_id": "mp-610430",
+   "theoretical": false,
+   "e_hull": 0.061744708750000044
+  },
+  {
+   "material_id": "mp-752602",
+   "theoretical": true,
+   "e_hull": 0.0003405662500006734
+  },
+  {
+   "material_id": "mp-2913080",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Bi": [
+  {
+   "material_id": "mp-23222",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-2646976",
+   "theoretical": true,
+   "e_hull": 0.01082244874999816
+  }
+ ],
+ "LiBi": [
+  {
+   "material_id": "mp-22902",
+   "theoretical": false,
+   "e_hull": 0.003396496666663751
+  }
+ ],
+ "Bi6Cl7": [
+  {
+   "material_id": "mp-582968",
+   "theoretical": false,
+   "e_hull": 0.0016239432371785156
+  }
+ ],
+ "BiCl3": [
+  {
+   "material_id": "mp-22908",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Ce": [
+  {
+   "material_id": "mp-28",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-64",
+   "theoretical": false,
+   "e_hull": 0.034720090000000425
+  },
+  {
+   "material_id": "mp-10024",
+   "theoretical": false,
+   "e_hull": 0.2282504050000007
+  },
+  {
+   "material_id": "mp-20372",
+   "theoretical": false,
+   "e_hull": 0.07490517250000295
+  },
+  {
+   "material_id": "mp-20736",
+   "theoretical": false,
+   "e_hull": 0.10881668000000033
+  },
+  {
+   "material_id": "mp-567332",
+   "theoretical": false,
+   "e_hull": 0.0038607150000018464
+  }
+ ],
+ "Ce2Br5": [
+  {
+   "material_id": "mp-1104603",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Ce3Br": [
+  {
+   "material_id": "mp-984727",
+   "theoretical": true,
+   "e_hull": 0.4131667917500019
+  }
+ ],
+ "CeBr3": [
+  {
+   "material_id": "mp-569850",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Ce": [
+  {
+   "material_id": "mp-1185231",
+   "theoretical": true,
+   "e_hull": 0.3336341362499997
+  }
+ ],
+ "LiCe3": [
+  {
+   "material_id": "mp-1185343",
+   "theoretical": true,
+   "e_hull": 0.2648316679166669
+  }
+ ],
+ "Br2Cl3": [
+  {
+   "material_id": "mp-1183535",
+   "theoretical": true,
+   "e_hull": 0.03413524400000023
+  }
+ ],
+ "BrCl": [
+  {
+   "material_id": "mp-864928",
+   "theoretical": true,
+   "e_hull": 0.09600036749999985
+  },
+  {
+   "material_id": "mp-1008492",
+   "theoretical": true,
+   "e_hull": 0.0006782575000001678
+  },
+  {
+   "material_id": "mp-1066781",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1524139",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Dy": [
+  {
+   "material_id": "mp-88",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-10658",
+   "theoretical": false,
+   "e_hull": 0.011588688333336705
+  },
+  {
+   "material_id": "mp-10750",
+   "theoretical": false,
+   "e_hull": 0.04305835499999944
+  },
+  {
+   "material_id": "mp-10751",
+   "theoretical": false,
+   "e_hull": 0.12758030499999862
+  },
+  {
+   "material_id": "mp-1184067",
+   "theoretical": true,
+   "e_hull": 0.002235662499998625
+  }
+ ],
+ "Dy5Cl11": [
+  {
+   "material_id": "mp-669497",
+   "theoretical": false,
+   "e_hull": 0.2005437283506959
+  }
+ ],
+ "Dy6Cl13": [
+  {
+   "material_id": "mp-1213323",
+   "theoretical": true,
+   "e_hull": 0.20319773441520628
+  }
+ ],
+ "DyBr2": [
+  {
+   "material_id": "mp-30025",
+   "theoretical": false,
+   "e_hull": 0.19262610300925953
+  },
+  {
+   "material_id": "mp-864986",
+   "theoretical": true,
+   "e_hull": 0.12391080925926001
+  }
+ ],
+ "DyBr3": [
+  {
+   "material_id": "mp-864982",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "DyCl2": [
+  {
+   "material_id": "mp-1213029",
+   "theoretical": true,
+   "e_hull": 0.203707257592594
+  }
+ ],
+ "DyCl3": [
+  {
+   "material_id": "mp-28448",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Dy": [
+  {
+   "material_id": "mp-977188",
+   "theoretical": true,
+   "e_hull": 0.21250930749999952
+  }
+ ],
+ "LiDy2Br5": [
+  {
+   "material_id": "mp-29431",
+   "theoretical": false,
+   "e_hull": 0.1872197313194457
+  }
+ ],
+ "LiDy2Cl5": [
+  {
+   "material_id": "mp-28068",
+   "theoretical": false,
+   "e_hull": 0.1925033472569453
+  }
+ ],
+ "LiDy3": [
+  {
+   "material_id": "mp-974060",
+   "theoretical": true,
+   "e_hull": 0.19472291416666465
+  },
+  {
+   "material_id": "mp-1185340",
+   "theoretical": true,
+   "e_hull": 0.18976162666666596
+  }
+ ],
+ "Er": [
+  {
+   "material_id": "mp-99",
+   "theoretical": false,
+   "e_hull": 0.01244172166666857
+  },
+  {
+   "material_id": "mp-10752",
+   "theoretical": false,
+   "e_hull": 0.0668589666666648
+  },
+  {
+   "material_id": "mp-10753",
+   "theoretical": false,
+   "e_hull": 0.13939002666666767
+  },
+  {
+   "material_id": "mp-1184113",
+   "theoretical": true,
+   "e_hull": 0.022770859166669766
+  },
+  {
+   "material_id": "mp-1184115",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "ErCl2": [
+  {
+   "material_id": "mp-861968",
+   "theoretical": true,
+   "e_hull": 0.13012150499999997
+  }
+ ],
+ "ErCl3": [
+  {
+   "material_id": "mp-863029",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Er": [
+  {
+   "material_id": "mp-977195",
+   "theoretical": true,
+   "e_hull": 0.21249929875000007
+  }
+ ],
+ "Li3ErBr6": [
+  {
+   "material_id": "mp-37873",
+   "theoretical": true,
+   "e_hull": 0.002015753999996761
+  },
+  {
+   "material_id": "mp-1222492",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3ErCl6": [
+  {
+   "material_id": "mp-676361",
+   "theoretical": true,
+   "e_hull": 0.0020198587500024345
+  }
+ ],
+ "LiEr3": [
+  {
+   "material_id": "mp-1185345",
+   "theoretical": true,
+   "e_hull": 0.184691144166667
+  }
+ ],
+ "Ho": [
+  {
+   "material_id": "mp-144",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-7236",
+   "theoretical": false,
+   "e_hull": 0.127856125000001
+  },
+  {
+   "material_id": "mp-10659",
+   "theoretical": false,
+   "e_hull": 0.01527059500000405
+  },
+  {
+   "material_id": "mp-10765",
+   "theoretical": false,
+   "e_hull": 0.04976369500000288
+  },
+  {
+   "material_id": "mp-973986",
+   "theoretical": true,
+   "e_hull": 0.02443215499999951
+  }
+ ],
+ "Ho5Cl11": [
+  {
+   "material_id": "mp-1213127",
+   "theoretical": true,
+   "e_hull": 0.1761931128124994
+  }
+ ],
+ "HoBr2": [
+  {
+   "material_id": "mp-1184741",
+   "theoretical": true,
+   "e_hull": 0.1365982400000023
+  }
+ ],
+ "HoBr3": [
+  {
+   "material_id": "mp-977375",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "HoCl2": [
+  {
+   "material_id": "mp-864641",
+   "theoretical": true,
+   "e_hull": 0.11639087499999956
+  }
+ ],
+ "HoCl3": [
+  {
+   "material_id": "mp-864662",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Ho": [
+  {
+   "material_id": "mp-1185197",
+   "theoretical": true,
+   "e_hull": 0.21280641124999988
+  }
+ ],
+ "LiHo3": [
+  {
+   "material_id": "mp-973732",
+   "theoretical": true,
+   "e_hull": 0.20020114916666643
+  },
+  {
+   "material_id": "mp-973741",
+   "theoretical": true,
+   "e_hull": 0.1981040516666681
+  },
+  {
+   "material_id": "mp-1185384",
+   "theoretical": true,
+   "e_hull": 0.18683475791666737
+  }
+ ],
+ "In": [
+  {
+   "material_id": "mp-85",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-973111",
+   "theoretical": true,
+   "e_hull": 0.00714690500000259
+  },
+  {
+   "material_id": "mp-1055994",
+   "theoretical": false,
+   "e_hull": 0.004489730000003078
+  },
+  {
+   "material_id": "mp-1184478",
+   "theoretical": true,
+   "e_hull": 0.027791910000001252
+  },
+  {
+   "material_id": "mp-1184502",
+   "theoretical": true,
+   "e_hull": 0.007490013333335099
+  },
+  {
+   "material_id": "mp-1184511",
+   "theoretical": true,
+   "e_hull": 0.004732852500001883
+  },
+  {
+   "material_id": "mp-1184693",
+   "theoretical": true,
+   "e_hull": 0.010102724827589782
+  }
+ ],
+ "In2Br3": [
+  {
+   "material_id": "mp-685014",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-685174",
+   "theoretical": true,
+   "e_hull": 0.001095955312499619
+  }
+ ],
+ "In2Cl3": [
+  {
+   "material_id": "mp-667324",
+   "theoretical": false,
+   "e_hull": 0.00333286658750076
+  }
+ ],
+ "In3Cl": [
+  {
+   "material_id": "mp-1184519",
+   "theoretical": true,
+   "e_hull": 0.21578074994791674
+  }
+ ],
+ "In4Br7": [
+  {
+   "material_id": "mp-568692",
+   "theoretical": false,
+   "e_hull": 0.016080847215909078
+  },
+  {
+   "material_id": "mp-680760",
+   "theoretical": false,
+   "e_hull": 0.009646504488638463
+  }
+ ],
+ "In5Br7": [
+  {
+   "material_id": "mp-568546",
+   "theoretical": false,
+   "e_hull": 0.005122137395833448
+  },
+  {
+   "material_id": "mp-652621",
+   "theoretical": false,
+   "e_hull": 0.006891360624999621
+  },
+  {
+   "material_id": "mp-680178",
+   "theoretical": false,
+   "e_hull": 0.0060473880208333775
+  }
+ ],
+ "In5Cl9": [
+  {
+   "material_id": "mp-28112",
+   "theoretical": false,
+   "e_hull": 0.022781173535713517
+  }
+ ],
+ "In7Br9": [
+  {
+   "material_id": "mp-28988",
+   "theoretical": false,
+   "e_hull": 0.010021336328125852
+  }
+ ],
+ "In7Cl9": [
+  {
+   "material_id": "mp-28730",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "InBr": [
+  {
+   "material_id": "mp-22870",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "InBr2": [
+  {
+   "material_id": "mp-568108",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "InBr3": [
+  {
+   "material_id": "mp-570219",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "InCl": [
+  {
+   "material_id": "mp-23276",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-571555",
+   "theoretical": false,
+   "e_hull": 0.0031331506249987484
+  },
+  {
+   "material_id": "mp-571636",
+   "theoretical": false,
+   "e_hull": 0.0016458790624991337
+  }
+ ],
+ "InCl2": [
+  {
+   "material_id": "mp-1212122",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "InCl3": [
+  {
+   "material_id": "mp-862983",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li13In3": [
+  {
+   "material_id": "mp-510430",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2In": [
+  {
+   "material_id": "mp-31324",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3In": [
+  {
+   "material_id": "mp-867226",
+   "theoretical": true,
+   "e_hull": 0.005150574464284574
+  },
+  {
+   "material_id": "mp-976055",
+   "theoretical": true,
+   "e_hull": 0.016660156964284134
+  }
+ ],
+ "Li3In2": [
+  {
+   "material_id": "mp-21293",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3InBr6": [
+  {
+   "material_id": "mp-1120720",
+   "theoretical": true,
+   "e_hull": 0.03420655700000008
+  },
+  {
+   "material_id": "mp-1147621",
+   "theoretical": true,
+   "e_hull": 0.019537600999998794
+  }
+ ],
+ "Li3InCl6": [
+  {
+   "material_id": "mp-676109",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1111288",
+   "theoretical": true,
+   "e_hull": 0.231898304
+  }
+ ],
+ "Li5In4": [
+  {
+   "material_id": "mp-1079408",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiIn": [
+  {
+   "material_id": "mp-22460",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiIn2": [
+  {
+   "material_id": "mp-1210993",
+   "theoretical": true,
+   "e_hull": 0.19447435083333353
+  }
+ ],
+ "LiIn3": [
+  {
+   "material_id": "mp-863027",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-973748",
+   "theoretical": true,
+   "e_hull": 0.014984695000002546
+  }
+ ],
+ "Li3Lu": [
+  {
+   "material_id": "mp-1185208",
+   "theoretical": true,
+   "e_hull": 0.21219816999999885
+  }
+ ],
+ "LiLu3": [
+  {
+   "material_id": "mp-973493",
+   "theoretical": true,
+   "e_hull": 0.17616426291666798
+  }
+ ],
+ "Lu": [
+  {
+   "material_id": "mp-145",
+   "theoretical": false,
+   "e_hull": 0.0007369333333357986
+  },
+  {
+   "material_id": "mp-10190",
+   "theoretical": false,
+   "e_hull": 0.10293042333334057
+  },
+  {
+   "material_id": "mp-973571",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LuBr": [
+  {
+   "material_id": "mp-973976",
+   "theoretical": true,
+   "e_hull": 0.28138084277777775
+  }
+ ],
+ "LuBr3": [
+  {
+   "material_id": "mp-866214",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LuCl3": [
+  {
+   "material_id": "mp-865324",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Sc": [
+  {
+   "material_id": "mp-1185268",
+   "theoretical": true,
+   "e_hull": 0.2221045625000002
+  }
+ ],
+ "Li3ScCl6": [
+  {
+   "material_id": "mp-686004",
+   "theoretical": true,
+   "e_hull": 0.018566974500000555
+  },
+  {
+   "material_id": "mp-1111284",
+   "theoretical": true,
+   "e_hull": 0.24655896174999992
+  }
+ ],
+ "Sc": [
+  {
+   "material_id": "mp-36",
+   "theoretical": false,
+   "e_hull": 0.10101746499999997
+  },
+  {
+   "material_id": "mp-67",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-10641",
+   "theoretical": true,
+   "e_hull": 0.11705207500000014
+  },
+  {
+   "material_id": "mp-567308",
+   "theoretical": false,
+   "e_hull": 0.20573354000000066
+  },
+  {
+   "material_id": "mp-601273",
+   "theoretical": true,
+   "e_hull": 0.12770696500000156
+  },
+  {
+   "material_id": "mp-1008681",
+   "theoretical": true,
+   "e_hull": 0.7194539350000007
+  },
+  {
+   "material_id": "mp-1055932",
+   "theoretical": true,
+   "e_hull": 0.05247491500000123
+  },
+  {
+   "material_id": "mp-1056366",
+   "theoretical": false,
+   "e_hull": 0.10778921500000038
+  },
+  {
+   "material_id": "mp-1064244",
+   "theoretical": false,
+   "e_hull": 0.11248714000000071
+  },
+  {
+   "material_id": "mp-1179655",
+   "theoretical": true,
+   "e_hull": 0.06626405000000091
+  },
+  {
+   "material_id": "mp-1977495",
+   "theoretical": true,
+   "e_hull": 0.06532240499999808
+  },
+  {
+   "material_id": "mp-2018526",
+   "theoretical": true,
+   "e_hull": 0.1716095183333337
+  }
+ ],
+ "Sc5Cl8": [
+  {
+   "material_id": "mp-542449",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Sc7Cl10": [
+  {
+   "material_id": "mp-27513",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Sc7Cl12": [
+  {
+   "material_id": "mp-23186",
+   "theoretical": false,
+   "e_hull": 0.04880600511277855
+  }
+ ],
+ "ScBr2": [
+  {
+   "material_id": "mp-862565",
+   "theoretical": true,
+   "e_hull": 0.04226974666666461
+  }
+ ],
+ "ScBr3": [
+  {
+   "material_id": "mp-1186984",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "ScCl": [
+  {
+   "material_id": "mp-27507",
+   "theoretical": false,
+   "e_hull": 0.021389462749998422
+  }
+ ],
+ "ScCl3": [
+  {
+   "material_id": "mp-23309",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Y": [
+  {
+   "material_id": "mp-1185289",
+   "theoretical": true,
+   "e_hull": 0.18302511458333282
+  }
+ ],
+ "Li3YBr6": [
+  {
+   "material_id": "mp-1147619",
+   "theoretical": true,
+   "e_hull": 0.02565027199999914
+  }
+ ],
+ "LiY3": [
+  {
+   "material_id": "mp-1185240",
+   "theoretical": true,
+   "e_hull": 0.1977400066666668
+  },
+  {
+   "material_id": "mp-1185245",
+   "theoretical": true,
+   "e_hull": 0.1928832241666658
+  },
+  {
+   "material_id": "mp-1185257",
+   "theoretical": true,
+   "e_hull": 0.1934289841666672
+  }
+ ],
+ "Y": [
+  {
+   "material_id": "mp-9",
+   "theoretical": false,
+   "e_hull": 0.09781800000000018
+  },
+  {
+   "material_id": "mp-112",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1187717",
+   "theoretical": true,
+   "e_hull": 0.0437545249999971
+  },
+  {
+   "material_id": "mp-1187739",
+   "theoretical": true,
+   "e_hull": 0.04262038666666612
+  }
+ ],
+ "Y2Br3": [
+  {
+   "material_id": "mp-1205567",
+   "theoretical": true,
+   "e_hull": 0.0057049920000009635
+  }
+ ],
+ "Y2Cl3": [
+  {
+   "material_id": "mp-27678",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "YBr2": [
+  {
+   "material_id": "mp-865534",
+   "theoretical": true,
+   "e_hull": 0.15890892499999953
+  }
+ ],
+ "YBr3": [
+  {
+   "material_id": "mp-754815",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-865605",
+   "theoretical": true,
+   "e_hull": 0.08699960625000003
+  }
+ ],
+ "YCl": [
+  {
+   "material_id": "mp-540884",
+   "theoretical": false,
+   "e_hull": 0.059423173333334134
+  }
+ ],
+ "YCl3": [
+  {
+   "material_id": "mp-27455",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Yb": [
+  {
+   "material_id": "mp-1185286",
+   "theoretical": true,
+   "e_hull": 0.24736499624999908
+  },
+  {
+   "material_id": "mp-1185296",
+   "theoretical": true,
+   "e_hull": 0.21816908249999933
+  }
+ ],
+ "LiYb2Cl5": [
+  {
+   "material_id": "mp-23421",
+   "theoretical": false,
+   "e_hull": 0.2362176642708338
+  }
+ ],
+ "LiYb3": [
+  {
+   "material_id": "mp-980190",
+   "theoretical": true,
+   "e_hull": 0.18943805208332876
+  },
+  {
+   "material_id": "mp-1185469",
+   "theoretical": true,
+   "e_hull": 0.21812796458332784
+  },
+  {
+   "material_id": "mp-1185470",
+   "theoretical": true,
+   "e_hull": 0.16893493458332998
+  }
+ ],
+ "Yb": [
+  {
+   "material_id": "mp-71",
+   "theoretical": false,
+   "e_hull": null
+  },
+  {
+   "material_id": "mp-162",
+   "theoretical": false,
+   "e_hull": null
+  },
+  {
+   "material_id": "mp-972364",
+   "theoretical": true,
+   "e_hull": null
+  },
+  {
+   "material_id": "mp-1187875",
+   "theoretical": true,
+   "e_hull": null
+  }
+ ],
+ "YbBr": [
+  {
+   "material_id": "mp-1187907",
+   "theoretical": true,
+   "e_hull": 0.3100406358333352
+  }
+ ],
+ "YbBr2": [
+  {
+   "material_id": "mp-22882",
+   "theoretical": false,
+   "e_hull": 0.2465137861111124
+  },
+  {
+   "material_id": "mp-571232",
+   "theoretical": false,
+   "e_hull": 0.23540226527778074
+  },
+  {
+   "material_id": "mp-1071541",
+   "theoretical": false,
+   "e_hull": 0.25173233111111415
+  }
+ ],
+ "YbBr3": [
+  {
+   "material_id": "mp-685068",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "YbCl2": [
+  {
+   "material_id": "mp-865716",
+   "theoretical": true,
+   "e_hull": 0.18584689944444222
+  }
+ ],
+ "YbCl3": [
+  {
+   "material_id": "mp-1025400",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-3216222",
+   "theoretical": true,
+   "e_hull": 0.05488161624999677
+  }
+ ],
+ "Cr": [
+  {
+   "material_id": "mp-17",
+   "theoretical": false,
+   "e_hull": 0.357538657500001
+  },
+  {
+   "material_id": "mp-89",
+   "theoretical": false,
+   "e_hull": 0.4203401050000011
+  },
+  {
+   "material_id": "mp-90",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-8633",
+   "theoretical": true,
+   "e_hull": 0.4025263400000014
+  },
+  {
+   "material_id": "mp-1059289",
+   "theoretical": false,
+   "e_hull": 0.3359083800000011
+  },
+  {
+   "material_id": "mp-1192789",
+   "theoretical": true,
+   "e_hull": 0.2635782450000015
+  }
+ ],
+ "CrBr2": [
+  {
+   "material_id": "mp-567624",
+   "theoretical": false,
+   "e_hull": 0.07725094888888862
+  },
+  {
+   "material_id": "mp-1183765",
+   "theoretical": true,
+   "e_hull": 0.08559246722222191
+  }
+ ],
+ "CrBr3": [
+  {
+   "material_id": "mp-27734",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Cr": [
+  {
+   "material_id": "mp-976010",
+   "theoretical": true,
+   "e_hull": 0.3888354525000004
+  },
+  {
+   "material_id": "mp-977229",
+   "theoretical": true,
+   "e_hull": 0.40008007375000076
+  },
+  {
+   "material_id": "mp-1185185",
+   "theoretical": true,
+   "e_hull": 0.40640221499999996
+  }
+ ],
+ "Fe": [
+  {
+   "material_id": "mp-13",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-136",
+   "theoretical": false,
+   "e_hull": 0.66013549
+  },
+  {
+   "material_id": "mp-150",
+   "theoretical": false,
+   "e_hull": 0.1096572000000009
+  },
+  {
+   "material_id": "mp-568345",
+   "theoretical": true,
+   "e_hull": 0.7614121600000008
+  },
+  {
+   "material_id": "mp-1096950",
+   "theoretical": true,
+   "e_hull": 0.4766994199999992
+  },
+  {
+   "material_id": "mp-1194030",
+   "theoretical": true,
+   "e_hull": 0.17528872000000106
+  },
+  {
+   "material_id": "mp-1245108",
+   "theoretical": true,
+   "e_hull": 0.27945549730000074
+  },
+  {
+   "material_id": "mp-1271068",
+   "theoretical": true,
+   "e_hull": 0.0170698550000008
+  },
+  {
+   "material_id": "mp-1271128",
+   "theoretical": true,
+   "e_hull": 0.09913460000000107
+  },
+  {
+   "material_id": "mp-1271198",
+   "theoretical": true,
+   "e_hull": 0.1204635775000007
+  }
+ ],
+ "FeBr2": [
+  {
+   "material_id": "mp-22880",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "FeBr3": [
+  {
+   "material_id": "mp-23232",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2FeBr4": [
+  {
+   "material_id": "mp-22967",
+   "theoretical": false,
+   "e_hull": 0.02874205428571397
+  },
+  {
+   "material_id": "mp-35039",
+   "theoretical": true,
+   "e_hull": 0.03015749714285665
+  }
+ ],
+ "Li3Fe": [
+  {
+   "material_id": "mp-1185215",
+   "theoretical": true,
+   "e_hull": 0.40566250750000066
+  }
+ ],
+ "LiFe": [
+  {
+   "material_id": "mp-1211097",
+   "theoretical": true,
+   "e_hull": 0.27958471333333357
+  }
+ ],
+ "LiFeBr4": [
+  {
+   "material_id": "mp-1211043",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Ga": [
+  {
+   "material_id": "mp-140",
+   "theoretical": false,
+   "e_hull": 0.12798925999999966
+  },
+  {
+   "material_id": "mp-142",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-10021",
+   "theoretical": false,
+   "e_hull": 0.0833919949999995
+  },
+  {
+   "material_id": "mp-567540",
+   "theoretical": false,
+   "e_hull": 0.08197489700000027
+  },
+  {
+   "material_id": "mp-569007",
+   "theoretical": false,
+   "e_hull": 0.08874567863636251
+  },
+  {
+   "material_id": "mp-569423",
+   "theoretical": false,
+   "e_hull": 0.10016806166666647
+  },
+  {
+   "material_id": "mp-1007857",
+   "theoretical": true,
+   "e_hull": 0.12453846500000054
+  },
+  {
+   "material_id": "mp-1067880",
+   "theoretical": true,
+   "e_hull": 0.011309182499999793
+  }
+ ],
+ "GaBr2": [
+  {
+   "material_id": "mp-28384",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-650841",
+   "theoretical": false,
+   "e_hull": 0.0019609372222211263
+  }
+ ],
+ "GaBr3": [
+  {
+   "material_id": "mp-30953",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2Ga": [
+  {
+   "material_id": "mp-29210",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2Ga7": [
+  {
+   "material_id": "mp-1222769",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Ga": [
+  {
+   "material_id": "mp-976023",
+   "theoretical": true,
+   "e_hull": 0.021047610833333508
+  },
+  {
+   "material_id": "mp-976025",
+   "theoretical": true,
+   "e_hull": 0.03374456333333331
+  }
+ ],
+ "Li3Ga14": [
+  {
+   "material_id": "mp-1222489",
+   "theoretical": true,
+   "e_hull": 0.00958796441176446
+  }
+ ],
+ "Li3Ga2": [
+  {
+   "material_id": "mp-9568",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Ga7": [
+  {
+   "material_id": "mp-567306",
+   "theoretical": true,
+   "e_hull": 0.024923377700000415
+  }
+ ],
+ "Li5Ga4": [
+  {
+   "material_id": "mp-1205930",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiGa": [
+  {
+   "material_id": "mp-1307",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiGa2": [
+  {
+   "material_id": "mp-1210887",
+   "theoretical": true,
+   "e_hull": 0.2082132621666677
+  }
+ ],
+ "LiGa3": [
+  {
+   "material_id": "mp-863257",
+   "theoretical": true,
+   "e_hull": 0.008717875749999493
+  },
+  {
+   "material_id": "mp-1185332",
+   "theoretical": true,
+   "e_hull": 0.09582855275000135
+  },
+  {
+   "material_id": "mp-1185352",
+   "theoretical": true,
+   "e_hull": 0.10547864650000172
+  }
+ ],
+ "LiGaBr3": [
+  {
+   "material_id": "mp-28327",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiGaBr4": [
+  {
+   "material_id": "mp-28326",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Gd": [
+  {
+   "material_id": "mp-155",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-11421",
+   "theoretical": false,
+   "e_hull": 0.14971620999999402
+  },
+  {
+   "material_id": "mp-19981",
+   "theoretical": false,
+   "e_hull": 0.04114726499999932
+  },
+  {
+   "material_id": "mp-570087",
+   "theoretical": false,
+   "e_hull": 0.028687346666664837
+  },
+  {
+   "material_id": "mp-614502",
+   "theoretical": false,
+   "e_hull": 0.0746265299999962
+  }
+ ],
+ "Gd2Br3": [
+  {
+   "material_id": "mp-618813",
+   "theoretical": false,
+   "e_hull": 0.007978507000004242
+  }
+ ],
+ "GdBr": [
+  {
+   "material_id": "mp-1064427",
+   "theoretical": false,
+   "e_hull": 0.06341351750000257
+  }
+ ],
+ "GdBr3": [
+  {
+   "material_id": "mp-27182",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Gd": [
+  {
+   "material_id": "mp-1185269",
+   "theoretical": true,
+   "e_hull": 0.16257343624999976
+  }
+ ],
+ "LiGd3": [
+  {
+   "material_id": "mp-1185526",
+   "theoretical": true,
+   "e_hull": 0.1444328691666712
+  }
+ ],
+ "Hf": [
+  {
+   "material_id": "mp-100",
+   "theoretical": false,
+   "e_hull": 0.21217978999999332
+  },
+  {
+   "material_id": "mp-103",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-8640",
+   "theoretical": true,
+   "e_hull": 0.08898112999999341
+  },
+  {
+   "material_id": "mp-1009460",
+   "theoretical": true,
+   "e_hull": 0.03217813666666558
+  }
+ ],
+ "HfBr3": [
+  {
+   "material_id": "mp-864915",
+   "theoretical": true,
+   "e_hull": 0.062032246874998975
+  }
+ ],
+ "HfBr4": [
+  {
+   "material_id": "mp-1212517",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li8Hf3": [
+  {
+   "material_id": "mp-1190933",
+   "theoretical": false,
+   "e_hull": 1.049582007575756
+  }
+ ],
+ "LiHf": [
+  {
+   "material_id": "mp-973948",
+   "theoretical": true,
+   "e_hull": 0.3219042683333342
+  }
+ ],
+ "La": [
+  {
+   "material_id": "mp-26",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-156",
+   "theoretical": false,
+   "e_hull": 0.01936170500000145
+  },
+  {
+   "material_id": "mp-10023",
+   "theoretical": false,
+   "e_hull": 0.10422134500000269
+  }
+ ],
+ "La2Br5": [
+  {
+   "material_id": "mp-28571",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "La3Br": [
+  {
+   "material_id": "mp-1185002",
+   "theoretical": true,
+   "e_hull": 0.4493226227499987
+  }
+ ],
+ "LaBr": [
+  {
+   "material_id": "mp-27679",
+   "theoretical": false,
+   "e_hull": 0.09736768799999762
+  }
+ ],
+ "LaBr2": [
+  {
+   "material_id": "mp-28572",
+   "theoretical": false,
+   "e_hull": 0.0029272589999997933
+  }
+ ],
+ "LaBr3": [
+  {
+   "material_id": "mp-23263",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3La": [
+  {
+   "material_id": "mp-1185192",
+   "theoretical": true,
+   "e_hull": 0.20126277874999943
+  }
+ ],
+ "LiLa3": [
+  {
+   "material_id": "mp-973415",
+   "theoretical": true,
+   "e_hull": 0.14494223041666388
+  },
+  {
+   "material_id": "mp-976424",
+   "theoretical": true,
+   "e_hull": 0.1477278254166663
+  }
+ ],
+ "Li3Nd": [
+  {
+   "material_id": "mp-976264",
+   "theoretical": true,
+   "e_hull": 0.19684769312500094
+  }
+ ],
+ "Nd": [
+  {
+   "material_id": "mp-4",
+   "theoretical": false,
+   "e_hull": 0.11538799250000054
+  },
+  {
+   "material_id": "mp-123",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-159",
+   "theoretical": false,
+   "e_hull": 0.009693512500000168
+  },
+  {
+   "material_id": "mp-974788",
+   "theoretical": true,
+   "e_hull": 0.010861629166669218
+  }
+ ],
+ "Nd3Br": [
+  {
+   "material_id": "mp-1186259",
+   "theoretical": true,
+   "e_hull": 0.5131922154166677
+  },
+  {
+   "material_id": "mp-1186264",
+   "theoretical": true,
+   "e_hull": 0.518531742916668
+  }
+ ],
+ "Nd4Br9": [
+  {
+   "material_id": "mp-570534",
+   "theoretical": false,
+   "e_hull": 0.15142472942307705
+  }
+ ],
+ "NdBr2": [
+  {
+   "material_id": "mp-1210109",
+   "theoretical": true,
+   "e_hull": 0.020419790277774297
+  }
+ ],
+ "NdBr3": [
+  {
+   "material_id": "mp-27975",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Pr": [
+  {
+   "material_id": "mp-976321",
+   "theoretical": true,
+   "e_hull": 0.18982213125000058
+  }
+ ],
+ "LiPr3": [
+  {
+   "material_id": "mp-1185406",
+   "theoretical": true,
+   "e_hull": 0.1417196054166645
+  }
+ ],
+ "Pr": [
+  {
+   "material_id": "mp-38",
+   "theoretical": false,
+   "e_hull": 0.014565703333335733
+  },
+  {
+   "material_id": "mp-63",
+   "theoretical": false,
+   "e_hull": 0.1260252183333357
+  },
+  {
+   "material_id": "mp-97",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-567630",
+   "theoretical": false,
+   "e_hull": 0.008282981666663858
+  },
+  {
+   "material_id": "mp-568938",
+   "theoretical": false,
+   "e_hull": 0.11243127833333588
+  },
+  {
+   "material_id": "mp-981544",
+   "theoretical": true,
+   "e_hull": 0.022790668333335873
+  },
+  {
+   "material_id": "mp-1009594",
+   "theoretical": false,
+   "e_hull": 0.046940603333336384
+  },
+  {
+   "material_id": "mp-1059256",
+   "theoretical": true,
+   "e_hull": 0.04581793833333592
+  },
+  {
+   "material_id": "mp-1059528",
+   "theoretical": false,
+   "e_hull": 0.009701464999999132
+  },
+  {
+   "material_id": "mp-1179917",
+   "theoretical": true,
+   "e_hull": 0.035177221666668146
+  }
+ ],
+ "Pr2Br5": [
+  {
+   "material_id": "mp-23169",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Pr3Br": [
+  {
+   "material_id": "mp-1186696",
+   "theoretical": true,
+   "e_hull": 0.5107768256666665
+  },
+  {
+   "material_id": "mp-1186700",
+   "theoretical": true,
+   "e_hull": 0.5145961781666664
+  }
+ ],
+ "PrBr3": [
+  {
+   "material_id": "mp-23221",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Sm": [
+  {
+   "material_id": "mp-977286",
+   "theoretical": true,
+   "e_hull": 0.2088086912499989
+  },
+  {
+   "material_id": "mp-1185272",
+   "theoretical": true,
+   "e_hull": 0.20259081374999965
+  }
+ ],
+ "LiSm2Br5": [
+  {
+   "material_id": "mp-1211059",
+   "theoretical": true,
+   "e_hull": 0.144120513541667
+  }
+ ],
+ "LiSm3": [
+  {
+   "material_id": "mp-1185451",
+   "theoretical": true,
+   "e_hull": 0.16325460541666814
+  }
+ ],
+ "Sm": [
+  {
+   "material_id": "mp-68",
+   "theoretical": false,
+   "e_hull": 0.019146124999998904
+  },
+  {
+   "material_id": "mp-69",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-86",
+   "theoretical": false,
+   "e_hull": 0.0046739333333292166
+  },
+  {
+   "material_id": "mp-21377",
+   "theoretical": true,
+   "e_hull": 0.018011249999997148
+  }
+ ],
+ "Sm11Br24": [
+  {
+   "material_id": "mp-684193",
+   "theoretical": false,
+   "e_hull": 0.1712256667142853
+  }
+ ],
+ "Sm5Br11": [
+  {
+   "material_id": "mp-680266",
+   "theoretical": false,
+   "e_hull": 0.1741821122916667
+  }
+ ],
+ "Sm6Br13": [
+  {
+   "material_id": "mp-672351",
+   "theoretical": false,
+   "e_hull": 0.1774719467543857
+  }
+ ],
+ "SmBr": [
+  {
+   "material_id": "mp-972742",
+   "theoretical": true,
+   "e_hull": 0.12092910166666648
+  }
+ ],
+ "SmBr2": [
+  {
+   "material_id": "mp-1208711",
+   "theoretical": true,
+   "e_hull": 0.019807497222221748
+  },
+  {
+   "material_id": "mp-2019122",
+   "theoretical": true,
+   "e_hull": 0.04052948916667276
+  }
+ ],
+ "SmBr3": [
+  {
+   "material_id": "mp-27976",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li13Sn5": [
+  {
+   "material_id": "mp-30769",
+   "theoretical": false,
+   "e_hull": 0.0033475494444448195
+  }
+ ],
+ "Li17Sn4": [
+  {
+   "material_id": "mp-573471",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li22Sn5": [
+  {
+   "material_id": "mp-1198729",
+   "theoretical": false,
+   "e_hull": 0.010069883333333252
+  }
+ ],
+ "Li2Sn5": [
+  {
+   "material_id": "mp-7924",
+   "theoretical": false,
+   "e_hull": 0.0046469228571428545
+  }
+ ],
+ "Li3Sn": [
+  {
+   "material_id": "mp-1185265",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li5Sn2": [
+  {
+   "material_id": "mp-30766",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li7Sn2": [
+  {
+   "material_id": "mp-30767",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li7Sn3": [
+  {
+   "material_id": "mp-30768",
+   "theoretical": false,
+   "e_hull": 0.0009651171666664737
+  }
+ ],
+ "LiSn": [
+  {
+   "material_id": "mp-13444",
+   "theoretical": false,
+   "e_hull": 0.00018131666666709734
+  },
+  {
+   "material_id": "mp-569073",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiSn3": [
+  {
+   "material_id": "mp-1185461",
+   "theoretical": true,
+   "e_hull": 0.03375891249999974
+  }
+ ],
+ "Sn": [
+  {
+   "material_id": "mp-55",
+   "theoretical": false,
+   "e_hull": 0.22838304000000065
+  },
+  {
+   "material_id": "mp-84",
+   "theoretical": false,
+   "e_hull": 0.12017831000000001
+  },
+  {
+   "material_id": "mp-117",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-7162",
+   "theoretical": false,
+   "e_hull": 0.24906495999999834
+  },
+  {
+   "material_id": "mp-623511",
+   "theoretical": false,
+   "e_hull": 0.061407004999999515
+  },
+  {
+   "material_id": "mp-949028",
+   "theoretical": true,
+   "e_hull": 0.041698340652171595
+  },
+  {
+   "material_id": "mp-1022725",
+   "theoretical": true,
+   "e_hull": 0.23677220000000077
+  },
+  {
+   "material_id": "mp-1056308",
+   "theoretical": true,
+   "e_hull": 0.06596810499999961
+  },
+  {
+   "material_id": "mp-1179414",
+   "theoretical": true,
+   "e_hull": 0.09648671749999949
+  }
+ ],
+ "SnBr2": [
+  {
+   "material_id": "mp-29862",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-978985",
+   "theoretical": true,
+   "e_hull": 0.040465399999999985
+  },
+  {
+   "material_id": "mp-1105170",
+   "theoretical": false,
+   "e_hull": 0.0019086244444448397
+  },
+  {
+   "material_id": "mp-1272139",
+   "theoretical": true,
+   "e_hull": 0.037404726666667276
+  }
+ ],
+ "SnBr4": [
+  {
+   "material_id": "mp-23216",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Tb": [
+  {
+   "material_id": "mp-1185282",
+   "theoretical": true,
+   "e_hull": 0.21079133125000027
+  }
+ ],
+ "LiTb3": [
+  {
+   "material_id": "mp-972125",
+   "theoretical": true,
+   "e_hull": 0.19082975791666712
+  },
+  {
+   "material_id": "mp-1185429",
+   "theoretical": true,
+   "e_hull": 0.1881260866666672
+  },
+  {
+   "material_id": "mp-1185471",
+   "theoretical": true,
+   "e_hull": 0.18220071416666528
+  }
+ ],
+ "Tb": [
+  {
+   "material_id": "mp-18",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-7163",
+   "theoretical": false,
+   "e_hull": 0.03153014999999826
+  },
+  {
+   "material_id": "mp-11446",
+   "theoretical": false,
+   "e_hull": 0.12420621999999781
+  },
+  {
+   "material_id": "mp-11698",
+   "theoretical": false,
+   "e_hull": 0.003497523333333419
+  },
+  {
+   "material_id": "mp-571249",
+   "theoretical": false,
+   "e_hull": 0.0015717250000015781
+  }
+ ],
+ "Tb5Br8": [
+  {
+   "material_id": "mp-31007",
+   "theoretical": false,
+   "e_hull": 0.02075991444444636
+  }
+ ],
+ "Tb6Br7": [
+  {
+   "material_id": "mp-30985",
+   "theoretical": false,
+   "e_hull": 0.04552737747863578
+  }
+ ],
+ "TbBr": [
+  {
+   "material_id": "mp-27924",
+   "theoretical": false,
+   "e_hull": 0.011477938611110794
+  }
+ ],
+ "TbBr3": [
+  {
+   "material_id": "mp-863746",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Ti": [
+  {
+   "material_id": "mp-46",
+   "theoretical": false,
+   "e_hull": 0.015169603333331949
+  },
+  {
+   "material_id": "mp-72",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-73",
+   "theoretical": false,
+   "e_hull": 0.15142837333333148
+  },
+  {
+   "material_id": "mp-6985",
+   "theoretical": true,
+   "e_hull": 0.0872652333333317
+  },
+  {
+   "material_id": "mp-1238818",
+   "theoretical": true,
+   "e_hull": 0.3103078066666658
+  },
+  {
+   "material_id": "mp-1244924",
+   "theoretical": true,
+   "e_hull": 0.18328686316666598
+  },
+  {
+   "material_id": "mp-1245006",
+   "theoretical": true,
+   "e_hull": 0.1413839838666675
+  },
+  {
+   "material_id": "mp-1245164",
+   "theoretical": true,
+   "e_hull": 0.13833188526666618
+  },
+  {
+   "material_id": "mp-1245170",
+   "theoretical": true,
+   "e_hull": 0.16961428866666672
+  },
+  {
+   "material_id": "mp-1245320",
+   "theoretical": true,
+   "e_hull": 0.15510200356666637
+  }
+ ],
+ "Ti3Br": [
+  {
+   "material_id": "mp-971768",
+   "theoretical": true,
+   "e_hull": 0.7136232441145838
+  }
+ ],
+ "Ti7Br16": [
+  {
+   "material_id": "mp-540672",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "TiBr2": [
+  {
+   "material_id": "mp-27785",
+   "theoretical": false,
+   "e_hull": 0.07344290319444635
+  }
+ ],
+ "TiBr3": [
+  {
+   "material_id": "mp-28214",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-571065",
+   "theoretical": false,
+   "e_hull": 0.004856990000000394
+  }
+ ],
+ "TiBr4": [
+  {
+   "material_id": "mp-27634",
+   "theoretical": false,
+   "e_hull": 0.00032362899999860417
+  },
+  {
+   "material_id": "mp-569814",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Tm": [
+  {
+   "material_id": "mp-1185283",
+   "theoretical": true,
+   "e_hull": 0.21345819958333223
+  }
+ ],
+ "LiTm2Br5": [
+  {
+   "material_id": "mp-1211067",
+   "theoretical": true,
+   "e_hull": 0.2034090902083312
+  }
+ ],
+ "LiTm3": [
+  {
+   "material_id": "mp-975649",
+   "theoretical": true,
+   "e_hull": 0.1816552316666673
+  }
+ ],
+ "Tm": [
+  {
+   "material_id": "mp-143",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-10660",
+   "theoretical": false,
+   "e_hull": 0.057614779999994425
+  },
+  {
+   "material_id": "mp-10661",
+   "theoretical": false,
+   "e_hull": 0.11705402999999848
+  },
+  {
+   "material_id": "mp-971769",
+   "theoretical": true,
+   "e_hull": 0.0295789924999994
+  },
+  {
+   "material_id": "mp-1018122",
+   "theoretical": false,
+   "e_hull": 0.00666605666665987
+  }
+ ],
+ "TmBr": [
+  {
+   "material_id": "mp-1187584",
+   "theoretical": true,
+   "e_hull": 0.2626729683333311
+  }
+ ],
+ "TmBr2": [
+  {
+   "material_id": "mp-1208104",
+   "theoretical": true,
+   "e_hull": 0.2569049915277777
+  }
+ ],
+ "TmBr3": [
+  {
+   "material_id": "mp-865301",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "V": [
+  {
+   "material_id": "mp-146",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-8632",
+   "theoretical": true,
+   "e_hull": 0.24714039999999926
+  },
+  {
+   "material_id": "mp-2647074",
+   "theoretical": true,
+   "e_hull": 0.25378471999999874
+  }
+ ],
+ "V3Br": [
+  {
+   "material_id": "mp-1187734",
+   "theoretical": true,
+   "e_hull": 0.9140116075
+  }
+ ],
+ "VBr2": [
+  {
+   "material_id": "mp-971787",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "VBr3": [
+  {
+   "material_id": "mp-865473",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1546306",
+   "theoretical": true,
+   "e_hull": 0.00013755750000044031
+  },
+  {
+   "material_id": "mp-2757308",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Li3Zr": [
+  {
+   "material_id": "mp-1185295",
+   "theoretical": true,
+   "e_hull": 0.4431440024999995
+  }
+ ],
+ "Zr": [
+  {
+   "material_id": "mp-41",
+   "theoretical": false,
+   "e_hull": 0.12164183499999837
+  },
+  {
+   "material_id": "mp-131",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-8635",
+   "theoretical": true,
+   "e_hull": 0.05698213499999838
+  },
+  {
+   "material_id": "mp-1056376",
+   "theoretical": true,
+   "e_hull": 0.3617796399999982
+  },
+  {
+   "material_id": "mp-1077723",
+   "theoretical": true,
+   "e_hull": 0.008909571666666949
+  },
+  {
+   "material_id": "mp-1178608",
+   "theoretical": true,
+   "e_hull": 1.8015615899999986
+  }
+ ],
+ "Zr3Br": [
+  {
+   "material_id": "mp-1188037",
+   "theoretical": true,
+   "e_hull": 0.7124453087500005
+  }
+ ],
+ "ZrBr": [
+  {
+   "material_id": "mp-504594",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1065846",
+   "theoretical": false,
+   "e_hull": 0.0007946975000017176
+  },
+  {
+   "material_id": "mp-1066783",
+   "theoretical": false,
+   "e_hull": 0.09313309750000087
+  }
+ ],
+ "ZrBr2": [
+  {
+   "material_id": "mp-28495",
+   "theoretical": false,
+   "e_hull": 0.03190456722222201
+  }
+ ],
+ "ZrBr3": [
+  {
+   "material_id": "mp-23247",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "ZrBr4": [
+  {
+   "material_id": "mp-1207486",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Ce3Cl": [
+  {
+   "material_id": "mp-1183784",
+   "theoretical": true,
+   "e_hull": 0.5111813008333357
+  }
+ ],
+ "CeCl3": [
+  {
+   "material_id": "mp-582011",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "CrCl": [
+  {
+   "material_id": "mp-1183702",
+   "theoretical": true,
+   "e_hull": 0.7789521849999996
+  }
+ ],
+ "CrCl2": [
+  {
+   "material_id": "mp-22857",
+   "theoretical": false,
+   "e_hull": 0.07023948999999963
+  }
+ ],
+ "CrCl3": [
+  {
+   "material_id": "mp-27630",
+   "theoretical": false,
+   "e_hull": 0.0005407862499993144
+  },
+  {
+   "material_id": "mp-567504",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-569890",
+   "theoretical": false,
+   "e_hull": 0.006774582499999404
+  },
+  {
+   "material_id": "mp-1192095",
+   "theoretical": false,
+   "e_hull": 0.30247343249999936
+  },
+  {
+   "material_id": "mp-1193047",
+   "theoretical": false,
+   "e_hull": 0.3227183758333334
+  }
+ ],
+ "Li2CrCl4": [
+  {
+   "material_id": "mp-29582",
+   "theoretical": false,
+   "e_hull": 0.04160931000000012
+  },
+  {
+   "material_id": "mp-567474",
+   "theoretical": false,
+   "e_hull": 0.052369533571428484
+  },
+  {
+   "material_id": "mp-685992",
+   "theoretical": true,
+   "e_hull": 0.0700114617857146
+  }
+ ],
+ "Li5CrCl8": [
+  {
+   "material_id": "mp-23361",
+   "theoretical": false,
+   "e_hull": 0.014183570178571081
+  }
+ ],
+ "Dy3Er": [
+  {
+   "material_id": "mp-1184100",
+   "theoretical": true,
+   "e_hull": 0.04910833291666705
+  }
+ ],
+ "DyEr": [
+  {
+   "material_id": "mp-1225278",
+   "theoretical": true,
+   "e_hull": 0.00656304083333481
+  }
+ ],
+ "DyEr3": [
+  {
+   "material_id": "mp-1183856",
+   "theoretical": true,
+   "e_hull": 0.011982068750000963
+  }
+ ],
+ "Gd2Cl3": [
+  {
+   "material_id": "mp-656152",
+   "theoretical": true,
+   "e_hull": 0.003493344000002452
+  },
+  {
+   "material_id": "mp-1078829",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Gd3Dy": [
+  {
+   "material_id": "mp-1184431",
+   "theoretical": true,
+   "e_hull": 0.07980226749999986
+  }
+ ],
+ "GdCl": [
+  {
+   "material_id": "mp-1184482",
+   "theoretical": true,
+   "e_hull": 0.23161526000000165
+  }
+ ],
+ "GdCl3": [
+  {
+   "material_id": "mp-23265",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "GdDy": [
+  {
+   "material_id": "mp-1224750",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiGdCl4": [
+  {
+   "material_id": "mp-28122",
+   "theoretical": false,
+   "e_hull": 0.0037195429166665406
+  }
+ ],
+ "Dy3Ho": [
+  {
+   "material_id": "mp-1184065",
+   "theoretical": true,
+   "e_hull": 0.052282777500003874
+  }
+ ],
+ "DyHo": [
+  {
+   "material_id": "mp-1225502",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "DyHo3": [
+  {
+   "material_id": "mp-1183788",
+   "theoretical": true,
+   "e_hull": 0.05532534499999997
+  },
+  {
+   "material_id": "mp-1183841",
+   "theoretical": true,
+   "e_hull": 0.05192420250000396
+  },
+  {
+   "material_id": "mp-1183844",
+   "theoretical": true,
+   "e_hull": 0.010391507500003172
+  }
+ ],
+ "Dy2In": [
+  {
+   "material_id": "mp-21351",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Dy3In": [
+  {
+   "material_id": "mp-20786",
+   "theoretical": true,
+   "e_hull": 0.010385917500002506
+  }
+ ],
+ "Dy3In5": [
+  {
+   "material_id": "mp-1212972",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Dy5In3": [
+  {
+   "material_id": "mp-568144",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "DyIn": [
+  {
+   "material_id": "mp-257",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "DyIn3": [
+  {
+   "material_id": "mp-20236",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2DyIn": [
+  {
+   "material_id": "mp-865580",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiDy2In": [
+  {
+   "material_id": "mp-1185324",
+   "theoretical": true,
+   "e_hull": 0.014698481249997286
+  }
+ ],
+ "LiDyIn2": [
+  {
+   "material_id": "mp-974059",
+   "theoretical": true,
+   "e_hull": 0.02694934499999846
+  }
+ ],
+ "Dy3Lu": [
+  {
+   "material_id": "mp-1184141",
+   "theoretical": true,
+   "e_hull": 0.0463119295833323
+  },
+  {
+   "material_id": "mp-1184174",
+   "theoretical": true,
+   "e_hull": 0.0018715370833319867
+  }
+ ],
+ "DyLu3": [
+  {
+   "material_id": "mp-1183846",
+   "theoretical": true,
+   "e_hull": 0.0013440112500049395
+  }
+ ],
+ "Dy3Tm": [
+  {
+   "material_id": "mp-1184064",
+   "theoretical": true,
+   "e_hull": 0.04688251375000618
+  }
+ ],
+ "DyTm3": [
+  {
+   "material_id": "mp-1184143",
+   "theoretical": true,
+   "e_hull": 0.0017151999999924783
+  }
+ ],
+ "LiTm2Cl5": [
+  {
+   "material_id": "mp-570542",
+   "theoretical": false,
+   "e_hull": 0.2470471534374985
+  }
+ ],
+ "Tm7Cl15": [
+  {
+   "material_id": "mp-680292",
+   "theoretical": false,
+   "e_hull": 0.2672096229545433
+  }
+ ],
+ "TmCl2": [
+  {
+   "material_id": "mp-27302",
+   "theoretical": false,
+   "e_hull": 0.2694335470833309
+  }
+ ],
+ "TmCl3": [
+  {
+   "material_id": "mp-28044",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Dy3Y": [
+  {
+   "material_id": "mp-979419",
+   "theoretical": true,
+   "e_hull": 0.057982719583336007
+  },
+  {
+   "material_id": "mp-979924",
+   "theoretical": true,
+   "e_hull": 0.0549489545833346
+  },
+  {
+   "material_id": "mp-1184145",
+   "theoretical": true,
+   "e_hull": 0.01464589708333719
+  }
+ ],
+ "DyY3": [
+  {
+   "material_id": "mp-1184149",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Yb3Dy": [
+  {
+   "material_id": "mp-1187988",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "YbDy3": [
+  {
+   "material_id": "mp-980063",
+   "theoretical": true,
+   "e_hull": 0.047278244166662375
+  },
+  {
+   "material_id": "mp-1187669",
+   "theoretical": true,
+   "e_hull": 0.04653952666666328
+  }
+ ],
+ "Gd3Er": [
+  {
+   "material_id": "mp-1184453",
+   "theoretical": true,
+   "e_hull": 0.07291820166666696
+  }
+ ],
+ "GdEr3": [
+  {
+   "material_id": "mp-975612",
+   "theoretical": true,
+   "e_hull": 0.02112687874999608
+  }
+ ],
+ "Ho3Er": [
+  {
+   "material_id": "mp-1184575",
+   "theoretical": true,
+   "e_hull": 0.059782880000000205
+  },
+  {
+   "material_id": "mp-1184695",
+   "theoretical": true,
+   "e_hull": 0.05637952250000211
+  },
+  {
+   "material_id": "mp-1184718",
+   "theoretical": true,
+   "e_hull": 0.01182215499999728
+  }
+ ],
+ "HoEr": [
+  {
+   "material_id": "mp-1223785",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "HoEr3": [
+  {
+   "material_id": "mp-1184779",
+   "theoretical": true,
+   "e_hull": 0.017596299583331643
+  }
+ ],
+ "Er2In": [
+  {
+   "material_id": "mp-877",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Er3In": [
+  {
+   "material_id": "mp-1184156",
+   "theoretical": true,
+   "e_hull": 0.01723649291666618
+  },
+  {
+   "material_id": "mp-1184184",
+   "theoretical": true,
+   "e_hull": 0.012419810416666621
+  }
+ ],
+ "Er3In5": [
+  {
+   "material_id": "mp-1106153",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Er5In3": [
+  {
+   "material_id": "mp-1189039",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "ErIn": [
+  {
+   "material_id": "mp-11370",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "ErIn3": [
+  {
+   "material_id": "mp-1291",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2ErIn": [
+  {
+   "material_id": "mp-865579",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiEr2In": [
+  {
+   "material_id": "mp-976743",
+   "theoretical": true,
+   "e_hull": 0.014228818958333278
+  }
+ ],
+ "LiErIn2": [
+  {
+   "material_id": "mp-862619",
+   "theoretical": true,
+   "e_hull": 0.017951895312499744
+  }
+ ],
+ "Er3Lu": [
+  {
+   "material_id": "mp-1184196",
+   "theoretical": true,
+   "e_hull": 0.010897170833331415
+  }
+ ],
+ "ErLu3": [
+  {
+   "material_id": "mp-985437",
+   "theoretical": true,
+   "e_hull": 0.004061182916672124
+  }
+ ],
+ "Er3Tm": [
+  {
+   "material_id": "mp-1184192",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "ErTm3": [
+  {
+   "material_id": "mp-1184302",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Y3Er": [
+  {
+   "material_id": "mp-1187789",
+   "theoretical": true,
+   "e_hull": 0.03728296291666666
+  }
+ ],
+ "YEr": [
+  {
+   "material_id": "mp-1215904",
+   "theoretical": true,
+   "e_hull": 0.0022963833333307093
+  }
+ ],
+ "YEr3": [
+  {
+   "material_id": "mp-1187847",
+   "theoretical": true,
+   "e_hull": 0.024628425000003062
+  }
+ ],
+ "Yb3Er": [
+  {
+   "material_id": "mp-1187992",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "YbEr3": [
+  {
+   "material_id": "mp-980070",
+   "theoretical": true,
+   "e_hull": 0.06260573736111041
+  }
+ ],
+ "FeCl": [
+  {
+   "material_id": "mp-985588",
+   "theoretical": true,
+   "e_hull": 0.9332690824999998
+  }
+ ],
+ "FeCl2": [
+  {
+   "material_id": "mp-23229",
+   "theoretical": false,
+   "e_hull": 0.021833396666667504
+  },
+  {
+   "material_id": "mp-571096",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "FeCl3": [
+  {
+   "material_id": "mp-23204",
+   "theoretical": false,
+   "e_hull": 0.13388376208333508
+  },
+  {
+   "material_id": "mp-583463",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-645418",
+   "theoretical": true,
+   "e_hull": 0.2104603958333353
+  },
+  {
+   "material_id": "mp-676241",
+   "theoretical": true,
+   "e_hull": 0.02585396250000027
+  },
+  {
+   "material_id": "mp-1049060",
+   "theoretical": true,
+   "e_hull": 0.058973778333334614
+  },
+  {
+   "material_id": "mp-1182789",
+   "theoretical": true,
+   "e_hull": 0.06122631520833455
+  }
+ ],
+ "FeCl4": [
+  {
+   "material_id": "mp-1225059",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "FeCl6": [
+  {
+   "material_id": "mp-1207367",
+   "theoretical": true,
+   "e_hull": 0.3360421557142854
+  }
+ ],
+ "Li2FeCl4": [
+  {
+   "material_id": "mp-676683",
+   "theoretical": true,
+   "e_hull": 0.06328317528571414
+  },
+  {
+   "material_id": "mp-676752",
+   "theoretical": true,
+   "e_hull": 0.07077317171428543
+  },
+  {
+   "material_id": "mp-1222745",
+   "theoretical": true,
+   "e_hull": 0.032670877857142955
+  }
+ ],
+ "Li6FeCl8": [
+  {
+   "material_id": "mp-28828",
+   "theoretical": false,
+   "e_hull": 0.038830568999999926
+  }
+ ],
+ "LiFeCl4": [
+  {
+   "material_id": "mp-1210931",
+   "theoretical": true,
+   "e_hull": 0.008932621388888506
+  }
+ ],
+ "Ga3Cl7": [
+  {
+   "material_id": "mp-616204",
+   "theoretical": false,
+   "e_hull": 0.00960190350000012
+  }
+ ],
+ "GaCl2": [
+  {
+   "material_id": "mp-568848",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "GaCl3": [
+  {
+   "material_id": "mp-30952",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-571266",
+   "theoretical": false,
+   "e_hull": 0.0014818399999998455
+  },
+  {
+   "material_id": "mp-659211",
+   "theoretical": true,
+   "e_hull": 1.11829110625
+  }
+ ],
+ "LiGaCl3": [
+  {
+   "material_id": "mp-29344",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "LiGaCl4": [
+  {
+   "material_id": "mp-28341",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Gd3Ho": [
+  {
+   "material_id": "mp-1184498",
+   "theoretical": true,
+   "e_hull": 0.10348230875000297
+  }
+ ],
+ "GdHo3": [
+  {
+   "material_id": "mp-1184743",
+   "theoretical": true,
+   "e_hull": 0.06504997374999988
+  }
+ ],
+ "Gd2In": [
+  {
+   "material_id": "mp-638079",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Gd3In": [
+  {
+   "material_id": "mp-1184479",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "GdIn": [
+  {
+   "material_id": "mp-19819",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-21005",
+   "theoretical": false,
+   "e_hull": 0.001510005000000092
+  }
+ ],
+ "GdIn2Cl5": [
+  {
+   "material_id": "mp-1212862",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "GdIn3": [
+  {
+   "material_id": "mp-20258",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2GdIn": [
+  {
+   "material_id": "mp-865483",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiGd2In": [
+  {
+   "material_id": "mp-1185362",
+   "theoretical": true,
+   "e_hull": 0.02016736624999993
+  }
+ ],
+ "LiGdIn2": [
+  {
+   "material_id": "mp-1185472",
+   "theoretical": true,
+   "e_hull": 1.2501845368749969
+  }
+ ],
+ "Gd3Lu": [
+  {
+   "material_id": "mp-1184496",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Gd3Y": [
+  {
+   "material_id": "mp-1184469",
+   "theoretical": true,
+   "e_hull": 0.07138320499999651
+  }
+ ],
+ "GdY3": [
+  {
+   "material_id": "mp-1184538",
+   "theoretical": true,
+   "e_hull": 0.08870155749999853
+  },
+  {
+   "material_id": "mp-1184639",
+   "theoretical": true,
+   "e_hull": 0.10335311000000047
+  }
+ ],
+ "YbGd3": [
+  {
+   "material_id": "mp-1188067",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "HfCl4": [
+  {
+   "material_id": "mp-29422",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Ho2In": [
+  {
+   "material_id": "mp-20686",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Ho3In": [
+  {
+   "material_id": "mp-863737",
+   "theoretical": true,
+   "e_hull": 0.005633348750000877
+  },
+  {
+   "material_id": "mp-973465",
+   "theoretical": true,
+   "e_hull": 0.01565317124999943
+  }
+ ],
+ "Ho3In5": [
+  {
+   "material_id": "mp-1188109",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Ho5In3": [
+  {
+   "material_id": "mp-1188417",
+   "theoretical": false,
+   "e_hull": 0.030056100000000363
+  },
+  {
+   "material_id": "mp-1189750",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "HoIn": [
+  {
+   "material_id": "mp-30728",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "HoIn3": [
+  {
+   "material_id": "mp-21431",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2HoIn": [
+  {
+   "material_id": "mp-865622",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiHo2In": [
+  {
+   "material_id": "mp-1185328",
+   "theoretical": true,
+   "e_hull": 0.013750826875001287
+  }
+ ],
+ "LiHoIn2": [
+  {
+   "material_id": "mp-862676",
+   "theoretical": true,
+   "e_hull": 0.009626300312499225
+  }
+ ],
+ "Ho3Lu": [
+  {
+   "material_id": "mp-973689",
+   "theoretical": true,
+   "e_hull": 0.002323482083333772
+  }
+ ],
+ "HoLu3": [
+  {
+   "material_id": "mp-1184930",
+   "theoretical": true,
+   "e_hull": 0.0013734237500031554
+  }
+ ],
+ "Ho3Sc": [
+  {
+   "material_id": "mp-1184707",
+   "theoretical": true,
+   "e_hull": 0.02432910375000219
+  }
+ ],
+ "Ho3Tm": [
+  {
+   "material_id": "mp-982619",
+   "theoretical": true,
+   "e_hull": 0.008873038333341299
+  }
+ ],
+ "HoTm3": [
+  {
+   "material_id": "mp-1184899",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Y3Ho": [
+  {
+   "material_id": "mp-1187798",
+   "theoretical": true,
+   "e_hull": 0.001282547499997122
+  }
+ ],
+ "YHo": [
+  {
+   "material_id": "mp-1215900",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "YHo3": [
+  {
+   "material_id": "mp-980082",
+   "theoretical": true,
+   "e_hull": 0.06519707750000237
+  },
+  {
+   "material_id": "mp-1187849",
+   "theoretical": true,
+   "e_hull": 0.06254683000000227
+  },
+  {
+   "material_id": "mp-1187851",
+   "theoretical": true,
+   "e_hull": 0.016839302500002873
+  }
+ ],
+ "Yb3Ho": [
+  {
+   "material_id": "mp-1187990",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "YbHo3": [
+  {
+   "material_id": "mp-1187675",
+   "theoretical": true,
+   "e_hull": 0.05143769375000318
+  }
+ ],
+ "Li2LuIn": [
+  {
+   "material_id": "mp-1184968",
+   "theoretical": true,
+   "e_hull": 0.0013235644642861644
+  }
+ ],
+ "LiLu2In": [
+  {
+   "material_id": "mp-976595",
+   "theoretical": true,
+   "e_hull": 0.02450141230769276
+  }
+ ],
+ "LiLuIn2": [
+  {
+   "material_id": "mp-1185369",
+   "theoretical": true,
+   "e_hull": 0.010025182500015717
+  }
+ ],
+ "Lu2In": [
+  {
+   "material_id": "mp-1250",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Lu3In": [
+  {
+   "material_id": "mp-976949",
+   "theoretical": true,
+   "e_hull": 0.016917669583335737
+  },
+  {
+   "material_id": "mp-1185478",
+   "theoretical": true,
+   "e_hull": 0.004462458333335917
+  }
+ ],
+ "Lu5In3": [
+  {
+   "material_id": "mp-1188644",
+   "theoretical": false,
+   "e_hull": 0.01223439833333373
+  }
+ ],
+ "Lu5In4": [
+  {
+   "material_id": "mp-1210556",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LuIn": [
+  {
+   "material_id": "mp-1207089",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LuIn2": [
+  {
+   "material_id": "mp-1206287",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LuIn3": [
+  {
+   "material_id": "mp-977",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2ScIn": [
+  {
+   "material_id": "mp-1093815",
+   "theoretical": true,
+   "e_hull": 1.921642347232142
+  },
+  {
+   "material_id": "mp-1184974",
+   "theoretical": true,
+   "e_hull": 0.013468868214285834
+  }
+ ],
+ "LiSc2In": [
+  {
+   "material_id": "mp-1096271",
+   "theoretical": true,
+   "e_hull": 2.394364537307693
+  }
+ ],
+ "LiScIn2": [
+  {
+   "material_id": "mp-1096167",
+   "theoretical": true,
+   "e_hull": 1.8722642516666674
+  },
+  {
+   "material_id": "mp-1185454",
+   "theoretical": true,
+   "e_hull": 0.02717430374999452
+  }
+ ],
+ "Sc2In": [
+  {
+   "material_id": "mp-31348",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Sc3In": [
+  {
+   "material_id": "mp-19713",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-570428",
+   "theoretical": false,
+   "e_hull": 0.01799844249999971
+  }
+ ],
+ "ScIn": [
+  {
+   "material_id": "mp-1207100",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "ScIn2": [
+  {
+   "material_id": "mp-1206268",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "ScIn3": [
+  {
+   "material_id": "mp-20539",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2TmIn": [
+  {
+   "material_id": "mp-865860",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiTm2In": [
+  {
+   "material_id": "mp-976339",
+   "theoretical": true,
+   "e_hull": 0.014979393749996461
+  }
+ ],
+ "LiTmIn2": [
+  {
+   "material_id": "mp-861665",
+   "theoretical": true,
+   "e_hull": 0.01950030045454909
+  }
+ ],
+ "Tm2In": [
+  {
+   "material_id": "mp-21486",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Tm3In": [
+  {
+   "material_id": "mp-1187699",
+   "theoretical": true,
+   "e_hull": 0.014337195000003078
+  },
+  {
+   "material_id": "mp-1187834",
+   "theoretical": true,
+   "e_hull": 0.007114376250001442
+  }
+ ],
+ "Tm5In3": [
+  {
+   "material_id": "mp-1188632",
+   "theoretical": false,
+   "e_hull": 0.0140814460416685
+  }
+ ],
+ "Tm5In4": [
+  {
+   "material_id": "mp-1208206",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "TmIn": [
+  {
+   "material_id": "mp-20848",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "TmIn3": [
+  {
+   "material_id": "mp-21177",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2Y5In9": [
+  {
+   "material_id": "mp-638690",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2YIn": [
+  {
+   "material_id": "mp-1093580",
+   "theoretical": true,
+   "e_hull": 2.0030910824999992
+  },
+  {
+   "material_id": "mp-1185233",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiY2In": [
+  {
+   "material_id": "mp-1096532",
+   "theoretical": true,
+   "e_hull": 2.4210125316666655
+  }
+ ],
+ "LiYIn2": [
+  {
+   "material_id": "mp-1096087",
+   "theoretical": true,
+   "e_hull": 1.9662978259374988
+  }
+ ],
+ "Y2In": [
+  {
+   "material_id": "mp-21294",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Y2InCl7": [
+  {
+   "material_id": "mp-29304",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Y3In": [
+  {
+   "material_id": "mp-1187884",
+   "theoretical": true,
+   "e_hull": 0.022471414999998274
+  }
+ ],
+ "Y3In5": [
+  {
+   "material_id": "mp-1105835",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1199503",
+   "theoretical": false,
+   "e_hull": 0.06455999499999976
+  }
+ ],
+ "YIn": [
+  {
+   "material_id": "mp-22704",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1215997",
+   "theoretical": true,
+   "e_hull": 0.0021521849999999176
+  }
+ ],
+ "YIn3": [
+  {
+   "material_id": "mp-20131",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Li2YbIn": [
+  {
+   "material_id": "mp-1185190",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiYb2In": [
+  {
+   "material_id": "mp-1185254",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Yb3In": [
+  {
+   "material_id": "mp-980052",
+   "theoretical": true,
+   "e_hull": 0.08783622250000178
+  }
+ ],
+ "YbIn": [
+  {
+   "material_id": "mp-2459",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "YbIn2": [
+  {
+   "material_id": "mp-3216283",
+   "theoretical": true,
+   "e_hull": 0.02724308000000164
+  }
+ ],
+ "YbIn3": [
+  {
+   "material_id": "mp-20469",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "La3Cl": [
+  {
+   "material_id": "mp-1185003",
+   "theoretical": true,
+   "e_hull": 0.5845140337499988
+  },
+  {
+   "material_id": "mp-1185116",
+   "theoretical": true,
+   "e_hull": 0.5802721837499991
+  }
+ ],
+ "LaCl": [
+  {
+   "material_id": "mp-27929",
+   "theoretical": false,
+   "e_hull": 0.11718670249999885
+  }
+ ],
+ "LaCl3": [
+  {
+   "material_id": "mp-22896",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Lu3Sc": [
+  {
+   "material_id": "mp-1185479",
+   "theoretical": true,
+   "e_hull": 0.019004692500004694
+  }
+ ],
+ "Tm3Lu": [
+  {
+   "material_id": "mp-972416",
+   "theoretical": true,
+   "e_hull": 0.014638117833321473
+  }
+ ],
+ "TmLu3": [
+  {
+   "material_id": "mp-1187686",
+   "theoretical": true,
+   "e_hull": 0.005315988583333819
+  }
+ ],
+ "Y3Lu": [
+  {
+   "material_id": "mp-1187801",
+   "theoretical": true,
+   "e_hull": 0.04161461866667082
+  }
+ ],
+ "YLu3": [
+  {
+   "material_id": "mp-865596",
+   "theoretical": true,
+   "e_hull": 0.0038750872500088462
+  }
+ ],
+ "Yb3Lu": [
+  {
+   "material_id": "mp-1187999",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "Nd14Cl33": [
+  {
+   "material_id": "mp-1221177",
+   "theoretical": true,
+   "e_hull": 0.17026917367021266
+  }
+ ],
+ "Nd3Cl": [
+  {
+   "material_id": "mp-1186268",
+   "theoretical": true,
+   "e_hull": 0.6612540983333339
+  }
+ ],
+ "NdCl2": [
+  {
+   "material_id": "mp-28313",
+   "theoretical": false,
+   "e_hull": 0.12801651472222275
+  },
+  {
+   "material_id": "mp-973953",
+   "theoretical": true,
+   "e_hull": 0.0878457513888895
+  }
+ ],
+ "NdCl3": [
+  {
+   "material_id": "mp-23183",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Pr3Cl": [
+  {
+   "material_id": "mp-975601",
+   "theoretical": true,
+   "e_hull": 0.6346709455555564
+  }
+ ],
+ "Pr5Cl12": [
+  {
+   "material_id": "mp-32644",
+   "theoretical": true,
+   "e_hull": 0.09020702127451052
+  }
+ ],
+ "PrCl3": [
+  {
+   "material_id": "mp-23211",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Tm3Sc": [
+  {
+   "material_id": "mp-1187674",
+   "theoretical": true,
+   "e_hull": 0.021993842499995253
+  }
+ ],
+ "YSc": [
+  {
+   "material_id": "mp-1215893",
+   "theoretical": true,
+   "e_hull": 0.09649996749999978
+  }
+ ],
+ "Yb3Sc": [
+  {
+   "material_id": "mp-1187986",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "SmCl2": [
+  {
+   "material_id": "mp-29453",
+   "theoretical": false,
+   "e_hull": 0.07576974722222207
+  },
+  {
+   "material_id": "mp-867134",
+   "theoretical": true,
+   "e_hull": 0.02955342555555429
+  }
+ ],
+ "SmCl3": [
+  {
+   "material_id": "mp-863026",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "LiSnCl3": [
+  {
+   "material_id": "mp-998230",
+   "theoretical": true,
+   "e_hull": 0.02080355150000024
+  },
+  {
+   "material_id": "mp-998591",
+   "theoretical": true,
+   "e_hull": 0.010285384500000827
+  }
+ ],
+ "SnCl": [
+  {
+   "material_id": "mp-978928",
+   "theoretical": true,
+   "e_hull": 0.24119653624999948
+  }
+ ],
+ "SnCl2": [
+  {
+   "material_id": "mp-29179",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-569152",
+   "theoretical": false,
+   "e_hull": 0.00045985916666557713
+  }
+ ],
+ "SnCl4": [
+  {
+   "material_id": "mp-29866",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Tb2Cl3": [
+  {
+   "material_id": "mp-1205852",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "TbCl": [
+  {
+   "material_id": "mp-27923",
+   "theoretical": false,
+   "e_hull": 0.07240310638889103
+  },
+  {
+   "material_id": "mp-568342",
+   "theoretical": false,
+   "e_hull": 0.07330616388889144
+  }
+ ],
+ "TbCl3": [
+  {
+   "material_id": "mp-23293",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-568170",
+   "theoretical": false,
+   "e_hull": 0.007308905000000365
+  },
+  {
+   "material_id": "mp-570232",
+   "theoretical": false,
+   "e_hull": 0.016494364374999293
+  }
+ ],
+ "LiTiCl3": [
+  {
+   "material_id": "mp-675460",
+   "theoretical": true,
+   "e_hull": 0.20816639927777736
+  },
+  {
+   "material_id": "mp-676210",
+   "theoretical": true,
+   "e_hull": 0.10104346427777688
+  }
+ ],
+ "Ti7Cl16": [
+  {
+   "material_id": "mp-540671",
+   "theoretical": false,
+   "e_hull": 0.007907409106278962
+  }
+ ],
+ "TiCl2": [
+  {
+   "material_id": "mp-28116",
+   "theoretical": false,
+   "e_hull": 0.05023911629629474
+  }
+ ],
+ "TiCl3": [
+  {
+   "material_id": "mp-23275",
+   "theoretical": false,
+   "e_hull": 0.043871161249999346
+  },
+  {
+   "material_id": "mp-567330",
+   "theoretical": false,
+   "e_hull": 0.04408246937499882
+  },
+  {
+   "material_id": "mp-567354",
+   "theoretical": false,
+   "e_hull": 0.04442032499999904
+  },
+  {
+   "material_id": "mp-568230",
+   "theoretical": true,
+   "e_hull": 0.04357510749999882
+  },
+  {
+   "material_id": "mp-569756",
+   "theoretical": false,
+   "e_hull": 0.00012165333333236106
+  },
+  {
+   "material_id": "mp-571143",
+   "theoretical": false,
+   "e_hull": 0.016052324999998646
+  },
+  {
+   "material_id": "mp-571377",
+   "theoretical": false,
+   "e_hull": 0.04137889541666517
+  },
+  {
+   "material_id": "mp-571424",
+   "theoretical": false,
+   "e_hull": 0.00030608249999986015
+  },
+  {
+   "material_id": "mp-2017901",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-2036706",
+   "theoretical": true,
+   "e_hull": 0.0023905724999995215
+  }
+ ],
+ "TiCl4": [
+  {
+   "material_id": "mp-30092",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "Y3Tm": [
+  {
+   "material_id": "mp-981249",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "YTm3": [
+  {
+   "material_id": "mp-1187880",
+   "theoretical": true,
+   "e_hull": 0.01568807374999892
+  }
+ ],
+ "Yb3Tm": [
+  {
+   "material_id": "mp-1187987",
+   "theoretical": true,
+   "e_hull": 0.0
+  }
+ ],
+ "YbTm3": [
+  {
+   "material_id": "mp-980196",
+   "theoretical": true,
+   "e_hull": 0.05687736083333306
+  }
+ ],
+ "Li2VCl4": [
+  {
+   "material_id": "mp-36330",
+   "theoretical": true,
+   "e_hull": 0.013527828571429978
+  }
+ ],
+ "Li5V5Cl16": [
+  {
+   "material_id": "mp-532443",
+   "theoretical": true,
+   "e_hull": 0.0020019474038459606
+  }
+ ],
+ "Li6VCl8": [
+  {
+   "material_id": "mp-29250",
+   "theoretical": false,
+   "e_hull": 0.01567493033333278
+  }
+ ],
+ "VCl2": [
+  {
+   "material_id": "mp-22877",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "VCl3": [
+  {
+   "material_id": "mp-28117",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ],
+ "VCl4": [
+  {
+   "material_id": "mp-570763",
+   "theoretical": true,
+   "e_hull": 0.020173166000001075
+  },
+  {
+   "material_id": "mp-865511",
+   "theoretical": true,
+   "e_hull": 0.05469629000000076
+  },
+  {
+   "material_id": "mp-1205372",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-2051057",
+   "theoretical": true,
+   "e_hull": 0.00039802100000141394
+  }
+ ],
+ "VCl5": [
+  {
+   "material_id": "mp-1101909",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1420266",
+   "theoretical": true,
+   "e_hull": 2.4101641033333325
+  }
+ ],
+ "Yb3Y": [
+  {
+   "material_id": "mp-980944",
+   "theoretical": true,
+   "e_hull": 0.0025641474999957836
+  }
+ ],
+ "YbY3": [
+  {
+   "material_id": "mp-1187547",
+   "theoretical": true,
+   "e_hull": 0.08387978874999646
+  }
+ ],
+ "Zr2Cl5": [
+  {
+   "material_id": "mp-648774",
+   "theoretical": false,
+   "e_hull": 0.06568865029761906
+  }
+ ],
+ "Zr3Cl": [
+  {
+   "material_id": "mp-1188032",
+   "theoretical": true,
+   "e_hull": 0.8496028062500001
+  }
+ ],
+ "ZrCl": [
+  {
+   "material_id": "mp-27440",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1067974",
+   "theoretical": false,
+   "e_hull": 0.07851782000000007
+  }
+ ],
+ "ZrCl2": [
+  {
+   "material_id": "mp-23162",
+   "theoretical": false,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-571537",
+   "theoretical": false,
+   "e_hull": 0.07382260555555575
+  }
+ ],
+ "ZrCl3": [
+  {
+   "material_id": "mp-22871",
+   "theoretical": false,
+   "e_hull": 0.010707283749999519
+  },
+  {
+   "material_id": "mp-569391",
+   "theoretical": false,
+   "e_hull": 0.08094242624999914
+  },
+  {
+   "material_id": "mp-685155",
+   "theoretical": true,
+   "e_hull": 0.08177940874999923
+  },
+  {
+   "material_id": "mp-1100795",
+   "theoretical": true,
+   "e_hull": 0.0
+  },
+  {
+   "material_id": "mp-1192044",
+   "theoretical": false,
+   "e_hull": 0.02391365374999932
+  },
+  {
+   "material_id": "mp-2353328",
+   "theoretical": true,
+   "e_hull": 0.06430707124999913
+  }
+ ],
+ "ZrCl4": [
+  {
+   "material_id": "mp-569175",
+   "theoretical": false,
+   "e_hull": 0.0
+  }
+ ]
+}

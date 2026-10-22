@@ -1,0 +1,6 @@
+{
+ "ok": false,
+ "query": "Ho Y mixed lithium chloride solid electrolyte",
+ "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=Ho+Y+mixed+lithium+chloride+solid+electrolyte&per_page=25&mailto=osi-hackathon%40example.org",
+ "papers": []
+}

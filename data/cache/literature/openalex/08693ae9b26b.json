@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "In lithium chloride solid electrolyte",
+ "papers": [
+  {
+   "title": "Computational Investigation of the Interfacial Stability of Lithium Chloride Solid Electrolytes in All-Solid-State Lithium Batteries",
+   "abstract": "All-solid-state Li-ion batteries (ASSLIBs) with solid electrolytes (SEs) are promising next-generation batteries owing to their high energy density and high safety. Recently, lithium chloride SEs have attracted increasing attention because of their high ionic conductivity and broad electrochemical stability window. However, only a few studies have been reported for the application of lithium chloride SEs in high-energy ASSLIBs employing lithium metal anodes and high-voltage cathode materials. This study examines the interfacial stability of lithium chloride SEs toward lithium metal anodes and high-voltage cathode materials using first-principles calculations. Calculation results indicate the chemical instability of lithium chloride SEs toward lithium metal anodes. Metallic phases are formed by reduction reactions resulting in the continuous decomposition of lithium chloride SEs. In addition, lithium chloride SEs exhibit high reactivity toward high-voltage cathode materials, resulting in interfacial resistance by decomposition reactions. Computational screening is performed to explore coating materials to stabilize the interfaces, demonstrating that binary halides are appropriate for the anode and 54 compounds are discovered for the cathode. Among the coating materials for the cathode, several ternary oxides such as LiAl 5 O 8, Li 2 MoO 4, and LiTaO 3 are found to be promising for enhancing the interfacial stability between lithium chloride SEs and high-voltage cathode materials.",
+   "url": "https://doi.org/10.1021/acsami.1c22104",
+   "year": 2021
+  },
+  {
+   "title": "Fluorine-Substituted Lithium Chloride Solid Electrolytes for High-Voltage All-Solid-State Lithium-Ion Batteries",
+   "abstract": "Lithium ternary halides are promising solid electrolytes, owing to their high ionic conductivity and reasonably high oxidative and chemical stability. Recently, fluorine substitution in Li 3 MCl 6 has been suggested as a promising approach for further enhancing oxidation stability. Accordingly, this study outlines a material design strategy for F-substituted Li 3 MCl 6 through systematic theoretical analyses. Calculations reveal that the mixing limit of F in Li 3 MCl 6\u2013 x F x is in the range of 0.5\u20131.5, and the resulting Li 3 MCl 6\u2013 x F x phases can retain ionic conductivity above 1 mS/cm up to x = 1.0. The calculations also predict that the formation of F-containing passivating phases could increase the oxidation potential for Li 3 MCl 5 F to \u223c6.3 V. The proposed material design strategy is validated through the synthesis of Li 3 YCl 5 F, which is confirmed to show both high ionic conductivity and enhanced oxidation stability. The design guidelines presented herein can accelerate the potential use of halide-based electrolyte chemistries in high-voltage all-solid-state batteries.",
+   "url": "https://doi.org/10.1021/acsenergylett.3c02307",
+   "year": 2023
+  },
+  {
+   "title": "A cost-effective and humidity-tolerant chloride solid electrolyte for lithium batteries",
+   "abstract": "Abstract Li-ion-conducting chloride solid electrolytes receive considerable attention due to their physicochemical characteristics such as high ionic conductivity, deformability and oxidative stability. However, the raw materials are expensive, and large-scale use of this class of inorganic superionic conductors seems unlikely. Here, a cost-effective chloride solid electrolyte, Li 2 ZrCl 6 , is reported. Its raw materials are several orders of magnitude cheaper than those for the state-of-the-art chloride solid electrolytes, but high ionic conductivity (0.81 mS cm \u20131 at room temperature), deformability, and compatibility with 4V-class cathodes are still simultaneously achieved in Li 2 ZrCl 6 . Moreover, Li 2 ZrCl 6 demonstrates a humidity tolerance with no sign of moisture uptake or conductivity degradation after exposure to an atmosphere with 5% relative humidity. By combining Li 2 ZrCl 6 with the Li-In anode and the single-crystal LiNi 0.8 Mn 0.1 Co 0.1 O 2 cathode, we report a room-temperature all-solid-state cell with a stable specific capacity of about 150 mAh g \u20131 for 200 cycles at 200 mA g \u20131 .",
+   "url": "https://doi.org/10.1038/s41467-021-24697-2",
+   "year": 2021
+  },
+  {
+   "title": "Chloride spinels: A new group of solid lithium electrolytes",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/0022-3697(81)90142-6",
+   "year": 1981
+  },
+  {
+   "title": "Preparation and physical properties of lithium phosphide-lithium chloride, a solid electrolyte for solid state lithium batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/0167-2738(96)00099-9",
+   "year": 1996
+  },
+  {
+   "title": "Study of the lithium solid electrolytes based on lithium nitride chloride (Li9N2Cl3)",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/s0167-2738(96)00567-x",
+   "year": 1997
+  },
+  {
+   "title": "Chloride solid-state electrolytes for all-solid-state lithium batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1007/s10008-022-05230-x",
+   "year": 2022
+  },
+  {
+   "title": "N, N-dimethylacetamide/lithium chloride plasticized starch as solid biopolymer electrolytes",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.carbpol.2009.02.002",
+   "year": 2009
+  },
+  {
+   "title": "High\u2010Humidity\u2010Tolerant Chloride Solid\u2010State Electrolyte for All\u2010Solid\u2010State Lithium Batteries",
+   "abstract": "Abstract Halide solid\u2010state electrolytes (SSEs) hold promise for the commercialization of all\u2010solid\u2010state lithium batteries (ASSLBs); however, the currently cost\u2010effective zirconium\u2010based chloride SSEs suffer from hygroscopic irreversibility, low ionic conductivity, and inadequate thermal stability. Herein, a novel indium\u2010doped zirconium\u2010based chloride is fabricated to satisfy the abovementioned requirements, achieving outstanding\u2010performance ASSLBs at room temperature. Compared to the conventional Li 2 ZrCl 6 and Li 3 InCl 6 SSEs, the hc\u2010Li 2+x Zr 1\u2010x In x Cl 6 (0.3 \u2264 x \u2264 1) possesses higher ionic conductivity (up to 1.4 mS cm \u22121 ), and thermal stability (350 \u00b0C). At the same time, the hc\u2010Li 2.8 Zr 0.2 In 0.8 Cl 6 also shows obvious hygroscopic reversibility, where its recovery rate of the ionic conductivity is up to 82.5% after 24\u2010h exposure in the 5% relative humidity followed by heat treatment. Theoretical calculation and experimental results reveal that those advantages are derived from the lattice expansion and the formation of Li 3 InCl 6 \u00b72H 2 O hydrates, which can effectively reduce the migration energy barrier of Li ions and offer reversible hydration/dehydration pathway. Finally, an ASSLB, assembled with reheated\u2010Li 2.8 Zr 0.2 In 0.8 Cl 6 after humidity exposure, single\u2010crystal LiNi 0.8 Mn 0.1 Co 0.1 O 2 and Li\u2010In alloy, exhibits capacity retention of 71% after 500 cycles under 1 C at 25 \u00b0C. This novel high\u2010humidity\u2010tolerant chloride electrolyte is expected to greatly carry forward the ASSLBs industrialization.",
+   "url": "https://doi.org/10.1002/advs.202305394",
+   "year": 2024
+  },
+  {
+   "title": "Stable artificial solid electrolyte interphase with lithium selenide and lithium chloride for dendrite-free lithium metal anodes",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2021.230158",
+   "year": 2021
+  },
+  {
+   "title": "Chloride spinels: A new group of solid lithium electrolytes",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/0038-1098(80)90048-4",
+   "year": 1980
+  },
+  {
+   "title": "An Iodide-Chloride Solid Electrolyte Compatible with Lithium Metal for All-Solid-State Lithium Batteries",
+   "abstract": "Halide superionic conductors have garnered considerable attention due to their high ionic conductivity, mechanical deformability, and excellent oxidative stability. However, their incompatibility with lithium metal results in a thermodynamically unstable interface that increases interfacial impedance, thereby limiting the performance of halide-based all-solid-state lithium\u2013metal batteries (ASSLBs). In this study, we report the synthesis of a series of iodide-chloride solid electrolytes, Li 2 ZrCl 6- x I x (x = 0\u20133), designed to enhance the reduction stability of the electrolyte through the high polarizability of I \u2013 . The substitution of I \u2013 promotes covalent bonding with the central cation, thereby reducing its reduction tendency. The Li/Li 2 ZrCl 4 I 2 /Li symmetric cell exhibits stable cycling for over 6000 h at 0.2 mA cm \u20132 and withstands high critical current densities up to 6 mA cm \u20132 . Full cells incorporating Li 2 ZrCl 4 I 2 as the solid electrolyte exhibit enhanced cycling stability and capacity retention. Furthermore, the characterization by XPS and ToF-SIMS revealed the formation of an interfacial passivation layer composed of LiI and LiCl, which effectively stabilized the lithium\u2013metal electrode and inhibited further electrolyte decomposition. These findings highlight the potential of iodide-substituted halide electrolytes in addressing interfacial challenges associated with lithium metal anodes, providing a promising pathway for the practical implementation of high-energy-density ASSLBs.",
+   "url": "https://doi.org/10.1021/acsami.5c07580",
+   "year": 2025
+  },
+  {
+   "title": "Electrochemical and morphological properties of chloride-doped lithium argyrodite solid electrolytes.",
+   "abstract": "Recently, much attention has been devoted to the development of solid electrolytes to be used in all-solid-state-batteries. One group of promising solid electrolyte (SE) materials are lithium argyrodites, a class of superconductors which are noted for their high ionic conductivities. In particular, halogen doping has been shown to increase both conductivity and stability. The majority of research has focused on material synthesis through solid state reactions, but a novel liquid synthesis method for the preparation of Cl-doped Li7PS6 solid electrolyte provides the advantages of a homogenous product and a rapid, economic synthesis. Here this thesis focuses on the liquid synthesis process in two parts: (1) examine the effect of Cl content on the structure and conductivity of Li5+xPS6 xClx solid electrolytes (1\u2264x\u22643); (2) investigate the effects of the reaction process parameters (mixing time, mechanical agitation, temperature) on the structure and conductive properties of Li6PS5Cl. The results show that Li7PS4Cl2 (with 2 mols of chloride) achieved the highest ionic conductivity of at room temperature, as well as excellent stability with lithium metal up to 5 V. Beyond 2 mols of doped chloride the performance gets rapidly worse. The results also indicate that longer vi mixing time up to 5 hours yields a higher conductivity of 5 , but does not obviously affect the phase purity and grain size. Mechanical agitation also does not appear to affect the phase or conductivity, however, a high sintering temperature results in a negative effect on the electrochemical performance. These results provide insight and understanding into this new liquid synthesis process which will play a huge factor in the future of solid-state-battery technology.",
+   "url": "https://doi.org/10.18297/etd/4245",
+   "year": 2018
+  },
+  {
+   "title": "Lithium-Ion Conductivity of Mixed-Anion Chloride Solid Electrolyte",
+   "abstract": "Lithium-ion batteries are required to have high energy density, high cycle characteristics, and safety to be used for electric vehicles. Current lithium-ion batteries use a flammable organic electrolyte as electrolyte suffers from safety issues. All-solid-state batteries using non-flammable solid electrolytes are attracting attention because they can improve safety and energy density. The practical use of all-solid-state batteries requires solid electrolytes having higher conductivity, atmospheric stability, electrochemical stability, and moldability than conventional liquid electrolytes. However, no material that combines everything has been found at present. Solid electrolytes are divided into two main types: oxide-based and sulfide-based materials. As oxide-based solid electrolytes, garnet-type Li7La3Zr2O12, which shows the room-temperature ionic conductivity is 5.1 \u00d7 10-4 S / cm, has been developed [1]. Generally, oxide-based materials have high atmospheric stability and are stable to oxide-based cathode materials, but the ionic conductivity is lower than sulfide-based materials, and a high-temperature process is required for synthesis. As sulfide-based solid electrolytes, crystalline Li10GeP2S12, which shows the room-temperature ionic conductivity is 1.2 \u00d7 10-2 S / cm, has been developed [2]. Sulfide-based materials have a relatively higher ionic conductivity than oxide-based materials. Moreover, sulfide-based materials have high moldability and can be synthesized at a lower temperature than oxide-based materials. However, sulfide-based materials have the disadvantages of low atmospheric stability, are at risk of reacting with water to generate H2S, and have low stability to oxide-based cathode materials. High ionic conductivity solid electrolytes have been discovered mainly in oxide-based and sulfide-based materials. In addition, recently, it has been reported that lithium conductive solid electrolytes of halide-based materials have high ionic conductivity, and the material-searching region is expanding. Halide-based materials are considered to have high ionic conductivity due to the properties of halogen anions. Since the monovalent halogen anion has a weaker interaction with lithium ions than the divalent sulfur and oxygen anions, high-speed transport of lithium ions can be expected. In addition, the ionic radius of the halogen anion is relatively large, and the halogen anion has high polarizability. Li3YCl6, Li3YBr6 and Li3InCl6, which show the room-temperature ionic conductivity is 10-3 S / cm have been reported as lithium halide solid electrolyte materials [3], [4]. Most of these lithium halide solid electrolyte materials are single-anion compounds, and little research has been conducted on mixed-anion compounds as lithium-ion conductors. In this study, we focused on the chloride-based solid electrolyte Li3InCl6, which is reported to have high lithium-ion conductivity comparable to oxide and sulfide-based materials and is expected to have higher chemical stability than sulfide-based materials. The characteristics of the solid electrolyte when Li3InCl6 was doped with a group 16 element were investigated. A composite anion compound in which oxygen, sulfur, and selenium, which have higher polarizabilities than chlorine, were dissolved was synthesized, and the conductivity characteristics were analyzed by electrochemical measurement. Li3InCl6, Li3InCl5.4O0.3, Li3In0.9Cl5.4O0.15, Li3In0.82Cl5.4O0.03, Li3InCl5.4S0.3, Li3InCl5.4S0.6 and Li3InCl5.4Se0.6 samples were synthesized by mechanochemical method and solid-phase reaction in an argon atmosphere. The crystal structure of the synthesized samples was characterized by X-ray diffraction (XRD), and the ionic conductivity was measured by AC impedance measurements. Comparing the XRD patterns of the Li3InCl6 sample and each sample, a peak of impurities was confirmed for the oxygen solid solution sample, and a decrease in crystallinity was confirmed for the sulfur and selenium solid solution samples. The conductivity of each sample decreased in the order of Li3InCl6> Li3In0.82Cl5.4O0.03 > Li3In0.9Cl5.4O0.15 > Li3InCl5.4O0.3 > Li3InCl5.4S0.3 > Li3InCl5.4Se0.6 > Li3InCl5.4S0.6. In conclusion, addition of mixed anion to the chloride-based solid electrolytes causes negative effects for the lithium-ion conduction. From these results, it is considered that if a divalent anion is dissolved in a crystal constituting a sublattice by the monovalent anion, an increase in Coulomb interaction has a greater effect on lithium-ion conductivity than an action due to polarizability, decreasing conductivity. [1] R. Murugan, V. Thangadurai, W. Weppner, Angew. Chem 46, 7778(2007) [2] N. Kamaya, K. Homma, Y. Yamakawa, M. Hirayama, R. Kanno, M. Yonemura, T. Kamiyama, Y. Kato, S. Hama, K. Kawamoto, A. Mitsui, Nature Materials 10, 686(2011) [3] T. Asano, A. Sakai, S. Ouchi, M. Sakaida, A. Miyazaki, S. Hasegawa, Adv. Mater. 30, 1803075(2018) [4] X. L, J. Liang, J. Luo, M. N. Banis, C. Wang, W. Li, S. Deng, C. Yu, F. Zhao, Y. Hu, T. Sham, L. Zhang, S. Zhao, S. Lu, H. Huang, R. Li, K. R. Adair, X. Sun, Energy Environ. Sci. 12, 2665(2019)",
+   "url": "https://doi.org/10.1149/ma2021-0182077mtgabs",
+   "year": 2021
+  },
+  {
+   "title": "Chloride-Reinforced Solid Polymer Electrolyte for High-Performance Lithium Metal Batteries",
+   "abstract": "Flexible solid-state polymer electrolytes (SPEs) enable intimate contact with the electrode and reduce the interfacial impedance for all-solid-state lithium batteries (ASSLBs). However, the low ionic conductivity and poor mechanical strength restrict the development of SPEs. In this work, the chloride superionic conductor Li 2 ZrCl 6 (LZC) is innovatively introduced into the poly(ethylene oxide) (PEO)-based SPE to address these issues since LZC is crucial for improving the ionic conductivity and enhancing the mechanical strength. The as-prepared electrolyte provides a high ionic conductivity of 5.98 \u00d7 10 \u20134 S cm \u20131 at 60 \u00b0C and a high Li-ion transference number of 0.44. More importantly, the interaction between LZC and PEO is investigated using FT-IR and Raman spectroscopy, which is conducive to inhibiting the decomposition of PEO and beneficial to the uniform deposition of Li ions. Therefore, a minor polarization voltage of 30 mV is exhibited for the Li||Li cell after cycling for 1000 h. The LiFePO 4 ||Li ASSLB with 1% LZC-added composite electrolyte (CPE-1% LZC) demonstrates excellent cycling performance with a capacity of 145.4 mA h g \u20131 after 400 cycles at 0.5 C. This work combines the advantages of chloride and polymer electrolytes, exhibiting great potential in the next generation of all-solid-state lithium metal batteries.",
+   "url": "https://doi.org/10.1021/acsami.2c20734",
+   "year": 2023
+  },
+  {
+   "title": "Optimized Lithium-Indium Chloride Solid Electrolyte for High Energy All-Solid-State Batteries",
+   "abstract": "All-solid-state battery is a promising next-generation energy storage and conversion device and the development of solid electrolyte is very important as the core of all solid-state batteries. Herein lithium-indium chloride solid electrolyte is successfully prepared and the ionic conductivity is increased from 1.07 to 1.41 mS/cm by optimizing the vacuum parameter in the process of preparation. The samples have typical C2/m space group of cubic crystal system, and the vacuum optimized sample has more regular ion arrangement, better crystallinity and fewer lattice defects. The prepared sample is used as the electrolyte layer and the electrolyte part of the composite cathode, and the layered oxide LiNi0.6Co0.2Mn0.2O2 without surface modification was used as the active material. After assembling the cell, the initial discharge specific capacity of the cell was tested to be 157.5mAh/g. In addition, the phase transition of the composite cathode is analyzed under different charge and discharge state. It is found that the use of the lithium-indium chloride solid electrolyte in composite electrode does not affect the REDOX reaction of LiNi0.6Co0.2Mn0.2O2 layered oxide, indicating that the electrolyte material is stable and compatible with layered cathode material, showing its excellent application prospect.",
+   "url": "https://doi.org/10.4028/p-xk5392",
+   "year": 2022
+  },
+  {
+   "title": "Metastable Chloride Solid Electrolyte with High Formability for Rechargeable All-Solid-State Lithium Metal Batteries",
+   "abstract": "Dense solid electrolytes in all-solid-state Li batteries are expected to suppress Li dendrite phenomena that prevent the application of high-energy-density Li metal electrodes. However, voids and cracks in sintered electrolytes still permit short-circuiting due to Li dendrites. This study aimed to investigate solid electrolytes with high formability in which green compacts can prevent Li dendrites. Li + ion migration energies, bulk moduli, and energies above the hull were comprehensively investigated using first-principles and classical force field calculations as the indicators for ionic conductivity, formability, and thermodynamic stability. The 231 compounds containing Li and Cl listed in the Materials Project database were studied due to their high polarizability and weak Coulombic interaction with Li + ions. Among them, monoclinic LiAlCl 4 (LAC, S.G.: P 12 1/c 1) was focused on, owing to its low values of all three indicators. A mechanochemical synthesis was attempted to prepare the metastable phase, where Li ions occupy the interstitial sites, not just the original sites, because the computation for the migration energy suggested conductive pathways between the original Li sites. XRD and 7 Li-MAS NMR measurements indicated that the mechanochemically synthesized LAC possessed a monoclinic host structure, while 2.5% Li occupied interstitial tetrahedral sites. Impedance measurements showed that the LAC green compacts exhibited an ionic conductivity of 2.1 \u00d7 10 \u20135 S cm \u20131, 20 times higher than the conventional solid-state synthesized LAC at room temperature. The conductivity was more than one order of magnitude higher than that of garnet-type Li 6.6 La 3 Zr 1.6 Ta 0.4 O 12 (LLZT), which has been attractive for the application of the sintered body for Li metal electrodes. The SEM observations and distribution of relaxation times analysis indicated that dense LAC green compacts with large necking between the particles contributed minimal grain-boundary resistance (7.5%) to the total resistance, while the LLZT green compacts contributed almost completely (99%). Li metal symmetric cells using the LAC pellet showed good cycle performance without short-circuiting and an overvoltage increase for 70 cycles at a current density of 0.1 mA cm \u20132, while short circuiting occurred at the 1st cycle in the LLZT cells.",
+   "url": "https://doi.org/10.1021/acsmaterialslett.0c00127",
+   "year": 2020
+  },
+  {
+   "title": "Prediction of Novel Trigonal Chloride Superionic Conductors as Promising Solid Electrolytes for All\u2010Solid\u2010State Lithium Batteries",
+   "abstract": "Abstract Recently emerging lithium ternary chlorides have attracted increasing attention for solid\u2010state electrolytes (SSEs) due to their favorable combination between ionic conductivity and electrochemical stability. However, a noticeable discrepancy in Li\u2010ion conductivity persists between chloride SSEs and organic liquid electrolytes, underscoring the need for designing novel chloride SSEs with enhanced Li\u2010ion conductivity. Herein, an intriguing trigonal structure (i.e., Li3SmCl6 with space group P3112) is identified using the global structure searching method in conjunction with first\u2010principles calculations, and its potential for SSEs is systematically evaluated. Importantly, the structure of Li3SmCl6 exhibits a high ionic conductivity of 15.46 mS cm\u22121 at room temperature due to the 3D lithium percolation framework distinct from previous proposals, associated with the unique in\u2010plane cation ordering and stacking sequences. Furthermore, it is unveiled that Li3SmCl6 possesses a wide electrochemical window of 0.73\u22124.30 V vs Li+/Li and excellent chemical interface stability with high\u2010voltage cathodes. Several other Li3MCl6 (M = Er, and In) materials with isomorphic structures to Li3SmCl6 are also found to be potential chloride SSEs, suggesting the broader applicability of this structure. This work reveals a new class of ternary chloride SSEs and sheds light on strategy for structure searching in the design of high\u2010performance SSEs.",
+   "url": "https://doi.org/10.1002/advs.202404213",
+   "year": 2024
+  },
+  {
+   "title": "Origin of high electrochemical stability of multi-metal chloride solid electrolytes for high energy all-solid-state lithium-ion batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.nanoen.2021.106674",
+   "year": 2021
+  },
+  {
+   "title": "Computational simulation-assisted research on chloride solid electrolytes for lithium-ion batteries",
+   "abstract": "Due to the phenomenon of easy deformation and short circuit of traditional organic liquid lithium-ion batteries, instantaneous thermal runaway occurs, resulting in combustion and even explosion. Solid-state batteries, with their excellent safety, can fundamentally solve this problem. In recent years, computational simulation has become more and more popular in the development and research of solid electrolyte, and this way of computation-assisted experiment has greatly promoted the development of electrolyte. This paper introduces the latest progress in the research of chloride electrolyte, which belongs to the category of halide electrolyte. The development process of chloride solid electrolyte is reviewed. The preparation method, modification of anion and cation regulation, optimization of structure regulation and stability of temperature, humidity and electrode material are also discussed. Finally, the problems facing the chloride solid electrolyte are summarized and analyzed, and the future development direction of the chloride solid electrolyte is further proposed.",
+   "url": "https://doi.org/10.1360/ssc-2023-0255",
+   "year": 2024
+  },
+  {
+   "title": "Enhanced lithium-ion conductivity in glassy oxy-chloride solid electrolytes",
+   "abstract": "",
+   "url": "https://doi.org/10.5291/ill-data.6-05-1104",
+   "year": 2026
+  },
+  {
+   "title": "Performance of solid-state Li-ion conducting battery using biopolymer electrolyte based on agar\u2013agar/lithium chloride",
+   "abstract": "",
+   "url": "https://doi.org/10.1007/s10008-022-05348-y",
+   "year": 2022
+  },
+  {
+   "title": "A molecular-dynamics study of ion transport in lithium magnesium chloride solid electrolytes",
+   "abstract": "Abstract We present the results of a molecular-dynamics study of the superionic Li+ conductor Li2MgCl4. We find that both the octahedral and tetrahedral sublattices of the material play an important role in the Li+ conduction mechanism. Both \u2018hopping\u2019 and \u2018continuous\u2019 diffusion modes are important in effecting ion transport.",
+   "url": "https://doi.org/10.1098/rspa.1987.0111",
+   "year": 1987
+  },
+  {
+   "title": "Different interfacial reactivity of lithium metal chloride electrolytes with high voltage cathodes determines solid-state battery performance",
+   "abstract": "Comprehensive analysis of all-solid-state cells with NCM85 and a Li-M-Cl catholyte reveals the vital role of the central cation M in controlling the composition of the cathode interphase and dictating capacity retention above 4.3 V.",
+   "url": "https://doi.org/10.1039/d2ee00803c",
+   "year": 2022
+  },
+  {
+   "title": "Cation disorder and lithium conductivity in mechanochemically synthesized chloride solid electrolytes",
+   "abstract": "Developing fast, stable, and scalable Li conductors is crucial for advancing all-solid-state batteries (ASSBs). Here, we present a rapid, one-hour mechanochemical synthesis of chloride electrolytes Li 2 B x Cl 4 (B = Zn, Mg, Zr and x = 1 and 2/3) via high-energy ball milling (HEBM), achieving the targeted spinel phase without the need for any annealing steps. In Li 2 ZnCl 4 electrochemical impedance spectroscopy reveals an unexpected, reversible low-temperature ionic transition at \u223c75 \u00b0C, leading to a dramatic increase in total Li + conductivity, from 2.95\u00b710 \u22129 S\u00b7cm \u22121 at 25 \u00b0C to an extrapolated room temperature conductivity of 3.24\u00b710 \u22125 S\u00b7cm \u22121 following heating to 125 \u00b0C. To elucidate the structural origins of this transition, we employ neutron powder diffraction (NPD), variable-temperature powder X-ray diffraction (PXRD), differential scanning calorimetry (DSC), and 6 Li MAS NMR spectroscopy. We explore the stabilization of the high conducting phase via the introduction of host cation vacancies and therefore increasing the Li/B ratio based on the spinel-related compounds, Li 2 Zn 1/3 Zr 1/3 Cl 4 and Li 2 Mg 1/3 Zr 1/3 Cl 4 , synthesized via the same one-hour mechanochemical approach. Rietveld refinement of NPD data reveals a monoclinic lattice distortion and cation disorder in both compounds, which open new Li conduction pathways. In both materials, 2\u20134 orders of magnitude increase of conductivity is achieved by aliovalent Zr 4+ -substitution compared to the undoped counterparts Li 2 ZnCl 4 and Li 2 MgCl 4 , leading to maximum bulk conductivities up to 10 \u22124 S\u00b7cm \u22121 at room temperature. Notably, the investigated chloride-based solid electrolytes consist of non-critical elements and exhibit high thermal stability up to at least 190 \u00b0C which can be key for easy scalable processing. These results highlight the potential of spinel-based chloride electrolytes as candidates for next-generation solid-state battery applications, combining rapid and scalable synthesis with promising ionic transport properties.",
+   "url": "https://doi.org/10.1016/j.ssi.2025.116952",
+   "year": 2025
+  }
+ ]
+}

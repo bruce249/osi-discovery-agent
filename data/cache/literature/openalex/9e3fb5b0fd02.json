@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "query": "Li3LaCl6",
+ "papers": [
+  {
+   "title": "Synthesis and Characterization of Li3YCl6, Li3LaCl6, and Li3InCl6 Halide Electrolytes For All-Solid-State Lithium-Ion Batteries (ASSLIBs)",
+   "abstract": "All-solid-state lithium-ion batteries (ASSLIBs) are considered a promising next-generation energy storage technology due to their improved safety, high energy density, and wider electrochemical stability compared to conventional liquid electrolyte-based lithium-ion batteries. Among various solid electrolyte families, halide-based electrolytes have recently attracted significant attention because of their high room-temperature ionic conductivity, wide electrochemical stability window, and favorable interfacial compatibility with high-voltage cathodes. This thesis focuses on the synthesis, structural characterization, and thermal analysis of lithium halide solid-state electrolytes with the goal of understanding how synthesis routes and processing conditions influence phase purity and material stability.Lithium yttrium chloride (Li3YCl6) and lithium lanthanum chloride (Li3LaCl6) were synthesized using both ammonium-assisted wet-chemical and mechanochemical ball-milling routes, while lithium indium chloride (Li3InCl6) was prepared using three different solvents: acetonitrile, tetrahydrofuran, and deionized water to evaluate solvent effects on phase formation. The structural properties of all synthesized materials were examined using X-ray diffraction (XRD) to verify phase composition and lattice parameters. Surface morphology and elemental distribution were analyzed using scanning electron microscopy (SEM) coupled with energy-dispersive X-ray spectroscopy (EDS). Raman spectroscopy was employed to probe lattice vibrations and bonding characteristics, while differential scanning calorimetry and thermogravimetric analysis were used to assess thermal transitions and decomposition behavior. The results demonstrate that synthesis pathway and solvent selection play a critical role in controlling crystallinity, phase purity, and thermal stability of halide electrolytes. These findings provide important insights into optimizing halide solid-state electrolyte synthesis for future integration into high-performance ASSLIB systems.",
+   "url": "https://openalex.org/W7128577673",
+   "year": 2025
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "ok": true,
+ "query": "Li3YCl4Br2",
+ "papers": [
+  {
+   "title": "High Cycling Performance of Solid-State Batteries Enabled by a Dynamic Layered Solid Electrolyte Interphase between Li Metal and Li3ycl4br2",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.4847204",
+   "year": 2024
+  },
+  {
+   "title": "Stable cycling of halide solid state electrolyte enabled by a dynamic layered solid electrolyte interphase between Li metal and Li3YCl4Br2",
+   "abstract": "Halides are potential electrolytes for Li metal solid state batteries owing to their combination of high ionic conductivity, ductility and electrochemical stability against oxidation. However, their reactivity with the Li metal electrode may result in the formation of secondary compounds hindering their practical utility in terms of cycling performance as key indicator in battery operation. In this work, we investigate the high performance of symmetric cells with Li 3 YCl 4 Br 2 halide and bare Li-metal electrode, able to withstand 1000 h of Li electrodeposition-dissolution with an overpotential as low as 46 mV. Through a comprehensive analysis employing physico-chemical and electrochemical characterizations, complemented by computational methodologies, we unravel the dynamics of the complex of the Li/halide interface and its evolution during cycling. The reactivity between Li 3 YCl 4 Br 2 with metallic Li results in the reduction of the halide into LiCl, LiBr and Y metal. Surprisingly, during cycling, those secondary products from the reduction of the halide build a structured solid electrolyte interphase, containing a Y-rich electronic conductive and LiCl and LiBr ionic conductive layers. The particular chemistry and robustness of this solid electrolyte interphase exhibiting a mixed ionic and electronic conductivity appears to be responsible for the outstanding cycling stability.",
+   "url": "https://doi.org/10.1016/j.ensm.2024.103733",
+   "year": 2024
+  },
+  {
+   "title": "Insights into the Compatibility and Interphases of Li6PS5Cl and Ga-Doped Li2ZrCl6 Halide Electrolytes by Solid-State NMR",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Li 2.1 Ga 0.1 Zr 0.9 Cl 6 (LGZC) halides with high ionic conductivity (>0.4 mS/cm at 25 \u00b0C) are considered promising solid electrolytes for beyond Li-ion batteries. However, they suffer from low stability against the Li metal, forming a solid electrolyte interphase (SEI) that causes continuous degradation and limits their long-term cyclability. Incorporating Li 6 PS 5 Cl (LPSCl) argyrodites as an interlayer between LGZC and Li metal is a common approach to addressing this issue and improving cyclability. Nevertheless, very few studies assessed the compatibility of halides and sulfides, reporting contradicting results. Thus, this work used solid-state NMR and impedance spectroscopy to investigate interfacial reactions and compatibility between these phases. The results show that LPSCl and LGZC are chemically reactive and decompose to form LiCl and likely Li 2 S or long-chain polysulfides (Li 2 S x ), decreasing the total ionic conductivity. Although their interface reaches stability with time, the decomposition reactions are accelerated at elevated temperatures. 6 Li\u2013 6 Li EXSY experiments demonstrate a spontaneous Li-ion exchange between LGZC and LPSCl despite their apparent reactivity. Interestingly, the decomposed products actively participate in this exchange, explaining why these bilayer systems can successfully enhance cell performance. Our study sheds light on the complex interfacial interaction between halides and sulfides, providing insights into the optimal design of solid electrolytes for the next generation of electrochemical devices",
+   "url": "https://doi.org/10.1021/acsaem.5c01383",
+   "year": 2025
+  },
+  {
+   "title": "HELENA project: Driving innovation in high energy density Li-metal halide solid-state batteries for electric vehicles and aircrafts",
+   "abstract": "The development of sustainable, high-efficiency and reliable batteries is critical to support climate neutrality goals, particularly in the electromobility sector. The European-funded HELENA project (Halide Solid State Batteries for Electric Vehicles and Aircraft) addresses these challenges by focusing on the manufacturing of next-generation lithium-metal solid-state batteries. The project tackles key hurdles in raw material sourcing, battery production, sustainability and cost-effectiveness. A multidisciplinary partnership brings the innovation from the lab to the industrial scale, covering the whole value chain, including industrial material producers, R&D centres, battery manufacturers, and automotive and aerospace end-users. The cell design features a high-voltage nickel-rich cathode coupled with a high-energy lithium metal anode and a lithium-ion superionic halide solid electrolyte. This configuration enhances energy and power density, thus being suitable for electric vehicles and aircrafts. HELENA aims to reshape the solid-state battery landscape by advancing technology readiness levels through the manufacturing of 10 Ah pre-industrial prototypes. This report highlights mid-way results of the project, discussing the major advancements in battery specifications and safety standards from end-users, processing of materials into battery component, battery modelling and recycling strategies to ensure long-term sustainability.",
+   "url": "https://doi.org/10.1016/j.csbj.2025.03.013",
+   "year": 2025
+  },
+  {
+   "title": "Inorganic-polymer hybrid solid-state electrolytes based on Li3InCl6",
+   "abstract": "174 p.",
+   "url": "https://openalex.org/W7110617142",
+   "year": 2024
+  }
+ ]
+}

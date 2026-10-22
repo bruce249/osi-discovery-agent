@@ -1,0 +1,133 @@
+{
+ "ok": true,
+ "hash": "c387cffbcf6b2cd29f55",
+ "model": "mace",
+ "e_per_atom": -2.3675073008042316,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     0.0,
+     3.293469,
+     3.293469
+    ],
+    [
+     3.293469,
+     0.0,
+     3.293469
+    ],
+    [
+     3.293469,
+     3.293469,
+     0.0
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 4.657668527055355,
+   "b": 4.657668527055355,
+   "c": 4.657668527055355,
+   "alpha": 60.00000000000001,
+   "beta": 60.00000000000001,
+   "gamma": 60.00000000000001,
+   "volume": 71.44810845128177
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Li",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {},
+    "label": "Li",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Li",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "properties": {},
+    "label": "Li",
+    "xyz": [
+     3.293469,
+     3.293469,
+     3.293469
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Li",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "properties": {},
+    "label": "Li",
+    "xyz": [
+     1.6467345,
+     1.6467345,
+     1.6467345
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "In",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.750001,
+     0.750001,
+     0.750001
+    ],
+    "properties": {},
+    "label": "In",
+    "xyz": [
+     4.940210086938,
+     4.940210086938,
+     4.940210086938
+    ]
+   }
+  ]
+ },
+ "seconds": 0.10179376602172852,
+ "task_hash": "c387cffbcf6b2cd29f55",
+ "kind": "reference",
+ "label": "mp-867226"
+}

@@ -1,0 +1,24 @@
+{
+ "ok": true,
+ "query": "Li3InCl6",
+ "papers": [
+  {
+   "title": "Ab initio Study on Lithium Anode Interface Instability and Stabilization of Superionic Li3InCl6 and Li6PS5Cl Solid Electrolytes",
+   "abstract": "Emerging superionic conductors Li3InCl6 (LIC) and Li6PS5Cl (LPSC) are very promising for solid-state electrolytes (SSEs) in all-solid-state lithium batteries (ASSLBs). However, unstable lithium-anode interfaces in LIC and LPSC have been observed through experiments and ab initio calculations, while the interphases formed in determining interfacial stability remain unclear. In this study, we investigate the ab initio stability of LIC-Li and LPSC-Li interfaces and interphases. Our ab initio calculations revealed that both interfaces are not chemically or electrochemically thermodynamically stable. Interestingly, the LPSC-Li has a stable interphase, but the LIC-Li doesn't. Moreover, the interlayers were systematically evaluated for the LIC-Li and LPSC-Li interfaces, and the desired interlayer materials are clarified for the two interfaces. This ab initio understanding of the interfaces, interphases and interlayers would help the development of a variety of stable interfaces in ASSLBs.",
+   "url": "http://arxiv.org/abs/2412.02433v1",
+   "year": "2024"
+  },
+  {
+   "title": "Temperature dependence of 7Li NMR relaxation rates in Li3InCl6, Li3YCl6, Li1.48Al0.48Ge1.52(PO4)3 and LiPS5Cl",
+   "abstract": "Inorganic solid-state battery electrolytes show high ionic conductivities and enable the fabrication of all solid-state batteries. In this work, we present the temperature dependence of spin-lattice relaxation time (T1), spin-spin relaxation time (T2), and resonance linewidth of the 7Li nuclear magnetic resonance (NMR) for four solid-state battery electrolytes (Li3InCl6 (LIC), Li3YCl6 (LYC), Li1.48Al0.48Ge1.52(PO4)3 (LAGP) and LiPS5Cl (LPSC)) from 173 K to 403 K at a 7Li resonance frequency of 233 MHz, and from 253 K to 353 K at a 7Li resonance frequency of 291 MHz. Additionally, we measured the spin-lattice relaxation rates at an effective 7Li resonance frequency of 133 kHz using a spin-locking pulse sequence in the temperature range of 253 K to 353 K. In LPSC, the 7Li NMR relaxation is consistent with the Bloembergen-Pound-Purcell (BPP) theory of NMR relaxation of dipolar nuclei. In LIC, LYC and LAGP, the BPP theory does not describe the NMR relaxation rates for the temperature range and frequencies of our measurements. The presented NMR relaxation data assists in providing a complete picture of Li diffusion in the four solid-state battery electrolytes.",
+   "url": "http://arxiv.org/abs/2303.12953v1",
+   "year": "2023"
+  },
+  {
+   "title": "Good Solid-State Electrolytes Have Low, Glass-like Thermal Conductivity",
+   "abstract": "Management of heat during charging and discharging of Li-ion batteries is critical for their safety, reliability, and performance. Understanding the thermal conductivity of the materials comprising batteries is crucial for controlling the temperature and temperature distribution in batteries. This work provides systemic quantitative measurements of the thermal conductivity of three important classes of solid electrolytes (oxides, sulfides, and halides) over the temperature range 150-350 K. Studies include the oxides Li1.5Al0.5Ge1.5(PO4)3 and Li6.4La3Zr1.4Ta0.6O12, sulfides Li2S-P2S5, Li6PS5Cl, and Na3PS4, and halides Li3InCl6 and Li3YCl6. Thermal conductivities of sulfide and halide solid electrolytes are in the range 0.45-0.70 W m-1 K-1; thermal conductivities of Li6.4La3Zr1.4Ta0.6O12 and Li1.5Al0.5Ge1.5(PO4)3 are 1.4 W m-1 K-1 and 2.2 W m-1 K-1, respectively. For most of the solid electrolytes studied in this work, the thermal conductivity increases with increasing temperature; i.e., the thermal conductivity has a glass-like temperature dependence. The measured room-temperature thermal conductivities agree well with the calculated minimum thermal conductivities indicating the phonon mean-free-paths in these solid electrolytes are close to an atomic spacing. We attribute the low, glass-like thermal conductivity of the solid electrolytes investigated to the combination of their complex crystal structures and the atomic-scale disorder induced by the materials processing methods that are typically needed to produce high ionic conductivities.",
+   "url": "http://arxiv.org/abs/2103.08718v1",
+   "year": "2021"
+  }
+ ]
+}

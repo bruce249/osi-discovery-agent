@@ -1,0 +1,72 @@
+# Budgeted Discovery Agent: all knobs in one place.
+
+seeds:
+  random: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  substitution: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  radius: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  gp_bo: [0, 1, 2, 3, 4]
+  llm: [0, 1, 2]
+  candidates: 42          # seed for ordering generation
+
+campaign:
+  budget: 150             # evaluations; if pool < budget / 0.4 we use 40% of the pool
+  batch_size: 10
+  pool_fraction_if_small: 0.4
+  gp_acquisition: p_hit           # p_hit | ei
+  skip_found_compositions: true   # a strategy never re-simulates a composition its own history shows as stable
+
+labels:
+  hit_threshold: 0.0      # eV/atom (headline). 0.03 makes 92% of the pool hits, see README
+  extra_thresholds: [0.03, 0.05]
+
+prototypes:               # parent formula -> family template
+  Li3YCl6: {type: Li3MX6, M: Y, X: Cl}
+  Li3InCl6: {type: Li3MX6, M: In, X: Cl}
+  Li2ZrCl6: {type: Li2MX6, M: Zr, X: Cl}
+
+elements:
+  trivalent: [Sc, Y, La, Pr, Nd, Sm, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, In, Ga, Al, Bi, Cr, Ti, V, Fe]
+  tetravalent: [Zr, Hf, Ti, Sn, Ce]
+  halides: [Cl, Br]
+  family_C_metals: [Y, In, Sc, Er, Ho, Yb, Lu, Dy]          # mixed anion
+  family_C_k: [2, 3, 4]
+  family_D_metals: [Y, In, Sc, Er, Ho, Yb, Lu, Dy, Gd, Tm]  # mixed cation pairs
+
+structures:
+  max_atoms: 80
+  orderings_per_candidate: 2
+  ordering_samples: 40     # random site subsets tried before de-duplication
+  ref_ehull_max: 0.1       # eV/atom, MP reference phase filter
+
+mlip:
+  primary: chgnet
+  second: mace
+  mace_model: medium       # MACE-MP-0 medium
+  fmax: 0.1
+  fmax_second: 0.05
+  steps: 300
+  timeout_s: 900           # wall clock per relaxation
+  max_containers: 80
+
+validation:
+  mae_go_threshold: 0.08
+  top_n_second_model: 15
+  max_per_metal: 3         # diversity cap for the MACE cross-check list
+  agree_threshold: 0.05
+
+llm:
+  temperature: 0.7
+  default_base_url: https://api.openai.com/v1
+  default_model: gpt-4.1-mini
+  strong_model: gpt-5-mini       # reasoning model for the llm_strong arm (default temperature only)
+  max_retries: 3
+  timeout_s: 180
+
+novelty:
+  optimade:
+    Materials Project: https://optimade.materialsproject.org
+    Alexandria: https://alexandria.icams.rub.de/pbe
+    OQMD: https://oqmd.org/optimade
+    JARVIS: https://jarvis.nist.gov/optimade/jarvisdft
+  timeout_s: 30
+  max_pages: 30

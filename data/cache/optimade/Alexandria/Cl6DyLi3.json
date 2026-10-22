@@ -1,0 +1,7 @@
+{
+ "provider": "Alexandria",
+ "formula": "Cl6DyLi3",
+ "status": "unchecked",
+ "ids": [],
+ "error": "ConnectTimeout: HTTPSConnectionPool(host='alexandria.icams.rub.de', port=443): Max retries exceeded with url: /pbe/v1/structures?filter=chemical_formula_reduced%3D%22Cl6DyLi3%22&response_fields=id%2Cchemical_formula_"
+}

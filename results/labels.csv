@@ -1,0 +1,237 @@
+id,formula,display_formula,family,prototype,ok,e_hull,known,known_source,in_mp,db_status,lit_status,novel_composition,hit_0.00,novel_0.00,known_hit_0.00,hit_0.03,novel_0.03,known_hit_0.03,hit_0.05,novel_0.05,known_hit_0.05
+A001,Li3ScCl6,Li3ScCl6,A,Li3YCl6,True,0.015213139851888435,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,False,False,False,True,False,True,True,False,True
+A002,Li3ScBr6,Li3ScBr6,A,Li3YCl6,True,0.010130659739176373,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A003,Li3YCl6,Li3YCl6,A,Li3YCl6,True,0.011964639027914004,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A004,Li3YBr6,Li3YBr6,A,Li3YCl6,True,0.015981197357178623,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,False,False,False,True,False,True,True,False,True
+A005,Li3LaCl6,Li3LaCl6,A,Li3YCl6,True,0.023428885142008582,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A006,Li3LaBr6,Li3LaBr6,A,Li3YCl6,True,0.024593639373780007,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A007,Li3PrCl6,Li3PrCl6,A,Li3YCl6,True,0.015224297841389678,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A008,Li3PrBr6,Li3PrBr6,A,Li3YCl6,True,0.008312002817790543,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A009,Li3NdCl6,Li3NdCl6,A,Li3YCl6,True,0.01229238510131836,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A010,Li3NdBr6,Li3NdBr6,A,Li3YCl6,True,0.007395648956300072,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A011,Li3SmCl6,Li3SmCl6,A,Li3YCl6,True,0.0001968065897619553,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A012,Li3SmBr6,Li3SmBr6,A,Li3YCl6,True,-0.0015924771626787404,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+A013,Li3GdCl6,Li3GdCl6,A,Li3YCl6,True,-0.0039316177368187155,False,,False,absent (unchecked: Alexandria),possibly reported,False,True,False,False,True,False,False,True,False,False
+A014,Li3GdBr6,Li3GdBr6,A,Li3YCl6,True,0.012450631459555161,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A015,Li3TbCl6,Li3TbCl6,A,Li3YCl6,True,0.010541820526123402,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A016,Li3TbBr6,Li3TbBr6,A,Li3YCl6,True,0.0035328865051278413,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A017,Li3DyCl6,Li3DyCl6,A,Li3YCl6,True,-0.00747187932332416,False,,False,in OQMD,possibly reported,False,True,False,False,True,False,False,True,False,False
+A018,Li3DyBr6,Li3DyBr6,A,Li3YCl6,True,0.006735897064209073,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A019,Li3HoCl6,Li3HoCl6,A,Li3YCl6,True,-0.003652795155843158,True,literature (exact formula),False,"absent (unchecked: Alexandria, OQMD)",possibly reported,False,True,False,True,True,False,True,True,False,True
+A020,Li3HoBr6,Li3HoBr6,A,Li3YCl6,True,0.007248783111572177,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A021,Li3ErCl6,Li3ErCl6,A,Li3YCl6,True,0.0,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,True,False,True,True,False,True,True,False,True
+A022,Li3ErBr6,Li3ErBr6,A,Li3YCl6,True,0.006942876180011215,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,False,False,False,True,False,True,True,False,True
+A023,Li3TmCl6,Li3TmCl6,A,Li3YCl6,True,0.0016090075174961527,False,,False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,False,True,False,False
+A024,Li3TmBr6,Li3TmBr6,A,Li3YCl6,True,0.012514654795328983,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A025,Li3YbCl6,Li3YbCl6,A,Li3YCl6,True,-0.020174249013265033,False,,False,in Materials Project,none found,False,True,False,False,True,False,False,True,False,False
+A026,Li3YbBr6,Li3YbBr6,A,Li3YCl6,True,-0.06213150024414027,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+A027,Li3LuCl6,Li3LuCl6,A,Li3YCl6,True,-0.008105373382568892,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,True,False,True,True,False,True,True,False,True
+A028,Li3LuBr6,Li3LuBr6,A,Li3YCl6,True,0.008300749460856238,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A029,Li3InCl6,Li3InCl6,A,Li3YCl6,True,0.01047083536783866,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project",possibly reported,False,False,False,False,True,False,True,True,False,True
+A030,Li3InBr6,Li3InBr6,A,Li3YCl6,True,0.015043767293294152,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,False,False,False,True,False,True,True,False,True
+A031,Li3GaCl6,Li3GaCl6,A,Li3YCl6,True,0.07287247975667333,False,,False,,,False,False,False,False,False,False,False,False,False,False
+A032,Li3GaBr6,Li3GaBr6,A,Li3YCl6,True,0.08089027404785165,False,,False,,,False,False,False,False,False,False,False,False,False,False
+A033,Li3AlCl6,Li3AlCl6,A,Li3YCl6,True,0.0409088134765625,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+A034,Li3AlBr6,Li3AlBr6,A,Li3YCl6,True,0.042722638448079664,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+A035,Li3BiCl6,Li3BiCl6,A,Li3YCl6,True,-0.012527656555175959,False,,False,in OQMD,none found,False,True,False,False,True,False,False,True,False,False
+A036,Li3BiBr6,Li3BiBr6,A,Li3YCl6,True,0.01711247762044321,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A037,Li3CrCl6,Li3CrCl6,A,Li3YCl6,True,0.03232990900675414,False,,False,in OQMD,possibly reported,False,False,False,False,False,False,False,True,False,False
+A038,Li3CrBr6,Li3CrBr6,A,Li3YCl6,True,0.04448938369750888,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+A039,Li3TiCl6,Li3TiCl6,A,Li3YCl6,True,0.028148555755617366,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A040,Li3TiBr6,Li3TiBr6,A,Li3YCl6,True,0.03793261845906848,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+A041,Li3VCl6,Li3VCl6,A,Li3YCl6,True,0.024900023142499172,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A042,Li3VBr6,Li3VBr6,A,Li3YCl6,True,0.021037642161052084,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A043,Li3FeCl6,Li3FeCl6,A,Li3YCl6,True,0.028122647603352924,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A044,Li3FeBr6,Li3FeBr6,A,Li3YCl6,True,0.056066449483235914,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,False,False,False,False,False,False
+A045,Li3ScCl6,Li3ScCl6,A,Li3InCl6,True,0.0029216766357418322,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,False,False,False,True,False,True,True,False,True
+A046,Li3ScBr6,Li3ScBr6,A,Li3InCl6,True,-0.0059083620707189866,True,literature (exact formula),False,in OQMD,possibly reported,False,True,False,True,True,False,True,True,False,True
+A047,Li3YCl6,Li3YCl6,A,Li3InCl6,True,0.002461465199789181,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A048,Li3YBr6,Li3YBr6,A,Li3InCl6,True,0.008268896738688802,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,False,False,False,True,False,True,True,False,True
+A049,Li3LaCl6,Li3LaCl6,A,Li3InCl6,True,0.016631094614664832,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A050,Li3LaBr6,Li3LaBr6,A,Li3InCl6,True,0.022782166798910097,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A051,Li3PrCl6,Li3PrCl6,A,Li3InCl6,True,0.008229668935139323,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A052,Li3PrBr6,Li3PrBr6,A,Li3InCl6,True,0.003914165496826882,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A053,Li3NdCl6,Li3NdCl6,A,Li3InCl6,True,0.0031218528747558594,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A054,Li3NdBr6,Li3NdBr6,A,Li3InCl6,True,0.0023678779602063216,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A055,Li3SmCl6,Li3SmCl6,A,Li3InCl6,True,-0.008380158742269828,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,True,False,True,True,False,True,True,False,True
+A056,Li3SmBr6,Li3SmBr6,A,Li3InCl6,True,-0.007916227976480172,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+A057,Li3GdCl6,Li3GdCl6,A,Li3InCl6,True,-0.007885678609214963,False,,False,absent (unchecked: Alexandria),possibly reported,False,True,False,False,True,False,False,True,False,False
+A058,Li3GdBr6,Li3GdBr6,A,Li3InCl6,True,0.009682687123617306,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A059,Li3TbCl6,Li3TbCl6,A,Li3InCl6,True,0.0009364128112796521,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A060,Li3TbBr6,Li3TbBr6,A,Li3InCl6,True,-0.004308096567788411,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,True,False,True,True,False,True,True,False,True
+A061,Li3DyCl6,Li3DyCl6,A,Li3InCl6,True,-0.016934363047282908,False,,False,in OQMD,possibly reported,False,True,False,False,True,False,False,True,False,False
+A062,Li3DyBr6,Li3DyBr6,A,Li3InCl6,True,-0.0020918210347491417,True,literature (exact formula),False,in OQMD,possibly reported,False,True,False,True,True,False,True,True,False,True
+A063,Li3HoCl6,Li3HoCl6,A,Li3InCl6,True,-0.013371117909749763,True,literature (exact formula),False,"absent (unchecked: Alexandria, OQMD)",possibly reported,False,True,False,True,True,False,True,True,False,True
+A064,Li3HoBr6,Li3HoBr6,A,Li3InCl6,True,-0.0020283063252768407,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,True,False,True,True,False,True,True,False,True
+A065,Li3ErCl6,Li3ErCl6,A,Li3InCl6,True,-0.009913126627606239,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,True,False,True,True,False,True,True,False,True
+A066,Li3ErBr6,Li3ErBr6,A,Li3InCl6,True,-0.0024926503499367314,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,True,False,True,True,False,True,True,False,True
+A067,Li3TmCl6,Li3TmCl6,A,Li3InCl6,True,-0.009786764780680635,False,,False,absent (unchecked: Alexandria),possibly reported,False,True,False,False,True,False,False,True,False,False
+A068,Li3TmBr6,Li3TmBr6,A,Li3InCl6,True,0.0028461774190269296,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A069,Li3YbCl6,Li3YbCl6,A,Li3InCl6,True,-0.020721276601155747,False,,False,in Materials Project,none found,False,True,False,False,True,False,False,True,False,False
+A070,Li3YbBr6,Li3YbBr6,A,Li3InCl6,True,-0.06984659830729134,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+A071,Li3LuCl6,Li3LuCl6,A,Li3InCl6,True,-0.017337958017985322,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,True,False,True,True,False,True,True,False,True
+A072,Li3LuBr6,Li3LuBr6,A,Li3InCl6,True,-0.0015106519063312618,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+A073,Li3InCl6,Li3InCl6,A,Li3InCl6,True,0.0,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project",possibly reported,False,True,False,True,True,False,True,True,False,True
+A074,Li3InBr6,Li3InBr6,A,Li3InCl6,True,0.004595820109049242,True,literature (exact formula),True,"in MP (API), MP+GNoME (API), Materials Project, JARVIS",possibly reported,False,False,False,False,True,False,True,True,False,True
+A075,Li3GaCl6,Li3GaCl6,A,Li3InCl6,True,0.055393028259277166,False,,False,,,False,False,False,False,False,False,False,False,False,False
+A076,Li3GaBr6,Li3GaBr6,A,Li3InCl6,True,0.06846071879069004,False,,False,,,False,False,False,False,False,False,False,False,False,False
+A077,Li3AlCl6,Li3AlCl6,A,Li3InCl6,True,0.0224761962890625,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A078,Li3AlBr6,Li3AlBr6,A,Li3InCl6,True,0.02954794565836627,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A079,Li3BiCl6,Li3BiCl6,A,Li3InCl6,True,-0.015996233622233458,False,,False,in OQMD,none found,False,True,False,False,True,False,False,True,False,False
+A080,Li3BiBr6,Li3BiBr6,A,Li3InCl6,True,0.01280441284179723,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A081,Li3CrCl6,Li3CrCl6,A,Li3InCl6,True,0.016926670074462358,False,,False,in OQMD,possibly reported,False,False,False,False,True,False,False,True,False,False
+A082,Li3CrBr6,Li3CrBr6,A,Li3InCl6,True,0.03230574925740548,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+A083,Li3TiCl6,Li3TiCl6,A,Li3InCl6,True,0.011263179779054333,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,True,False,True,True,False,True
+A084,Li3TiBr6,Li3TiBr6,A,Li3InCl6,True,0.022311178843182233,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A085,Li3VCl6,Li3VCl6,A,Li3InCl6,True,0.017322508494062028,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+A086,Li3VBr6,Li3VBr6,A,Li3InCl6,True,0.011187076568604404,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A087,Li3FeCl6,Li3FeCl6,A,Li3InCl6,True,0.0185419082641598,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+A088,Li3FeBr6,Li3FeBr6,A,Li3InCl6,True,0.045775413513183594,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,False,False,False,True,True,False
+B001,Li2ZrCl6,Li2ZrCl6,B,Li2ZrCl6,True,-0.007899178398979245,True,literature (exact formula),False,"absent (unchecked: Alexandria, OQMD)",possibly reported,False,True,False,True,True,False,True,True,False,True
+B002,Li2ZrBr6,Li2ZrBr6,B,Li2ZrCl6,True,-0.0324223836263009,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+B003,Li2HfCl6,Li2HfCl6,B,Li2ZrCl6,True,-0.0100269317626962,True,literature (exact formula),False,in OQMD,possibly reported,False,True,False,True,True,False,True,True,False,True
+B004,Li2HfBr6,Li2HfBr6,B,Li2ZrCl6,True,-0.0296929677327471,True,literature (exact formula),False,in OQMD,possibly reported,False,True,False,True,True,False,True,True,False,True
+B005,Li2TiCl6,Li2TiCl6,B,Li2ZrCl6,True,0.04214435153537366,True,literature (exact formula),False,in OQMD,possibly reported,False,False,False,False,False,False,False,True,False,True
+B006,Li2TiBr6,Li2TiBr6,B,Li2ZrCl6,True,0.05040698581271741,False,,False,,,False,False,False,False,False,False,False,False,False,False
+B007,Li2SnCl6,Li2SnCl6,B,Li2ZrCl6,True,0.02802318996853348,False,,False,in OQMD,none found,False,False,False,False,True,False,False,True,False,False
+B008,Li2SnBr6,Li2SnBr6,B,Li2ZrCl6,True,0.050358454386393525,False,,False,,,False,False,False,False,False,False,False,False,False,False
+B009,Li2CeCl6,Li2CeCl6,B,Li2ZrCl6,True,-0.15421772003173828,False,,False,in OQMD,none found,False,True,False,False,True,False,False,True,False,False
+B010,Li2CeBr6,Li2CeBr6,B,Li2ZrCl6,True,-0.132944477929009,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C001,Li3Y(BrCl2)2,Li3YCl4Br2,C,Li3YCl6,True,0.0103829383850087,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+C002,Li3Y(BrCl)3,Li3YCl3Br3,C,Li3YCl6,True,0.012675635019938625,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+C003,Li3Y(Br2Cl)2,Li3YCl2Br4,C,Li3YCl6,True,0.014036719004312914,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+C004,Li3In(BrCl2)2,Li3InCl4Br2,C,Li3YCl6,True,0.02641254001193527,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+C005,Li3In(BrCl)3,Li3InCl3Br3,C,Li3YCl6,True,0.03402671813964897,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+C006,Li3In(Br2Cl)2,Li3InCl2Br4,C,Li3YCl6,True,0.026598993937174242,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C007,Li3Sc(BrCl2)2,Li3ScCl4Br2,C,Li3YCl6,True,0.0163555781046556,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C008,Li3Sc(BrCl)3,Li3ScCl3Br3,C,Li3YCl6,True,0.01746288935343454,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C009,Li3Sc(Br2Cl)2,Li3ScCl2Br4,C,Li3YCl6,True,0.013965956370036281,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C010,Li3Er(BrCl2)2,Li3ErCl4Br2,C,Li3YCl6,True,-0.00045695834689674086,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C011,Li3Er(BrCl)3,Li3ErCl3Br3,C,Li3YCl6,True,0.0014095942179377374,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C012,Li3Er(Br2Cl)2,Li3ErCl2Br4,C,Li3YCl6,True,0.002835167778862946,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C013,Li3Ho(BrCl2)2,Li3HoCl4Br2,C,Li3YCl6,True,-0.0012824694315591856,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+C014,Li3Ho(BrCl)3,Li3HoCl3Br3,C,Li3YCl6,True,0.0008873939514160156,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C015,Li3Ho(Br2Cl)2,Li3HoCl2Br4,C,Li3YCl6,True,0.0005079587300631516,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C016,Li3Yb(BrCl2)2,Li3YbCl4Br2,C,Li3YCl6,True,-0.02874199549357126,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C017,Li3Yb(BrCl)3,Li3YbCl3Br3,C,Li3YCl6,True,-0.034130605061849284,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C018,Li3Yb(Br2Cl)2,Li3YbCl2Br4,C,Li3YCl6,True,-0.04351018269856732,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C019,Li3Lu(BrCl2)2,Li3LuCl4Br2,C,Li3YCl6,True,-0.005325984954833274,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C020,Li3Lu(BrCl)3,Li3LuCl3Br3,C,Li3YCl6,True,-0.0016500155131016214,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C021,Li3Lu(Br2Cl)2,Li3LuCl2Br4,C,Li3YCl6,True,4.828770955533912e-05,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C022,Li3Dy(BrCl2)2,Li3DyCl4Br2,C,Li3YCl6,True,-0.0041862805684402815,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C023,Li3Dy(BrCl)3,Li3DyCl3Br3,C,Li3YCl6,True,0.0017678896586099668,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C024,Li3Dy(Br2Cl)2,Li3DyCl2Br4,C,Li3YCl6,True,0.0021463076273606774,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+C025,Li3Y(BrCl2)2,Li3YCl4Br2,C,Li3InCl6,True,0.0010074297587063796,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+C026,Li3Y(BrCl)3,Li3YCl3Br3,C,Li3InCl6,True,0.002015336354573627,True,literature (exact formula),False,absent (unchecked: Alexandria),possibly reported,False,False,False,False,True,False,True,True,False,True
+C027,Li3Y(Br2Cl)2,Li3YCl2Br4,C,Li3InCl6,True,0.0034384727478027344,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+C028,Li3In(BrCl2)2,Li3InCl4Br2,C,Li3InCl6,True,0.014665561252169557,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+C029,Li3In(BrCl)3,Li3InCl3Br3,C,Li3InCl6,True,0.02277666727701888,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C030,Li3In(Br2Cl)2,Li3InCl2Br4,C,Li3InCl6,True,0.016463343302408617,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C031,Li3Sc(BrCl2)2,Li3ScCl4Br2,C,Li3InCl6,True,0.0018332799275722067,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C032,Li3Sc(BrCl)3,Li3ScCl3Br3,C,Li3InCl6,True,0.003339354197184896,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+C033,Li3Sc(Br2Cl)2,Li3ScCl2Br4,C,Li3InCl6,True,-0.0017307599385576466,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C034,Li3Er(BrCl2)2,Li3ErCl4Br2,C,Li3InCl6,True,-0.01319346957736478,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C035,Li3Er(BrCl)3,Li3ErCl3Br3,C,Li3InCl6,True,-0.011828676859536813,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C036,Li3Er(Br2Cl)2,Li3ErCl2Br4,C,Li3InCl6,True,-0.009420945909287326,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C037,Li3Ho(BrCl2)2,Li3HoCl4Br2,C,Li3InCl6,True,-0.012806415557861328,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+C038,Li3Ho(BrCl)3,Li3HoCl3Br3,C,Li3InCl6,True,-0.010438950856526574,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C039,Li3Ho(Br2Cl)2,Li3HoCl2Br4,C,Li3InCl6,True,-0.008704535166421223,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C040,Li3Yb(BrCl2)2,Li3YbCl4Br2,C,Li3InCl6,True,-0.035719076792399385,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C041,Li3Yb(BrCl)3,Li3YbCl3Br3,C,Li3InCl6,True,-0.038984680175781605,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C042,Li3Yb(Br2Cl)2,Li3YbCl2Br4,C,Li3InCl6,True,-0.05171025594075518,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C043,Li3Lu(BrCl2)2,Li3LuCl4Br2,C,Li3InCl6,True,-0.01658341089884363,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C044,Li3Lu(BrCl)3,Li3LuCl3Br3,C,Li3InCl6,True,-0.013183879852294744,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C045,Li3Lu(Br2Cl)2,Li3LuCl2Br4,C,Li3InCl6,True,-0.011000601450601444,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C046,Li3Dy(BrCl2)2,Li3DyCl4Br2,C,Li3InCl6,True,-0.013433615366617246,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C047,Li3Dy(BrCl)3,Li3DyCl3Br3,C,Li3InCl6,True,-0.010721937815348248,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+C048,Li3Dy(Br2Cl)2,Li3DyCl2Br4,C,Li3InCl6,True,-0.008413283030191288,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D001,Li6YInCl12,Li3Y0.5In0.5Cl6,D,Li3YCl6,True,0.015830850601195934,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+D002,Li6YScCl12,Li3Sc0.5Y0.5Cl6,D,Li3YCl6,True,0.023346630732218543,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+D003,Li6YErCl12,Li3Er0.5Y0.5Cl6,D,Li3YCl6,True,0.016524108250935754,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D004,Li6YHoCl12,Li3Y0.5Ho0.5Cl6,D,Li3YCl6,True,0.004383023579915601,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+D005,Li6YbYCl12,Li3Y0.5Yb0.5Cl6,D,Li3YCl6,True,-0.033613522847493194,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D006,Li6YLuCl12,Li3Lu0.5Y0.5Cl6,D,Li3YCl6,True,0.0021452903747567476,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+D007,Li6DyYCl12,Li3Dy0.5Y0.5Cl6,D,Li3YCl6,True,0.002379894256592685,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D008,Li6GdYCl12,Li3Y0.5Gd0.5Cl6,D,Li3YCl6,True,0.014613739649455226,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D009,Li6YTmCl12,Li3Tm0.5Y0.5Cl6,D,Li3YCl6,True,0.007638772328695254,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+D010,Li6ScInCl12,Li3In0.5Sc0.5Cl6,D,Li3YCl6,True,0.03928661346435547,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+D011,Li6ErInCl12,Li3In0.5Er0.5Cl6,D,Li3YCl6,True,0.006817881266276693,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D012,Li6HoInCl12,Li3Ho0.5In0.5Cl6,D,Li3YCl6,True,0.03561256726582851,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,False,False,False,True,True,False
+D013,Li6YbInCl12,Li3In0.5Yb0.5Cl6,D,Li3YCl6,True,0.010460869471232037,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+D014,Li6LuInCl12,Li3Lu0.5In0.5Cl6,D,Li3YCl6,True,0.005902401606242336,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D015,Li6DyInCl12,Li3Dy0.5In0.5Cl6,D,Li3YCl6,True,0.000232871373494703,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D016,Li6GdInCl12,Li3Gd0.5In0.5Cl6,D,Li3YCl6,True,0.02083768844604439,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D017,Li6TmInCl12,Li3In0.5Tm0.5Cl6,D,Li3YCl6,True,0.006753142674763346,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D018,Li6ErScCl12,Li3Er0.5Sc0.5Cl6,D,Li3YCl6,True,0.017234102884928326,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D019,Li6HoScCl12,Li3Sc0.5Ho0.5Cl6,D,Li3YCl6,True,0.01583825747172085,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D020,Li6YbScCl12,Li3Yb0.5Sc0.5Cl6,D,Li3YCl6,True,-0.015826400121053297,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D021,Li6LuScCl12,Li3Lu0.5Sc0.5Cl6,D,Li3YCl6,True,0.017339436213175574,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D022,Li6DyScCl12,Li3Dy0.5Sc0.5Cl6,D,Li3YCl6,True,0.02041624387105312,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D023,Li6GdScCl12,Li3Sc0.5Gd0.5Cl6,D,Li3YCl6,True,0.01916793187459298,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D024,Li6TmScCl12,Li3Sc0.5Tm0.5Cl6,D,Li3YCl6,True,0.015423250198364435,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D025,Li6HoErCl12,Li3Er0.5Ho0.5Cl6,D,Li3YCl6,True,-0.0007997353871660451,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D026,Li6YbErCl12,Li3Yb0.5Er0.5Cl6,D,Li3YCl6,True,-0.030149380366006895,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D027,Li6ErLuCl12,Li3Lu0.5Er0.5Cl6,D,Li3YCl6,True,-0.0030888398488357893,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D028,Li6DyErCl12,Li3Dy0.5Er0.5Cl6,D,Li3YCl6,True,-0.003235197067260387,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D029,Li6GdErCl12,Li3Er0.5Gd0.5Cl6,D,Li3YCl6,True,0.0035329500834144767,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D030,Li6ErTmCl12,Li3Tm0.5Er0.5Cl6,D,Li3YCl6,True,0.0021310011545825347,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D031,Li6YbHoCl12,Li3Yb0.5Ho0.5Cl6,D,Li3YCl6,True,-0.0325474739074707,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D032,Li6HoLuCl12,Li3Ho0.5Lu0.5Cl6,D,Li3YCl6,True,-0.006375249226888258,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D033,Li6DyHoCl12,Li3Ho0.5Dy0.5Cl6,D,Li3YCl6,True,-0.005062866210937322,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D034,Li6GdHoCl12,Li3Gd0.5Ho0.5Cl6,D,Li3YCl6,True,0.00027400652567610706,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D035,Li6HoTmCl12,Li3Ho0.5Tm0.5Cl6,D,Li3YCl6,True,-0.0001803716023758284,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D036,Li6YbLuCl12,Li3Yb0.5Lu0.5Cl6,D,Li3YCl6,True,-0.03786315917968697,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D037,Li6YbDyCl12,Li3Yb0.5Dy0.5Cl6,D,Li3YCl6,True,-0.05374743143717353,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D038,Li6YbGdCl12,Li3Gd0.5Yb0.5Cl6,D,Li3YCl6,True,-0.0264335791269934,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D039,Li6YbTmCl12,Li3Tm0.5Yb0.5Cl6,D,Li3YCl6,True,-0.04049142201741507,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D040,Li6DyLuCl12,Li3Lu0.5Dy0.5Cl6,D,Li3YCl6,True,-0.007287375132242424,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D041,Li6GdLuCl12,Li3Gd0.5Lu0.5Cl6,D,Li3YCl6,True,0.0009995301564531545,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D042,Li6TmLuCl12,Li3Tm0.5Lu0.5Cl6,D,Li3YCl6,True,-0.003985182444254498,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D043,Li6GdDyCl12,Li3Dy0.5Gd0.5Cl6,D,Li3YCl6,True,-0.002334896723429125,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D044,Li6DyTmCl12,Li3Dy0.5Tm0.5Cl6,D,Li3YCl6,True,-0.0023620287577310606,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D045,Li6GdTmCl12,Li3Gd0.5Tm0.5Cl6,D,Li3YCl6,True,0.005681753158569336,False,,False,absent (unchecked: Alexandria),none found,True,False,False,False,True,True,False,True,True,False
+D046,Li6YInCl12,Li3Y0.5In0.5Cl6,D,Li3InCl6,True,-0.001260010401407996,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D047,Li6YScCl12,Li3Y0.5Sc0.5Cl6,D,Li3InCl6,True,0.00394253730773908,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,False,False,False,True,True,False,True,True,False
+D048,Li6YErCl12,Li3Y0.5Er0.5Cl6,D,Li3InCl6,True,-0.0033097743988035333,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D049,Li6YHoCl12,Li3Y0.5Ho0.5Cl6,D,Li3InCl6,True,-0.0050484339396161815,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D050,Li6YbYCl12,Li3Y0.5Yb0.5Cl6,D,Li3InCl6,True,-0.03453973134358712,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D051,Li6YLuCl12,Li3Lu0.5Y0.5Cl6,D,Li3InCl6,True,-0.007367547353108073,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D052,Li6DyYCl12,Li3Y0.5Dy0.5Cl6,D,Li3InCl6,True,-0.007232125600178385,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D053,Li6GdYCl12,Li3Y0.5Gd0.5Cl6,D,Li3InCl6,True,-0.0028067111968983482,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D054,Li6YTmCl12,Li3Y0.5Tm0.5Cl6,D,Li3InCl6,True,-0.003296693166096709,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D055,Li6ScInCl12,Li3In0.5Sc0.5Cl6,D,Li3InCl6,True,-0.0016705195109043558,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D056,Li6ErInCl12,Li3In0.5Er0.5Cl6,D,Li3InCl6,True,-0.008713531494140447,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D057,Li6HoInCl12,Li3Ho0.5In0.5Cl6,D,Li3InCl6,True,-0.010515260696410955,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D058,Li6YbInCl12,Li3In0.5Yb0.5Cl6,D,Li3InCl6,True,-0.030048163731892785,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D059,Li6LuInCl12,Li3In0.5Lu0.5Cl6,D,Li3InCl6,True,-0.012232669194538914,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D060,Li6DyInCl12,Li3Dy0.5In0.5Cl6,D,Li3InCl6,True,-0.011690855026245117,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D061,Li6GdInCl12,Li3In0.5Gd0.5Cl6,D,Li3InCl6,True,-0.0059684435526534685,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D062,Li6TmInCl12,Li3Tm0.5In0.5Cl6,D,Li3InCl6,True,-0.009004100163777728,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D063,Li6ErScCl12,Li3Sc0.5Er0.5Cl6,D,Li3InCl6,True,-0.002881558736165246,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D064,Li6HoScCl12,Li3Ho0.5Sc0.5Cl6,D,Li3InCl6,True,-0.004544941584268436,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D065,Li6YbScCl12,Li3Yb0.5Sc0.5Cl6,D,Li3InCl6,True,-0.047400903701782404,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D066,Li6LuScCl12,Li3Sc0.5Lu0.5Cl6,D,Li3InCl6,True,-0.007263835271198893,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D067,Li6DyScCl12,Li3Sc0.5Dy0.5Cl6,D,Li3InCl6,True,-0.006080643335978131,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D068,Li6GdScCl12,Li3Gd0.5Sc0.5Cl6,D,Li3InCl6,True,-0.0017391522725427322,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D069,Li6TmScCl12,Li3Sc0.5Tm0.5Cl6,D,Li3InCl6,True,-0.002797778447468424,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D070,Li6HoErCl12,Li3Er0.5Ho0.5Cl6,D,Li3InCl6,True,-0.011640087763468365,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D071,Li6YbErCl12,Li3Yb0.5Er0.5Cl6,D,Li3InCl6,True,-0.051869249343871715,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D072,Li6ErLuCl12,Li3Er0.5Lu0.5Cl6,D,Li3InCl6,True,-0.01407313346862793,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D073,Li6DyErCl12,Li3Dy0.5Er0.5Cl6,D,Li3InCl6,True,-0.013556750615436819,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D074,Li6GdErCl12,Li3Gd0.5Er0.5Cl6,D,Li3InCl6,True,-0.009443124135335879,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D075,Li6ErTmCl12,Li3Er0.5Tm0.5Cl6,D,Li3InCl6,True,-0.009858846664428711,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D076,Li6YbHoCl12,Li3Ho0.5Yb0.5Cl6,D,Li3InCl6,True,-0.0596470832824707,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D077,Li6HoLuCl12,Li3Lu0.5Ho0.5Cl6,D,Li3InCl6,True,-0.015807215372721117,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D078,Li6DyHoCl12,Li3Ho0.5Dy0.5Cl6,D,Li3InCl6,True,-0.015288289388020182,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D079,Li6GdHoCl12,Li3Ho0.5Gd0.5Cl6,D,Li3InCl6,True,-0.011305379867553533,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D080,Li6HoTmCl12,Li3Tm0.5Ho0.5Cl6,D,Li3InCl6,True,-0.011584790547688684,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D081,Li6YbLuCl12,Li3Lu0.5Yb0.5Cl6,D,Li3InCl6,True,-0.05358250935872366,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D082,Li6YbDyCl12,Li3Yb0.5Dy0.5Cl6,D,Li3InCl6,True,-0.05320625305175675,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D083,Li6YbGdCl12,Li3Yb0.5Gd0.5Cl6,D,Li3InCl6,True,-0.04582495689392019,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D084,Li6YbTmCl12,Li3Tm0.5Yb0.5Cl6,D,Li3InCl6,True,-0.051869646708169626,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D085,Li6DyLuCl12,Li3Dy0.5Lu0.5Cl6,D,Li3InCl6,True,-0.01740802129109742,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D086,Li6GdLuCl12,Li3Lu0.5Gd0.5Cl6,D,Li3InCl6,True,-0.013065512975057203,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D087,Li6TmLuCl12,Li3Tm0.5Lu0.5Cl6,D,Li3InCl6,True,-0.014031569163004853,False,,False,"absent (unchecked: Alexandria, OQMD)",none found,True,True,True,False,True,True,False,True,True,False
+D088,Li6GdDyCl12,Li3Gd0.5Dy0.5Cl6,D,Li3InCl6,True,-0.012757666905720555,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D089,Li6DyTmCl12,Li3Tm0.5Dy0.5Cl6,D,Li3InCl6,True,-0.013429228464762133,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False
+D090,Li6GdTmCl12,Li3Tm0.5Gd0.5Cl6,D,Li3InCl6,True,-0.009343067804972627,False,,False,absent (unchecked: Alexandria),none found,True,True,True,False,True,True,False,True,True,False

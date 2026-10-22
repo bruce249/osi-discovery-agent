@@ -1,0 +1,141 @@
+{
+ "ok": true,
+ "hash": "799f58470d389278a3da",
+ "model": "chgnet",
+ "e_per_atom": -4.560960292816162,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     4.98579747,
+     -0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     4.98579747,
+     -0.0
+    ],
+    [
+     0.0,
+     0.0,
+     4.98579854
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 4.98579747,
+   "b": 4.98579747,
+   "c": 4.98579854,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 123.93785966130605
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Ho",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.5,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.018299266695976257
+    },
+    "label": "Ho",
+    "xyz": [
+     2.492898735,
+     2.492898735,
+     0.0
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Ho",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.5,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.018299415707588196
+    },
+    "label": "Ho",
+    "xyz": [
+     0.0,
+     2.492898735,
+     2.49289927
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Ho",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.5,
+     0.0,
+     0.5
+    ],
+    "properties": {
+     "final_magmom": 0.018299460411071777
+    },
+    "label": "Ho",
+    "xyz": [
+     2.492898735,
+     0.0,
+     2.49289927
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Er",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "properties": {
+     "final_magmom": 0.01641257107257843
+    },
+    "label": "Er",
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ]
+ },
+ "seconds": 0.021762847900390625,
+ "task_hash": "799f58470d389278a3da",
+ "kind": "reference",
+ "label": "mp-1184575"
+}

@@ -1,0 +1,97 @@
+{
+ "ok": true,
+ "hash": "73c9934edcac1362e119",
+ "model": "chgnet",
+ "e_per_atom": -7.817553520202637,
+ "natoms": 2,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     2.93573124,
+     -0.0,
+     0.0
+    ],
+    [
+     -1.46786562,
+     2.54241941,
+     -0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     4.64085615
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 2.93573124,
+   "b": 2.93573260613475,
+   "c": 4.64085615,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 119.99998460644197,
+   "volume": 34.63870098804746
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Ti",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.333333,
+     0.666667,
+     0.25
+    ],
+    "properties": {
+     "final_magmom": 0.0012046992778778076
+    },
+    "label": "Ti",
+    "xyz": [
+     -1.467865620052855e-06,
+     1.69494712080647,
+     1.1602140375
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Ti",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.6666670000000001,
+     0.333333,
+     0.75
+    ],
+    "properties": {
+     "final_magmom": 0.001204371452331543
+    },
+    "label": "Ti",
+    "xyz": [
+     1.4678670878656201,
+     0.8474722891935299,
+     3.4806421125
+    ]
+   }
+  ]
+ },
+ "seconds": 0.036084890365600586,
+ "task_hash": "73c9934edcac1362e119",
+ "kind": "reference",
+ "label": "mp-46"
+}

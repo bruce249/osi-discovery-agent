@@ -1,0 +1,4576 @@
+{
+ "Li2CeBr6": {
+  "formula": "Li2CeBr6",
+  "display_formula": "Li2CeBr6",
+  "chemsys": "Br-Ce-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li2CeCl6": {
+  "formula": "Li2CeCl6",
+  "display_formula": "Li2CeCl6",
+  "chemsys": "Ce-Cl-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6028875"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li2HfBr6": {
+  "formula": "Li2HfBr6",
+  "display_formula": "Li2HfBr6",
+  "chemsys": "Br-Hf-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "5630413"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Li2HfBr6 scintillator for neutron and gamma-ray dual detection",
+     "url": "https://doi.org/10.35848/1882-0786/ad03ab",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li2HfCl6": {
+  "formula": "Li2HfCl6",
+  "display_formula": "Li2HfCl6",
+  "chemsys": "Cl-Hf-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6028951",
+     "6204571",
+     "6375756"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Synergistic Nitrogen and Iodine Incorporation Drives Amorphization and Fast Li+ Transport in Li2HfCl6",
+     "url": "https://doi.org/10.1021/acsmaterialslett.6c00571",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Reversible electrode potentials for formation of solid and liquid chlorozirconate and chlorohafnate compounds",
+     "url": "https://doi.org/10.1139/v93-165",
+     "year": 1993,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 4,
+   "n_queries_failed": 1
+  }
+ },
+ "Li2SnCl6": {
+  "formula": "Li2SnCl6",
+  "display_formula": "Li2SnCl6",
+  "chemsys": "Cl-Li-Sn",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "5630458",
+     "6074034"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 4,
+   "n_queries_failed": 1
+  }
+ },
+ "Li2TiCl6": {
+  "formula": "Li2TiCl6",
+  "display_formula": "Li2TiCl6",
+  "chemsys": "Cl-Li-Ti",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "5630468"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Structural, Elastic, Electronic, and Thermodynamic Properties of A2TiCl6 (A = Li, Na and Rb) Compounds: DFT Investigation",
+     "url": "https://doi.org/10.1134/s0036023622601325",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 4,
+   "n_queries_failed": 1
+  }
+ },
+ "Li2ZrBr6": {
+  "formula": "Li2ZrBr6",
+  "display_formula": "Li2ZrBr6",
+  "chemsys": "Br-Li-Zr",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li2ZrCl6": {
+  "formula": "Li2ZrCl6",
+  "display_formula": "Li2ZrCl6",
+  "chemsys": "Cl-Li-Zr",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Enabling ultrafast lithium-ion conductivity of Li2ZrCl6 by indium doping",
+     "url": "https://doi.org/10.1016/j.cclet.2021.12.048",
+     "year": 2021,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li-richening strategy in Li2ZrCl6 lattice towards enhanced ionic conductivity",
+     "url": "https://doi.org/10.1016/j.jechem.2023.01.008",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li+ conduction in aliovalent-substituted monoclinic Li2ZrCl6 for all-solid-state batteries: Li2+xZr1-xMxCl6 (M = In, Sc)",
+     "url": "https://doi.org/10.1016/j.cej.2022.135413",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "O2\u2212 substituted Li-richened Li2ZrCl6 lattice towards superionic conductivity",
+     "url": "https://doi.org/10.1016/j.est.2024.111700",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Aliovalent substitution of Al3+ in Li2ZrCl6 solid electrolyte towards large-scale application",
+     "url": "https://doi.org/10.1016/j.ensm.2024.103444",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Aliovalent Substitution in Li2ZrCl6 Halide Electrolytes: Linking Lithium Content, Phase Stability, and Ionic Transport",
+     "url": "https://doi.org/10.1021/acsaem.6c01288",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Innovative doping strategies for Li2ZrCl6 solid electrolytes: A first-principles approach",
+     "url": "https://doi.org/10.1016/j.est.2024.115017",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "N-Doped Li2ZrCl6-Based Chloride Solid Electrolytes for Enhanced Li Ion Transport",
+     "url": "https://doi.org/10.3390/en19122790",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3AlBr6": {
+  "formula": "Li3AlBr6",
+  "display_formula": "Li3AlBr6",
+  "chemsys": "Al-Br-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 4,
+   "n_queries_failed": 1
+  }
+ },
+ "Li3AlCl6": {
+  "formula": "Li3AlCl6",
+  "display_formula": "Li3AlCl6",
+  "chemsys": "Al-Cl-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3BiBr6": {
+  "formula": "Li3BiBr6",
+  "display_formula": "Li3BiBr6",
+  "chemsys": "Bi-Br-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3BiCl6": {
+  "formula": "Li3BiCl6",
+  "display_formula": "Li3BiCl6",
+  "chemsys": "Bi-Cl-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6082334"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3CrBr6": {
+  "formula": "Li3CrBr6",
+  "display_formula": "Li3CrBr6",
+  "chemsys": "Br-Cr-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3CrCl6": {
+  "formula": "Li3CrCl6",
+  "display_formula": "Li3CrCl6",
+  "chemsys": "Cl-Cr-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6082973"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": false,
+   "links": [
+    {
+     "title": "Kristallstruktur und Schwingungsspektren von Li5CrCl8 / Crystal Structure and Vibrational Spectra of Li5CrCl8",
+     "url": "https://doi.org/10.1515/znb-1992-1207",
+     "year": 1992,
+     "source": "openalex",
+     "exact_formula": false
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Dy(Br2Cl)2": {
+  "formula": "Li3Dy(Br2Cl)2",
+  "display_formula": "Li3DyCl2Br4",
+  "chemsys": "Br-Cl-Dy-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 6,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Dy(BrCl)3": {
+  "formula": "Li3Dy(BrCl)3",
+  "display_formula": "Li3DyCl3Br3",
+  "chemsys": "Br-Cl-Dy-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Dy(BrCl2)2": {
+  "formula": "Li3Dy(BrCl2)2",
+  "display_formula": "Li3DyCl4Br2",
+  "chemsys": "Br-Cl-Dy-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3DyBr6": {
+  "formula": "Li3DyBr6",
+  "display_formula": "Li3DyBr6",
+  "chemsys": "Br-Dy-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6012353"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "PHASE DIAGRAMS OF THE DyBr3-MBr (M = Li-Cs)",
+     "url": "https://openalex.org/W3133650441",
+     "year": 2013,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3DyCl6": {
+  "formula": "Li3DyCl6",
+  "display_formula": "Li3DyCl6",
+  "chemsys": "Cl-Dy-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6077353"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": false,
+   "links": [
+    {
+     "title": "A Series of Ternary Metal Chloride Superionic Conductors for High\u2010Performance All\u2010Solid\u2010State Lithium Batteries",
+     "url": "https://doi.org/10.1002/aenm.202103921",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": false
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Er(Br2Cl)2": {
+  "formula": "Li3Er(Br2Cl)2",
+  "display_formula": "Li3ErCl2Br4",
+  "chemsys": "Br-Cl-Er-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 6,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Er(BrCl)3": {
+  "formula": "Li3Er(BrCl)3",
+  "display_formula": "Li3ErCl3Br3",
+  "chemsys": "Br-Cl-Er-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Er(BrCl2)2": {
+  "formula": "Li3Er(BrCl2)2",
+  "display_formula": "Li3ErCl4Br2",
+  "chemsys": "Br-Cl-Er-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3ErBr6": {
+  "formula": "Li3ErBr6",
+  "display_formula": "Li3ErBr6",
+  "chemsys": "Br-Er-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "present",
+    "MP+GNoME (API)": "present",
+    "Materials Project": "present",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "present"
+   },
+   "ids": {
+    "Materials Project": [
+     "mp-37873",
+     "mp-1222492"
+    ],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "dft_3d_JVASP-102198",
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in MP (API), MP+GNoME (API), Materials Project, JARVIS",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Ab-initio phonon calculation for Li3ErBr6 / C2/c (15) / materials id 37873",
+     "url": "https://openalex.org/W7145121554",
+     "year": null,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "First-principles lattice thermal conductivity calculation for Li3ErBr6 / C2/c (15) / materials id 37873",
+     "url": "https://openalex.org/W7144628579",
+     "year": null,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "First-principles lattice thermal conductivity calculation for Li3ErBr6 / C2/c (15) / materials id 37873",
+     "url": "https://openalex.org/W7137698465",
+     "year": null,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Tern\u00e4re Halogenide vom Typ A3MX6. VII [1]. Die Bromide Li3MBr6 (M=SmLu, Y): Synthese, Kristallstruktur, Ionenbeweglichkeit",
+     "url": "https://doi.org/10.1002/zaac.19976230905",
+     "year": 1997,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Tern\u00e4re Halogenide vom Typ A3MX6. VI [1]. Tern\u00e4re Chloride der Selten\u2010Erd\u2010Elemente mit Lithium, Li3MCl6 (M TbLu, Y, Sc): Synthese, Kristallstrukturen und Ionenbewegung",
+     "url": "https://doi.org/10.1002/zaac.19976230710",
+     "year": 1997,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3ErCl6": {
+  "formula": "Li3ErCl6",
+  "display_formula": "Li3ErCl6",
+  "chemsys": "Cl-Er-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "present",
+    "MP+GNoME (API)": "present",
+    "Materials Project": "present",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "present"
+   },
+   "ids": {
+    "Materials Project": [
+     "mp-676361"
+    ],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in MP (API), MP+GNoME (API), Materials Project, JARVIS",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Li3ErCl6",
+     "url": "https://doi.org/10.1007/978-3-540-44752-8_344",
+     "year": 2008,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Materials Data on Li3ErCl6 by Materials Project",
+     "url": "https://doi.org/10.17188/1283027",
+     "year": 2020,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Relationship between ion transport and entropy in the solid electrolyte Li3ErCl6 based on the thermodynamics and density functional theory calculation",
+     "url": "https://doi.org/10.1016/j.est.2025.119372",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Tern\u00e4re Halogenide vom Typ A3MX6. VI [1]. Tern\u00e4re Chloride der Selten\u2010Erd\u2010Elemente mit Lithium, Li3MCl6 (M TbLu, Y, Sc): Synthese, Kristallstrukturen und Ionenbewegung",
+     "url": "https://doi.org/10.1002/zaac.19976230710",
+     "year": 1997,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "A solid electrolyte containing fast lithium-ion transport channels constructed from heterointerfaces",
+     "url": "https://doi.org/10.1063/5.0259658",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Machine learning molecular dynamics simulation identifying weakly negative effect of polyanion rotation on Li-ion migration",
+     "url": "https://doi.org/10.1038/s41524-023-01049-w",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Defect-Modulated Fast-Freezing Amorphization for Highly Ductile Solid-State Electrolytes",
+     "url": "https://doi.org/10.1021/jacs.6c09700",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "ErCl 3 -MCl n \u4f53\u7cfb\u76f8\u56fe\u7684\u7814\u7a76",
+     "url": "https://openalex.org/W2561150490",
+     "year": 1993,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3FeBr6": {
+  "formula": "Li3FeBr6",
+  "display_formula": "Li3FeBr6",
+  "chemsys": "Br-Fe-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3FeCl6": {
+  "formula": "Li3FeCl6",
+  "display_formula": "Li3FeCl6",
+  "chemsys": "Cl-Fe-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3GdBr6": {
+  "formula": "Li3GdBr6",
+  "display_formula": "Li3GdBr6",
+  "chemsys": "Br-Gd-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6077278"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes",
+     "url": "https://doi.org/10.1002/anie.202508835",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Rare-Earth Ions Regulating Lattice-Softened Bromide Solid Electrolytes for Highly Stable Fast-Charging Solid-State Batteries",
+     "url": "https://doi.org/10.1021/acs.nanolett.5c00509",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes",
+     "url": "https://doi.org/10.1002/ange.202508835",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3GdCl6": {
+  "formula": "Li3GdCl6",
+  "display_formula": "Li3GdCl6",
+  "chemsys": "Cl-Gd-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": false,
+   "links": [
+    {
+     "title": "Electrical conductivity of GdCl3-LiCl and GdCl3-LiCl-Gd2O3 molten systems",
+     "url": "https://doi.org/10.2298/jsc230131051n",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": false
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Ho(Br2Cl)2": {
+  "formula": "Li3Ho(Br2Cl)2",
+  "display_formula": "Li3HoCl2Br4",
+  "chemsys": "Br-Cl-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Ho(BrCl)3": {
+  "formula": "Li3Ho(BrCl)3",
+  "display_formula": "Li3HoCl3Br3",
+  "chemsys": "Br-Cl-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Ho(BrCl2)2": {
+  "formula": "Li3Ho(BrCl2)2",
+  "display_formula": "Li3HoCl4Br2",
+  "chemsys": "Br-Cl-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3HoBr6": {
+  "formula": "Li3HoBr6",
+  "display_formula": "Li3HoBr6",
+  "chemsys": "Br-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Gram\u2010Scale Synthesis of Nanosized Li3HoBr6 Solid Electrolyte for All\u2010Solid\u2010State Li\u2010Se Battery",
+     "url": "https://doi.org/10.1002/smtd.202101002",
+     "year": 2021,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Enhancement of Superionic Conductivity by Halide Substitution in Strongly Stacking Faulted Li3HoBr6\u2013xIx Phases",
+     "url": "https://doi.org/10.1021/acs.chemmater.2c00024",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Improving the Stability of Li3HoBr6 on Metallic Lithium by Using a Double-Halogen Strategy",
+     "url": "https://doi.org/10.1021/acsaem.3c02855",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3HoCl6": {
+  "formula": "Li3HoCl6",
+  "display_formula": "Li3HoCl6",
+  "chemsys": "Cl-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Stability and Metastability of Li3YCl6 and Li3HoCl6",
+     "url": "https://doi.org/10.1246/bcsj.20230132",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Simulation of Li3HoCl6 Solid-state Lithium Batteries Based on COSMOL Multiphysics",
+     "url": "https://doi.org/10.1088/1742-6596/2393/1/012014",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Isovalent ion substitution to improve the Li+ conduction of the Li3HoCl6 SSEs",
+     "url": "https://doi.org/10.1016/j.electacta.2025.145896",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Tailoring Ion Transport in Li3\u20103yHo1+yCl6\u2010xBrx via Transition\u2010Metal Free Structural Planes and Charge Carrier Distribution",
+     "url": "https://doi.org/10.1002/advs.202409668",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li3\u2013xZrx(Ho/Lu)1\u2013xCl6 Solid Electrolytes Enable Ultrahigh-Loading Solid-State Batteries with a Prelithiated Si Anode",
+     "url": "https://doi.org/10.1021/acsenergylett.3c00763",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "A Series of Ternary Metal Chloride Superionic Conductors for High\u2010Performance All\u2010Solid\u2010State Lithium Batteries",
+     "url": "https://doi.org/10.1002/aenm.202103921",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": false
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3In(Br2Cl)2": {
+  "formula": "Li3In(Br2Cl)2",
+  "display_formula": "Li3InCl2Br4",
+  "chemsys": "Br-Cl-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3In(BrCl)3": {
+  "formula": "Li3In(BrCl)3",
+  "display_formula": "Li3InCl3Br3",
+  "chemsys": "Br-Cl-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3In(BrCl2)2": {
+  "formula": "Li3In(BrCl2)2",
+  "display_formula": "Li3InCl4Br2",
+  "chemsys": "Br-Cl-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3InBr6": {
+  "formula": "Li3InBr6",
+  "display_formula": "Li3InBr6",
+  "chemsys": "Br-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "present",
+    "MP+GNoME (API)": "present",
+    "Materials Project": "present",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "present"
+   },
+   "ids": {
+    "Materials Project": [
+     "mp-1120720",
+     "mp-1147621"
+    ],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "dft_3d_JVASP-146321",
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in MP (API), MP+GNoME (API), Materials Project, JARVIS",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "New Lithium Ion Conductor Li3InBr6 Studied by 7Li NMR",
+     "url": "https://doi.org/10.1246/cl.1998.223",
+     "year": 1998,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Lithium superionic conductors Li3InBr6 and LiInBr4 studied by 7Li, 115In NMR",
+     "url": "https://doi.org/10.1016/j.ssi.2006.06.026",
+     "year": 2006,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Structure and Dynamics of Li3InBr6 and NaInBr4 by Means of Nuclear Magnetic Resonance",
+     "url": "https://doi.org/10.1515/zna-1998-6-730",
+     "year": 1998,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Materials Data on Li3InBr6 by Materials Project",
+     "url": "https://doi.org/10.17188/1695089",
+     "year": 2020,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Synthesis and Characterization of Lithium Ion Conductors, Li3InBr6 and their Substituted Compounds",
+     "url": "https://doi.org/10.4028/www.scientific.net/ddf.242-244.17",
+     "year": 2005,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Substitution Effect in the Ion Conductor Li3InBr6, Studied by Nuclear Magnetic Resonance",
+     "url": "https://doi.org/10.1515/zna-2002-6-728",
+     "year": 2002,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Substitution Effect for Br on the Lithium Ion Conductivity of Lithium Indium Bromide",
+     "url": "https://doi.org/10.1149/1.3115315",
+     "year": 2009,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Preparation of Substituted Compounds of Lithium Indium Bromide and Fabrication of All Solid-State Battery",
+     "url": "https://doi.org/10.2174/2405520410666170614114423",
+     "year": 2017,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3InCl6": {
+  "formula": "Li3InCl6",
+  "display_formula": "Li3InCl6",
+  "chemsys": "Cl-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "present",
+    "MP+GNoME (API)": "present",
+    "Materials Project": "present",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [
+     "mp-676109",
+     "mp-1111288"
+    ],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in MP (API), MP+GNoME (API), Materials Project",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Zur Kristallstruktur von Li3InCl6",
+     "url": "https://doi.org/10.1002/(sici)1521-3749(199904)625:4<539::aid-zaac539>3.0.co;2-j",
+     "year": 1999,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Materials Data on Li3InCl6 by Materials Project",
+     "url": "https://doi.org/10.17188/1689484",
+     "year": 2020,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Improved stability against moisture and lithium metal by doping F into Li3InCl6",
+     "url": "https://doi.org/10.1016/j.jpowsour.2022.231939",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li3InCl6-coated LiCoO2 for high-performance all solid-state batteries",
+     "url": "https://doi.org/10.1063/5.0097432",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li+ transportation mechanisms in the halide solid-state electrolytes Li3YCl6 and Li3InCl6",
+     "url": "https://doi.org/10.1680/jemmr.21.00062",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li3InCl6 Electrolyte with High Voltage Compatibility for All-Solid-State Batteries",
+     "url": "https://doi.org/10.1149/ma2023-0161017mtgabs",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Application of Li3InCl6-PEO composite electrolyte in all-solid-state battery",
+     "url": "https://doi.org/10.2139/ssrn.5413894",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Investigation of the effect of F-doping on the solid-electrolyte property of Li3InCl6",
+     "url": "https://doi.org/10.1016/j.jpowsour.2023.232962",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3LaBr6": {
+  "formula": "Li3LaBr6",
+  "display_formula": "Li3LaBr6",
+  "chemsys": "Br-La-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "High ionic conductivity materials Li3YBr6 and Li3LaBr6 for solid-state batteries: first-principles calculations",
+     "url": "https://doi.org/10.1088/1361-648x/ad68b4",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3LaCl6": {
+  "formula": "Li3LaCl6",
+  "display_formula": "Li3LaCl6",
+  "chemsys": "Cl-La-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Synthesis and Characterization of Li3YCl6, Li3LaCl6, and Li3InCl6 Halide Electrolytes For All-Solid-State Lithium-Ion Batteries (ASSLIBs)",
+     "url": "https://openalex.org/W7128577673",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Lu(Br2Cl)2": {
+  "formula": "Li3Lu(Br2Cl)2",
+  "display_formula": "Li3LuCl2Br4",
+  "chemsys": "Br-Cl-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Lu(BrCl)3": {
+  "formula": "Li3Lu(BrCl)3",
+  "display_formula": "Li3LuCl3Br3",
+  "chemsys": "Br-Cl-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Lu(BrCl2)2": {
+  "formula": "Li3Lu(BrCl2)2",
+  "display_formula": "Li3LuCl4Br2",
+  "chemsys": "Br-Cl-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3LuBr6": {
+  "formula": "Li3LuBr6",
+  "display_formula": "Li3LuBr6",
+  "chemsys": "Br-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3LuCl6": {
+  "formula": "Li3LuCl6",
+  "display_formula": "Li3LuCl6",
+  "chemsys": "Cl-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Characterization of a Novel Chloride Li-ion Conductor Li2LuCl5",
+     "url": "https://doi.org/10.5796/electrochemistry.23-00063",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Interlayer Design for Halide Electrolytes in All\u2010Solid\u2010State Lithium Metal Batteries",
+     "url": "https://doi.org/10.1002/adma.202501838",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Tern\u00e4re Halogenide vom Typ A3MX6. VI [1]. Tern\u00e4re Chloride der Selten\u2010Erd\u2010Elemente mit Lithium, Li3MCl6 (M TbLu, Y, Sc): Synthese, Kristallstrukturen und Ionenbewegung",
+     "url": "https://doi.org/10.1002/zaac.19976230710",
+     "year": 1997,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li3\u2013xZrx(Ho/Lu)1\u2013xCl6 Solid Electrolytes Enable Ultrahigh-Loading Solid-State Batteries with a Prelithiated Si Anode",
+     "url": "https://doi.org/10.1021/acsenergylett.3c00763",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3NdBr6": {
+  "formula": "Li3NdBr6",
+  "display_formula": "Li3NdBr6",
+  "chemsys": "Br-Li-Nd",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3NdCl6": {
+  "formula": "Li3NdCl6",
+  "display_formula": "Li3NdCl6",
+  "chemsys": "Cl-Li-Nd",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3PrBr6": {
+  "formula": "Li3PrBr6",
+  "display_formula": "Li3PrBr6",
+  "chemsys": "Br-Li-Pr",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3PrCl6": {
+  "formula": "Li3PrCl6",
+  "display_formula": "Li3PrCl6",
+  "chemsys": "Cl-Li-Pr",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Sc(Br2Cl)2": {
+  "formula": "Li3Sc(Br2Cl)2",
+  "display_formula": "Li3ScCl2Br4",
+  "chemsys": "Br-Cl-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Sc(BrCl)3": {
+  "formula": "Li3Sc(BrCl)3",
+  "display_formula": "Li3ScCl3Br3",
+  "chemsys": "Br-Cl-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Sc(BrCl2)2": {
+  "formula": "Li3Sc(BrCl2)2",
+  "display_formula": "Li3ScCl4Br2",
+  "chemsys": "Br-Cl-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3ScBr6": {
+  "formula": "Li3ScBr6",
+  "display_formula": "Li3ScBr6",
+  "chemsys": "Br-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6083011"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Luminescence in Li3ScBr6: Ce",
+     "url": "https://doi.org/10.1088/1742-6596/1913/1/012036",
+     "year": 2021,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3ScCl6": {
+  "formula": "Li3ScCl6",
+  "display_formula": "Li3ScCl6",
+  "chemsys": "Cl-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "present",
+    "MP+GNoME (API)": "present",
+    "Materials Project": "present",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "present"
+   },
+   "ids": {
+    "Materials Project": [
+     "mp-686004",
+     "mp-1111284"
+    ],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "dft_3d_JVASP-110663",
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in MP (API), MP+GNoME (API), Materials Project, JARVIS",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Synthesis and luminescence of Li3ScCl6:Ce",
+     "url": "https://doi.org/10.1063/5.0060843",
+     "year": 2021,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Anionic Sublattices in Halide Solid Electrolytes: A Case Study with the High\u2010Pressure Phase of Li3ScCl6",
+     "url": "https://doi.org/10.1002/anie.202401779",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Ab-initio phonon calculation for Li3ScCl6 / C2 (5) / materials id 686004",
+     "url": "https://openalex.org/W7144941889",
+     "year": null,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Anionic Sublattices in Halide Solid Electrolytes: A Case Study with the High\u2010Pressure Phase of Li3ScCl6",
+     "url": "https://doi.org/10.1002/ange.202401779",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Assessing the impact of Li+ concentration and stacking faults with aliovalent substitutions in Li3ScCl6 and its influence on the transport properties",
+     "url": "https://doi.org/10.17879/x91za-mef82",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Assessing the Impact of Li+ Concentration and Stacking Faults in the Aliovalent-Substituted Ionic Conductor Li3ScCl6",
+     "url": "https://doi.org/10.1021/acs.inorgchem.5c01371",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "The effect of defects for the ion transport of Li3ScCl6 and Li3InCl6 with the interface of lithium metal anode: A first-principles study",
+     "url": "https://doi.org/10.1016/j.mtcomm.2023.105764",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Deflecting lithium dendritic cracks in multi-layered solid electrolytes",
+     "url": "https://doi.org/10.1016/j.joule.2024.06.024",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 2,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3SmBr6": {
+  "formula": "Li3SmBr6",
+  "display_formula": "Li3SmBr6",
+  "chemsys": "Br-Li-Sm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3SmCl6": {
+  "formula": "Li3SmCl6",
+  "display_formula": "Li3SmCl6",
+  "chemsys": "Cl-Li-Sm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Prediction of Novel Trigonal Chloride Superionic Conductors as Promising Solid Electrolytes for All\u2010Solid\u2010State Lithium Batteries",
+     "url": "https://doi.org/10.1002/advs.202404213",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3TbBr6": {
+  "formula": "Li3TbBr6",
+  "display_formula": "Li3TbBr6",
+  "chemsys": "Br-Li-Tb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Stable all-solid-state Li-Te battery with Li3TbBr6 superionic conductor",
+     "url": "https://doi.org/10.1007/s12274-023-5559-4",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "The TbBr3\u2013LiBr binary system: Experimental thermodynamic investigation and assessment of phase diagram",
+     "url": "https://doi.org/10.1016/j.jct.2012.06.021",
+     "year": 2012,
+     "source": "openalex",
+     "exact_formula": false
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3TbCl6": {
+  "formula": "Li3TbCl6",
+  "display_formula": "Li3TbCl6",
+  "chemsys": "Cl-Li-Tb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3TiBr6": {
+  "formula": "Li3TiBr6",
+  "display_formula": "Li3TiBr6",
+  "chemsys": "Br-Li-Ti",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3TiCl6": {
+  "formula": "Li3TiCl6",
+  "display_formula": "Li3TiCl6",
+  "chemsys": "Cl-Li-Ti",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6077334"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Exploring Li-Ion Transport Properties of Li3TiCl6: A Machine Learning Molecular Dynamics Study",
+     "url": "https://doi.org/10.1149/1945-7111/ad4ac9",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li3TiCl6 as ionic conductive and compressible positive electrode active material for all-solid-state lithium-based batteries",
+     "url": "https://doi.org/10.1038/s41467-023-37122-7",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Catholyte-free composite cathodes to improve the energy density of low-cost LiMn 2 O 4 -based all-solid-state lithium batteries",
+     "url": "https://doi.org/10.26599/nre.2026.9120273",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3TmBr6": {
+  "formula": "Li3TmBr6",
+  "display_formula": "Li3TmBr6",
+  "chemsys": "Br-Li-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3TmCl6": {
+  "formula": "Li3TmCl6",
+  "display_formula": "Li3TmCl6",
+  "chemsys": "Cl-Li-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": false,
+   "links": [
+    {
+     "title": "A Series of Ternary Metal Chloride Superionic Conductors for High\u2010Performance All\u2010Solid\u2010State Lithium Batteries",
+     "url": "https://doi.org/10.1002/aenm.202103921",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": false
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3VBr6": {
+  "formula": "Li3VBr6",
+  "display_formula": "Li3VBr6",
+  "chemsys": "Br-Li-V",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3VCl6": {
+  "formula": "Li3VCl6",
+  "display_formula": "Li3VCl6",
+  "chemsys": "Cl-Li-V",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "An Active Halide Catholyte Boosts the Extra Capacity for All\u2010Solid\u2010State Batteries",
+     "url": "https://doi.org/10.1002/adma.202405277",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Y(Br2Cl)2": {
+  "formula": "Li3Y(Br2Cl)2",
+  "display_formula": "Li3YCl2Br4",
+  "chemsys": "Br-Cl-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Y(BrCl)3": {
+  "formula": "Li3Y(BrCl)3",
+  "display_formula": "Li3YCl3Br3",
+  "chemsys": "Br-Cl-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "High-performance Li3YCl3Br3 halide solid electrolyte synthesized using wet-chemistry route for all-solid-state battery",
+     "url": "https://doi.org/10.1016/s1003-6326(25)66819-1",
+     "year": 2025,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Y(BrCl2)2": {
+  "formula": "Li3Y(BrCl2)2",
+  "display_formula": "Li3YCl4Br2",
+  "chemsys": "Br-Cl-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Stable cycling of halide solid state electrolyte enabled by a dynamic layered solid electrolyte interphase between Li metal and Li3YCl4Br2",
+     "url": "https://doi.org/10.1016/j.ensm.2024.103733",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3YBr6": {
+  "formula": "Li3YBr6",
+  "display_formula": "Li3YBr6",
+  "chemsys": "Br-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "present",
+    "MP+GNoME (API)": "present",
+    "Materials Project": "present",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "present"
+   },
+   "ids": {
+    "Materials Project": [
+     "mp-1147619"
+    ],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "dft_3d_JVASP-141208",
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in MP (API), MP+GNoME (API), Materials Project, JARVIS",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Fast Li Ion Dynamics in the Mechanosynthesized Nanostructured Form of the Solid Electrolyte Li3YBr6",
+     "url": "https://doi.org/10.1021/acssuschemeng.0c06694",
+     "year": 2020,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Tuning ionic conductivity and electrode compatibility of Li3YBr6 for high-performance all solid-state Li batteries",
+     "url": "https://doi.org/10.1016/j.nanoen.2020.105097",
+     "year": 2020,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Insights into the Lithium Substructure of the Superionic Conductors Li3YCl6 and Li3YBr6",
+     "url": "https://doi.org/10.26434/chemrxiv.13224296",
+     "year": 2020,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "High ionic conductivity materials Li3YBr6 and Li3LaBr6 for solid-state batteries: first-principles calculations",
+     "url": "https://doi.org/10.1088/1361-648x/ad68b4",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "A Critical Review of Theoretical Approaches to Compute Ionic Conductivity in Solid-State Electrolytes: The Case Study of Li3YCl6 and Li3YBr6",
+     "url": "https://doi.org/10.26434/chemrxiv.15009505/v1",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Investigation on crystallographic orientation dependent ion transportation in Li3YBr6 superionic conductor for lithium ion battery",
+     "url": "https://doi.org/10.1016/j.jpcs.2024.112146",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Insights into the Crystal Structure of Halide Solid Electrolytes and Li Diffusion",
+     "url": "https://doi.org/10.1149/ma2022-024390mtgabs",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Lithium Chlorides and Bromides as Promising Solid\u2010State Chemistries for Fast Ion Conductors with Good Electrochemical Stability",
+     "url": "https://doi.org/10.1002/anie.201901938",
+     "year": 2019,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3YCl6": {
+  "formula": "Li3YCl6",
+  "display_formula": "Li3YCl6",
+  "chemsys": "Cl-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "present",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [
+     "6077260"
+    ],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in OQMD",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "possibly reported",
+   "exact_reported": true,
+   "links": [
+    {
+     "title": "Optical and scintillation properties of pure and Ce3+-doped Cs2LiYCl6 and Li3YCl6:Ce3+ crystals",
+     "url": "https://doi.org/10.1016/s0022-2313(99)00047-2",
+     "year": 1999,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Stability and Metastability of Li3YCl6 and Li3HoCl6",
+     "url": "https://doi.org/10.1246/bcsj.20230132",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes",
+     "url": "https://doi.org/10.48550/arxiv.2605.05603",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Insights into the Lithium Substructure of the Superionic Conductors Li3YCl6 and Li3YBr6",
+     "url": "https://doi.org/10.26434/chemrxiv.13224296",
+     "year": 2020,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Revealing the Pnma crystal structure and ion-transport mechanism of the Li3YCl6 solid electrolyte",
+     "url": "https://doi.org/10.1016/j.xcrp.2023.101428",
+     "year": 2023,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Li+ transportation mechanisms in the halide solid-state electrolytes Li3YCl6 and Li3InCl6",
+     "url": "https://doi.org/10.1680/jemmr.21.00062",
+     "year": 2022,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Structure of Li3YCl6 and Its Effect on Lithium Ionic Conductivity",
+     "url": "https://doi.org/10.1021/jacs.6c06971",
+     "year": 2026,
+     "source": "openalex",
+     "exact_formula": true
+    },
+    {
+     "title": "Influence Mechanism of Interfacial Oxidation of Li3YCl6 Solid Electrolyte on Reduction Potential",
+     "url": "https://doi.org/10.1002/chem.202303884",
+     "year": 2024,
+     "source": "openalex",
+     "exact_formula": true
+    }
+   ],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3Yb(Br2Cl)2": {
+  "formula": "Li3Yb(Br2Cl)2",
+  "display_formula": "Li3YbCl2Br4",
+  "chemsys": "Br-Cl-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Yb(BrCl)3": {
+  "formula": "Li3Yb(BrCl)3",
+  "display_formula": "Li3YbCl3Br3",
+  "chemsys": "Br-Cl-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3Yb(BrCl2)2": {
+  "formula": "Li3Yb(BrCl2)2",
+  "display_formula": "Li3YbCl4Br2",
+  "chemsys": "Br-Cl-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li3YbBr6": {
+  "formula": "Li3YbBr6",
+  "display_formula": "Li3YbBr6",
+  "chemsys": "Br-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 2
+  }
+ },
+ "Li3YbCl6": {
+  "formula": "Li3YbCl6",
+  "display_formula": "Li3YbCl6",
+  "chemsys": "Cl-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "present",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [
+     "mp-673763"
+    ],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "in Materials Project",
+   "absent": false
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 1,
+   "n_queries_failed": 4
+  }
+ },
+ "Li6DyErCl12": {
+  "formula": "Li6DyErCl12",
+  "display_formula": "Li3Dy0.5Er0.5Cl6",
+  "chemsys": "Cl-Dy-Er-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6DyHoCl12": {
+  "formula": "Li6DyHoCl12",
+  "display_formula": "Li3Ho0.5Dy0.5Cl6",
+  "chemsys": "Cl-Dy-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6DyInCl12": {
+  "formula": "Li6DyInCl12",
+  "display_formula": "Li3Dy0.5In0.5Cl6",
+  "chemsys": "Cl-Dy-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6DyLuCl12": {
+  "formula": "Li6DyLuCl12",
+  "display_formula": "Li3Lu0.5Dy0.5Cl6",
+  "chemsys": "Cl-Dy-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6DyScCl12": {
+  "formula": "Li6DyScCl12",
+  "display_formula": "Li3Dy0.5Sc0.5Cl6",
+  "chemsys": "Cl-Dy-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6DyTmCl12": {
+  "formula": "Li6DyTmCl12",
+  "display_formula": "Li3Dy0.5Tm0.5Cl6",
+  "chemsys": "Cl-Dy-Li-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6DyYCl12": {
+  "formula": "Li6DyYCl12",
+  "display_formula": "Li3Dy0.5Y0.5Cl6",
+  "chemsys": "Cl-Dy-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6ErInCl12": {
+  "formula": "Li6ErInCl12",
+  "display_formula": "Li3In0.5Er0.5Cl6",
+  "chemsys": "Cl-Er-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6ErLuCl12": {
+  "formula": "Li6ErLuCl12",
+  "display_formula": "Li3Lu0.5Er0.5Cl6",
+  "chemsys": "Cl-Er-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6ErScCl12": {
+  "formula": "Li6ErScCl12",
+  "display_formula": "Li3Er0.5Sc0.5Cl6",
+  "chemsys": "Cl-Er-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6ErTmCl12": {
+  "formula": "Li6ErTmCl12",
+  "display_formula": "Li3Tm0.5Er0.5Cl6",
+  "chemsys": "Cl-Er-Li-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdDyCl12": {
+  "formula": "Li6GdDyCl12",
+  "display_formula": "Li3Dy0.5Gd0.5Cl6",
+  "chemsys": "Cl-Dy-Gd-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdErCl12": {
+  "formula": "Li6GdErCl12",
+  "display_formula": "Li3Er0.5Gd0.5Cl6",
+  "chemsys": "Cl-Er-Gd-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdHoCl12": {
+  "formula": "Li6GdHoCl12",
+  "display_formula": "Li3Gd0.5Ho0.5Cl6",
+  "chemsys": "Cl-Gd-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdInCl12": {
+  "formula": "Li6GdInCl12",
+  "display_formula": "Li3Gd0.5In0.5Cl6",
+  "chemsys": "Cl-Gd-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdLuCl12": {
+  "formula": "Li6GdLuCl12",
+  "display_formula": "Li3Gd0.5Lu0.5Cl6",
+  "chemsys": "Cl-Gd-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdScCl12": {
+  "formula": "Li6GdScCl12",
+  "display_formula": "Li3Sc0.5Gd0.5Cl6",
+  "chemsys": "Cl-Gd-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdTmCl12": {
+  "formula": "Li6GdTmCl12",
+  "display_formula": "Li3Gd0.5Tm0.5Cl6",
+  "chemsys": "Cl-Gd-Li-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6GdYCl12": {
+  "formula": "Li6GdYCl12",
+  "display_formula": "Li3Y0.5Gd0.5Cl6",
+  "chemsys": "Cl-Gd-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6HoErCl12": {
+  "formula": "Li6HoErCl12",
+  "display_formula": "Li3Er0.5Ho0.5Cl6",
+  "chemsys": "Cl-Er-Ho-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6HoInCl12": {
+  "formula": "Li6HoInCl12",
+  "display_formula": "Li3Ho0.5In0.5Cl6",
+  "chemsys": "Cl-Ho-In-Li",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6HoLuCl12": {
+  "formula": "Li6HoLuCl12",
+  "display_formula": "Li3Ho0.5Lu0.5Cl6",
+  "chemsys": "Cl-Ho-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6HoScCl12": {
+  "formula": "Li6HoScCl12",
+  "display_formula": "Li3Sc0.5Ho0.5Cl6",
+  "chemsys": "Cl-Ho-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6HoTmCl12": {
+  "formula": "Li6HoTmCl12",
+  "display_formula": "Li3Ho0.5Tm0.5Cl6",
+  "chemsys": "Cl-Ho-Li-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6LuInCl12": {
+  "formula": "Li6LuInCl12",
+  "display_formula": "Li3Lu0.5In0.5Cl6",
+  "chemsys": "Cl-In-Li-Lu",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6LuScCl12": {
+  "formula": "Li6LuScCl12",
+  "display_formula": "Li3Lu0.5Sc0.5Cl6",
+  "chemsys": "Cl-Li-Lu-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6ScInCl12": {
+  "formula": "Li6ScInCl12",
+  "display_formula": "Li3In0.5Sc0.5Cl6",
+  "chemsys": "Cl-In-Li-Sc",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6TmInCl12": {
+  "formula": "Li6TmInCl12",
+  "display_formula": "Li3In0.5Tm0.5Cl6",
+  "chemsys": "Cl-In-Li-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 5,
+   "n_queries_failed": 3
+  }
+ },
+ "Li6TmLuCl12": {
+  "formula": "Li6TmLuCl12",
+  "display_formula": "Li3Tm0.5Lu0.5Cl6",
+  "chemsys": "Cl-Li-Lu-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 5
+  }
+ },
+ "Li6TmScCl12": {
+  "formula": "Li6TmScCl12",
+  "display_formula": "Li3Sc0.5Tm0.5Cl6",
+  "chemsys": "Cl-Li-Sc-Tm",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YErCl12": {
+  "formula": "Li6YErCl12",
+  "display_formula": "Li3Er0.5Y0.5Cl6",
+  "chemsys": "Cl-Er-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "absent",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YHoCl12": {
+  "formula": "Li6YHoCl12",
+  "display_formula": "Li3Y0.5Ho0.5Cl6",
+  "chemsys": "Cl-Ho-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 4,
+   "n_queries_failed": 4
+  }
+ },
+ "Li6YInCl12": {
+  "formula": "Li6YInCl12",
+  "display_formula": "Li3Y0.5In0.5Cl6",
+  "chemsys": "Cl-In-Li-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 3,
+   "n_queries_failed": 5
+  }
+ },
+ "Li6YLuCl12": {
+  "formula": "Li6YLuCl12",
+  "display_formula": "Li3Lu0.5Y0.5Cl6",
+  "chemsys": "Cl-Li-Lu-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YScCl12": {
+  "formula": "Li6YScCl12",
+  "display_formula": "Li3Sc0.5Y0.5Cl6",
+  "chemsys": "Cl-Li-Sc-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YTmCl12": {
+  "formula": "Li6YTmCl12",
+  "display_formula": "Li3Tm0.5Y0.5Cl6",
+  "chemsys": "Cl-Li-Tm-Y",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbDyCl12": {
+  "formula": "Li6YbDyCl12",
+  "display_formula": "Li3Yb0.5Dy0.5Cl6",
+  "chemsys": "Cl-Dy-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbErCl12": {
+  "formula": "Li6YbErCl12",
+  "display_formula": "Li3Yb0.5Er0.5Cl6",
+  "chemsys": "Cl-Er-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbGdCl12": {
+  "formula": "Li6YbGdCl12",
+  "display_formula": "Li3Gd0.5Yb0.5Cl6",
+  "chemsys": "Cl-Gd-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbHoCl12": {
+  "formula": "Li6YbHoCl12",
+  "display_formula": "Li3Yb0.5Ho0.5Cl6",
+  "chemsys": "Cl-Ho-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbInCl12": {
+  "formula": "Li6YbInCl12",
+  "display_formula": "Li3In0.5Yb0.5Cl6",
+  "chemsys": "Cl-In-Li-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbLuCl12": {
+  "formula": "Li6YbLuCl12",
+  "display_formula": "Li3Yb0.5Lu0.5Cl6",
+  "chemsys": "Cl-Li-Lu-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbScCl12": {
+  "formula": "Li6YbScCl12",
+  "display_formula": "Li3Yb0.5Sc0.5Cl6",
+  "chemsys": "Cl-Li-Sc-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbTmCl12": {
+  "formula": "Li6YbTmCl12",
+  "display_formula": "Li3Tm0.5Yb0.5Cl6",
+  "chemsys": "Cl-Li-Tm-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ },
+ "Li6YbYCl12": {
+  "formula": "Li6YbYCl12",
+  "display_formula": "Li3Y0.5Yb0.5Cl6",
+  "chemsys": "Cl-Li-Y-Yb",
+  "db": {
+   "by_provider": {
+    "MP (API)": "absent",
+    "MP+GNoME (API)": "absent",
+    "Materials Project": "absent",
+    "Alexandria": "unchecked",
+    "OQMD": "unchecked",
+    "JARVIS": "absent"
+   },
+   "ids": {
+    "Materials Project": [],
+    "Alexandria": [],
+    "OQMD": [],
+    "JARVIS": [
+     "figshare dft_3d"
+    ]
+   },
+   "summary": "absent (unchecked: Alexandria, OQMD)",
+   "absent": true
+  },
+  "lit": {
+   "lit_status": "none found",
+   "exact_reported": false,
+   "links": [],
+   "n_queries_ok": 2,
+   "n_queries_failed": 6
+  }
+ }
+}

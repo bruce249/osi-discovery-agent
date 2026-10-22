@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "Li3InCl6",
+ "papers": [
+  {
+   "title": "Zur Kristallstruktur von Li3InCl6",
+   "abstract": "Ternary Halides of the A3MX6 Type. VIII On the Crystal Structure of Li3InCl6 Colorless single crystals of Li3InCl6 are obtained from a 3 : 1 molar mixture of LiCl and InCl3 via Bridgman-type crystal growth. The crystal structure (monoclinic, C2/m, Z = 2, a = 643.2(3), b = 1109.3(3), c = 639.8(3) pm, \u03b2 = 109.8(1)\u00b0 R1 = 0.0549, wR2 = 0.1364 (all data) may be derived from the AlCl3-type of structure as was previously also found for the bromides Li3MBr6 (M = Sm\u2013Lu, Y) and iodides Li3MI6 (M = Er\u2013Yb, Y).",
+   "url": "https://doi.org/10.1002/(sici)1521-3749(199904)625:4<539::aid-zaac539>3.0.co;2-j",
+   "year": 1999
+  },
+  {
+   "title": "Materials Data on Li3InCl6 by Materials Project",
+   "abstract": "Li3InCl6 is High-temperature superconductor-derived structured and crystallizes in the cubic Fm-3m space group. The structure is three-dimensional and consists of eight lithium molecules and one LiInCl6 framework. In the LiInCl6 framework, Li1+ is bonded to six equivalent Cl1- atoms to form LiCl6 octahedra that share corners with six equivalent InCl6 octahedra. The corner-sharing octahedral tilt angles are 0\u00b0. All Li\u2013Cl bond lengths are 2.50 \u00c5. In3+ is bonded to six equivalent Cl1- atoms to form InCl6 octahedra that share corners with six equivalent LiCl6 octahedra. The corner-sharing octahedral tilt angles are 0\u00b0. All In\u2013Cl bond lengths are 2.52 \u00c5. Cl1- is bonded in a linear geometry to one Li1+ and one In3+ atom.",
+   "url": "https://doi.org/10.17188/1689484",
+   "year": 2020
+  },
+  {
+   "title": "Improved stability against moisture and lithium metal by doping F into Li3InCl6",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2022.231939",
+   "year": 2022
+  },
+  {
+   "title": "Li3InCl6-coated LiCoO2 for high-performance all solid-state batteries",
+   "abstract": "Halide solid electrolytes (HSEs) could be coated on high-voltage oxide cathodes at molecular-level via a solution process, which is highly favorable for reducing the interface impedance. However, during the preparation of composite cathodes, hydrate intermediates of HSEs are easily hydrolyzed to produce inactive impurities. In this work, the vacuum drying assisted method facilitates the generation of pure Li3InCl6 (LIC) on the surface of LiCoO2 (LCO) to improve the electrolyte/electrode solid\u2013solid interface as well as the electrochemical stability of solid electrolyte under high voltage. By introducing Li7P3S11 as an anode buffer layer, 30 wt. %-LIC-coated LCO demonstrates high specific capacity of 121.7 mAh g\u22121 and good cycling stability. Our study highlights a promising method to build advanced composite cathodes for all-solid-state batteries.",
+   "url": "https://doi.org/10.1063/5.0097432",
+   "year": 2022
+  },
+  {
+   "title": "Li+ transportation mechanisms in the halide solid-state electrolytes Li3YCl6 and Li3InCl6",
+   "abstract": "Developing outstanding halide solid-state electrolytes (SSEs) has attracted a lot of attention in the area of all-solid-state batteries, owing to their excellent compatibility with high-voltage active materials. In halide compounds, lithium (Li+) ions are usually confined in the center of octahedral units, which seriously impedes the fast transportation of lithium ions. However, the representative SSEs, Li3YCl6 and Li3InCl6, present ultrafast ionic conductivities below 0.1 mS/cm at room temperature, which may be closely connected with their particular configurations. Through assessments of the transportation mechanisms in Li3YCl6 and Li3InCl6 by careful density functional theory simulations, two kinds of lithium-ion diffusion channels can be identified. Furthermore, the overall performances of Li3YCl6 and Li3InCl6, including energetic stability, electronic chemical window and electronic structures, are systematically studied. This will bring deep insights into and reliable criteria for exploring next-generation halide SSEs.",
+   "url": "https://doi.org/10.1680/jemmr.21.00062",
+   "year": 2022
+  },
+  {
+   "title": "Li3InCl6 Electrolyte with High Voltage Compatibility for All-Solid-State Batteries",
+   "abstract": "Identifying a highly Li+ -conductive solid-state electrolyte (SSE) with good chemical and electrochemical stability is crucial for enabling safe, energy-dense all-solid-state lithium metal batteries. Lithium halide SSEs have come into the spotlight owing to high ionic conductivities (>10\u22123 S cm\u22121 at room temperature), excellent electrode interface stability, low-cost mass production, good compatibility with high-voltage electrodes, and wide electrochemical window. The study is focused on indium halides due to the high stability of InX6 3\u2212 (X = Cl or Br) octahedrons, flexibility with electrodes as well as electrochemical stability at high voltages. Regarding LiNi0.8Co0.15Al0.05O2 (NCA) cathode, double doping with manganese and titanium provides improved electrochemical performance and decreased degradation during charge-discharge cycles. Furthermore, small amounts of dopants at the cationic sites increase the voltage range. We will study the role of metal (Mn, Ti) doping on NCA cathode and its electrochemical behavior in solid-state batteries. The results regarding the assembled Mn- Ti doped NCA/ Li3InCl6/Li electrochemical cells will be presented in terms of their capacity, rate capability, and stability. This study opens new possibilities for using Li3InCl6 as a promising electrolyte with a high-voltage cathode for application in all-solid-state lithium-metal batteries.",
+   "url": "https://doi.org/10.1149/ma2023-0161017mtgabs",
+   "year": 2023
+  },
+  {
+   "title": "Application of Li3InCl6-PEO composite electrolyte in all-solid-state battery",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.5413894",
+   "year": 2025
+  },
+  {
+   "title": "Investigation of the effect of F-doping on the solid-electrolyte property of Li3InCl6",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2023.232962",
+   "year": 2023
+  },
+  {
+   "title": "Fluorine-doped Li3InCl6 to enhance ionic conductivity and air stability",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jallcom.2023.172479",
+   "year": 2023
+  },
+  {
+   "title": "Surface modification of Li3InCl6 provides superior electrochemical performance for LiMn2O4 cathode materials",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.cclet.2022.108047",
+   "year": 2022
+  },
+  {
+   "title": "The effect of NH4Cl on the preparation of Li3InCl6 by aqueous phase synthesis",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.mtchem.2025.102882",
+   "year": 2025
+  },
+  {
+   "title": "Influence of compositional variation of Li3InCl6 on the solid-electrolyte property",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.matlet.2024.137318",
+   "year": 2024
+  },
+  {
+   "title": "Application of Li3incl6-Peo Composite Electrolyte in All-Solid-State Battery",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.5194271",
+   "year": 2025
+  },
+  {
+   "title": "Inorganic-polymer hybrid solid-state electrolytes based on Li3InCl6",
+   "abstract": "174 p.",
+   "url": "https://openalex.org/W7110617142",
+   "year": 2024
+  },
+  {
+   "title": "Elucidating the impact of Li3InCl6-coated LiNi0.8Co0.15Al0.05O\u2082 on the electro-chemo mechanics of Li6PS5Cl-based solid-state batteries",
+   "abstract": "Li6PS5Cl has attracted much attention due to its high Li-ion conductivity and ease in processibility, which allows large-scale applications of solid-state batteries. However, when combined with high-voltage cathodes, Li6PS5Cl suffers from detrimental side reactions. Due to the stability towards high voltages combined with a relatively high Li-ion conductivity Li3InCl6 has been considered as catholyte with the potential to compensate Li6PS5Cl shortcomings. Despite previous claims about its (electro)chemical instability, we hypothesize that Li3InCl6 remains a promising choice when (i) triple junctions between Li3InCl6, Li6PS5Cl, and Ni-rich cathodes are avoided and (ii) the cut-off voltage is below 3.6 V (vs Li/In). Therefore, a core-shell-structured cathode, i.e., LiNi0.8Co0.15Al0.05O\u2082 particles with a 100 nm thick pin-hole-free Li3InCl6 layer, has been developed using mechanofusion. When employed in a solid-state battery with a cut-off voltage of 3.58V (vs Li/In) a specific capacity enhancement of about 80 mAh/g at any C-rate (0.1 to 1C) was achieved. The stability of Li3InCl6 as well as its functionality to prevent Li6PS5Cl from decomposition and cathode particles from mechanical degradation has been demonstrated, by synchrotron operando XRD and, e.g., post-mortem analysis using Plasma FIB SEM and XPS. This study shows that Li3InCl6 can be used as catholyte when applied appropriately.",
+   "url": "https://doi.org/10.26434/chemrxiv-2023-lbp9n",
+   "year": 2023
+  },
+  {
+   "title": "Cu+ doping in Li3InCl6 for enhanced ionic conductivity and air stability",
+   "abstract": "",
+   "url": "https://doi.org/10.1007/s10008-026-06605-0",
+   "year": 2026
+  },
+  {
+   "title": "Thin-film Li3InCl6 electrolyte prepared by solution casting method for all-solid-state batteries",
+   "abstract": "All-solid-state batteries (ASSBs) with solid-state electrolytes (SSEs) have become a hot research topic in recent years due to their high energy density and safety. However, most research is limited to the use of electrode and electrolyte powders pressed together for testing purposes, and it is impossible to achieve the goal of mass production by manufacturing complete batteries only via compression. Such a method might need extremely high pressure to obtain a fully dense system composed of both electrodes separated by the electrolyte and the largest the battery surface the highest the pressure demanded. Therefore, how to achieve mass production of SSEs while maintaining quality control is the focus of current research. In this work, we selected Li3InCl6 (LIC) as a solid-state electrolyte added with a small amount of ethyl cellulose as the binder. A wet method was developed accordingly using acetonitrile as solvent to fabricate thin LIC composite film SSE (LIC-ACE) directly on filter membrane deposition. The prepared SSEs showed the following characteristics: easy to peel off from the deposition support while maintaining structural integrity, and a high ionic conductivity of 0.76 mS cm\u22121 at room temperature. The structure, porosity and other properties were determined by SEM, XRD, and BET characterization. Finally, it can withstand more than 1000 h cycles without short circuit in symmetrical LiLi cell test and shows good electrochemical performance in the ASSBs test.",
+   "url": "https://doi.org/10.1016/j.est.2023.108244",
+   "year": 2023
+  },
+  {
+   "title": "Investigation of the structure and ionic conductivity of a Li3InCl6 modified by dry room annealing for solid-state Li-ion battery applications",
+   "abstract": "Progress in new sustainable technologies depends on the development of battery materials, specifically on safer, low-cost, and higher energy density batteries. One new type of materials are the halide solid electrolytes (HSEs), which have been shown to exhibit high ionic conductivity, deformability, and oxidative stability. Here, the synthesis of Li3InCl6 (LIC) HSEs by ball-milling followed by dry room annealing is investigated. Crystal structure, particle size, and ionic conductivity are analyzed using a combination of X-ray diffraction, transmission electron microscopy, and electrochemical impedance spectroscopy. Dry room annealing increases the presence of impurities in the sample but also increases the Li+ ionic conductivity up to 1.03 mS cm\u22121. Additional pulsed-field gradient and relaxation time NMR measurements were performed to understand the lithium diffusion in the LIC samples. Two-dimensional diffusion \u2013 T2 relaxation correlation and T2 relaxation exchange measurements showed that there are multiple unique Li atomic motion sites, which are correlated to different rates of diffusive, micrometer-scale motion. This work outlines a simple solid-state synthesis approach and a novel strategy for designing advanced materials, understanding the ionic conduction, as well as the challenges in scalable wet processing of halide-based cathode sheets for solid-state battery applications.",
+   "url": "https://doi.org/10.1016/j.matdes.2023.111690",
+   "year": 2023
+  },
+  {
+   "title": "Halide Electrolyte Li3InCl6-Based All-Solid-State Lithium Batteries With Slurry-Coated LiNi0.8Co0.1Mn0.1O2 Composite Cathode: Effect of Binders",
+   "abstract": "All-solid-state lithium batteries (ASSLBs) with solid-state electrolytes (SSEs) are considered as a promising next-generation energy storage technology due to their improved safety and higher energy density. Among various SSEs, halide Li3InCl6 is emerging as a promising candidate because of its high ionic conductivity, air-stability, and wide electrochemical window. Generally, most of the ASSLBs based on inorganic SSEs are assembled by mixed dry pressing, which is not easy, to achieve uniform dispersion of powder composite cathode. Here, a slurry coating method by dispersing active materials (LiNi0.8Co0.1Mn0.1O2), SSEs (Li3InCl6), binders (ethyl cellulose, polymethyl methacrylate, styrene butadiene rubber, and nitrile rubber), and conductive carbon black in toluene solvent is used to fabricate cathodes. We studied the effects of different kinds of binders and their contents on the electrochemical performance of ASSLBs. The results show that polymethyl methacrylate, ethyl cellulose, styrene butadiene rubber, and nitrile rubber binders are all suitable for preparing cathodes, and a binder content of 2 wt% can achieve the best electrochemical performance of the ASSLBs. This work proves that the intimate contact between the active material and the halide SSE in the electrode can be realized by using slurry coating method with suitable binders, thus achieving stable electrochemical performance.",
+   "url": "https://doi.org/10.3389/fmats.2021.727617",
+   "year": 2021
+  },
+  {
+   "title": "Analysis of ion conduction behavior of Nb- and Zr-doped Li3InCl6-based materials via material simulation",
+   "abstract": "The Li-ion conductivities of Li3InCl6 (LIC), which is a promising chloride solid electrolyte, and its compositional derivatives, Nb5+- and Zr4+-doped LIC, i.e., Li3\u22122xIn1\u2212xNbxCl6 and Li3\u2212yIn1\u2212yZryCl6, respectively, were experimentally and computationally investigated. An increase in the ionic conductivity caused by Nb5+ or Zr4+ doping, which was due to the increase in Li vacancies, was observed in both the experimental and computational results. Nb5+ doping yielded a larger increase in conductivity at 60 \u00b0C. First-principles molecular dynamics studies indicated two factors affecting the Li-ion conductivity under doping with higher-valent ions: (1) the vacancy trapping effect and (2) the reduction in the phase-transition temperature from a Li/vacancy ordered structure to a disordered structure. In particular, in factor (2), the effect of Nb5+ doping is larger than that of Zr4+ doping, which supports the improvement in ionic conductivity at 333 K in the experiment.",
+   "url": "https://doi.org/10.1063/5.0167817",
+   "year": 2023
+  },
+  {
+   "title": "On the Influence of Li3InCl6\u2212PEDOT:PSS Hybrids in Solid\u2010State Batteries Prepared via an Aqueous One\u2010Pot Approach",
+   "abstract": "Abstract Solid\u2010state batteries (SSBs) utilizing halide solid electrolytes (SE) have garnered attention due to their enhanced stability when paired with oxide\u2010based cathode active materials. However, the dynamic interparticle contact during cycling in SSBs poses challenges to their stability and performance. To mitigate this problem, in this study, we present a one\u2010pot, aqueous synthesis of composites that integrate ion conductivity, electron conductivity, and mechanical stability into a single material. The developed composites consist of a halide SE, lithium indium chloride (Li3InCl6), and a conductive polymer (CP), poly(3,4\u2010ethylendioxythiophene)/poly(styrene sulfonate) (PEDOT:PSS). The successful synthesis was verified using spectroscopic, thermal, scattering, and microscopy methods, with Kelvin Probe Force Microscopy (KPFM) demonstrating the distribution of PEDOT:PSS at the grain boundaries between Li3InCl6 particles. Upon incorporating our composite material with lithium nickel manganese cobalt oxide (NMC) cathode active material (CAM) as catholyte, an increase in the partial electronic transport was observed with increasing CP content. A direct correlation between the partial electronic transport of the catholytes and the initial discharge capacities was demonstrated. This study lays the groundwork for the preparation of multi\u2010functional catholytes under more sustainable conditions, without the need for organic solvents, extremely high temperatures, or special environments.",
+   "url": "https://doi.org/10.1002/batt.202300434",
+   "year": 2023
+  },
+  {
+   "title": "Temperature dependence of 7Li NMR relaxation rates in Li3InCl6, Li3YCl6, Li1.48Al0.48Ge1.52(PO4)3 and LiPS5Cl",
+   "abstract": "Inorganic solid-state battery electrolytes show high ionic conductivities and enable the fabrication of all solid-state batteries. In this work, we present the temperature dependence of spin-lattice relaxation time (T1), spin-spin relaxation time (T2), and resonance linewidth of the 7Li nuclear magnetic resonance (NMR) for four solid-state battery electrolytes (Li3InCl6 (LIC), Li3YCl6 (LYC), Li1.48Al0.48Ge1.52(PO4)3 (LAGP) and LiPS5Cl (LPSC)) from 173 K to 403 K at a 7Li resonance frequency of 233 MHz, and from 253 K to 353 K at a 7Li resonance frequency of 291 MHz. Additionally, we measured the spin-lattice relaxation rates at an effective 7Li resonance frequency of 133 kHz using a spin-locking pulse sequence in the temperature range of 253 K to 353 K. In LPSC, the 7Li NMR relaxation is consistent with the Bloembergen-Pound-Purcell (BPP) theory of NMR relaxation of dipolar nuclei. In LIC, LYC and LAGP, the BPP theory does not describe the NMR relaxation rates for the temperature range and frequencies of our measurements. The presented NMR relaxation data assists in providing a complete picture of Li diffusion in the four solid-state battery electrolytes.",
+   "url": "https://doi.org/10.48550/arxiv.2303.12953",
+   "year": 2023
+  },
+  {
+   "title": "Origin of high ionic conductivity in halide solid electrolyte Li3InCl6: Insights from native defects",
+   "abstract": "Halide solid electrolyte Li3InCl6 (LIC) is a promising candidate for all-solid-state lithium-ion batteries due to its high conductivity and moisture stability. Despite its potential, the reproducible synthesis of high-conductivity LIC remains challenging due to the unknown effect of native defects on ionic conductivity. We investigate native defects and explore the impact of defects on the ion conductivity of LIC using density functional theory and ab initio molecular dynamics simulations. It is found that, on the one hand, the high conductivity in experimental LIC benefits from the dominant defects of Li vacancies (VLi) and interstitials (Lii), on the other hand, the conductivity induced by the two major defects is nearly an order magnitude higher than the experimental values, indicating the cooperative effect of minor defects. Following this, a mixed-defect system with the coexistence of VLi, Lii as well as minor defects Cl vacancies (VCl) and antisites (InLi) is proposed, which presents an activation energy of 0.31 eV and ionic conductivity of 1.8 mS/cm (300 K), well explaining the experimental results. These findings provide important insight into understanding the effect of native defects on ionic transport in LIC and offer synthesis principles for the reproducibility of LIC-type solid electrolytes with high conductivity.",
+   "url": "https://doi.org/10.1063/5.0257865",
+   "year": 2025
+  },
+  {
+   "title": "Enhancement of ion transport in Li3InCl6 solid electrolyte by in-rich strategy",
+   "abstract": "Solid electrolytes, as the core components of all-solid-state batteries, are a prominent research focus due to its lithium-ion rapid diffusion capability. The halide solid electrolyte Li 3 InCl 6 , distinguished by its high ionic conductivity and remarkable moisture reversibility, has garnered considerable attention in the realm of electrochemistry. This study systematically investigates the influence of Li + vacancy defect concentration on lattice configuration and ionic transport properties through In-rich compositional modulation in Li 3 InCl 6 electrolytes with varying Li/In cation ratios. Experimental results reveal that, under an invariant primary lattice framework, increasing In 3+ content induces preferential occupation of the 4 g Wyckoff sites by In 3+ , generating lattice distortion that deforms the cation layer in the (001) crystallographic plane. Concurrently, substantial tetrahedral vacancy defects emerge within the Li + layer of the (002) plane. This synergistic structural evolution markedly enhances lithium-ion transport kinetics by weakening anion framework constraints on Li + migration. Correspondingly, electrochemical characterization demonstrates that the optimized Li 2.55 In 1.15 Cl 6 electrolyte achieves a threefold increase in ionic conductivity compared to the pristine sample. The performance enhancement originates from distorted non-migrating ion sites and generated vacancy defects within the crystal lattice. Consequently, all-solid-state lithium batteries incorporating this optimized electrolyte exhibit significantly improved cycling stability and rate capability. This study prepares Li 3-3x In 1+x Cl 6 via ball milling and investigates the structure-performance relationships through vacancy regulation, demonstrating a viable strategy for solid-state electrolyte design.",
+   "url": "https://doi.org/10.1016/j.est.2026.120413",
+   "year": 2026
+  },
+  {
+   "title": "Investigation of Effect of Heterovalent Element Doping on Ionic Conductivity in Li3InCl6 System Using Neural-network Potential",
+   "abstract": "For the halide solid electrolyte Li3InCl6, which has both high water resistance and high ionic conductivity, doping with different elements to further increase the conductivity is attracting attention. In this study, we investigated co-doping Li3InCl6 with Nb5+ and Zr4+. A pretrained neural-network potential was used for molecular dynamics simulations, and the results indicated that doping with a high concentration of Zr4+ and low concentration of Nb5+ promotes disorder in the Li+/vacancy arrangement on the diffusion path, even at relatively low temperatures. Bayesian optimization revealed the optimal composition with fewer samples, highlighting its utility for exploring complex compositions and expensive experimental investigations.",
+   "url": "https://doi.org/10.5796/electrochemistry.24-00088",
+   "year": 2024
+  }
+ ]
+}

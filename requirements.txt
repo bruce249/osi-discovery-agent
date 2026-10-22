@@ -1,0 +1,20 @@
+# Compute (runs on Modal; see modal_app.py which pins torch==2.5.1 CPU)
+pymatgen>=2024.1
+mp-api
+chgnet
+mace-torch
+ase>=3.23
+matminer
+scikit-learn
+pandas
+numpy
+matplotlib
+tqdm
+pyyaml
+marimo
+openai
+optimade[http_client]
+requests
+jarvis-tools
+# Launcher
+modal

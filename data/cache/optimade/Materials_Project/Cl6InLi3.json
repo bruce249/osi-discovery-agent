@@ -1,0 +1,10 @@
+{
+ "provider": "Materials Project",
+ "formula": "Cl6InLi3",
+ "status": "present",
+ "ids": [
+  "mp-676109",
+  "mp-1111288"
+ ],
+ "n_returned": 2
+}

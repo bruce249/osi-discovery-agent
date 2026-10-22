@@ -1,0 +1,78 @@
+{
+ "ok": true,
+ "query": "Li3HoCl6",
+ "papers": [
+  {
+   "title": "Stability and Metastability of Li3YCl6 and Li3HoCl6",
+   "abstract": "Abstract Metastable solid electrolytes exhibit superior conductivity compared to stable ones, making them a subject of considerable interest. However, synthesis of the metastable phase is affected by multiple thermodynamic and kinetic parameters, leading to ambiguity in the organization of stability and metastability. In this study, we organized remnant and intermediate metastability based on temperature. The intermediate metastable phase, which is less stable than the temperature-independent stable phase, typically transforms into the stable phase(s) at high temperatures. In contrast, the remnant metastable phase is formed by first obtaining most stable phase at specific temperatures and then \u201ctrapping\u201d it by rapidly changing the temperature. By investigating Li+ conducting chlorides, Li3MCl6 (M = Y and Ho), we demonstrated that heating starting materials to approximately 600 K produced low-temperature Li3MCl6 phase with one formula unit while further heating resulted in high-temperature Li3MCl6 phase with three formula units. Annealing quenched Li3MCl6 at 573 K resulted in a phase transition from the high-temperature to low-temperature phase, indicating that the high-temperature phase was remnant metastable at low temperatures.",
+   "url": "https://doi.org/10.1246/bcsj.20230132",
+   "year": 2023
+  },
+  {
+   "title": "Simulation of Li3HoCl6 Solid-state Lithium Batteries Based on COSMOL Multiphysics",
+   "abstract": "Abstract The rapid development of portable smart devices and electric vehicles is placing greater demands on the energy density and safety of rechargeable secondary batteries. Lithium-ion batteries using the Solid State Electrolyte (SSE) are considered to be the most promising direction to achieve these goals. Among the latest electrolyte developments, chloride solid electrolytes have attracted much attention due to their physicochemical properties such as high ionic conductivity, ease of deformation and oxidative stability. In this paper, a one-dimensional model of a solid-state Li3HoCl6 battery is proposed based on COSMOL Multiphysics multi-physics field simulation software, and the charge-discharge curves and lithium-ion concentration variation curves at different discharge rates are obtained. The results show that the battery has a stable potential and relatively high-capacity density at low C rates (1.8C~14.4C). Therefore, it has application values at low currents and space for improvement at high currents.",
+   "url": "https://doi.org/10.1088/1742-6596/2393/1/012014",
+   "year": 2022
+  },
+  {
+   "title": "Isovalent ion substitution to improve the Li+ conduction of the Li3HoCl6 SSEs",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.electacta.2025.145896",
+   "year": 2025
+  },
+  {
+   "title": "Effects of Br Substitution to Improve the Ionic Conductivity of Chloride Electrolytes Without Changing the Lattice Structure",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.4289295",
+   "year": 2022
+  },
+  {
+   "title": "Tailoring Ion Transport in Li3\u20103yHo1+yCl6\u2010xBrx via Transition\u2010Metal Free Structural Planes and Charge Carrier Distribution",
+   "abstract": "Abstract Localized atomistic disorder in halide\u2010based solid electrolytes (SEs) can be leveraged to boost Li+ mobility. In this study, Li+ transport in structurally modified Li3HoCl6, via Br\u2212 introduction and Li+ deficiency, is explored. The optimized Li3\u20103yHo1+yCl6\u2010xBrx achieves an ionic conductivity of 3.8 mS cm\u22121 at 25 \u00b0C, the highest reported for holmium halide materials. 6,7Li nuclear magnetic resonance and relaxometry investigations unveil enhanced ion dynamics with bromination, attaining a Li+ motional rate neighboring 116 MHz. X\u2010ray diffraction analyses reveal mixed\u2010anion\u2010induced phase transitions with disproportionate octahedral expansions and distortions, creating Ho\u2010free planes with favorable energetics for Li+ migration. Bond valence site energy analysis highlights preferred Li+ transport pathways, particularly in structural planes devoid of Ho3+ blocking effects. Molecular dynamics simulations corroborate enhanced Li+ diffusion with Br\u2212 introduction into Li3HoCl6. Li\u2010Ho electrostatic repulsions in the (001) plane presumably drive Li+ diffusion into the Ho\u2010free (002) layer, enabling rapid intraplanar Li+ motion and exchange between the 2d and 4h sites. Li3\u20103yHo1+yCl6\u2010xBrx also demonstrates good battery cycling stability. These findings offer valuable insights into the intricate correlations between structure and ion transport and will help guide the design of high\u2010performance fast ion conductors for all\u2010solid\u2010state batteries.",
+   "url": "https://doi.org/10.1002/advs.202409668",
+   "year": 2024
+  },
+  {
+   "title": "A Series of Ternary Metal Chloride Superionic Conductors for High\u2010Performance All\u2010Solid\u2010State Lithium Batteries",
+   "abstract": "Abstract Understanding the relationship between structure, ionic conductivity, and synthesis is the key to the development of solid electrolytes for all-solid-state Lithium batteries. Here, we investigate chloride solid electrolytes with compositions Li3 \u2212 3xM1+xCl6 (-0.14 < x \u2264 0.5, M = Tb, Dy, Ho, Y, Er, Tm). When x > 0.04, a trigonal to orthorhombic phase transition occurs in the isostructural Li-Dy-Cl, Li-Ho-Cl, Li-Y-Cl, Li-Er-Cl and Li-Tm-Cl solid electrolytes. The new orthorhombic phase shows a four-fold increase in ionic conductivity up to 1.3\u00d710\u2212 3 S cm\u2212 1 at room temperature for Li2.73Ho1.09Cl6 (x = 0.09) when compared to the trigonal Li3HoCl6. For isostructural Li-Dy-Cl, Li-Y-Cl, Li-Er-Cl and Li-Tm-Cl solid electrolytes, about one order of magnitude increase in ionic conductivities are observed for the orthorhombic structure compared to the trigonal structure. Using the Li-Ho-Cl components as an example, detailed studies of its structure, phase transition, ionic conductivity, air stability and electrochemical stability have been made. Molecular dynamics simulations based on density functional theory reveal that the different cations arrangement in the orthorhombic structure leads to a higher lithium diffusivity as compared to the trigonal structure, rationalizing the improved ionic conductivities of the new Li-M-Cl electrolytes. All-solid-state batteries of In/Li2.73Ho1.09Cl6/NMC811 demonstrate excellent electrochemical performance at both room temperature and \u2212 10\u00b0C. As relevant to the vast number of isostructural halide electrolytes, the present structure control strategy provides guidance for the design of novel halide superionic conductors.",
+   "url": "https://doi.org/10.1002/aenm.202103921",
+   "year": 2022
+  },
+  {
+   "title": "Li3\u2013xZrx(Ho/Lu)1\u2013xCl6 Solid Electrolytes Enable Ultrahigh-Loading Solid-State Batteries with a Prelithiated Si Anode",
+   "abstract": "We report two new families of lithium metal chloride solid electrolytes Li 3\u2013 x Zr x (M) 1\u2013 x Cl 6 (0 \u2264 x \u2264 0.8; M = Ho or Lu) with ionic conductivities of up to 1.8 mS cm \u20131 and a low activation energy of 0.34 eV. Structural elucidation via high-resolution neutron diffraction determines the Li ion distribution in trigonal Li 3 HoCl 6, orthorhombic-I Li 3 LuCl 6, and orthorhombic-II Li 2.4 Zr 0.6 (Ho/Lu) 0.4 Cl 6 . The last compound exhibits well-connected Li-ion pathways and abundant Li-ion carriers/vacancies to promote diffusion. All-solid-state batteries with Li 2.6 Zr 0.4 (Ho/Lu) 0.6 Cl 6 solid electrolytes and NCM85 cathodes exhibit stable cycling up to 4.6 V vs Li + /Li, which is even preserved up to 4.8 V. Stable cathode interphases are formed for both electrolytes upon cycling to 4.3, 4.6, and 4.8 V cutoff potentials, as identified by a ToF-SIMS analysis. Solid-state cells with a prelithiated Li 0.7 Si anode exhibit a significantly increased initial coulombic efficiency of 94.5% compared to Si and a high areal capacity of up to 16.3 mAh\u00b7cm \u20132 .",
+   "url": "https://doi.org/10.1021/acsenergylett.3c00763",
+   "year": 2023
+  },
+  {
+   "title": "Stress-Induced Martensitic Transformation in Na3YCl6",
+   "abstract": "Martensitic transformation with volume expansion plays a crucial role in enhancing the mechanical properties of steel and partially stabilized zirconia. We believe that a similar concept could be applied to unexplored nonoxide materials. Herein, we report the stress-induced martensitic transformation of monoclinic Na 3 YCl 6 with an \u223c3.4% expansion. In situ synchrotron X-ray diffraction and atomistic simulations showed that anisotropic crystallographic transformation from monoclinic to rhombohedral Na 3 YCl 6 occurs exclusively under uniaxial pressure; no effect is observed under hydrostatic pressure conditions. The uniaxially pressed powder compact of monoclinic Na 3 YCl 6 showed a large indentation impression and low Young\u2019s modulus, in contrast to its high bulk modulus, suggesting that these unique mechanical properties are induced by the martensitic transformation.",
+   "url": "https://doi.org/10.1021/jacs.4c09476",
+   "year": 2024
+  },
+  {
+   "title": "Efficient Exploratory Synthesis of Quaternary Cesium Chlorides Guided by In Silico Predictions",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Exploratory synthesis of solids is essential for the advancement of materials science but is also highly time- and resource-intensive. Here, we demonstrate an efficient strategy to explore solid-state synthesis of quaternary cesium chlorides in the search space of Cs n A I BCl 6 ( n = 2 or 3, A = Li, Na or K, and B = d or p -block metal), where the target compositions are selected from a pool of candidates based on computationally predicted stabilities and availability of viable precursor powders. Synthesizability of the targets is assessed by observing the evolution of starting phases upon heating under in situ synchrotron X-ray diffraction. Laboratory synthesis is attempted for promising targets, and resulting materials are characterized by powder X-ray and neutron diffraction and subsequent Rietveld refinement. We focus on how computational predictions can be bridged to experimental characterizations in exploratory synthesis and report on successful and failed synthesis attempts for compounds of type Cs 2 A I B III Cl 6, revealing underexplored variants including new polymorphs of Cs 2 LiCrCl 6 and Cs 2 LiRuCl 6, and a new compound Cs 2 LiIrCl 6 .",
+   "url": "https://doi.org/10.1021/jacs.4c10294",
+   "year": 2024
+  },
+  {
+   "title": "Oxygen-Mediated Structural Modulation and Ionic Transport in xNa2O-TaCl5 Glass Electrolytes",
+   "abstract": "Understanding the structure-property relationship in glass solid electrolytes remains a major challenge due to their inherent disorder and the difficulty of probing local structures, particularly in relation to oxygen incorporation. Despite recent interest in multi-anion halide solid electrolytes, there are few systematic studies on how varying oxygen content affects the local structure and ion transport. Here, we investigate a series of amorphous sodium oxychloride SEs with the composition xNa2O-TaCl5 (0.1 \u2264 x \u2264 1.5), revealing three distinct conductivity regimes and achieving a maximum of 4.1 mS cm\u20131 at room temperature. Synchrotron and lab X-ray total scattering and Raman spectroscopy indicate the gradual formation of Ta-O-Ta that bridges the two or more metal chloride polyhedral, while ab initio molecular dynamics simulations clarify the distinct roles of bridging and non-bridging O2\u2212 species. These findings not only provide mechanistic insights into oxygen-mediated glass formation but also establish guiding principles for multi-anion engineering in the design of next-generation solid electrolytes.",
+   "url": "https://doi.org/10.26434/chemrxiv-2025-6gl63",
+   "year": 2025
+  },
+  {
+   "title": "Advances in All-Solid-State Batteries Based on Chloride Solid Electrolytes",
+   "abstract": "Driven by the imperative for enhanced battery safety, solid electrolytes have emerged as a leading strategy in next-generation energy storage technologies. Beyond conventional polymer, oxide, and sulfide systems, chloride-based inorganic solid electrolytes have recently garnered significant attention due to their unique combination of high ionic conductivity, favorable electrochemical stability, and processability. This work presents a comprehensive review of chloride solid electrolytes, examining their crystal structures, synthesis approaches, ionic transport mechanisms, and physicochemical stability under operational conditions. Furthermore, we discuss critical considerations for integrating these materials into practical all-solid-state batteries (ASSBs), including performance across wide temperature ranges, scalable cell fabrication methods, and cost-effectiveness. By bridging fundamental material properties with device-level engineering challenges, this review aims to provide a roadmap for future research and development, highlighting the substantial promise of chloride electrolytes in enabling safe, high-performance solid-state batteries.",
+   "url": "https://doi.org/10.3390/batteries12020051",
+   "year": 2026
+  },
+  {
+   "title": "Computational simulation-assisted research on chloride solid electrolytes for lithium-ion batteries",
+   "abstract": "Due to the phenomenon of easy deformation and short circuit of traditional organic liquid lithium-ion batteries, instantaneous thermal runaway occurs, resulting in combustion and even explosion. Solid-state batteries, with their excellent safety, can fundamentally solve this problem. In recent years, computational simulation has become more and more popular in the development and research of solid electrolyte, and this way of computation-assisted experiment has greatly promoted the development of electrolyte. This paper introduces the latest progress in the research of chloride electrolyte, which belongs to the category of halide electrolyte. The development process of chloride solid electrolyte is reviewed. The preparation method, modification of anion and cation regulation, optimization of structure regulation and stability of temperature, humidity and electrode material are also discussed. Finally, the problems facing the chloride solid electrolyte are summarized and analyzed, and the future development direction of the chloride solid electrolyte is further proposed.",
+   "url": "https://doi.org/10.1360/ssc-2023-0255",
+   "year": 2024
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "ok": true,
+ "hash": "d45cfea95b2e7b40ed3c",
+ "model": "chgnet",
+ "e_per_atom": -4.465445518493652,
+ "natoms": 4,
+ "steps": 0,
+ "converged": true,
+ "volume_ratio": 1.0,
+ "final_structure": {
+  "@module": "pymatgen.core.structure",
+  "@class": "Structure",
+  "charge": 0.0,
+  "lattice": {
+   "matrix": [
+    [
+     3.51299116,
+     4e-08,
+     0.0
+    ],
+    [
+     -1.75649402,
+     3.04233862,
+     -0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     11.24748319
+    ]
+   ],
+   "pbc": [
+    true,
+    true,
+    true
+   ],
+   "a": 3.51299116,
+   "b": 3.512989541834599,
+   "c": 11.24748319,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 119.99998520573017,
+   "volume": 120.20982448326738
+  },
+  "properties": {},
+  "sites": [
+   {
+    "species": [
+     {
+      "element": "Tm",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.99997955
+    ],
+    "properties": {
+     "final_magmom": 0.01457887887954712
+    },
+    "label": "Tm",
+    "xyz": [
+     0.0,
+     0.0,
+     11.247253178968766
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Tm",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.333333,
+     0.666667,
+     0.25
+    ],
+    "properties": {
+     "final_magmom": 0.014370322227478027
+    },
+    "label": "Tm",
+    "xyz": [
+     -7.164950602584284e-07,
+     2.02822677411286,
+     2.8118707975
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Tm",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.0,
+     0.0,
+     0.50002045
+    ],
+    "properties": {
+     "final_magmom": 0.014578968286514282
+    },
+    "label": "Tm",
+    "xyz": [
+     0.0,
+     0.0,
+     5.623971606031235
+    ]
+   },
+   {
+    "species": [
+     {
+      "element": "Tm",
+      "occu": 1
+     }
+    ],
+    "abc": [
+     0.6666659999999999,
+     0.333333,
+     0.7500000000000001
+    ],
+    "properties": {
+     "final_magmom": 0.014369338750839233
+    },
+    "label": "Tm",
+    "xyz": [
+     1.7564943435038995,
+     1.0141118858871,
+     8.435612392500001
+    ]
+   }
+  ]
+ },
+ "seconds": 0.01746082305908203,
+ "task_hash": "d45cfea95b2e7b40ed3c",
+ "kind": "reference",
+ "label": "mp-971769"
+}

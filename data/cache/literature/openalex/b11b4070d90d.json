@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "query": "Li3SmCl6",
+ "papers": [
+  {
+   "title": "Prediction of Novel Trigonal Chloride Superionic Conductors as Promising Solid Electrolytes for All\u2010Solid\u2010State Lithium Batteries",
+   "abstract": "Abstract Recently emerging lithium ternary chlorides have attracted increasing attention for solid\u2010state electrolytes (SSEs) due to their favorable combination between ionic conductivity and electrochemical stability. However, a noticeable discrepancy in Li\u2010ion conductivity persists between chloride SSEs and organic liquid electrolytes, underscoring the need for designing novel chloride SSEs with enhanced Li\u2010ion conductivity. Herein, an intriguing trigonal structure (i.e., Li3SmCl6 with space group P3112) is identified using the global structure searching method in conjunction with first\u2010principles calculations, and its potential for SSEs is systematically evaluated. Importantly, the structure of Li3SmCl6 exhibits a high ionic conductivity of 15.46 mS cm\u22121 at room temperature due to the 3D lithium percolation framework distinct from previous proposals, associated with the unique in\u2010plane cation ordering and stacking sequences. Furthermore, it is unveiled that Li3SmCl6 possesses a wide electrochemical window of 0.73\u22124.30 V vs Li+/Li and excellent chemical interface stability with high\u2010voltage cathodes. Several other Li3MCl6 (M = Er, and In) materials with isomorphic structures to Li3SmCl6 are also found to be potential chloride SSEs, suggesting the broader applicability of this structure. This work reveals a new class of ternary chloride SSEs and sheds light on strategy for structure searching in the design of high\u2010performance SSEs.",
+   "url": "https://doi.org/10.1002/advs.202404213",
+   "year": 2024
+  }
+ ]
+}

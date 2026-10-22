@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "query": "Li2ZrCl6",
+ "papers": [
+  {
+   "title": "Enabling ultrafast lithium-ion conductivity of Li2ZrCl6 by indium doping",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.cclet.2021.12.048",
+   "year": 2021
+  },
+  {
+   "title": "Li-richening strategy in Li2ZrCl6 lattice towards enhanced ionic conductivity",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jechem.2023.01.008",
+   "year": 2023
+  },
+  {
+   "title": "Li+ conduction in aliovalent-substituted monoclinic Li2ZrCl6 for all-solid-state batteries: Li2+xZr1-xMxCl6 (M = In, Sc)",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.cej.2022.135413",
+   "year": 2022
+  },
+  {
+   "title": "O2\u2212 substituted Li-richened Li2ZrCl6 lattice towards superionic conductivity",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.est.2024.111700",
+   "year": 2024
+  },
+  {
+   "title": "Aliovalent substitution of Al3+ in Li2ZrCl6 solid electrolyte towards large-scale application",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.ensm.2024.103444",
+   "year": 2024
+  },
+  {
+   "title": "Aliovalent Substitution in Li2ZrCl6 Halide Electrolytes: Linking Lithium Content, Phase Stability, and Ionic Transport",
+   "abstract": "Abstract Aliovalent substitution was investigated as a strategy to enhance lithium transport in the halide solid electrolyte Li2ZrCl6. Here, Zr4+ was partially replaced by divalent (Mg2+, Zn2+) and trivalent (Fe3+, Ga3+) cations to form Li2+yZr1\u2212xMxCl6 compositions prepared by mechanosynthesis. Structural analysis is consistent with dopant-dependent incorporation mechanisms, including octahedral substitution (Mg2+, Fe3+) and tetrahedral interstitial occupation (Zn2+, Ga3+), and reveals the formation of secondary phases beyond solubility limits. High-frequency impedance spectroscopy (1 MHz\u22123 GHz) enables separation of the bulk and grain boundary contributions to ionic transport, thereby allowing comparison of intrinsic lithium transport across the different substitution series. Notably, all substituted compositions with a theoretical nominal lithium content between 2.1 and 2.3 exhibit higher ionic conductivity than the pristine Li2ZrCl6, with bulk room-temperature conductivities reaching a maximum of 1.24 mS cm\u22121 for Li2.25Zr0.75Fe0.25Cl6 without applied pressure during measurement. Symmetric Li|electrolyte|Li cells with substituted compositions demonstrated stable stripping\u2212plating behavior over extended cycling. Proof-of-concept Li-metal full cells employing the Li2+yZr1\u2212xMxCl6 electrolytes and a high-voltage oxide NMC90505 cathode show functional compatibility, albeit without optimization of electrode architecture or interfaces. These results demonstrate how aliovalent substitution provides an effective route to enhance ionic transport in Li2ZrCl6-based halide electrolytes with dopant chemistry influencing phase stability and accessible compositional space. The findings identify nominal lithium content as a key compositional descriptor for optimizing transport in Li2ZrCl6-derived systems and underline the impact of multiphase coexistence on macroscopic electrochemical performance.",
+   "url": "https://doi.org/10.1021/acsaem.6c01288",
+   "year": 2026
+  },
+  {
+   "title": "Innovative doping strategies for Li2ZrCl6 solid electrolytes: A first-principles approach",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.est.2024.115017",
+   "year": 2024
+  },
+  {
+   "title": "N-Doped Li2ZrCl6-Based Chloride Solid Electrolytes for Enhanced Li Ion Transport",
+   "abstract": "N-doped Li2ZrCl6\u22123xNx chloride solid electrolytes were synthesized via a mechanochemical method, and the effects of N incorporation on crystal structure, Li local environment, and Li+ transport were systematically investigated. X-ray diffraction suggested that the main Li2ZrCl6-related diffraction features were largely retained, while N introduction induced partial structural evolution toward C2/m-related features. 7Li MAS NMR revealed that N incorporation sharpened Li resonance peaks. Among the series, Li2ZrCl5.7N0.1 exhibited the highest room-temperature ionic conductivity of 1.15 mS cm\u22121, with the lowest activation energy of 0.237 eV, demonstrating a reduced Li+ migration barrier. All-solid-state batteries incorporating Li2ZrCl5.7N0.1 showed stable rate capability and long-term cycling, retaining 85.9% capacity after 500 cycles at 1C and 77.4% after 3000 cycles at 3C. These results suggest that appropriate N modification can tune the Li2ZrCl6-based structure and Li local environment, thereby improving Li+ transport in all-solid-state lithium batteries. This work provides a feasible strategy for improving chloride-based solid electrolytes for next-generation energy storage.",
+   "url": "https://doi.org/10.3390/en19122790",
+   "year": 2026
+  },
+  {
+   "title": "Enhanced lithium-ion transport in Nb5+ Doping Li2ZrCl6 solid electrolytes",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jallcom.2025.184904",
+   "year": 2025
+  },
+  {
+   "title": "Lattice expansion/softening induced superionic conduction in Li2ZrCl6",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.nanoen.2026.112133",
+   "year": 2026
+  },
+  {
+   "title": "High Ionic Conductivity in Li2ZrCl6 via La3+ Doping for All-Solid-State Lithium Metal Batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1007/s11664-024-11446-6",
+   "year": 2024
+  },
+  {
+   "title": "Synergistic effect of lithium ions for fast diffusion in Li2ZrCl6 solid electrolytes",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.electacta.2024.144632",
+   "year": 2024
+  },
+  {
+   "title": "Significant regulation of stress on the contribution of optical phonons to thermal conductivity in layered Li2ZrCl6: First-principles calculations combined with the machine-learning potential approach",
+   "abstract": "The layered solid electrolyte Li2ZrCl6 and Li metal electrodes have a very good contact stability, but the thermal transport properties of Li2ZrCl6 are still unclear. Here, we systematically study the intrinsic lattice thermal conductivity (\u03bap) of Li2ZrCl6 using the machine-learning potential approach based on first-principles calculations combined with the Boltzmann transport theory. The results show that the \u03bap of Li2ZrCl6 at room temperature is 3.94 W/mK along the in-plane (IP) direction and 1.05 W/mK along the out-plane (OP) direction, which means that the \u03bap is significantly anisotropic. In addition, under the compressive stress in the OP direction, the \u03bap evolution along the IP and OP directions exhibits completely different trends, because the stress has a significant regulatory effect on the contribution of optical phonons to \u03bap. With the increase in stress, the \u03bap in the IP direction monotonically decreases, while the \u03bap in the OP direction increases by a factor of 2.2 under a compressive strain of 13%. This is because the contribution of low-frequency optical phonons to \u03bap in the IP direction is as high as 58% when no stress is applied, and this contribution is significantly suppressed with increasing compressive strain. However, the contribution of optical phonons in the OP direction to the \u03bap increases with the increase in stress. Our results reveal the thermal transport properties of Li2ZrCl6 and the effect of the compressive strain on the \u03bap of Li2ZrCl6, thereby providing a reference for the use of Li2ZrCl6 in Li-metal batteries.",
+   "url": "https://doi.org/10.1063/5.0122357",
+   "year": 2022
+  },
+  {
+   "title": "Variation of electrochemical performance of Li2ZrCl6 halide solid electrolyte with Mn substitution for all-solid-state batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2024.234343",
+   "year": 2024
+  },
+  {
+   "title": "Insights into the Compatibility and Interphases of Li6PS5Cl and Ga-Doped Li2ZrCl6 Halide Electrolytes by Solid-State NMR",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Li 2.1 Ga 0.1 Zr 0.9 Cl 6 (LGZC) halides with high ionic conductivity (>0.4 mS/cm at 25 \u00b0C) are considered promising solid electrolytes for beyond Li-ion batteries. However, they suffer from low stability against the Li metal, forming a solid electrolyte interphase (SEI) that causes continuous degradation and limits their long-term cyclability. Incorporating Li 6 PS 5 Cl (LPSCl) argyrodites as an interlayer between LGZC and Li metal is a common approach to addressing this issue and improving cyclability. Nevertheless, very few studies assessed the compatibility of halides and sulfides, reporting contradicting results. Thus, this work used solid-state NMR and impedance spectroscopy to investigate interfacial reactions and compatibility between these phases. The results show that LPSCl and LGZC are chemically reactive and decompose to form LiCl and likely Li 2 S or long-chain polysulfides (Li 2 S x ), decreasing the total ionic conductivity. Although their interface reaches stability with time, the decomposition reactions are accelerated at elevated temperatures. 6 Li\u2013 6 Li EXSY experiments demonstrate a spontaneous Li-ion exchange between LGZC and LPSCl despite their apparent reactivity. Interestingly, the decomposed products actively participate in this exchange, explaining why these bilayer systems can successfully enhance cell performance. Our study sheds light on the complex interfacial interaction between halides and sulfides, providing insights into the optimal design of solid electrolytes for the next generation of electrochemical devices",
+   "url": "https://doi.org/10.1021/acsaem.5c01383",
+   "year": 2025
+  },
+  {
+   "title": "Surface modification of Li(Ni0.8Co0.1Mn0.1)O2 with Li2ZrCl6 halide solid electrolyte for all-solid-state batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jiec.2025.02.001",
+   "year": 2025
+  },
+  {
+   "title": "Metal Site Substitution Regulates Li+ Transport in Li2ZrCl6 Halide Solid Electrolytes: A Comparative Atomistic Study of Zn, Ti, and Ca",
+   "abstract": "Abstract Li2ZrCl6 is a cost-effective chloride solid electrolyte for all-solid-state batteries, yet the mechanistic relationship between dopant chemistry and Li+ transport remains insufficiently understood. Building on prior data-driven screening, Zn, Ti, and Ca are examined as representative metal-site substituents using fixed-Li-stoichiometry models to compare substituent-dependent chemical and bonding responses under a common compositional constraint. Combining first-principles calculations, ab initio molecular dynamics, CI-NEB calculations, and COHP analysis, we show that Li+ migration is intrinsically anisotropic: the c axis provides the dominant transport channel, whereas fragmented ab-plane pathways limit long-range percolation. Within the present three-temperature AIMD-Arrhenius protocol, Zn substitution gives the most favorable comparative transport response, with the lowest fitted apparent activation energy and the highest extrapolated 300 K conductivity among the investigated models. This behavior is associated with suppression of the representative ab-plane migration bottleneck and moderate Zn\u2212Cl framework constraints. In contrast, Ti substitution lowers selected local barriers but induces pronounced electronic-structure and local-bonding reconstruction, while these pathway-specific barrier reductions do not translate into an enhanced overall AIMD-derived transport response. These results show that pathway connectivity and framework bonding must be considered together when designing substituted Li2ZrCl6 electrolytes.",
+   "url": "https://doi.org/10.1021/acsaem.6c02376",
+   "year": 2026
+  },
+  {
+   "title": "Regulation of the Lattice Dynamics of Li2ZrCl6 Solid Electrolytes via Low-Ionpotential Element Doping for All-Solid-State Batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.7233458",
+   "year": 2026
+  },
+  {
+   "title": "Aliovalent Co-Substitution in Li2ZrCl6 Enables Superior Ionic Transport and Cathode Compatibility in All-Solid-State Lithium Batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.2139/ssrn.7435203",
+   "year": 2026
+  },
+  {
+   "title": "Aliovalent sulfur-substitution regulated highly amorphous Li2ZrCl6 solid electrolytes for all-solid-state lithium metal batteries",
+   "abstract": "",
+   "url": "https://doi.org/10.1016/j.jechem.2025.07.042",
+   "year": 2025
+  },
+  {
+   "title": "Dynamic chloride frameworks enable dualistic Li-ion transport in Li2ZrCl6: Single-ion hopping and cooperative diffusion",
+   "abstract": "Li 2 ZrCl 6 (LZC) is a promising chloride fast-ion conductor, yet the microscopic origin of its high Li + conductivity remains unclear. Here we combine density functional theory, machine-learning-potential molecular dynamics (MLP-MD) and CI-NEB calculations to probe Li-ion transport in crystalline LZC. We find a critical coupling between Li migration and low-frequency anharmonic Zr\u2013Cl framework vibrations: dynamic chloride fluctuations intermittently open Cl-defined migration bottlenecks. Li transport shows a scale-dependent cooperative\u2013single-ion duality. At short times, motion proceeds mainly through intermittent single-ion hopping rather than concerted multi-ion jumps; over the nanosecond statistical window of our simulations, discrete hops become correlated through Li\u2013Li interactions and framework fluctuations, yielding statistically correlated diffusion. Static CI-NEB barriers (0.15\u20130.40 eV) show that low-barrier single-ion paths are accessible, whereas representative two-ion concerted paths are less favourable. Modest sensitivity to non-stoichiometry indicates that fast diffusion does not require one predefined Li\u2013Li configuration. These results establish a dualistic transport paradigm in LZC: chloride-framework gating turns local single-ion hops into long-time correlated diffusion, highlighting soft anion-framework dynamics as a useful handle for designing halide solid electrolytes.",
+   "url": "https://doi.org/10.1016/j.jpowsour.2026.241684",
+   "year": 2026
+  },
+  {
+   "title": "Regulation of the Lattice dynamics of Li2ZrCl6 solid electrolytes via low-ion-potential element doping for all-solid-state batteries",
+   "abstract": "The development of cost-effective and process-compatible solid electrolytes is critical for advancing all-solid-state batteries (ASSBs), with zirconium-based chlorides, represented by Li2ZrCl6 (LZC), emerging as particularly promising candidates. However, their practical application in high-performance energy storage is fundamentally bottlenecked by an inherently limited Li+ carrier concentration and a rigid lattice framework, which stifle room-temperature ionic conductivity and restrict high-rate discharge capabilities. In this study, we propose a comprehensive, descriptor-driven design strategy rooted in low-ionic-potential regulation to synergistically optimize the Li+ transport kinetics within LZC-based solid-state electrolytes. By introducing rare-earth elements (Er3+/Nd3+) into the Li2+xZr1-xMxCl6 (M = Er, Nd) system via precise aliovalent substitution, we effectively increase the overall Li+ carrier density while simultaneously weakening the local M\u2013Cl electrostatic interactions. This structural modulation induces significant softening of the Cl- anion framework and activates an Oct\u2013Tet\u2013Oct cooperative migration pathway, wherein tetrahedral sites serve as critical intermediate states to significantly lower the effective diffusion energy barrier. The optimized composition, Li2.5Zr0.5Er0.5Cl6, achieves a compelling room-temperature ionic conductivity of 1.32 mS\u00b7cm\u207b\u00b9, approximately six times higher than that of pristine LZC. Furthermore, all-solid-state batteries integrating NCM811 cathodes demonstrate superior electrochemical performance, delivering an initial discharge capacity of 163.2 mAh g\u207b\u00b9 at 0.1 C and maintaining 82.5% capacity retention after 100 cycles at 0.5 C. This work clarifies the critical role of ionic-potential regulation in balancing carrier concentration and lattice dynamics, providing a robust, new design paradigm for the rational, high-throughput development of high-performance chloride solid-state electrolytes for next-generation energy storage systems.",
+   "url": "https://doi.org/10.22541/authorea.15005774/v1",
+   "year": 2026
+  },
+  {
+   "title": "All\u2010Solid\u2010State Batteries: New Cost\u2010Effective Halide Solid Electrolytes for All\u2010Solid\u2010State Batteries: Mechanochemically Prepared Fe3+\u2010Substituted Li2ZrCl6 (Adv. Energy Mater. 12/2021)",
+   "abstract": "In article number 2003190, Kyung-Wan Nam, Yoon Seok Jung and co-workers develop a new halide solid electrolyte, Fe3+-substituted Li2ZrCl6, that is mechanically sinterable, (electro)chemical-oxidation tolerant, and free of rare-earth metals. The outstanding performance of the all-solid-state batteries using LiCoO2 and LiNi0.88Co0.11Al0.01O2 is enabled by the use of the newly developed halide superionic conductors.",
+   "url": "https://doi.org/10.1002/aenm.202170045",
+   "year": 2021
+  },
+  {
+   "title": "Turning Insulators into Accelerators: Deciphering the Interfacial Conductivity Boost in ZrO2-Li2ZrCl6 Composites through Machine Learning Molecular Dynamics Simulations",
+   "abstract": "Halide solid-state electrolytes have emerged as promising candidates for all-solid-state lithium batteries due to their high oxidative stability and deformability, yet their moderate ionic conductivity remains a bottleneck. While incorporating ionically insulating ZrO2 nanoparticles (Nat. Commun. 2023, 14, 2459) has been experimentally shown to enhance the ionic conductivity of Li2ZrCl6, the atomistic origin governing this interfacial phenomenon remains unclear. Here, we bridge the spatiotemporal gap in modeling complex heterostructures by developing an accurate machine-learned force fields based on neuroevolution potential, enabling large-scale molecular dynamics simulations of ZrO2/Li2ZrCl6 heterostructures. By systematically investigating four representative low-lattice-mismatch ZrO2/Li2ZrCl6 interfaces, we identify spontaneous interfacial amorphization driven by space-charge effects upon surface cleavage, trapping Li+ and leading to under-coordinated Li+ polyhedrons with pronounced geometric distortion. These distorted amorphous interfacial regions exhibit markedly enhanced Li+ hopping activity, significantly outperforming the bulk lattice, provided that local mobile Li+ inventory is not depleted by surface charge redistribution. This work establishes a computational framework for training validated machine-learned force fields for interfaces and provides mechanistic understandings of the interfacial conductivity boost in the insulator-conductor composites, guiding the rational design of electrolytes toward next-generation solid-state batteries.",
+   "url": "https://doi.org/10.48550/arxiv.2601.22612",
+   "year": 2026
+  },
+  {
+   "title": "Enhanced ion conductivity and stability against Li metal in Dy3+-doped Li2ZrCl6 electrolytes for high-performance all-solid-state batteries",
+   "abstract": "The development of chloride-based solid-state electrolytes faces significant challenges in achieving an optimal balance among ionic conductivity, compatibility with Li metal, and cost-effectiveness. Herein, a novel Dy 3+ -doped Li 2 ZrCl 6 (Li 2+ x Zr 1\u2212 x Dy x Cl 6 ) halide electrolyte is rationally designed via mechanochemical synthesis. By partially substituting Zr 4+ with larger Dy 3+ ions, the optimized Li 2.25 Zr 0.75 Dy 0.25 Cl 6 exhibits: (1) superior ionic conductivity of 1.54 mS/cm (a 4.4-fold increase over pristine Li 2 ZrCl 6 ) after low-temperature annealing, (2) 3D Li + transport pathways confirmed by DFT calculations, and (3) suppressed reduction of Zr 4+ at the Li metal interface, extending symmetric cell cycling to 500 h (0.2 mA/cm 2 ). Synchrotron XAFS and XPS/TOF-SIMS analyses reveal that Dy 3+ doping broadens Li + migration channels and inhibits elemental Zr formation. The LiCoO 2 -based all-solid-state lithium batteries exhibit superior cycling stability (81.4% capacity retention at 1000 cycles) and outstanding rate performance (82.9 mA\u00b7h\u00b7g \u22121 at 3 C). This work presents a paradigm for designing efficient and economical halide solid-state electrolytes.",
+   "url": "https://doi.org/10.1016/j.jmat.2026.101178",
+   "year": 2026
+  }
+ ]
+}

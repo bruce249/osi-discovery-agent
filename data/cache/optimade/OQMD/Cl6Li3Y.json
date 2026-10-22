@@ -1,0 +1,9 @@
+{
+ "provider": "OQMD",
+ "formula": "Cl6Li3Y",
+ "status": "present",
+ "ids": [
+  "6077260"
+ ],
+ "n_returned": 1
+}
