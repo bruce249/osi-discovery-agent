@@ -39,6 +39,18 @@ def check(url: str = URL):
         page.wait_for_timeout(3000)
         shot(page, "0_loaded")
         log.append(("loaded", stats(page)))
+        body = page.inner_text("body")
+        log.append(("new sections", {k: k in body for k in (
+            "Same pattern in two domains", "Inside the simulator's mind", "Third check", "AUC 0.92",
+            "GP on the simulator's internal features", "Li2ZrBr6", "framework")},
+            "pending placeholders:", [k for k in ("figure pending", "probe pending", "campaigns pending",
+                                                   "phonons pending") if k in body]))
+        for name, anchor in (("4_cross_domain", "Same pattern in two domains"),
+                             ("5_latent", "Inside the simulator's mind"), ("6_phonons", "Third check")):
+            el = page.get_by_text(anchor).first
+            el.scroll_into_view_if_needed()
+            page.wait_for_timeout(800)
+            page.screenshot(path=f"{out}/{name}.png")
 
         page.get_by_role("button", name="Suggest next batch").click()
         page.get_by_text("what the LLM picked and why").first.wait_for(timeout=180_000)

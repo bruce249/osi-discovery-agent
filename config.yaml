@@ -5,6 +5,8 @@ seeds:
   substitution: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   radius: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   gp_bo: [0, 1, 2, 3, 4]
+  gp_latent: [0, 1, 2, 3, 4]
+  gp_latent_rand: [0, 1, 2, 3, 4]
   llm: [0, 1, 2]
   candidates: 42          # seed for ordering generation
 

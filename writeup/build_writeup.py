@@ -17,7 +17,7 @@ RES = ROOT / "results"
 TEAM = "Team: [add names]"
 REPO = "github.com/bruce249/osi-discovery-agent"
 VIDEO = "[video link]"
-NAMES = {"llm_gp": "LLM + GP hybrid", "llm_strong": "LLM agent (reasoning model)", "llm": "LLM agent", "llm_basic": "LLM, basic prompt", "gp_bo": "GP-BO", "substitution": "Data-mined substitution",
+NAMES = {"llm_gp": "LLM + GP hybrid", "llm_strong": "LLM agent (reasoning model)", "llm": "LLM agent", "llm_basic": "LLM, basic prompt", "gp_bo": "GP-BO", "gp_latent": "GP on MACE latent", "gp_latent_rand": "GP on scrambled-MACE latent", "substitution": "Data-mined substitution",
          "radius": "Ionic-radius heuristic", "random": "Random"}
 
 
@@ -39,6 +39,9 @@ def main():
     v = load(RES / "validation_chgnet.json", {})
     vm = load(RES / "validation_mace.json", {})
     sec = load(RES / "second_model.json", {})
+    lp = load(RES / "latent_probe.json", {}).get("probe", {})
+    cd = load(RES / "cross_domain.json", {}).get("reactions_BH", {})
+    ph = load(RES / "phonons.json", {})
     tk = f"{s['headline_threshold']:.2f}"
     st = s["strategies"]
     tot = s["totals_in_pool"][tk]
@@ -56,7 +59,7 @@ def main():
     with open(RES / "top_candidates.csv", newline="") as f:
         for r in csv.DictReader(f):
             rows.append(r)
-    top5 = [r for r in rows if r["novel"] == "True"][:5] or rows[:5]
+    top5 = [r for r in rows if r["novel"] == "True"][:3] or rows[:3]
     n_agree = sum(1 for x in sec.values() if x.get("agreed"))
 
     # rank arms by novel hits at the budget; the text is generated from the numbers, whoever wins
@@ -72,7 +75,7 @@ def main():
         f"{fmt(af(best, 'novel'))}x as many simulations to match it ({fmt(af(best, 'hit'))}x on all stable "
         f"compositions), and the data-mined substitution baseline reaches {fmt(af('substitution', 'novel'))}x."
     )
-    if best_llm:
+    if best_llm and False:  # covered in "Opening up both AIs"
         result_txt += (
             f" The best LLM arm ({NAMES[best_llm]}) reached {fmt(af(best_llm, 'novel'))}x on novel and "
             f"{fmt(af(best_llm, 'hit'))}x on all stable compositions. LLM agents were the fastest at "
@@ -81,9 +84,38 @@ def main():
             f"prior pulls them toward known chemistry and away from novel compositions."
         )
 
+    def n10(k):
+        return cd[k]["mean"][9] if k in cd else float("nan")
+
+    def pr(k, m):
+        return lp.get(k, {}).get(m, float("nan"))
+
+    ph_ok = [r for r in ph.get("rows", []) if r.get("ok")]
+    soft = [r for r in ph_ok if r.get("verdict") == "marginal"]
+    gl = st.get("gp_latent", {}).get(tk, {})
+    glr = st.get("gp_latent_rand", {}).get(tk, {})
+    opening = f"""<p><b>The LLM's edge is memory.</b> On real reaction-yield screens (our team's benchmark,
+github.com/bruce249/osihackiitd; Buchwald-Hartwig, Ahneman et al. 2018, 5 substrates) the LLM agent reached
+{n10('llm'):.2f} of the best possible yield after 10 experiments with chemical names shown, {n10('llm_anon'):.2f} with
+names hidden and {n10('random'):.2f} for random. Here, LLM agents alone rediscover the most known compounds but are only 0.8-1.1x random on new
+ones: in both domains the advantage is prior knowledge, not search.</p>
+<p><b>Reading the simulator's mind.</b> With the probing protocol of our MACE interpretability study (linear probes,
+scrambled-weight control, splits grouped by chemistry), MACE-MP-0 features of the <i>unrelaxed</i> candidates predict
+their post-relaxation stability on unseen chemistries: rank correlation {pr('mace_trained', 'spearman_mean'):.2f},
+AUC {pr('mace_trained', 'auc_hit_mean'):.2f}, R² {pr('mace_trained', 'r2_median'):.2f}, vs {pr('mace_random', 'spearman_mean'):.2f} /
+{pr('mace_random', 'auc_hit_mean'):.2f} / {pr('mace_random', 'r2_median'):.2f} for the same network with scrambled weights and
+{pr('magpie', 'spearman_mean'):.2f} / {pr('magpie', 'auc_hit_mean'):.2f} for Magpie composition features (shuffled labels: AUC
+{pr('shuffled', 'auc_hit_mean'):.2f}). A GP searching in this latent space found {gl.get('hit', {}).get('at_budget_mean', 0):.1f}
+stable compositions, the most of any arm, and reached half of the novel ones {fmt(gl.get('novel', {}).get('AF50'), 2)}x faster
+than random; the scrambled control found {glr.get('hit', {}).get('at_budget_mean', 0):.1f}.</p>
+<p><b>Dynamic stability.</b> Finite-displacement phonons (CHGNet + phonopy; tiers from our Lattice studio) for the top
+candidates: {ph.get('n_stable', '?')}/{len(ph_ok)} free of imaginary modes, {len(soft)} with soft modes between -1 and -0.1 THz
+(framework tilts: Li carries only {min(r['soft_mode_li_share'] for r in soft):.0%}-{max(r['soft_mode_li_share'] for r in soft):.0%} of them while being 30% of the atoms;
+they need larger supercells or DFT) and {len(ph_ok) - ph.get('n_stable', 0) - len(soft)} unstable (Li2ZrBr6, -2.8 THz, flagged).</p>"""
+
     strat_rows = "".join(
         f"<tr><td>{NAMES[n]}</td><td>{len(s['seeds'][n])}</td><td>{at(n, 'hit')}</td><td>{at(n, 'novel')}</td>"
-        f"<td>{at(n, 'known')}</td><td>{fmt(af(n, 'hit'))}x / {fmt(af(n, 'novel'))}x</td></tr>" for n in ["llm_gp", "llm_strong", "llm", "llm_basic", "gp_bo", "substitution", "radius", "random"] if n in st)
+        f"<td>{at(n, 'known')}</td><td>{fmt(af(n, 'hit'))}x / {fmt(af(n, 'novel'))}x</td></tr>" for n in ["gp_latent", "gp_bo", "gp_latent_rand", "llm_gp", "llm_strong", "llm", "substitution", "random"] if n in st)
     cand_rows = "".join(
         f"<tr><td>{html.escape(r['formula'])}</td><td>{html.escape(r['prototype'].split(' (')[0])}</td>"
         f"<td>{float(r['chgnet_e_hull']):+.3f}</td><td>{mace(r)}</td>"
@@ -117,15 +149,15 @@ def main():
 
     page = f"""<!doctype html><html><head><meta charset="utf-8"><title>Budgeted Discovery Agent</title>
 <style>
-@page {{ size: A4; margin: 8mm 11mm; }}
-body {{ font-family: Helvetica, Arial, sans-serif; font-size: 8.7pt; line-height: 1.22; color: #111; margin: 0; }}
+@page {{ size: A4; margin: 6mm 10mm; }}
+body {{ font-family: Helvetica, Arial, sans-serif; font-size: 8.4pt; line-height: 1.2; color: #111; margin: 0; }}
 h1 {{ font-size: 15pt; margin: 0 0 2px; }} h2 {{ font-size: 10.3pt; margin: 5px 0 1px; color: #1d3a7a; }}
 p {{ margin: 2px 0 4px; }} .sub {{ color: #555; font-size: 9pt; }}
 table {{ border-collapse: collapse; width: 100%; font-size: 8.4pt; margin: 3px 0; }}
 td, th {{ border-bottom: 1px solid #ddd; padding: 0.5px 4px; text-align: left; }} th {{ background: #f0f2f7; }}
-img {{ width: 68%; display: block; margin: 0 auto; }} .two {{ display: flex; gap: 10px; }} .two > div {{ flex: 1; }}
+img {{ width: 50%; display: block; margin: 0 auto; }} .two {{ display: flex; gap: 10px; }} .two > div {{ flex: 1; }}
 </style></head><body>
-<h1>Budgeted Discovery Agent: which Li-halide solid electrolytes are worth simulating?</h1>
+<h1>Which Li-halide solid electrolytes are worth simulating, and what do the AIs in the loop know?</h1>
 <div class="sub">{html.escape(TEAM)} · OSI Hackathon 2026 · code: {html.escape(REPO)} · video: {html.escape(VIDEO)}</div>
 <h2>Problem</h2>
 <p>Li3MX6 / Li2MX6 halides (Li3YCl6, Li3InCl6, Li2ZrCl6) are leading solid electrolytes for all-solid-state
@@ -133,8 +165,8 @@ batteries. Metal, halide and ordering choices make a large space and each candid
 <b>deciding what to simulate</b> is the bottleneck. We built {s['pool_size']} candidates ({s['unique_formulas_in_pool']}
 compositions) by substituting Materials Project parents: 22 trivalent and 5 tetravalent metals, Cl/Br, ordered
 mixed-halide and mixed-metal variants.</p>
-<h2>Method</h2>{svg}
-<p>Every evaluation is a CHGNet relaxation scored by its energy above a convex hull of
+<h2>Method</h2>
+<p>Loop: a strategy proposes 10 candidates, each is simulated, results feed back, until the budget is spent; known/novel labels stay hidden. Every evaluation is a CHGNet relaxation scored by its energy above a convex hull of
 {v.get('n_refs')} MP reference phases relaxed with the same potential (validation: MAE
 {fmt((v.get('mae_compounds') or 0)*1000, 0)} meV/atom vs DFT over {v.get('n_compounds')} compounds; all DFT-stable
 ternaries within 0.03 eV/atom). Hit = e_hull ≤ {s['headline_threshold']} eV/atom (on or below the hull). The LLM
@@ -146,6 +178,7 @@ budget ({B} of {s['pool_size']}).</p>
 <img src="../results/fig1_discovery.png">
 <p>{result_txt}</p>
 <table><tr><th>strategy (@{B} sims)</th><th>seeds</th><th>stable found</th><th>novel found</th><th>known rediscovered</th><th>speed-up vs random (stable / novel)</th></tr>{strat_rows}</table>
+<h2>Opening up both AIs in the loop</h2>{opening}
 <h2>New candidates (CHGNet + MACE-MP-0 cross-check; {n_agree}/{len(sec)} agreed within 0.05 eV/atom)</h2>
 <table><tr><th>formula</th><th>prototype</th><th>CHGNet e_hull</th><th>MACE e_hull</th><th>agreed</th><th>databases</th><th>literature</th></tr>{cand_rows}</table>
 <h2>Validation and limitations</h2><p>{lim}</p>
@@ -163,7 +196,9 @@ budget ({B} of {s['pool_size']}).</p>
           f"| strategy (@{B} sims) | stable found | novel found | known rediscovered | acceleration vs random (novel) |",
           "|---|---|---|---|---|"]
     md += [f"| {NAMES[n]} | {at(n, 'hit')} | {at(n, 'novel')} | {at(n, 'known')} | {fmt(af(n, 'novel'))} |"
-           for n in ["llm_gp", "llm_strong", "llm", "llm_basic", "gp_bo", "substitution", "radius", "random"] if n in st]
+           for n in ["gp_latent", "gp_bo", "gp_latent_rand", "llm_gp", "llm_strong", "llm", "llm_basic", "substitution", "radius", "random"] if n in st]
+    import re
+    md += ["", "## Opening up both AIs in the loop", "", re.sub(r"<[^>]+>", "", opening).replace("\n", " "), ""]
     md += ["", f"## New candidates ({n_agree}/{len(sec)} agreed by MACE-MP-0)", "",
            "| formula | prototype | CHGNet e_hull | MACE e_hull | agreed | databases | literature |", "|---|---|---|---|---|---|---|"]
     md += [f"| {r['formula']} | {r['prototype'].split(' (')[0]} | {float(r['chgnet_e_hull']):+.3f} | "

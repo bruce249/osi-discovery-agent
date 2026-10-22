@@ -32,6 +32,7 @@ image = (
         "scikit-learn", "pandas", "numpy", "matplotlib", "tqdm", "pyyaml", "marimo",
         "openai", "optimade[http_client]", "requests", "jarvis-tools",
     )
+    .pip_install("phonopy")
     .env({"OSI_DATA_ROOT": VOL_DIR, "PYTHONUNBUFFERED": "1", "OMP_NUM_THREADS": "2",
           "MKL_NUM_THREADS": "2", "MPLBACKEND": "Agg"})
     .add_local_dir(ROOT, APP_DIR, ignore=[".venv", ".venv/**", ".env", "data", "data/**", "results",
@@ -115,6 +116,35 @@ def relax_batch(model: str = "chgnet", tasks_file: str = ""):
             print(f"[{model}] {n}/{len(todo)} done, {time.time() - t0:.0f}s", flush=True)
     vol.commit()
     print(f"[{model}] finished {n}/{len(todo)} in {time.time() - t0:.0f}s", flush=True)
+
+
+@app.function(**COMMON, cpu=4, memory=8192, timeout=3600, max_containers=20, retries=1)
+def phonon_task(task: dict) -> dict:
+    _setup()
+    os.environ["OMP_NUM_THREADS"] = "4"
+    from src.phonons import run_phonons
+
+    return run_phonons(task)
+
+
+@app.function(**COMMON, cpu=2, memory=4096, timeout=2 * 3600)
+def phonons():
+    """Phonons for the top candidates, fanned out one container each (src/phonons.py)."""
+    _setup()
+    from src.phonons import OUT, collect, prepare
+    from src.utils import dump_json
+
+    tasks = prepare()
+    OUT.mkdir(parents=True, exist_ok=True)
+    for res in phonon_task.map(tasks, order_outputs=False, return_exceptions=True):
+        if isinstance(res, BaseException):
+            print("worker exception:", repr(res)[:300], flush=True)
+            continue
+        dump_json(res, OUT / f"{res['id']}.json")
+        print(res.get("formula"), res.get("min_freq_thz", res.get("error")), f"{res['seconds']:.0f}s", flush=True)
+        vol.commit()
+    collect()
+    vol.commit()
 
 
 @app.function(**COMMON, cpu=2, memory=4096, timeout=900)

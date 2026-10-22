@@ -58,6 +58,34 @@ brief's AF50 metric, are in `results/summary.json`.
   0.05 eV/atom of the hull with MACE-MP-0 too (`results/top_candidates.csv`). Leading ones: Li3Ho0.5Yb0.5Cl6,
   Li3Yb0.5Dy0.5Cl6, Li3Dy0.5Lu0.5Cl6, Li3Lu0.5Ho0.5Cl6, Li3LuCl4Br2 (on or below the hull with both potentials).
 
+## Opening up both AIs in the loop
+
+Three additions that combine our team's other projects with this one:
+
+* **The LLM's edge is memory, in two domains.** On real reaction-yield screens (our benchmark
+  [osihackiitd](https://github.com/bruce249/osihackiitd); Buchwald-Hartwig, Ahneman et al. 2018) the LLM agent reaches
+  0.84 of the best yield after 10 experiments with chemical names shown, 0.74 with names hidden, 0.74 for random.
+  Here, LLM agents rediscover the most known compounds but are 0.8-1.1x random on new ones
+  (`src/cross_domain.py`, `results/fig5_cross_domain.png`; source data in `external/osihackiitd/`).
+* **Reading the simulator's mind** (`src/latent.py`, protocol from our MACE-MP-0 interpretability study
+  [osi-draft](https://github.com/lntick/osi-draft)). One MACE-MP-0 forward pass on the *unrelaxed* structure; ridge
+  probe on Li / metal / halide-averaged invariant features, splits grouped by chemistry (105 groups):
+
+  | probe reads | median R² | rank corr. | AUC (stable) |
+  |---|---|---|---|
+  | MACE-MP-0, trained | **0.67** | **0.85** | **0.92** |
+  | same network, scrambled weights | 0.41 | 0.80 | 0.90 |
+  | Magpie composition features | -2.71 | 0.72 | 0.84 |
+  | shuffled labels | -0.02 | -0.06 | 0.49 |
+
+  A GP searching in that latent space (`gp_latent`, PCA-20, no labels) found **69.2 ± 5.7 stable compositions, the
+  most of any arm** (GP-BO 65.8, scrambled-weight control 60.0), reached half of the novel ones fastest (AF50 1.85x)
+  and ties GP-BO on novel at the budget (55.8 vs 56.6).
+* **Dynamic stability** (`src/phonons.py`, tiers from our [Lattice](https://github.com/dbajaj123/lattice-materials-discovery)
+  studio): CHGNet + phonopy finite displacements for the top 15: 2 free of imaginary modes (Li3YbBr6,
+  Li3Yb0.5Dy0.5Cl6), 12 with soft framework modes (-0.2 to -0.75 THz; Li carries 0-24% of them while being 30% of the
+  atoms), 1 unstable (Li2ZrBr6, -2.8 THz).
+
 **Validation (Figure 2).** CHGNet vs DFT energy above hull over 399 MP reference compounds: MAE 14 meV/atom; every
 DFT-stable ternary lands within 0.03 eV/atom (go/no-go passed). MACE-MP-0: MAE 21 meV/atom over 104 compounds.
 

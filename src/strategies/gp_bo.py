@@ -68,3 +68,23 @@ class GPBOStrategy(Strategy):
         else:
             score = norm.cdf((self.thr - m) / s)
         return score
+
+
+class GPLatentStrategy(GPBOStrategy):
+    """Same GP and acquisition, but the features are MACE-MP-0's internal representation of the UNRELAXED
+    structure (src/latent.py, PCA to 20 dims): the surrogate reads what the simulator 'sees' before simulating."""
+    name = "gp_latent"
+    kind = "mace_trained"
+
+    def __init__(self, seed, evaluator, batch_size=10, n_init=10, xi=0.01):
+        super().__init__(seed, evaluator, batch_size, n_init, xi)
+        from ..latent import latent_matrix
+
+        ids = sorted(evaluator.candidate_ids())
+        self.X = dict(zip(ids, latent_matrix(ids, self.kind)))
+
+
+class GPLatentRandomStrategy(GPLatentStrategy):
+    """Control: identical, but features from the same network with scrambled weights."""
+    name = "gp_latent_rand"
+    kind = "mace_random"

@@ -16,18 +16,25 @@ Validation: MAE 14 meV/atom vs DFT over 399 reference compounds.
 
 ![Figure 1](../results/fig1_discovery.png)
 
-With 90 simulations from a pool of 236 candidates (65 novel stable compositions hidden in it), GP-BO found the most novel stable compositions, 56.6 ± 2.8 versus 33.1 ± 2.8 for random: random search needs 1.7x as many simulations to match it (1.5x on all stable compositions), and the data-mined substitution baseline reaches 1.2x. The best LLM arm (LLM + GP hybrid) reached 1.3x on novel and 1.3x on all stable compositions. LLM agents were the fastest at rediscovering experimentally known compounds (LLM, basic prompt: 11.0 ± 0.8 of 13 vs 6.2 ± 2.0 for random), consistent with literature memory; the same prior pulls them toward known chemistry and away from novel compositions.
+With 90 simulations from a pool of 236 candidates (65 novel stable compositions hidden in it), GP-BO found the most novel stable compositions, 56.6 ± 2.8 versus 33.1 ± 2.8 for random: random search needs 1.7x as many simulations to match it (1.5x on all stable compositions), and the data-mined substitution baseline reaches 1.2x.
 
 | strategy (@90 sims) | stable found | novel found | known rediscovered | acceleration vs random (novel) |
 |---|---|---|---|---|
+| GP on MACE latent | 69.2 ± 5.7 | 55.8 ± 6.0 | 9.0 ± 2.1 | 1.7 |
+| GP-BO | 65.8 ± 4.6 | 56.6 ± 2.8 | 5.8 ± 1.5 | 1.7 |
+| GP on scrambled-MACE latent | 60.0 ± 6.4 | 48.6 ± 5.2 | 6.8 ± 1.2 | 1.5 |
 | LLM + GP hybrid | 58.0 ± 16.5 | 42.0 ± 18.5 | 11.0 ± 1.6 | 1.3 |
 | LLM agent (reasoning model) | 54.3 ± 3.9 | 37.7 ± 4.7 | 11.0 ± 0.8 | 1.1 |
 | LLM agent | 43.7 ± 1.7 | 29.0 ± 2.8 | 10.3 ± 1.7 | 0.9 |
 | LLM, basic prompt | 41.0 ± 2.9 | 25.3 ± 4.0 | 11.0 ± 0.8 | 0.8 |
-| GP-BO | 65.8 ± 4.6 | 56.6 ± 2.8 | 5.8 ± 1.5 | 1.7 |
 | Data-mined substitution | 48.0 ± 0.0 | 39.0 ± 0.0 | 6.0 ± 0.0 | 1.2 |
 | Ionic-radius heuristic | 49.0 ± 0.0 | 39.0 ± 0.0 | 6.0 ± 0.0 | 1.2 |
 | Random | 43.2 ± 2.9 | 33.1 ± 2.8 | 6.2 ± 2.0 | 1.0 |
+
+## Opening up both AIs in the loop
+
+The LLM's edge is memory. On real reaction-yield screens (our team's benchmark, github.com/bruce249/osihackiitd; Buchwald-Hartwig, Ahneman et al. 2018, 5 substrates) the LLM agent reached 0.84 of the best possible yield after 10 experiments with chemical names shown, 0.74 with names hidden and 0.74 for random. Here, LLM agents alone rediscover the most known compounds but are only 0.8-1.1x random on new ones: in both domains the advantage is prior knowledge, not search. Reading the simulator's mind. With the probing protocol of our MACE interpretability study (linear probes, scrambled-weight control, splits grouped by chemistry), MACE-MP-0 features of the unrelaxed candidates predict their post-relaxation stability on unseen chemistries: rank correlation 0.85, AUC 0.92, R² 0.67, vs 0.80 / 0.90 / 0.41 for the same network with scrambled weights and 0.72 / 0.84 for Magpie composition features (shuffled labels: AUC 0.49). A GP searching in this latent space found 69.2 stable compositions, the most of any arm, and reached half of the novel ones 1.85x faster than random; the scrambled control found 60.0. Dynamic stability. Finite-displacement phonons (CHGNet + phonopy; tiers from our Lattice studio) for the top candidates: 2/15 free of imaginary modes, 12 with soft modes between -1 and -0.1 THz (framework tilts: Li carries only 0%-24% of them while being 30% of the atoms; they need larger supercells or DFT) and 1 unstable (Li2ZrBr6, -2.8 THz, flagged).
+
 
 ## New candidates (15/15 agreed by MACE-MP-0)
 
@@ -36,8 +43,6 @@ With 90 simulations from a pool of 236 candidates (65 novel stable compositions 
 | Li2CeBr6 | Li2ZrCl6-type | -0.133 | -0.032 | yes | absent (unchecked: Alexandria) | none found |
 | Li3YbBr6 | Li3InCl6-type | -0.070 | -0.003 | yes | absent (unchecked: Alexandria) | none found |
 | Li3Ho0.5Yb0.5Cl6 | Li3InCl6-type | -0.060 | -0.037 | yes | absent (unchecked: Alexandria, OQMD) | none found |
-| Li3Yb0.5Dy0.5Cl6 | Li3YCl6-type | -0.054 | -0.017 | yes | absent (unchecked: Alexandria, OQMD) | none found |
-| Li2ZrBr6 | Li2ZrCl6-type | -0.032 | +0.015 | yes | absent (unchecked: Alexandria, OQMD) | none found |
 
 ## Validation and limitations
 

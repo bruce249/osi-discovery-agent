@@ -1,0 +1,49 @@
+{
+ "n_candidates": 236,
+ "n_groups": 105,
+ "hit_threshold": 0.0,
+ "base_rate_hit": 0.5042372881355932,
+ "probe": {
+  "mace_trained": {
+   "r2_mean": 0.6647651291917863,
+   "r2_std": 0.05158195093823893,
+   "r2_median": 0.6699498710261009,
+   "r2_folds_median": 0.6911829031813275,
+   "spearman_mean": 0.8462247728377321,
+   "spearman_std": 0.03098157186648458,
+   "auc_hit_mean": 0.9172879408173527,
+   "auc_hit_std": 0.014741562759020218
+  },
+  "mace_random": {
+   "r2_mean": 0.266847948086624,
+   "r2_std": 0.47185571272199656,
+   "r2_median": 0.4075334376232014,
+   "r2_folds_median": 0.6355288766567354,
+   "spearman_mean": 0.798210410105242,
+   "spearman_std": 0.016105745633290553,
+   "auc_hit_mean": 0.8953961071608131,
+   "auc_hit_std": 0.011898688932334407
+  },
+  "magpie": {
+   "r2_mean": -217.71884666562715,
+   "r2_std": 422.13196089364703,
+   "r2_median": -2.7104026549663778,
+   "r2_folds_median": 0.4795336313138635,
+   "spearman_mean": 0.7174197659665417,
+   "spearman_std": 0.04429325072174977,
+   "auc_hit_mean": 0.8375350140056022,
+   "auc_hit_std": 0.016934841576802882
+  },
+  "shuffled": {
+   "r2_mean": -0.008420743359606497,
+   "r2_std": 0.028045316868918826,
+   "r2_median": -0.020663984505489896,
+   "r2_folds_median": -0.012734871575199591,
+   "spearman_mean": -0.05664807037300845,
+   "spearman_std": 0.09432344162312671,
+   "auc_hit_mean": 0.4871794871794872,
+   "auc_hit_std": 0.04051047219016106
+  }
+ },
+ "protocol": "ridge on unrelaxed-structure descriptors, 5-fold chemistry-grouped splits x 5 repeats"
+}

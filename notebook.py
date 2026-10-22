@@ -43,12 +43,13 @@ def _(RES, load):
     second = load(RES / "second_model.json", {})
     NAMES = {"llm_gp": "LLM + GP hybrid", "llm_strong": "LLM agent (gpt-5-mini)", "llm": "LLM agent (gpt-4.1-mini)",
              "llm_basic": "LLM, basic prompt", "gp_bo": "GP-BO (Bayesian optimisation)",
+             "gp_latent": "GP on the simulator's internal features", "gp_latent_rand": "GP on scrambled-weight features",
              "substitution": "Data-mined substitution", "radius": "Ionic-radius heuristic", "random": "Random"}
     return NAMES, second, summary, validation
 
 
 @app.cell
-def _(REPO, mo, second, summary):
+def _(REPO, RES, load, mo, second, summary):
     _tk = f"{summary.get('headline_threshold', 0.0):.2f}"
     _st = summary.get("strategies", {})
 
@@ -62,6 +63,7 @@ def _(REPO, mo, second, summary):
     _llm_known = max((_g(n, "known", "at_budget_mean") or 0) for n in _st if n.startswith("llm")) if _st else 0
     _rand_known = _g("random", "known", "at_budget_mean") or 0
     _agree = sum(1 for v in second.values() if v.get("agreed"))
+    _lp_auc = load(RES / "latent_probe.json", {}).get("probe", {}).get("mace_trained", {}).get("auc_hit_mean", 0)
     mo.Html(f"""
 <div class="hero">
   <div class="eyebrow">OSI Hackathon 2026 · AI-guided materials discovery</div>
@@ -69,7 +71,9 @@ def _(REPO, mo, second, summary):
   <p class="lead">Every candidate material costs a computer simulation. We gave several decision-makers
   (an <b>LLM agent</b>, a <b>Bayesian optimiser</b>, <b>chemistry rules of thumb</b> and <b>pure chance</b>)
   the same budget of <b>{summary.get('budget', 90)} simulations</b> and asked each to find stable
-  <b>solid electrolytes for lithium batteries</b> among {summary.get('pool_size', 236)} candidates.</p>
+  <b>solid electrolytes for lithium batteries</b> among {summary.get('pool_size', 236)} candidates. Then we opened
+  up both AIs in the loop: we tested what the LLM's edge really is (on materials <i>and</i> on real reaction data),
+  and probed what the simulator itself knows before it simulates.</p>
   <div class="cards">
     <div class="card"><div class="num">{_gp:.1f}×</div>
       <div class="cap">faster than random at finding <b>new</b> stable materials: the Bayesian optimiser won</div></div>
@@ -78,6 +82,9 @@ def _(REPO, mo, second, summary):
       also pulls it away from new chemistry</div></div>
     <div class="card"><div class="num">{_agree} / {len(second)}</div>
       <div class="cap">top new candidates confirmed by a second, independent AI model</div></div>
+    <div class="card"><div class="num">AUC {_lp_auc:.2f}</div>
+      <div class="cap">we read the simulator's mind: its internal features predict stability <b>before</b> it
+      simulates, and searching in them found the most stable materials of all</div></div>
   </div>
   <div class="links"><a href="{REPO}" target="_blank">Code on GitHub</a> ·
     <a href="{REPO}/blob/main/writeup/writeup.pdf" target="_blank">One-page write-up</a> ·
@@ -145,6 +152,83 @@ tend to be stable* was the most efficient at finding new materials. LLM agents w
 already in the literature: their prior knowledge helps rediscovery but pulls them toward known chemistry. A
 stronger reasoning model (gpt-5-mini) learns from feedback faster than a small one, and pairing the LLM with the
 surrogate gives the strongest LLM arm."""), kind="info"),
+    ])
+    return
+
+
+@app.cell
+def _(RES, load, mo, summary):
+    _cd = load(RES / "cross_domain.json", {})
+    _rx = _cd.get("reactions_BH", {})
+
+    def _at(name, n=10):
+        try:
+            return _rx[name]["mean"][n - 1]
+        except (KeyError, IndexError):
+            return None
+
+    _l, _a, _r = _at("llm"), _at("llm_anon"), _at("random")
+    _line = (f"After 10 experiments the LLM with chemical names reached **{_l:.0%}** of the best possible yield, "
+             f"with names hidden **{_a:.0%}**, random **{_r:.0%}**.") if None not in (_l, _a, _r) else ""
+    mo.vstack([
+        mo.md(f"""## Same pattern in two domains
+
+Our team ran the same question, *which experiment next?*, on **real lab data**: high-throughput reaction screens
+(Buchwald–Hartwig couplings, Ahneman et al. 2018), where every condition was measured
+([osihackiitd](https://github.com/bruce249/osihackiitd)). There the LLM agent was also run with **chemical names
+hidden**, which removes what it remembers from the literature. {_line}"""),
+        mo.image(src=str(RES / "fig5_cross_domain.png")) if (RES / "fig5_cross_domain.png").exists()
+        else mo.md("_cross-domain figure pending_"),
+        mo.callout(mo.md("""**One finding, two worlds.** In reactions, the LLM's early lead comes from knowing the
+named chemicals and shrinks when names are hidden. In materials, LLMs are best at rediscovering *known* compounds
+but only 0.8–1.1× random at finding *new* ones. An LLM's advantage is what it already knows; statistical surrogates are
+what find the unknown."""), kind="warn"),
+    ])
+    return
+
+
+@app.cell
+def _(NAMES, RES, load, mo, pd, summary):
+    _lp = load(RES / "latent_probe.json", {})
+    _p = _lp.get("probe", {})
+    _lab = {"mace_trained": "MACE-MP-0 internal features (trained)", "mace_random": "same network, scrambled weights",
+            "magpie": "composition features (what GP-BO uses)", "shuffled": "trained features, shuffled labels (leak check)"}
+    _probe_df = pd.DataFrame([{"what the probe reads": _lab[k], "held-out R² (median of 5 repeats)": f"{v.get('r2_median', v['r2_mean']):.2f}",
+                               "rank correlation": f"{v['spearman_mean']:.2f}",
+                               "AUC: stable vs not": f"{v['auc_hit_mean']:.2f}"} for k, v in _p.items() if k in _lab])
+    _tk = f"{summary.get('headline_threshold', 0.0):.2f}"
+    _st = summary.get("strategies", {})
+    _camp = []
+    for _n in ("gp_latent", "gp_latent_rand", "gp_bo", "random"):
+        if _n in _st:
+            _x = _st[_n][_tk]
+            _camp.append({"strategy": NAMES.get(_n, _n), "novel found": f"{_x['novel']['at_budget_mean']:.1f} ± {_x['novel']['at_budget_std']:.1f}",
+                          "stable found": f"{_x['hit']['at_budget_mean']:.1f}",
+                          "speed-up vs random (novel)": f"{_x['novel']['AF_at_budget']:.2f}×" if _x["novel"]["AF_at_budget"] else "n/a"})
+    mo.vstack([
+        mo.md(f"""## Inside the simulator's mind
+
+The simulator is itself an AI (a graph neural network trained on quantum-mechanical data). Before it relaxes a
+crystal, one forward pass already turns every atom into a 256-number internal representation. **Does that
+representation already "know" whether the material will be stable?** We borrowed the probing method of our
+teammates' interpretability study of MACE-MP-0 (*osi-draft*: linear probes, a scrambled-weight copy of the same
+network as control, test sets that hold out whole chemistries) and applied it to our
+{_lp.get('n_candidates', '?')} candidates: MACE features of the **unrelaxed** structure, averaged over Li, metal and
+halide sites, and a ridge probe tested on chemistries it never saw ({_lp.get('n_groups', '?')} groups)."""),
+        mo.ui.table(_probe_df, selection=None, show_column_summaries=False) if len(_probe_df) else mo.md("_probe pending_"),
+        mo.image(src=str(RES / "fig3_latent.png")) if (RES / "fig3_latent.png").exists() else mo.md(""),
+        mo.md("""**Then we let the discovery agent use it.** Same Gaussian-process optimiser and budget as GP-BO, but
+its inputs are the simulator's internal features instead of hand-made composition descriptors (reduced to 20
+dimensions by PCA, no labels used). The scrambled-weight version is the control."""),
+        mo.ui.table(pd.DataFrame(_camp), selection=None, show_column_summaries=False) if _camp else mo.md("_campaigns pending_"),
+        mo.callout(mo.md("""**What it means.** Computed *before* any simulation, the simulator's internal features
+rank which candidates will come out stable on chemistries the probe never saw (rank correlation 0.85, AUC 0.92),
+better than composition descriptors (0.72, 0.84). A scrambled-weight copy ranks surprisingly well too (0.80): much
+of the signal is simply which elements sit where, which even an untrained network passes on. Training is what gets
+the magnitudes right (median R² 0.67 vs 0.41, and steadier across splits). Used as the optimiser's eyes, the trained
+features found **the most stable materials of any strategy** (69 vs 66 for GP-BO) and reached half of all new ones
+fastest (**1.85× random**); the scrambled control fell back to 60. On new materials at the full budget it ties
+GP-BO (55.8 vs 56.6). Interpretability here is not just a diagnosis: it is a better search space."""), kind="success"),
     ])
     return
 
@@ -397,6 +481,32 @@ def _(CACHE, RES, cand_pick, load, mo):
             except ImportError:
                 _out = mo.md("_install pymatgen to view structures_")
     _out
+    return
+
+
+@app.cell
+def _(RES, load, mo, pd):
+    _ph = load(RES / "phonons.json", {})
+    _rows = [{"formula": r.get("formula"), "lowest vibration frequency (THz)": round(r["min_freq_thz"], 2),
+              "verdict": r["verdict"],
+              "softest mode carried by Li": f"{r['soft_mode_li_share']:.0%}" if "soft_mode_li_share" in r else "",
+              "supercell atoms": r["natoms_unit"] * r["supercell"][0] * r["supercell"][1] * r["supercell"][2],
+              "displacements computed": r["n_displacements"]}
+             for r in _ph.get("rows", []) if r.get("ok")]
+    mo.vstack([
+        mo.md(f"""### Third check: do the crystals vibrate stably?
+
+A material can sit on the energy hull and still be a saddle point that would distort. Following the phonon
+diagnostics of our teammates' *Lattice* studio, we computed the vibrations (phonons, finite displacements with
+CHGNet) of the top candidates. **{_ph.get('n_stable', '?')} of {_ph.get('n_ok', '?')}** have no imaginary modes
+(lowest frequency ≥ {_ph.get('tolerance_thz', -0.1)} THz); {_ph.get('n_marginal', '?')} are marginal (soft modes
+between −1 and −0.1 THz that need convergence checks); the rest are unstable as ordered cells. The *Li* column
+shows how much of the softest vibration is lithium motion. Li is 30% of the atoms but carries only 0–24% of the
+soft modes, so they are tilts of the metal-halide framework, typical of ordered stand-ins for disordered phases and
+sensitive to supercell size; they need larger cells or DFT before a verdict. Li2ZrBr6 (−2.8 THz) is a real
+instability, so we flag it."""),
+        mo.ui.table(pd.DataFrame(_rows), selection=None, show_column_summaries=False) if _rows else mo.md("_phonons pending_"),
+    ])
     return
 
 
