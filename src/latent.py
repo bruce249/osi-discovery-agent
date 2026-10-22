@@ -164,7 +164,8 @@ def _figure(ids, y, reps, out) -> None:
         Z = PCA(2, random_state=0).fit_transform(StandardScaler().fit_transform(reps[name]))
         sc = ax.scatter(Z[:, 0], Z[:, 1], c=np.clip(y, -0.1, 0.2), cmap="coolwarm", s=22, edgecolor="k", lw=0.3)
         p = out["probe"][name]
-        ax.set_title(f"{title}\nheld-out R² {p['r2_mean']:.2f}, AUC(stable) {p['auc_hit_mean']:.2f}", fontsize=10)
+        ax.set_title(f"{title}\nprobe on unseen chemistries: rank corr. {p['spearman_mean']:.2f}, "
+                     f"AUC(stable) {p['auc_hit_mean']:.2f}", fontsize=10)
         ax.set_xlabel("PC 1")
         ax.set_ylabel("PC 2")
     cb = fig.colorbar(sc, ax=axes, shrink=0.85)
