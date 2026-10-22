@@ -12,9 +12,7 @@ Then we opened up the simulator. We ran MACE-MP-0 once on each unrelaxed candida
 
 ## Results
 
-![Interpretability](https://raw.githubusercontent.com/bruce249/osi-discovery-agent/main/results/fig4_interp.png)
-
-The probe works well on chemistries it never trained on: rank correlation 0.85 and AUC 0.92 for telling stable from unstable. Plain composition features reach 0.84, and shuffled labels sit at chance. The scrambled network is the interesting control. It ranks almost as well (0.90), because knowing which elements sit where already says a lot, but it gets the actual energies much worse (R² 0.41 against 0.67). Looking layer by layer, the signal is strongest right after the first message-passing layer, and training adds it mostly on the lithium and halide sites rather than on the metal. Textbook descriptors such as ionic radius and electronegativity explain only 42% of the stability direction.
+The figure at the top shows all three tests. The probe works well on chemistries it never trained on: rank correlation 0.85 and AUC 0.92 for telling stable from unstable. Plain composition features reach 0.84, and shuffled labels sit at chance. The scrambled network is the interesting control. It ranks almost as well (0.90), because knowing which elements sit where already says a lot, but it gets the actual energies much worse (R² 0.41 against 0.67). Looking layer by layer, the signal is strongest right after the first message-passing layer, and training adds it mostly on the lithium and halide sites rather than on the metal. Textbook descriptors such as ionic radius and electronegativity explain only 42% of the stability direction.
 
 Searching in that feature space paid off. Stable materials found in 90 simulations (out of 84 in the pool), and novel ones (out of 65):
 
